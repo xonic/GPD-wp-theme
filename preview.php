@@ -59,31 +59,31 @@
 	<article class="container">
 
 		<section class="branding">
-			Branding
+			<p><? _e("Branding", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="info">
-			Beschreibung
+			<p><? _e("Beschreibung", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="program">
-			Programm
+			<p><? _e("Programm", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="rules">
-			Zulassung
+			<p><? _e("Zulassung", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="registration">
-			Anmeldung/Tickets
+			<p><? _e("Anmeldung/Tickets", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="newsletter">
-			Newsletter
+			<p><? _e("Newsletter", "gp-dolomiti"); ?></p>
 		</section>
 
 		<section class="contact">
-			Kontaktformular
+			<p><? _e("Kontaktformular", "gp-dolomiti"); ?></p>
 		</section>
 
 	</article>

@@ -38,6 +38,13 @@
  * @since Twenty Eleven 1.0
  */
 
+function theme_init()
+{
+	load_theme_textdomain("gp-dolomiti" , get_template_directory() . "/languages");
+}
+
+add_action("init", "theme_init");
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
@@ -77,7 +84,7 @@ function twentyeleven_setup() {
 	 * If you're building a theme based on Twenty Eleven, use a find and replace
 	 * to change 'twentyeleven' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'twentyeleven', get_template_directory() . '/languages' );
+	//load_theme_textdomain( 'twentyeleven', get_template_directory() . '/languages' );
 
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
