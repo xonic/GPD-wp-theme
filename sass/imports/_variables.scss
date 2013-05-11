@@ -75,8 +75,8 @@
 //  = TYPOGRAPHY
 //  ---------------------------------------------------------------------------
 
-	$sansFontFamily:        "Proxima Nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	$serifFontFamily:       "Meta Serif", "Georgia", "Geneva", "Times New Roman", serif;
+	$sansFontFamily:        "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	$serifFontFamily:       "ff-tisa-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
 	$monoFontFamily:        "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 
 	$htmlFontSize:          62.5%;	
@@ -93,7 +93,7 @@
 	$boldFontWeight:			700;
 
 	$headingsFontFamily:    $sansFontFamily; 	// empty to use BS default, $baseFontFamily
-	$headingsFontWeight:    700;	 			// same as browser default, bold
+	$headingsFontWeight:    $normalFontWeight;
 	$headingsColor:         inherit;			// empty to use BS default, $textColor
 
 	$h1Size:				4.2;

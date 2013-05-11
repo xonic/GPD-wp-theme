@@ -41,6 +41,10 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/screen.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+<!-- TypeKit -->
+<script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 <!-- RequireJS -->
 <script data-main="<?php echo get_template_directory_uri(); ?>/js/main" src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>
 
