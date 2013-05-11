@@ -67,15 +67,15 @@
 
 	<article class="container">
 
-		<section class="brand">
-			<!-- <h1 class="event-name">
-				<small>Gran Premio</small>
+		<section class="branding">
+			<h1 class="event-name">
+				<small class="event-name__gp">Gran Premio</small>
 				Dolomiti
-				<small>2014</small>
-			</h1> -->
-			<h1 class="brand__event-name">Gran Premio Dolomiti &middot; 2014</h1>
-			<p class="brand__tagline">The Big Challenge for Classic Car Connosseuirs</p>
-			<p class="brand__date">July 23rd to 27th, 2014</p><!-- TODO: Use <time> -->
+				<small class="event-name__year">2014</small>
+			</h1>
+			<!-- <h1 class="branding__event-name">Gran Premio Dolomiti &middot; 2014</h1>
+			<p class="branding__tagline">The Big Challenge for Classic Car Connosseuirs</p>
+			<p class="branding__date">July 23rd to 27th, 2014</p>TODO: Use <time>  -->
 			<!-- <p><? _e("Branding", "gp-dolomiti"); ?></p> -->
 		</section>
 
@@ -130,7 +130,9 @@
 						<span class="waypoint__altitude">324m</span>
 					</li>
 				</ol>
-				<div id="map-day-one" style="height:200px;"></div>
+				<div class="map-container">
+					<div id="map-day-one" class="map-canvas"></div>
+				</div>
 				<p class="day__dinner">Dinner: Notte Italiana &mdash; the best of italian cuisine</p>
 			</section>
 			<section class="day">
@@ -177,6 +179,9 @@
 						<span class="waypoint__altitude">262m</span>
 					</li>
 				</ol>
+				<div class="map-container">
+					<div id="map-day-two" class="map-canvas""></div>
+				</div>
 				<p class="day__dinner">Dinner: A walk through the best of South Tyrolean kitchen</p>
 			</section>
 			<section class="day">
@@ -199,6 +204,9 @@
 						<span class="waypoint__altitude">324m</span>
 					</li>
 				</ol>
+				<div class="map-container">
+					<div id="map-day-three" class="map-canvas"></div>
+				</div>
 				<p class="day__dinner">Optional Dinner: Discover a new favourite restaurant in the area</p>
 			</section>
 			<section class="day">
@@ -223,6 +231,9 @@
 						<span class="waypoint__location">Concourse d'elegance</span>
 					</li>
 				</ol>
+				<div class="map-container">
+					<div id="map-day-four" class="map-canvas"></div>
+				</div>
 				<p class="day__dinner">Gala Dinner: Kurhaus Merano</p>
 			</section>
 			<section class="day">

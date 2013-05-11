@@ -1,0 +1,49 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for branding
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for branding
+//
+//  ---------------------------------------------------------------------------
+
+	.branding
+	{ 
+		@include bleed;
+		background:url(../images/branding-bg.jpg) top center no-repeat #27251f;
+		background-size:100% auto;
+	}
+
+	.event-name
+	{
+		width:60%;
+		margin: auto;
+		@include rem(padding, $singleSpace);
+		@include setType(5.4, 5.4);
+		color:$white;
+		text-shadow: 0 0 20px rgba(0,0,0,.8);
+		text-align:center;
+
+		small
+		{
+			@include setType(2.4, 2.4);
+			font-family:$sansFontFamily;
+			color:$white;
+		}
+
+		.event-name__gp
+		{
+			text-align:left;
+		}
+
+		.event-name__year
+		{
+			text-align:right;
+		}
+	}

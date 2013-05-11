@@ -2310,8 +2310,8 @@ body {
   font-size:  1.6rem;
   line-height:  24px;
   line-height:  2.4rem;
-  background-color: white;
-  color: #4d4d4d;
+  background-color: #d9d4d2;
+  color: #4c4535;
 }
 @media (min-width: 30em) {
   /* line 51, ../sass/imports/base/_typography.scss */
@@ -2529,4 +2529,73 @@ code {
 /* line 13, ../sass/imports/base/_images.scss */
 img {
   max-width: 100%;
+}
+
+/* line 17, ../sass/imports/modules/_map.scss */
+.map-container {
+  position: relative;
+  height:  240px;
+  height:  24rem;
+  margin-left: -0.625em;
+  padding-left: 0.625em;
+  margin-right: -0.625em;
+  padding-right: 0.625em;
+  padding: 0;
+}
+/* line 24, ../sass/imports/modules/_map.scss */
+.map-container:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+/* line 35, ../sass/imports/modules/_map.scss */
+.map-container .map-canvas {
+  height:  240px;
+  height:  24rem;
+}
+
+/* line 17, ../sass/imports/modules/_branding.scss */
+.branding {
+  margin-left: -0.625em;
+  padding-left: 0.625em;
+  margin-right: -0.625em;
+  padding-right: 0.625em;
+  background: url(../images/branding-bg.jpg) top center no-repeat #27251f;
+  background-size: 100% auto;
+}
+
+/* line 24, ../sass/imports/modules/_branding.scss */
+.event-name {
+  width: 60%;
+  margin: auto;
+  padding:  12px;
+  padding:  1.2rem;
+  font-size:  54px;
+  font-size:  5.4rem;
+  line-height:  54px;
+  line-height:  5.4rem;
+  color: white;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+/* line 34, ../sass/imports/modules/_branding.scss */
+.event-name small {
+  font-size:  24px;
+  font-size:  2.4rem;
+  line-height:  24px;
+  line-height:  2.4rem;
+  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: white;
+}
+/* line 41, ../sass/imports/modules/_branding.scss */
+.event-name .event-name__gp {
+  text-align: left;
+}
+/* line 46, ../sass/imports/modules/_branding.scss */
+.event-name .event-name__year {
+  text-align: right;
 }
