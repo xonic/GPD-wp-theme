@@ -1,0 +1,410 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines all variables.
+//
+//  ---------------------------------------------------------------------------
+
+
+
+//  = GRAYS
+//  ---------------------------------------------------------------------------
+
+	$black: 				#292929; 	//  16% white
+	$grayVeryDark:			#4d4d4d; 	//  30% white
+	$grayDarker:			#585858; 	//  35% white
+	$grayDark:				#707070; 	//  44% white
+	$gray:					#949494; 	//  58% white
+	$grayLight:				#b8b8b8; 	//  72% white
+	$grayVeryLight:			#dbdbdb; 	//  86% white
+	
+	$whiteSmoke:			#f5f5f5;	//	96% white
+	$whiteSoft:				#fbfbfb;	//	98% white
+	$white: 				#fff; 		// 100% white
+
+
+
+//  = ACCENT COLORS
+//  ---------------------------------------------------------------------------
+
+	$green:					#bfe05a;
+	$greenVeryLight:		desaturate(lighten($green, 36%), 3%);
+	
+	$red:					#e05a5a; // intuio red
+	$redLight:				desaturate(lighten($red, 25%), 3%);
+	$redDark:				desaturate(darken($red, 3%), 3%);
+
+	$blue: 					#5abfe0;
+	$blueVeryLight: 		desaturate(lighten($blue, 36%), 3%);
+	$blueLight: 			desaturate(lighten($blue, 30%), 3%);
+	$blueMedium:			darken($blue, 20%);
+	$blueDark:				darken($blue, 30%);
+	$blueVeryDark:			darken($blue, 45%);
+
+	$magenta:				#ea4c88;
+	$purple:				#939;
+	$cyan:					#6cc;
+	$yellow:				#fff2bf;
+	$orange:				#f90;
+
+	$primaryAccent:			$blue;
+	$secondaryAccent:		$red;
+
+// 	= GENERAL SETTINGS
+//	---------------------------------------------------------------------------
+
+	$borderRadius:			2px;
+
+//  = SCAFFOLDING
+//  ---------------------------------------------------------------------------
+
+	$bodyBackground:		$white;
+	$textColor:				$grayVeryDark;
+
+
+
+//  = LINKS
+//  ---------------------------------------------------------------------------
+
+	$linkColor:				$secondaryAccent;
+	$linkColorHover:		darken($linkColor, 8);
+	$linkColorVisited:		darken($linkColor, 16%);
+	$linkColorInvisible:	$textColor;	
+
+
+
+//  = TYPOGRAPHY
+//  ---------------------------------------------------------------------------
+
+	$sansFontFamily:        "Proxima Nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	$serifFontFamily:       "Meta Serif", "Georgia", "Geneva", "Times New Roman", serif;
+	$monoFontFamily:        "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+
+	$htmlFontSize:          62.5%;	
+	$htmlLineHeight:        1;
+	$baseLineHeight:		1.4;
+	$bodyFontSize:          1.8;
+	$bodyLineHeight:        $baseLineHeight * 2;
+	$baseFontFamily:        $serifFontFamily;
+	$altFontFamily:         $sansFontFamily;
+
+	$smallFontSize:			$baseLineHeight - 0.2;
+
+	$normalFontWeight:			400;
+	$boldFontWeight:			700;
+
+	$headingsFontFamily:    $sansFontFamily; 	// empty to use BS default, $baseFontFamily
+	$headingsFontWeight:    700;	 			// same as browser default, bold
+	$headingsColor:         inherit;			// empty to use BS default, $textColor
+
+	$h1Size:				4.2;
+	$h1LineHeight:			4.2;
+
+	$h2Size:				3.4;
+	$h2LineHeight:			4.2;
+	
+	$h3Size:				2.6;
+	$h3LineHeight:			2.8;
+
+	$h4Size:				2.1;
+	$h4LineHeight:			2.8;
+
+
+
+//  = SPACING AND ALIGNMENT
+//  ---------------------------------------------------------------------------
+
+	$singleSpace:			$baseLineHeight;
+	$doubleSpace:			$singleSpace * 2;
+
+
+
+//	= NAVIGATION
+//  ---------------------------------------------------------------------------
+
+	$navSize:						1.6;
+	$navLineHeight:					1.8;
+
+	$navHeight:						$doubleSpace * 2;
+	$navMainBackgroundColor:		$blue;
+	$navMainMobileBackgroundColor:	$blueMedium;
+	$navFontColor:					$white;
+
+	$navMainActiveBackgroundColor:	$blueDark;
+
+
+
+//  = INPUT FORMS & BUTTONS
+//  ---------------------------------------------------------------------------
+	
+	$inputHeightLarge:					$baseLineHeight * 4;
+	$inputHeight:						$baseLineHeight * 3;
+		
+	$btnFontSize:						$bodyFontSize;
+	$btnLargeFontSize:					$h4Size;
+	$btnHugeFontSize:					$h3Size;
+		
+	$formActionsBackground:				$green;
+			
+	$inputBackgroundColor:				$white;
+	$inputFocusColor:					$whiteSmoke;
+	$inputDisabledBackground:			$grayVeryLight;
+	$inputBorderColor:					$grayVeryLight;
+	$inputBorderRadius:					$borderRadius;
+	$inputFocusBorderColor:				$primaryAccent;
+
+	$inputRequiredColor:				$red;
+
+	$searchButtonHoverBackgroundColor:	$blue;
+	$searchButtonActiveBackgroundColor:	darken($blue, 10%);
+	$searchButtonHoverTextColor:		darken($blue, 40%);
+	
+	$placeholderTextColor:				$gray;
+	$disabledTextColor:					$grayVeryLight;
+		
+	$messageTextSize:					1.4;
+			
+	$warningTextColor:					$yellow;   
+	$warningBorderColor:				$yellow;  
+	$warningBackgroundColor:			lighten($warningBorderColor, 16%); 
+			
+	$errorTextColor:					$red; 
+	$errorBorderColor:					$red;  
+	$errorBackgroundColor:				lighten($errorBorderColor, 37%); 
+	$errorShadowColor:					transparentize(darken($red, 50%), .75);  
+	$errorIconColor:  					$red;  
+		
+		
+	$successTextColor:					$green;
+	$successBorderColor:				$green;           
+	$successBackgroundColor:			lighten($successBorderColor, 16%);
+	$successIconColor:					$green;
+		
+	$infoTextColor:						$blue;   
+	$infoBorderColor:					$blue;          
+   	$infoBackgroundColor:				lighten($infoBorderColor, 16%);  
+	$btnBorderRadius:					$borderRadius;
+		
+	// Generic button		
+	$btnColorLight:						$white;
+	$btnColorDark:						darken($btnColorLight, 2%);
+	$btnFontColor:						$textColor;
+	$btnBorderColor:      				$grayVeryLight;
+
+	// Primary button
+	$btnPrimaryColorLight:				$primaryAccent;
+	$btnPrimaryColorDark:				darken($btnPrimaryColorLight, 3%);
+	$btnPrimaryFontColor:				$white;
+	$btnPrimaryBorderColor: 			desaturate(darken($btnPrimaryColorDark, 3%), 3%);
+			
+	// Success button		
+	$btnSuccessColorLight:				$green;
+	$btnSuccessColorDark:				darken($btnSuccessColorLight, 3%);
+	$btnSuccessFontColor:				$black;
+	$btnSuccessBorderColor: 			desaturate(darken($btnSuccessColorDark, 3%), 3%);
+		
+	// Disabled button		
+	$btnDisabledColor:					$white;
+	$btnDisabledFontColor:				$grayLight;
+	$btnDisabledBorderColor: 			lighten($grayVeryLight, 3%);
+		
+   	$horizontalComponentOffset: 		$bodyLineHeight * 200;     
+
+
+
+//  = BORDERS
+//  ---------------------------------------------------------------------------
+
+	$borderThin:				.1;
+	$borderMedium:				.2;
+	$borderThick:				.4;
+	$borderVeryThick:			$baseLineHeight;
+
+	$pillBorderRadius:			999em;
+
+
+
+//  = BOXES
+//  ---------------------------------------------------------------------------
+
+	$boxBorderColor:			$grayVeryLight;
+	$boxBackgroundColor:		#f7f6f5;
+	$boxSelectedLightColor:		lighten($primaryAccent, 30%);
+	$boxSelectedDarkColor:		lighten($primaryAccent, 28%);
+	$boxSelectedBorderColor:	$primaryAccent;
+
+
+
+//  = SEPARATOR LINES
+//  ---------------------------------------------------------------------------
+
+	$separatorColor:			$primaryAccent;
+
+
+
+//	= ACCORDION
+//	---------------------------------------------------------------------------
+
+	$accordionLinkColor:				$textColor;
+	$accordionLinkHoverColor:			$primaryAccent;
+	$accordionDividerTopBorderColor:	$whiteSoft;
+	$accordionDividerBottomBorderColor:	$boxBorderColor;
+	$accordionInnerBackgroundColor:		$boxBackgroundColor;
+
+
+//	= CALENDAR
+//	---------------------------------------------------------------------------
+
+	$calBackgroundColor:			$white;
+	$calTextColor:					$textColor;
+
+	$calColHeadTextColor:			$grayLight;
+	$calRowHeadTextColor:			$grayLight;
+	$calRowBorderColor:				$whiteSmoke;
+
+	$calTitleBorderColor:			$primaryAccent;
+	$calEntryHoverColor:			$whiteSmoke;
+
+	$calCurrentTextColor:			$primaryAccent;
+	$calCurrentBackgroundColor:		$blueVeryLight;
+	$calCurrentHoverColor:			$blueLight;	
+
+	$calOutofdateTextColor:			$grayVeryLight;
+
+	$calLinkColor:					$linkColor;
+
+
+//	= PANEL
+//	---------------------------------------------------------------------------
+
+	$panelHeadTextColor:			$white;
+	$panelHeadBackgroundColor:		$primaryAccent;
+
+
+//	= PLACEHOLDERS
+//	---------------------------------------------------------------------------
+
+	$phTextBackgroundColor:		$grayVeryLight;
+	$phImgBackgroundColor:		$grayLight;
+
+
+//	= PROGRESS BAR
+//	---------------------------------------------------------------------------
+
+	$progessBackgroundColor:		$white;
+	$progressFillColor:				$blue;
+
+	$progress-delay: 			0;
+	$progress-duration: 		2s;
+	$progress-function: 		linear;
+	$progress-name: 			progress-bar-stripes;
+	$progress-count: 			infinite;
+
+
+//	= SPINNER
+//	---------------------------------------------------------------------------
+
+	$spinner-hole-color: 		transparent;
+	$spinner-size: 				46px;
+	$spinner-background:		$whiteSmoke;
+	$spinner-fill: 				$blue;
+	$spinner-function: 			linear;
+	$spinner-opacity: 			.8;
+	$spinner-duration: 			3s;
+	$spinner-count:				infinite;
+	$spinner-rotate-left:		spinner-rotate-left;
+	$spinner-rotate-right:		spinner-rotate-right;
+
+
+//	= TAB NAV
+//	---------------------------------------------------------------------------	
+
+	/* standard */
+	$tabBackgroundColor:			$white;
+	$tabBorderColor:				$whiteSmoke;
+	$tabTextColor:					$gray;
+	
+	$tabHoverBackgroundColor:		$whiteSmoke;
+	
+	$tabActiveTextColor:			$primaryAccent;
+	$tabActiveBorderColor:			$primaryAccent;
+	
+	/* sub */
+	$tabSubTextColor:				$primaryAccent;
+	$tabSubHoverBackgroundColor:	$primaryAccent;
+
+	$tabSubActiveBackgroundColor:	$primaryAccent;
+	$tabSubActiveTextColor:			$white;
+
+	/* alt */
+	$tabAltActiveBorderColor:		$primaryAccent;
+	$tabAltBackgroundColor:			$white;
+	$tabAltActiveTextColor:			$primaryAccent;
+
+//	= TAB NAV
+//	---------------------------------------------------------------------------	
+
+	$flyoutToggleBackgroundColor:		$primaryAccent;
+	$flyoutToggleTextColor:				$white;
+
+
+	$flyoutBorderColor:					$whiteSmoke;
+	$flyoutItemTextColor:				$primaryAccent;
+	$flyoutItemBorderColor:				$primaryAccent;
+	$flyoutItemHoverTextColor:			$white;
+	$flyoutItemHoverBackgroundColor:	$primaryAccent;
+	$flyoutItemHoverBorderColor:		$primaryAccent;
+
+//	= TABLE
+//	---------------------------------------------------------------------------		
+
+	$tableBorderColor:					$whiteSmoke;
+	$tableBackgroundColor:				$white;
+
+	$table2ndBorderColor:				$blueLight;
+	$table2ndBackgroundColor:			$blueVeryLight;
+	$table2ndHoverBackgroundColor:		$blueLight;
+
+	$tableDividerBorderColor:			$gray;
+
+	$tableLasteditedBackgroundColor:	$greenVeryLight;
+
+	$tableDisabledBackgroundColor:		$whiteSmoke;
+	$tableDisabledTextColor:			$grayLight;
+
+	$tableSelectedBorderColor:			$blueVeryLight;
+	$tableSelectedBackgroundColor:		$blueLight;
+	$tableSelectedShadowColor:			$blueDark;
+
+//	= WIZARD
+//	---------------------------------------------------------------------------		
+
+	/* horizontal */
+	$wizardTextColor:					$grayLight;
+	$wizardLineColor:					$grayVeryLight;
+	$wizardIconBackgroundColor:			$whiteSmoke;
+
+	$wizardPrevTextColor:				$black;
+	$wizardPrevIconBorderColor:			$whiteSmoke;
+	$wizardPrevIconBackgroundColor:		$white;
+
+	$wizardCurrentTextColor:			$black;
+	$wizardCurrentIconBackgroundColor:	$primaryAccent;
+	$wizardCurrentIconColor:			$white;
+
+	/* vertical */
+
+	$wizardVDividerColor:				$boxBorderColor;
+	$wizardVBackgroundColor:			$boxBackgroundColor;
+
+
+
+
+
+
+
+
+
+
+
+
+
