@@ -55,6 +55,56 @@
 		// background-image:url(../img/vertical-rhythm-16.svg);
 		// background-size:100% 11px;
 		color:$textColor;
+
+
+
+	//  = MEDIUM
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($medium-width $medium-cols)
+		{
+			@include setType($bodyFontSize--medium, $bodyLineHeight--medium);
+		}
+
+
+
+	//  = LARGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+		}
+
+
+
+	//  = HUGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($huge-width $huge-cols)
+		{
+			@include setType($bodyFontSize--huge, $bodyLineHeight--huge);
+		}
+
+
+
+	//  = GIANT
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($giant-width $giant-cols)
+		{
+			@include setType($bodyFontSize--giant, $bodyLineHeight--giant);
+		}
+
+
+
+	//  = MONSTROUS
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($monstrous-width $monstrous-cols)
+		{
+			@include setType($bodyFontSize--monstrous, $bodyLineHeight--monstrous);
+		}
 	}
 
 
@@ -115,14 +165,8 @@
 	
 	ul, ol
 	{
-		@include rem(padding, 0 0 0 $doubleSpace);
-		@include rem(margin-left, -.5);
-
-
-		/* @include at-breakpoint($large-width)
-		{
-			padding-left:0;
-		} */
+		@include rem(margin, 0 0 $doubleSpace);
+		padding:0;
 	}
 
 	dt
@@ -157,6 +201,56 @@
 	h1, .h1, %h1
 	{
 		@include setType($h1Size, $h1LineHeight);
+
+
+
+	//  = MEDIUM
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($medium-width $medium-cols)
+		{
+			@include setType($h1Size--medium, $h1LineHeight--medium);
+		}
+
+
+
+	//  = LARGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($h1Size--large, $h1LineHeight--large);
+		}
+
+
+
+	//  = HUGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($huge-width $huge-cols)
+		{
+			@include setType($h1Size--huge, $h1LineHeight--huge);
+		}
+
+
+
+	//  = GIANT
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($giant-width $giant-cols)
+		{
+			@include setType($h1Size--giant, $h1LineHeight--giant);
+		}
+
+
+
+	//  = MONSTROUS
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($monstrous-width $monstrous-cols)
+		{
+			@include setType($h1Size--monstrous, $h1LineHeight--monstrous);
+		}
 	}
 
 	h2, .h2, %h2

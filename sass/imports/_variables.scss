@@ -81,9 +81,31 @@
 
 	$htmlFontSize:          62.5%;	
 	$htmlLineHeight:        1;
-	$baseLineHeight:		1.4;
-	$bodyFontSize:          1.8;
+	$baseLineHeight:		1.2;
+	$bodyFontSize:          1.6;
 	$bodyLineHeight:        $baseLineHeight * 2;
+
+	$baseLineHeight--medium:		1.4;
+	$bodyFontSize--medium:			1.8;
+	$bodyLineHeight--medium:		$baseLineHeight--medium * 2;
+
+	$baseLineHeight--large:			1.6;
+	$bodyFontSize--large:			2;
+	$bodyLineHeight--large:			$baseLineHeight--large * 2;
+		
+	$baseLineHeight--huge:			1.8;
+	$bodyFontSize--huge:			2.2;
+	$bodyLineHeight--huge:			$baseLineHeight--huge * 2;
+		
+	$baseLineHeight--giant:			2;
+	$bodyFontSize--giant:			2.4;
+	$bodyLineHeight--giant:			$baseLineHeight--giant * 2;
+
+	$baseLineHeight--monstrous:		2.2;
+	$bodyFontSize--monstrous:		2.6;
+	$bodyLineHeight--monstrous:		$baseLineHeight--monstrous * 2;
+
+
 	$baseFontFamily:        $serifFontFamily;
 	$altFontFamily:         $sansFontFamily;
 
@@ -96,8 +118,23 @@
 	$headingsFontWeight:    $normalFontWeight;
 	$headingsColor:         inherit;			// empty to use BS default, $textColor
 
-	$h1Size:				4.2;
-	$h1LineHeight:			4.2;
+	$h1Size:				2.6;
+	$h1LineHeight:			3.4;
+
+	$h1Size--medium:		3.2;
+	$h1LineHeight--medium:	3.8;
+	
+	$h1Size--large:			3.8;
+	$h1LineHeight--large:	4.4;
+	
+	$h1Size--huge:			4.2;
+	$h1LineHeight--huge:	4.8;
+	
+	$h1Size--giant:			4.6;
+	$h1LineHeight--giant:	5.2;
+	
+	$h1Size--monstrous:		4.8;
+	$h1LineHeight--monstrous:5.6;
 
 	$h2Size:				3.4;
 	$h2LineHeight:			4.2;

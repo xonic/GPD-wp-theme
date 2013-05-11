@@ -80,7 +80,7 @@
 	{
 		@include container;
 
-		// @include susy-grid-background;
+		@include susy-grid-background;
 	 // 	@include debugmessage("Tiny screen, " + $tiny-cols + " columns", $red);
 
 
@@ -91,7 +91,7 @@
 		@include at-breakpoint($small-width $small-cols)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Small screen, " + $small-cols + " columns", $magenta);
 		}
 
@@ -103,7 +103,7 @@
 		@include at-breakpoint($medium-width $medium-cols)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Medium screen, " + $medium-cols + " columns", $purple);
 		}
 
@@ -115,7 +115,7 @@
 		@include at-breakpoint($large-width $large-cols)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Large screen, " + $large-cols + " columns", $blue);
 		}
 
@@ -127,7 +127,7 @@
 		@include at-breakpoint($huge-width $huge-cols no-mq)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Huge screen, " + $huge-cols + " columns", $cyan);
 		}
 
@@ -139,7 +139,7 @@
 		@include at-breakpoint($giant-width $giant-cols)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Giant screen, " + $giant-cols + " columns", $green);
 		}
 
@@ -151,7 +151,7 @@
 		@include at-breakpoint($monstrous-width $monstrous-cols)
 		{
 			@include set-container-width;
-			// @include susy-grid-background;
+			@include susy-grid-background;
 			// @include debugmessage("Monstrous screen, " + $monstrous-cols + " columns", $yellow);
 		}
 	}
