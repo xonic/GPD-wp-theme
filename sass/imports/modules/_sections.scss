@@ -1,0 +1,29 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the main sections
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the shared styling for the main sections
+//
+//  ---------------------------------------------------------------------------
+
+	.section__title
+	{
+		text-align:center;
+		letter-spacing:-.15rem;
+	}
+
+	.section__title--emphasized
+	{	
+		@include rem(margin, $doubleSpace 0 $doubleSpace * 2);
+		border:0 solid $sandDark;
+		@include rem(border-top-width, $borderMedium);
+		@include rem(border-bottom-width, $borderMedium);
+		text-transform:uppercase;
+	}

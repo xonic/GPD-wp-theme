@@ -1,0 +1,68 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for program section
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for program section
+//
+//  ---------------------------------------------------------------------------
+	
+	.program
+	{
+		background:$blackSand;
+		color:$white;
+
+		h1, h2
+		{
+			color:$white;
+		}
+	}
+
+	.day__route
+	{
+		width:100%;
+
+		tr
+		{
+			border-bottom:1px solid $sandVeryDark;
+
+			&:last-child
+			{
+				border:0 none;
+			}
+		}
+	}
+
+	.day__date
+	{
+		@extend %h2;
+	}
+
+	.route__icon
+	{
+		@include rem(width, $doubleSpace * 1.5);
+	}
+
+	.route__location
+	{
+		text-align:left;
+	}
+
+	.route__altitude
+	{
+		text-align:right;
+	}
+
+	// .day__dinner--italian
+	// {
+	// 	@include bleed;
+	// 	padding-bottom:40%;
+	// 	background:url(../images/dinner-italian-bg.jpg) top center no-repeat;
+	// 	background-size:100% auto;
+	// }

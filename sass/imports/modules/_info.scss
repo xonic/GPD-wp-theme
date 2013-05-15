@@ -1,0 +1,40 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for info seciton
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for info section
+//
+//  ---------------------------------------------------------------------------
+	
+	.info
+	{
+		// background:$red;
+		// color:$white;
+	}
+
+	.info__tagline,
+	.info__date
+	{ 
+		// font-family:$serifFontFamily;
+		// font-weight:$boldFontWeight;
+		text-align:center;
+	}
+
+	.info__tagline
+	{
+		letter-spacing:-.15rem;
+		// @include rem(padding-top, $doubleSpace);
+		@include setType(4.2, 4.4);
+	}
+
+	.info__date
+	{
+		letter-spacing:-.1rem;
+	}

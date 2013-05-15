@@ -31,7 +31,7 @@
 	@import "imports/patterns/global-states";
 	@import "imports/patterns/style";
 	@import "imports/patterns/collapse";
-	@import "imports/patterns/font-awesome";
+	// @import "imports/patterns/font-awesome";
 	
 
 	// Basic settings & vertical rhythm
@@ -58,6 +58,9 @@
 	// @import "imports/modules/spinner";
 	// @import "imports/modules/calendar";
 	// @import "imports/modules/flyout";
+	@import "imports/modules/sections";
 	@import "imports/modules/map";
 	@import "imports/modules/branding";
+	@import "imports/modules/info";
+	@import "imports/modules/program";
 

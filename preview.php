@@ -38,6 +38,10 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" />
+<!--[if IE 7]>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome-ie7.min.css">
+<![endif]-->
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/screen.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
@@ -65,200 +69,373 @@
 
 <body <?php body_class(); ?>>
 
-	<article class="container">
-
-		<section class="branding">
+	<div class="branding">
+		<div class="container">
 			<h1 class="event-name">
 				<small class="event-name__gp">Gran Premio</small>
 				Dolomiti
-				<small class="event-name__year">2014</small>
+				<!-- <small class="event-name__year">2014</small> -->
 			</h1>
-			<!-- <h1 class="branding__event-name">Gran Premio Dolomiti &middot; 2014</h1>
-			<p class="branding__tagline">The Big Challenge for Classic Car Connosseuirs</p>
-			<p class="branding__date">July 23rd to 27th, 2014</p>TODO: Use <time>  -->
-			<!-- <p><? _e("Branding", "gp-dolomiti"); ?></p> -->
-		</section>
+		</div>
+		<!-- <h1 class="branding__event-name">Gran Premio Dolomiti &middot; 2014</h1>
+		<p class="branding__tagline">The Big Challenge for Classic Car Connosseuirs</p>
+		<p class="branding__date">July 23rd to 27th, 2014</p>TODO: Use <time>  -->
+		<!-- <p><? _e("Branding", "gp-dolomiti"); ?></p> -->
+	</div>
 
-		<section class="info">
-			<p><? _e("Beschreibung", "gp-dolomiti"); ?></p>
-			<p>Insert description here</p>
-		</section>
+	<section class="info">
+		<div class="container">
+			<hgroup>
+				<h1 class="section__title">Racing for Classic Car Connosseuirs</h1>
+				<h2 class="info__date">
+					<time datetime="2014-07-23">July 23rd</time> to <time datetime="2014-07-27">27th, 2014</time>
+				</h2>
+			</hgroup>
+			<!-- <p><? _e("Beschreibung", "gp-dolomiti"); ?></p> -->
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			<p class="">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+		</div>
+	</section>
 
-		<section class="program">
-			<p><? _e("Programm", "gp-dolomiti"); ?></p>
+	<section class="program">
+		<div class="container">
+			<h1 class="section__title section__title--emphasized">Timetable</h1>
+			<!-- <p><? _e("Programm", "gp-dolomiti"); ?></p> -->
 			<section class="day">
-				<time class="day__date" datetime="2014-07-22">Tuesday, July 22rd, 2014</time>
-				<p class="day__special">Arrival of participants &mdash; Check-in</p>
-			</section>
-			<section class="day">
-				<time class="day__date" datetime="2014-07-23">Wednesday, July 23rd, 2014</time>
-				<ol class="day__route">
-					<li class="day__waypoint">
-						<span class="waypoint__location">Merano</span>
-						<span class="waypoint__altitude">324m</span>
+				<h1 class="day__date">
+					<time datetime="2014-07-22">Tuesday, July 22nd, 2014</time>
+				</h1>
+				<ol class="space-lover">
+					<li class="media">
+						<div class="media__img"><i class="icon-group"></i></div>
+						<div class="media__bd">Arrival of participants</div>
 					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Giovo</span>
-						<span class="waypoint__altitude">2094m</span>
+					<li class="media">
+						<div class="media__img"><i class="icon-dashboard"></i></div>
+						<div class="media__bd">Technical inspection and approval at the driving center</div>
 					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Vipiteno</span>
-						<span class="waypoint__altitude">948m</span>
+					<li class="media">
+						<div class="media__img"><i class="icon-briefcase"></i></div>
+						<div class="media__bd">Hotel Check-In</div>
 					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Pennes</span>
-						<span class="waypoint__altitude">2211m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Bolzano</span>
-						<span class="waypoint__altitude">262m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Mendola</span>
-						<span class="waypoint__altitude">1363m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Fondo</span>
-						<span class="waypoint__altitude">997m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Palade</span>
-						<span class="waypoint__altitude">1518m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Merano</span>
-						<span class="waypoint__altitude">324m</span>
+					<li class="media">
+						<div class="media__img"><i class="icon-food"></i></div>
+						<div class="media__bd">Dinner at the hotel or in one of Merano's gourmet restaurants</div>
 					</li>
 				</ol>
-				<div class="map-container">
+			</section>
+			<section class="day">
+				<h1 class="day__date">
+					<time datetime="2014-07-23">Wednesday, July 23rd, 2014</time>
+				</h1>
+
+				<table class="day__route">
+					<thead>
+						<th class="route__icon"></th>
+						<th class="route__location">Location</th>
+						<th class="route__altitude">Altitude</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-alt"></i></td>
+							<td class="route__location">Merano</td>
+							<td class="route__altitude">324m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Giovo</td>
+							<td class="route__altitude">2094m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Vipiteno</td>
+							<td class="route__altitude">948m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Pennes</td>
+							<td class="route__altitude">2211m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Bolzano</td>
+							<td class="route__altitude">262m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Mendola</td>
+							<td class="route__altitude">1363m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Fondo</td>
+							<td class="route__altitude">997m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Palade</td>
+							<td class="route__altitude">1518m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+							<td class="route__location">Merano</td>
+							<td class="route__altitude">324m</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="day__dinner media">
+					<div class="media__img"><i class="icon-food"></i></div>
+					<div class="media__bd"><p>Italian dinner &mdash; the best of italian cuisine</p></div>
+				</div>
+
+				<div class="map-container space-lover">
 					<div id="map-day-one" class="map-canvas"></div>
 				</div>
-				<p class="day__dinner">Dinner: Notte Italiana &mdash; the best of italian cuisine</p>
 			</section>
+
 			<section class="day">
-				<time class="day__date" datetime="2014-07-24">Thursday, July 24rd, 2014</time>
-				<ol class="day__route">
-					<li class="day__waypoint">
-						<span class="waypoint__location">Bolzano</span>
-						<span class="waypoint__altitude">262m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Renon</span>
-						<span class="waypoint__altitude">1154m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">San Barbiano</span>
-						<span class="waypoint__altitude">830m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo delle Erbe</span>
-						<span class="waypoint__altitude">2003m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Corvara</span>
-						<span class="waypoint__altitude">1568m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Gardena</span>
-						<span class="waypoint__altitude">2121m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Ortisei</span>
-						<span class="waypoint__altitude">1236m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Castelrotto</span>
-						<span class="waypoint__altitude">1060m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Siusi</span>
-						<span class="waypoint__altitude">1004m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Bolzano</span>
-						<span class="waypoint__altitude">262m</span>
-					</li>
-				</ol>
-				<div class="map-container">
-					<div id="map-day-two" class="map-canvas""></div>
+				<h1 class="day__date">
+					<time datetime="2014-07-24">Thursday, July 24th, 2014</time>
+				</h1>
+
+				<table class="day__route">
+					<thead>
+						<th class="route__icon"></th>
+						<th class="route__location">Location</th>
+						<th class="route__altitude">Altitude</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-alt"></i></td>
+							<td class="route__location">Bolzano</td>
+							<td class="route__altitude">262m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Renon</td>
+							<td class="route__altitude">1154m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">San Barbiano</td>
+							<td class="route__altitude">830m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo delle Erbe</td>
+							<td class="route__altitude">2003m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Corvara</td>
+							<td class="route__altitude">1568m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Gardena</td>
+							<td class="route__altitude">2121m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Ortisei</td>
+							<td class="route__altitude">1236m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Castelrotto</td>
+							<td class="route__altitude">1060m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Siusi</td>
+							<td class="route__altitude">1004m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+							<td class="route__location">Bolzano</td>
+							<td class="route__altitude">262m</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="day__dinner media">
+					<div class="media__img"><i class="icon-food"></i></div>
+					<div class="media__bd"><p>Dinner: A walk through the best of South Tyrolean kitchen</p></div>
 				</div>
-				<p class="day__dinner">Dinner: A walk through the best of South Tyrolean kitchen</p>
+				
+				<div class="map-container space-lover">
+					<div id="map-day-two" class="map-canvas"></div>
+				</div>
 			</section>
 			<section class="day">
-				<time class="day__date" datetime="2014-07-25">Friday, July 25rd, 2014</time>
-				<ol class="day__route">
-					<li class="day__waypoint">
-						<span class="waypoint__location">Merano</span>
-						<span class="waypoint__altitude">324m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Glorenza</span>
-						<span class="waypoint__altitude">907m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Passo Stelvio</span>
-						<span class="waypoint__altitude">2763m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Merano</span>
-						<span class="waypoint__altitude">324m</span>
-					</li>
-				</ol>
-				<div class="map-container">
+				<h1 class="day__date">
+					<time datetime="2014-07-25">Friday, July 25th, 2014</time>
+				</h1>
+
+				<table class="day__route">
+					<thead>
+						<th class="route__icon"></th>
+						<th class="route__location">Location</th>
+						<th class="route__altitude">Altitude</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-alt"></i></td>
+							<td class="route__location">Merano</td>
+							<td class="route__altitude">324m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Glorenza</td>
+							<td class="route__altitude">907m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Passo Stelvio</td>
+							<td class="route__altitude">2763m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+							<td class="route__location">Merano</td>
+							<td class="route__altitude">324m</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="day__dinner media">
+					<div class="media__img"><i class="icon-food"></i></div>
+					<div class="media__bd"><p>Optional Dinner: Discover a new favourite restaurant in the area</p></div>
+				</div>
+
+				<div class="map-container space-lover">
 					<div id="map-day-three" class="map-canvas"></div>
 				</div>
-				<p class="day__dinner">Optional Dinner: Discover a new favourite restaurant in the area</p>
 			</section>
 			<section class="day">
-				<time class="day__date" datetime="2014-07-26">Saturday, July 26rd, 2014</time>
-				<ol class="day__route">
-					<li class="day__waypoint">
-						<span class="waypoint__location">Merano</span>
-						<span class="waypoint__altitude">324m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Caldaro</span>
-						<span class="waypoint__altitude">425m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Termeno</span>
-						<span class="waypoint__altitude">276m</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Wine Route</span>
-					</li>
-					<li class="day__waypoint">
-						<span class="waypoint__location">Concourse d'elegance</span>
-					</li>
-				</ol>
-				<div class="map-container">
+				<h1 class="day__date">
+					<time datetime="2014-07-26">Saturday, July 26th, 2014</time>
+				</h1>
+
+				<table class="day__route">
+					<thead>
+						<th class="route__icon"></th>
+						<th class="route__location">Location</th>
+						<th class="route__altitude">Altitude</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-alt"></i></td>
+							<td class="route__location">Merano</td>
+							<td class="route__altitude">324m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Lana</td>
+							<td class="route__altitude">1154m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Andrian</td>
+							<td class="route__altitude">830m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">St. Pauls</td>
+							<td class="route__altitude">2003m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Eppan</td>
+							<td class="route__altitude">1568m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Caldaro</td>
+							<td class="route__altitude">425m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-map-marker"></i></td>
+							<td class="route__location">Neumarkt</td>
+							<td class="route__altitude">1236m</td>
+						</tr>
+						<tr>
+							<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+							<td class="route__location">Bolzano</td>
+							<td class="route__altitude">262m</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="day__dinner media">
+					<div class="media__img"><i class="icon-food"></i></div>
+					<div class="media__bd"><p>Gala Dinner: Kurhaus Merano</p></div>
+				</div>
+
+				<div class="map-container space-lover">
 					<div id="map-day-four" class="map-canvas"></div>
 				</div>
-				<p class="day__dinner">Gala Dinner: Kurhaus Merano</p>
 			</section>
 			<section class="day">
-				<time class="day__date" datetime="2014-07-27">Sunday, July 27rd, 2014</time>
-				<p class="day__special">Pricegiving ceremony Promenade Merano</p>
+				<h1 class="day__date">
+					<time datetime="2014-07-27">Sunday, July 27th, 2014</time>
+				</h1>
+				<div class="day__special media">
+					<div class="media__img"><i class="icon-trophy"></i></div>
+					<div class="media__bd"><p>Pricegiving ceremony Promenade Merano</p></div>
+				</div>
 			</section>
-		</section>
+		</div>
+	</section>
 
-		<section class="rules">
+	<section class="rules">
+		<div class="container">
+			<hgroup>
+				<h1 class="section__title section__title--emphasized">Entry Regulations</h1>
+				<h2>FIVA Oldtimer Vehicle Classes</h2>
+			</hgroup>
+			<dl>
+				<dt>Class A, "Ancetre"</dt>
+				<dd>All cars manufactured before <time datetime="1904">1904</time></dd>
+				<dt>Class B, "Veteran"</dt>
+				<dd>All cars manufactured between <time datetime="1905-01-01">January 1st, 1905</time> and <time datetime="1918-12-31">December 31st, 1918</time></dd>
+				<dt>Class C, "Vintage"</dt>
+				<dd>All cars manufactured between <time datetime="1919-01-01">January 1st, 1919</time> and <time datetime="1930-12-31">December 31st, 1930</time></dd>
+				<dt>Class D, "Post Vintage"</dt>
+				<dd>All cars manufactured between <time datetime="1931-01-01">January 1st, 1931</time> and <time datetime="1945-12-31">December 31st, 1945</time></dd>
+				<dt>Class E</dt>
+				<dd>All cars manufactured between <time datetime="1905-01-46">January 1st, 1946</time> and <time datetime="1918-12-60">December 31st, 1960</time></dd>
+			</dl>
+
 			<p><? _e("Zulassung", "gp-dolomiti"); ?></p>
-		</section>
+		</div>
+	</section>
 
-		<section class="registration">
+	<section class="registration">
+		<div class="container">
+			<h1 class="section__title section__title--emphasized">Registration</h1>
 			<p><? _e("Anmeldung/Tickets", "gp-dolomiti"); ?></p>
-		</section>
+		</div>
+	</section>
 
-		<section class="newsletter">
+	<section class="newsletter">
+		<div class="container">
+			<h1 class="section__title section__title--emphasized">Newsletter</h1>
 			<p><? _e("Newsletter", "gp-dolomiti"); ?></p>
-		</section>
+		</div>
+	</section>
 
-		<section class="contact">
+	<section class="contact">
+		<div class="container">
+			<h1 class="section__title section__title--emphasized">Contact</h1>
 			<p><? _e("Kontaktformular", "gp-dolomiti"); ?></p>
-		</section>
-
-	</article>
-
+		</div>
+	</section>
 </body>
 

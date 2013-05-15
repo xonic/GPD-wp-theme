@@ -15,35 +15,74 @@
 
 	.branding
 	{ 
-		@include bleed;
-		background:url(../images/branding-bg.jpg) top center no-repeat #27251f;
+		position:relative;
+		padding-bottom: 40%;
+		background:url(../images/branding-bg.jpg) top center no-repeat;
 		background-size:100% auto;
+		border-bottom:0 solid $olive;
+		@include rem(border-bottom-width, $singleSpace);
+		letter-spacing: -.2rem;
+
+		.container
+		{
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+		}
 	}
 
 	.event-name
 	{
-		width:60%;
-		margin: auto;
-		@include rem(padding, $singleSpace);
-		@include setType(5.4, 5.4);
-		color:$white;
-		text-shadow: 0 0 20px rgba(0,0,0,.8);
-		text-align:center;
+		position:absolute;
+		@include rem(left, $r-grid-padding);
+		bottom: 0;
 
+		@include setType(6.2, 5);
+		text-shadow:0 0 30px $white,
+					0 0 20px $white,
+					0 0 20px $white,
+					0 0 10px $white,
+					0 0 10px $white,
+					0 0 5px $white;
+		color:$blackSand;
+		
 		small
 		{
+			color:$blackSand;
 			@include setType(2.4, 2.4);
 			font-family:$sansFontFamily;
-			color:$white;
+			letter-spacing: -.1rem;
 		}
 
-		.event-name__gp
+		@include at-breakpoint($large-width)
 		{
-			text-align:left;
+			@include setType(7.2, 6);
+			
+			small
+			{
+				@include setType(2.9, 2.9);
+			}
 		}
 
-		.event-name__year
+		@include at-breakpoint($huge-width)
 		{
-			text-align:right;
+			@include setType(8.2, 7);
+			
+			small
+			{
+				@include setType(3.4, 3.4);
+			}
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			@include setType(9.2, 8);
+			
+			small
+			{
+				@include setType(3.9, 3.9);
+			}
 		}
 	}
