@@ -203,6 +203,12 @@
 	
 	$inputHeightLarge:					$baseLineHeight * 4;
 	$inputHeight:						$baseLineHeight * 3;
+
+	$inputHeight--medium:				$bodyLineHeight--medium * 1.5;
+	$inputHeight--large:				$bodyLineHeight--large * 1.5;
+	$inputHeight--huge:					$bodyLineHeight--huge * 1.5;
+	$inputHeight--giant:				$bodyLineHeight--giant * 1.5;
+	$inputHeight--monstrous:			$bodyLineHeight--monstrous * 1.5;
 		
 	$btnFontSize:						$bodyFontSize;
 	$btnLargeFontSize:					$h4Size;

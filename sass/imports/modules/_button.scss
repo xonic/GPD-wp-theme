@@ -61,6 +61,38 @@
 			@include gradient-vertical($btnColorDark, $btnColorLight);
 			box-shadow:	inset 0 1px 3px rgba(0,0,0,.1);					// inner dark shadow
 		}
+
+		@include at-breakpoint($medium-width $medium-cols) 
+		{ 
+			@include setType($bodyFontSize--medium, $inputHeight--medium);
+			@include rem(min-height, $inputHeight--medium);
+			@include rem(padding, $baseLineHeight - $borderThin $doubleSpace);
+		}
+
+		@include at-breakpoint($large-width $large-cols) 
+		{ 
+			@include setType($bodyFontSize--large, $inputHeight--large);
+			@include rem(min-height, $inputHeight--large);
+		}
+		
+		@include at-breakpoint($huge-width $huge-cols) 
+		{ 
+			@include setType($bodyFontSize--huge, $inputHeight--huge);
+			@include rem(min-height, $inputHeight--huge);
+		}
+		
+		@include at-breakpoint($giant-width $giant-cols) 
+		{ 
+			@include setType($bodyFontSize--giant, $inputHeight--giant);
+			@include rem(min-height, $inputHeight--giant);
+			@include rem(padding, $baseLineHeight - $borderThin $doubleSpace * 1.5);
+		}
+		
+		@include at-breakpoint($monstrous-width $monstrous-cols) 
+		{ 
+			@include setType($bodyFontSize--monstrous, $inputHeight--monstrous);
+			@include rem(min-height, $inputHeight--monstrous);
+		}
 	}
 
 

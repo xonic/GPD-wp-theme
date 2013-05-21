@@ -38,6 +38,9 @@
  * @since Twenty Eleven 1.0
  */
 
+update_option('siteurl','http://localhost:8888/gp-dolomiti-new');
+update_option('home','http://localhost:8888/gp-dolomiti-new');
+
 function theme_init()
 {
 	load_theme_textdomain("gp-dolomiti" , get_template_directory() . "/languages");

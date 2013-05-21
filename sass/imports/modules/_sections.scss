@@ -12,6 +12,17 @@
 //  Defines the shared styling for the main sections
 //
 //  ---------------------------------------------------------------------------
+	
+	.section--dark
+	{
+		background:$blackSand;
+		color:$white;
+
+		h1, h2
+		{
+			color:$white;
+		}
+	}
 
 	.section__title
 	{

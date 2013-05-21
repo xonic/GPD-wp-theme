@@ -48,10 +48,10 @@
 <!-- TypeKit -->
 <script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&sensor=false"></script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&sensor=false"></script> -->
 
 <!-- RequireJS -->
-<script data-main="<?php echo get_template_directory_uri(); ?>/js/main" src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>
+<!--<script data-main="<?php echo get_template_directory_uri(); ?>/js/main" src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>-->
 
 <!--[if lte IE 8]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
@@ -107,7 +107,7 @@
 		</div>
 	</section>
 
-	<section class="program">
+	<section class="program section--dark">
 		<div class="container">
 			<h1 class="section__title section__title--emphasized">Timetable</h1>
 			<!-- <p><? _e("Programm", "gp-dolomiti"); ?></p> -->
@@ -416,15 +416,15 @@
 			<p><? _e("Zulassung", "gp-dolomiti"); ?></p>
 		</div>
 	</section>
-
+<!--
 	<section class="registration">
 		<div class="container">
 			<h1 class="section__title section__title--emphasized">Registration</h1>
 			<p><? _e("Anmeldung/Tickets", "gp-dolomiti"); ?></p>
 		</div>
 	</section>
-
-	<section class="newsletter">
+-->
+	<section class="newsletter section--dark">
 		<div class="container">
 			<h1 class="section__title section__title--emphasized">Newsletter</h1>
 			<p><? _e("Newsletter", "gp-dolomiti"); ?></p>
@@ -434,8 +434,13 @@
 	<section class="contact">
 		<div class="container">
 			<h1 class="section__title section__title--emphasized">Contact</h1>
-			<p><? _e("Kontaktformular", "gp-dolomiti"); ?></p>
+			<div class='contact-form'>
+				<h2>We're happy to hear from you</h2>
+				<? // always use id="678" for live site
+				echo do_shortcode('[contact-form-7 id="8" title="contact-EN"]'); ?>
+			</div>
 		</div>
 	</section>
+	<?php wp_footer(); ?>
 </body>
 

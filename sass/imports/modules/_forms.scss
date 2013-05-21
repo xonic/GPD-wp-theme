@@ -170,7 +170,7 @@
 		// Layout and sizing
 		display:inline-block;
 		width:100%;
-		@include rem(height, $inputHeight);
+		@include rem(min-height, $inputHeight);
 		@include rem(line-height, $inputHeight);
 		// @include rem(margin-bottom, $doubleSpace);
 		@include rem(padding, 0 .5);
@@ -237,6 +237,96 @@
 			outline:none;
 			ie-dummy:expression(this.hideFocus=true);
 		}
+
+	}
+
+	label,
+	select,
+	textarea,
+	[type="text"],
+	[type="password"],
+	[type="datetime"],
+	[type="datetime-local"],
+	[type="date"],
+	[type="month"],
+	[type="time"],
+	[type="week"],
+	[type="number"],
+	[type="email"],
+	[type="url"],
+	[type="search"],
+	[type="tel"],
+	[type="color"]
+	{
+		@include at-breakpoint($medium-width $medium-cols) 
+		{ 
+			@include setType($bodyFontSize--medium, $inputHeight--medium);
+			@include rem(min-height, $inputHeight--medium);
+		}
+
+		@include at-breakpoint($large-width $large-cols) 
+		{ 
+			@include setType($bodyFontSize--large, $inputHeight--large);
+			@include rem(min-height, $inputHeight--large);
+		}
+		
+		@include at-breakpoint($huge-width $huge-cols) 
+		{ 
+			@include setType($bodyFontSize--huge, $inputHeight--huge);
+			@include rem(min-height, $inputHeight--huge);
+		}
+		
+		@include at-breakpoint($giant-width $giant-cols) 
+		{ 
+			@include setType($bodyFontSize--giant, $inputHeight--giant);
+			@include rem(min-height, $inputHeight--giant);
+		}
+		
+		@include at-breakpoint($monstrous-width $monstrous-cols) 
+		{ 
+			@include setType($bodyFontSize--monstrous, $inputHeight--monstrous);
+			@include rem(min-height, $inputHeight--monstrous);
+		}
+		
+	}
+
+	[placeholder]::-webkit-input-placeholder
+	{
+		color:$grayVeryLight;
+		@include transition(color .2s linear);
+	}
+
+	[placeholder]:hover::-webkit-input-placeholder
+	{
+		color:$grayLight;
+	}
+
+	[placeholder]:focus::-webkit-input-placeholder
+	{
+		color:$grayVeryLight;
+	}
+
+
+	input + span.wpcf7-not-valid-tip,
+	textarea + span.wpcf7-not-valid-tip
+	{
+		position:static;
+		border:0 none;
+		color:$red;
+	}
+
+	.form-component + div.wpcf7-response-output
+	{
+		position:static;
+		margin:0;
+		padding:0;
+		border:0 none;
+	}
+
+	.form-component + div.wpcf7-mail-sent-ng,
+	.form-component + div.wpcf7-validation-errors
+	{
+		color:$red;
 	}
 
 
