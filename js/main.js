@@ -19,6 +19,6 @@ requirejs.config(
 require(["maps"], function(MapController)
 {
 
-	// MapController.init();
+	MapController.init();
 
 });

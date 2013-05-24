@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-05-11 11:38+0100\n"
-"PO-Revision-Date: 2013-05-11 11:56+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-05-22 19:33+0100\n"
+"PO-Revision-Date: 2013-05-22 20:40+0100\n"
+"Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../content-aside.php:33 ../content-gallery.php:32 ../content-image.php:27
 #: ../content-link.php:33 ../content-quote.php:35 ../content-status.php:34
-#: ../content.php:41 ../functions.php:352
+#: ../content.php:41 ../functions.php:355
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
@@ -154,7 +154,7 @@ msgstr ""
 #: ../content-gallery.php:90 ../content-image.php:68 ../content-intro.php:19
 #: ../content-link.php:44 ../content-page.php:21 ../content-quote.php:72
 #: ../content-single.php:52 ../content-status.php:45 ../content.php:82
-#: ../functions.php:532 ../functions.php:560 ../image.php:41
+#: ../functions.php:535 ../functions.php:563 ../image.php:41
 msgid "Edit"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgid ""
 "\" rel=\"author\">%6$s</a></span></span>"
 msgstr ""
 
-#: ../content-image.php:39 ../functions.php:597
+#: ../content-image.php:39 ../functions.php:600
 #, php-format
 msgid "View all posts by %s"
 msgstr ""
@@ -266,105 +266,105 @@ msgstr ""
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: ../functions.php:102
+#: ../functions.php:105
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:171
+#: ../functions.php:174
 msgid "Wheel"
 msgstr ""
 
-#: ../functions.php:177
+#: ../functions.php:180
 msgid "Shore"
 msgstr ""
 
-#: ../functions.php:183
+#: ../functions.php:186
 msgid "Trolley"
 msgstr ""
 
-#: ../functions.php:189
+#: ../functions.php:192
 msgid "Pine Cone"
 msgstr ""
 
-#: ../functions.php:195
+#: ../functions.php:198
 msgid "Chessboard"
 msgstr ""
 
-#: ../functions.php:201
+#: ../functions.php:204
 msgid "Lanterns"
 msgstr ""
 
-#: ../functions.php:207
+#: ../functions.php:210
 msgid "Willow"
 msgstr ""
 
-#: ../functions.php:213
+#: ../functions.php:216
 msgid "Hanoi Plant"
 msgstr ""
 
-#: ../functions.php:401
+#: ../functions.php:404
 msgid "Main Sidebar"
 msgstr ""
 
-#: ../functions.php:410
+#: ../functions.php:413
 msgid "Showcase Sidebar"
 msgstr ""
 
-#: ../functions.php:412
+#: ../functions.php:415
 msgid "The sidebar for the optional Showcase Template"
 msgstr ""
 
-#: ../functions.php:420
+#: ../functions.php:423
 msgid "Footer Area One"
 msgstr ""
 
-#: ../functions.php:422 ../functions.php:432 ../functions.php:442
+#: ../functions.php:425 ../functions.php:435 ../functions.php:445
 msgid "An optional widget area for your site footer"
 msgstr ""
 
-#: ../functions.php:430
+#: ../functions.php:433
 msgid "Footer Area Two"
 msgstr ""
 
-#: ../functions.php:440
+#: ../functions.php:443
 msgid "Footer Area Three"
 msgstr ""
 
-#: ../functions.php:460 ../single.php:18
+#: ../functions.php:463 ../single.php:18
 msgid "Post navigation"
 msgstr ""
 
-#: ../functions.php:461
+#: ../functions.php:464
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#: ../functions.php:462
+#: ../functions.php:465
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../functions.php:532
+#: ../functions.php:535
 msgid "Pingback:"
 msgstr ""
 
-#: ../functions.php:549
+#: ../functions.php:552
 #, php-format
 msgid "%1$s on %2$s <span class=\"says\">said:</span>"
 msgstr ""
 
-#: ../functions.php:555
+#: ../functions.php:558
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../functions.php:564
+#: ../functions.php:567
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../functions.php:573
+#: ../functions.php:576
 msgid "Reply <span>&darr;</span>"
 msgstr ""
 
-#: ../functions.php:591
+#: ../functions.php:594
 #, php-format
 msgid ""
 "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
@@ -412,33 +412,370 @@ msgid ""
 "in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr ""
 
-#: ../preview.php:62
-msgid "Branding"
-msgstr "This is the english text for branding"
-
-#: ../preview.php:66
-msgid "Beschreibung"
-msgstr ""
-
-#: ../preview.php:70
-msgid "Programm"
-msgstr ""
-
-#: ../preview.php:74
-msgid "Zulassung"
-msgstr ""
-
-#: ../preview.php:78
-msgid "Anmeldung/Tickets"
-msgstr ""
-
-#: ../preview.php:82
-msgid "Newsletter"
-msgstr ""
-
 #: ../preview.php:86
-msgid "Kontaktformular"
+msgid "pre__info__title"
+msgstr "Racing for Classic Car Connoisseurs"
+
+#: ../preview.php:90
+msgid "pre__info__start-date"
+msgstr "July 23rd"
+
+#: ../preview.php:93
+msgid "pre__info__to"
+msgstr "to"
+
+#: ../preview.php:96
+msgid "pre__info__end-date"
+msgstr "27th, 2014"
+
+#: ../preview.php:103
+msgid "pre__info__p1"
 msgstr ""
+"The Gran Premio Dolomiti is an extraordinary and ambitious classic car race. "
+"Experience the beauty of the Dolomite and Brenta areas, conquer the most "
+"impressive mountain passes, namely Passo Stelvio, Passo Giovo, Passo Pennes, "
+"Passo Mendola and many more. This rallye is an overwhelming expedition "
+"through the astonishing Dolomite Alps."
+
+#: ../preview.php:110
+msgid "pre__info__p2"
+msgstr ""
+"Furthermore, this special event will guide you through the unique and "
+"delicious culinary indulgences of South Tyrol. Try the most sophisticated, "
+"yet indigenous delicacies the South Tyrolean and Italian cuisine have to "
+"offer. Come with us on a culinary journey and discover the most tempting "
+"and  authentic local dishes along with some of the best South Tyrolean "
+"wines. Sit back, relax and savour these moments, together with friends."
+
+#: ../preview.php:123
+msgid "pre__program__title"
+msgstr "Timetable"
+
+#: ../preview.php:129
+msgid "pre__day1"
+msgstr "Tuesday, July 22nd, 2014"
+
+#: ../preview.php:137
+msgid "pre__arrival"
+msgstr "Arrival of participants"
+
+#: ../preview.php:144
+msgid "pre__inspection"
+msgstr "Technical inspection and approval at the driving center"
+
+#: ../preview.php:151
+msgid "pre__check-in"
+msgstr "Hotel Check-In"
+
+#: ../preview.php:158
+msgid "pre__day1__dinner"
+msgstr "Dinner at the hotel or in one of Merano's gourmet restaurants."
+
+#: ../preview.php:167
+msgid "pre__day2"
+msgstr "Wednesday, July 23rd, 2014"
+
+#: ../preview.php:176 ../preview.php:313 ../preview.php:460 ../preview.php:541
+msgid "pre__location"
+msgstr "Location"
+
+#: ../preview.php:180 ../preview.php:317 ../preview.php:464 ../preview.php:545
+msgid "pre__altitude"
+msgstr "Altitude"
+
+#: ../preview.php:188 ../preview.php:276 ../preview.php:472 ../preview.php:505
+#: ../preview.php:553
+msgid "pre__meran"
+msgstr "Merano"
+
+#: ../preview.php:192 ../preview.php:280 ../preview.php:476 ../preview.php:509
+#: ../preview.php:557
+msgid "pre__meran__altitude"
+msgstr "324m"
+
+#: ../preview.php:199
+msgid "pre__jaufen"
+msgstr "Passo Giovo"
+
+#: ../preview.php:203
+msgid "pre__jaufen__altitude"
+msgstr "2094m"
+
+#: ../preview.php:210
+msgid "pre__sterzing"
+msgstr "Vipiteno"
+
+#: ../preview.php:214
+msgid "pre__sterzing__altitude"
+msgstr "948m"
+
+#: ../preview.php:221
+msgid "pre__penser"
+msgstr "Passo Pennes"
+
+#: ../preview.php:225
+msgid "pre__penser__altitude"
+msgstr "2211m"
+
+#: ../preview.php:232 ../preview.php:325 ../preview.php:424 ../preview.php:630
+msgid "pre__bozen"
+msgstr "Bolzano"
+
+#: ../preview.php:236 ../preview.php:329 ../preview.php:428 ../preview.php:634
+msgid "pre__bozen__altitude"
+msgstr "262m"
+
+#: ../preview.php:243
+msgid "pre__mendel"
+msgstr "Passo Mendola"
+
+#: ../preview.php:247
+msgid "pre__mendel__altitude"
+msgstr "1363m"
+
+#: ../preview.php:254
+msgid "pre__fondo"
+msgstr "Fondo"
+
+#: ../preview.php:258
+msgid "pre__fondo__altitude"
+msgstr "997m"
+
+#: ../preview.php:265
+msgid "pre__gampen"
+msgstr "Passo Palade"
+
+#: ../preview.php:269
+msgid "pre__gampen__altitude"
+msgstr "1518m"
+
+#: ../preview.php:290
+msgid "pre__day2__dinner"
+msgstr "Italian dinner &mdash; the best of italian cuisine."
+
+#: ../preview.php:304
+msgid "pre__day3"
+msgstr "Thursday, July 24th, 2014"
+
+#: ../preview.php:336
+msgid "pre__ritten"
+msgstr "Renon"
+
+#: ../preview.php:340
+msgid "pre__ritten__altitude"
+msgstr "1154m"
+
+#: ../preview.php:347
+msgid "pre__barbian"
+msgstr "Barbiano"
+
+#: ../preview.php:351
+msgid "pre__barbian__altitude"
+msgstr "830m"
+
+#: ../preview.php:358
+msgid "pre__erbe"
+msgstr "Passo delle Erbe"
+
+#: ../preview.php:362
+msgid "pre__erbe__altitude"
+msgstr "2003m"
+
+#: ../preview.php:369
+msgid "pre__corvara"
+msgstr "Corvara"
+
+#: ../preview.php:373
+msgid "pre__corvara__altitude"
+msgstr "1568m"
+
+#: ../preview.php:380
+msgid "pre__gader"
+msgstr "Passo Gardena"
+
+#: ../preview.php:384
+msgid "pre__gader__altitude"
+msgstr "2121m"
+
+#: ../preview.php:391
+msgid "pre__ortisei"
+msgstr "Ortisei"
+
+#: ../preview.php:395
+msgid "pre__ortisei__altitude"
+msgstr "1236m"
+
+#: ../preview.php:402
+msgid "pre__kastelruth"
+msgstr "Castelrotto"
+
+#: ../preview.php:406
+msgid "pre__kastelruth__altitude"
+msgstr "1060m"
+
+#: ../preview.php:413
+msgid "pre__siusi"
+msgstr "Siusi"
+
+#: ../preview.php:417
+msgid "pre__siusi__altitude"
+msgstr "1004m"
+
+#: ../preview.php:438
+msgid "pre__day3__dinner"
+msgstr "Dinner: A walk through the best of South Tyrolean kitchen."
+
+#: ../preview.php:451
+msgid "pre__day4"
+msgstr "Friday, July 25th, 2014"
+
+#: ../preview.php:483
+msgid "pre__glurns"
+msgstr "Glorenza"
+
+#: ../preview.php:487
+msgid "pre__glurns__altitude"
+msgstr "907m"
+
+#: ../preview.php:494
+msgid "pre__stilfs"
+msgstr "Passo Stelvio"
+
+#: ../preview.php:498
+msgid "pre__stilfs__altitude"
+msgstr "2763m"
+
+#: ../preview.php:519
+msgid "pre__day4__dinner"
+msgstr "Optional Dinner: Discover a new favourite restaurant in the area."
+
+#: ../preview.php:532
+msgid "pre__day5"
+msgstr "Saturday, July 26th, 2014"
+
+#: ../preview.php:564
+msgid "pre__lana"
+msgstr "Lana"
+
+#: ../preview.php:568
+msgid "pre__lana__altitude"
+msgstr "310m"
+
+#: ../preview.php:575
+msgid "pre__andrian"
+msgstr "Andriano"
+
+#: ../preview.php:579
+msgid "pre__andrian__altitude"
+msgstr "274m"
+
+#: ../preview.php:586
+msgid "pre__pauls"
+msgstr "San Paolo"
+
+#: ../preview.php:590
+msgid "pre__pauls__altitude"
+msgstr "395m"
+
+#: ../preview.php:597
+msgid "pre__eppan"
+msgstr "Appiano"
+
+#: ../preview.php:601
+msgid "pre__eppan__altitude"
+msgstr "415m"
+
+#: ../preview.php:608
+msgid "pre__kaltern"
+msgstr "Caldaro"
+
+#: ../preview.php:612
+msgid "pre__kaltern__altitude"
+msgstr "425m"
+
+#: ../preview.php:619
+msgid "pre__neumarkt"
+msgstr "Egna"
+
+#: ../preview.php:623
+msgid "pre__neumarkt__altitude"
+msgstr "217m"
+
+#: ../preview.php:644
+msgid "pre__day5__dinner"
+msgstr "Gala Dinner at the Kurhaus Merano."
+
+#: ../preview.php:657
+msgid "pre__day6"
+msgstr "Sunday, July 27th, 2014"
+
+#: ../preview.php:665
+msgid "pre__day6__ceremony"
+msgstr "Awards ceremony at the Promenade Merano."
+
+#: ../preview.php:678
+msgid "pre__rules__title"
+msgstr "Entry Regulations"
+
+#: ../preview.php:682
+msgid "pre__rules__subtitle"
+msgstr "FIVA Oldtimer Vehicle Classes"
+
+#: ../preview.php:688
+msgid "pre__rules__a"
+msgstr "Class A, \"Ancetre\""
+
+#: ../preview.php:692
+msgid "pre__rules__a__year"
+msgstr "All cars manufactured before 1904."
+
+#: ../preview.php:696
+msgid "pre__rules__b"
+msgstr "Class B, \"Veteran\""
+
+#: ../preview.php:700
+msgid "pre__rules__b__year"
+msgstr ""
+"All cars manufactured between January 1st, 1905 and December 31st, 1918."
+
+#: ../preview.php:704
+msgid "pre__rules__c"
+msgstr "Class C, \"Vintage\""
+
+#: ../preview.php:708
+msgid "pre__rules__c__year"
+msgstr ""
+"All cars manufactured between January 1st, 1919 and December 31st, 1930."
+
+#: ../preview.php:712
+msgid "pre__rules__d"
+msgstr "Class D, \"Post Vintage\""
+
+#: ../preview.php:716
+msgid "pre__rules__d__year"
+msgstr ""
+"All cars manufactured between January 1st, 1931 and December 31st, 1945."
+
+#: ../preview.php:720
+msgid "pre__rules__e"
+msgstr "Class E"
+
+#: ../preview.php:724
+msgid "pre__rules__e__year"
+msgstr ""
+"All cars manufactured between January 1st, 1946 and December 31st, 1960."
+
+#: ../preview.php:734
+msgid "pre__newsletter__title"
+msgstr "Newsletter"
+
+#: ../preview.php:744
+msgid "pre__contact__title"
+msgstr "Contact"
+
+#: ../preview.php:748
+msgid "pre__content__subtitle"
+msgstr "We're happy to hear from you"
 
 #: ../search.php:18
 #, php-format
@@ -631,3 +968,6 @@ msgstr ""
 #: ../inc/widgets.php:160
 msgid "Number of posts to show:"
 msgstr ""
+
+#~ msgid "Branding"
+#~ msgstr "This is the english text for branding"

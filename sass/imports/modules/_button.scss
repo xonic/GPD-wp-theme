@@ -313,3 +313,48 @@
 		}
 	}
 
+
+
+//  = SPECIAL NEWSLETTER BUTTON
+//  ---------------------------------------------------------------------------	
+
+	.btn--newsletter
+	{
+		@include rem(margin, 0 0 $doubleSpace * 2);
+		border:0 none;
+		border-radius:8px;
+		@include background(linear-gradient(lighten($secondaryAccent, 5%), $secondaryAccent));
+		box-shadow:inset 0 1px rgba(255,255,255,.5),
+				   0 5px darken($orange, 35%),
+				   0 5px 0 2px  rgba(0,0,0,.8),
+				   0 10px 20px 3px rgba(0,0,0,.3);			   
+		font-family:$headingsFontFamily;
+		text-transform:uppercase;
+		@include setType($h2Size, $h2LineHeight);
+		text-shadow:0 1px rgba(255,255,255,.5);
+		@include transition(all .05s linear);
+
+		&:hover
+		{
+			@include background(linear-gradient(lighten($secondaryAccent, 7%), lighten($secondaryAccent, 2%)));
+			box-shadow:inset 0 1px rgba(255,255,255,.5),
+					   0 5px darken($orange, 35%),
+					   0 0 15px 5px rgba($orange, .2),
+					   0 5px 0 2px  rgba(0,0,0,.8),
+					   0 10px 20px 3px rgba(0,0,0,.3);
+
+			color:darken($textColor, 5%);
+		}
+
+		&:active
+		{
+			@include rem(margin, .5 0 $doubleSpace * 2 - .5 0);
+			@include background(linear-gradient($secondaryAccent, lighten($secondaryAccent, 5%)));
+			box-shadow:
+						// 0 5px darken($orange, 35%),
+					   0 0 0 2px rgba(0,0,0,.8);
+					   // 0 10px 20px 3px rgba(0,0,0,.3);
+		}
+	}
+
+

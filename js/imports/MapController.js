@@ -146,42 +146,42 @@ define(function()
 					}
 				});
 
-				// var that = this;
+				var that = this;
 
-				// google.maps.event.addDomListener(window, 'resize', function()
-				// {
-				//    dirService.route(that.routes.dayOne, function(response, status)
-				//    {
-				//    		if(status == google.maps.DirectionsStatus.OK)
-				//    		{
-				//    			dirDisplay1.setDirections(response);
-				//    		}
-				//    });
+				google.maps.event.addDomListener(window, 'resize', function()
+				{
+				   dirService.route(that.routes.dayOne, function(response, status)
+				   {
+				   		if(status == google.maps.DirectionsStatus.OK)
+				   		{
+				   			dirDisplay1.setDirections(response);
+				   		}
+				   });
 
-				//    dirService.route(that.routes.dayTwo, function(response, status)
-				//    {
-				//    		if(status == google.maps.DirectionsStatus.OK)
-				//    		{
-				//    			dirDisplay2.setDirections(response);
-				//    		}
-				//    });
+				   dirService.route(that.routes.dayTwo, function(response, status)
+				   {
+				   		if(status == google.maps.DirectionsStatus.OK)
+				   		{
+				   			dirDisplay2.setDirections(response);
+				   		}
+				   });
 
-				//    dirService.route(that.routes.dayThree, function(response, status)
-				//    {
-				//    		if(status == google.maps.DirectionsStatus.OK)
-				//    		{
-				//    			dirDisplay3.setDirections(response);
-				//    		}
-				//    });
+				   dirService.route(that.routes.dayThree, function(response, status)
+				   {
+				   		if(status == google.maps.DirectionsStatus.OK)
+				   		{
+				   			dirDisplay3.setDirections(response);
+				   		}
+				   });
 
-				//    dirService.route(that.routes.dayFour, function(response, status)
-				//    {
-				//    		if(status == google.maps.DirectionsStatus.OK)
-				//    		{
-				//    			dirDisplay4.setDirections(response);
-				//    		}
-				//    });
-				// });
+				   dirService.route(that.routes.dayFour, function(response, status)
+				   {
+				   		if(status == google.maps.DirectionsStatus.OK)
+				   		{
+				   			dirDisplay4.setDirections(response);
+				   		}
+				   });
+				});
 
 			// console.log("Init Maps");
 
