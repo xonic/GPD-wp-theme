@@ -88,26 +88,63 @@ define(function()
 		mapOptions:
 		{
 			center:new google.maps.LatLng(46.6712938, 11.15251790000002),
-			zoom:12,
+			zoom: 15,
 			disableDefaultUI: true,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			scrollwheel: false,
-			draggable: false
+			disableDoubleClickZoom: true,
+			draggable: true,
+			mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, "styled"]
+			},
+			mapTypeId: "styled"
+		},
+
+		styledMapOptions:
+		[
+			{
+				featureType: 'road',
+				elementType: 'geometry',
+				stylers: 
+				[
+					{ color: '#febb33' }
+				]
+			}
+		],
+
+		styledMapName:
+		{
+			name: "TheStyle"
 		},
 
 		init: function()
 		{
+
+			/*
+				1. get map dom elements
+				2. create directions renderer objects
+				3. create directions service
+				4. set directions renderer for each map
+				5. from directions service request route for each map and set directions on the renderer
+				6. repeat step 5 on resize
+			*/
 			var map1 = new google.maps.Map(document.getElementById("map-day-one"), this.mapOptions), 
 				map2 = new google.maps.Map(document.getElementById("map-day-two"), this.mapOptions),
 				map3 = new google.maps.Map(document.getElementById("map-day-three"), this.mapOptions),
 				map4 = new google.maps.Map(document.getElementById("map-day-four"), this.mapOptions),
 
-				dirDisplay1 = new google.maps.DirectionsRenderer({ suppressMarkers: true }),
-				dirDisplay2 = new google.maps.DirectionsRenderer({ suppressMarkers: true }),
-				dirDisplay3 = new google.maps.DirectionsRenderer({ suppressMarkers: true }),
-				dirDisplay4 = new google.maps.DirectionsRenderer({ suppressMarkers: true }),
+				styledMap = new google.maps.StyledMapType(this.styledMapOptions, this.styledMapName),
+
+				dirDisplay1 = new google.maps.DirectionsRenderer({suppressMarkers: true}),
+				dirDisplay2 = new google.maps.DirectionsRenderer({suppressMarkers: true}),
+				dirDisplay3 = new google.maps.DirectionsRenderer({suppressMarkers: true}),
+				dirDisplay4 = new google.maps.DirectionsRenderer({suppressMarkers: true}),
 
 				dirService = new google.maps.DirectionsService();
+
+				map1.mapTypes.set("styled", styledMap);
+				map2.mapTypes.set("styled", styledMap);
+				map3.mapTypes.set("styled", styledMap);
+				map4.mapTypes.set("styled", styledMap);
 
 				dirDisplay1.setMap(map1);
 				dirDisplay2.setMap(map2);
