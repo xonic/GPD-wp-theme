@@ -5,7 +5,7 @@ requirejs.config(
 		// 'jquery'			: 'imports/jquery-1.9.1',
 		'modernizr'			: 'imports/modernizr',
 		'selectivizr'		: 'imports/selectivizr', 
-		'maps'				: 'imports/mapcontroller'
+		'maps'				: 'imports/MapController'
 	},
 
 	shim:
@@ -16,9 +16,8 @@ requirejs.config(
 	}
 });
 
-require(["maps"], function(MapController)
+require(["modernizr", "maps"], function(Modernizr, MapController)
 {
-
 	MapController.init();
 
 });

@@ -350,11 +350,15 @@
 		{
 			@include rem(margin, .5 0 $doubleSpace * 2 - .5 0);
 			@include background(linear-gradient($secondaryAccent, lighten($secondaryAccent, 5%)));
-			box-shadow:
-						// 0 5px darken($orange, 35%),
-					   0 0 0 2px rgba(0,0,0,.8);
-					   // 0 10px 20px 3px rgba(0,0,0,.3);
+			box-shadow:0 0 0 2px rgba(0,0,0,.8);
 		}
+	}
+
+	.touch .btn--newsletter:hover
+	{
+		@include rem(margin, .5 0 $doubleSpace * 2 - .5 0);
+		@include background(linear-gradient($secondaryAccent, lighten($secondaryAccent, 5%)));
+		box-shadow:0 0 0 2px rgba(0,0,0,.8);	
 	}
 
 

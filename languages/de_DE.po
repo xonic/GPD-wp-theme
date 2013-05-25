@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-05-22 20:22+0100\n"
-"PO-Revision-Date: 2013-05-22 20:54+0100\n"
+"POT-Creation-Date: 2013-05-25 10:23+0100\n"
+"PO-Revision-Date: 2013-05-25 13:56+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -412,11 +412,11 @@ msgid ""
 "in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr ""
 
-#: ../preview.php:86
+#: ../preview.php:87
 msgid "pre__info__title"
 msgstr "Das einzigartige Oldtimer-Event"
 
-#: ../preview.php:90
+#: ../preview.php:91
 msgid "pre__info__start-date"
 msgstr "23."
 
@@ -424,11 +424,11 @@ msgstr "23."
 msgid "pre__info__to"
 msgstr "-"
 
-#: ../preview.php:96
+#: ../preview.php:95
 msgid "pre__info__end-date"
 msgstr "27. Juli, 2014"
 
-#: ../preview.php:103
+#: ../preview.php:101
 msgid "pre__info__p1"
 msgstr ""
 "Gran Premio Dolomiti ist ein außergewöhnliches Oldtimer-Treffen mit höchsten "
@@ -437,7 +437,7 @@ msgstr ""
 "Jaufen, Penserjoch, Mendel, Grödnerjoch und vieler anderer. Es ist ein "
 "Streifzug durch das Weltkulturerbe der mächtigen und imposanten Dolomiten."
 
-#: ../preview.php:110
+#: ../preview.php:104
 msgid "pre__info__p2"
 msgstr ""
 "Dieses erstklassige Event beinhaltet außerdem die Eroberung der "
@@ -448,341 +448,346 @@ msgstr ""
 "Köstlichkeiten, gepaart mit den edelsten Weinen der Region. In Ruhe genießen "
 "und es sich schmecken lassen &mdash; inmitten von Freunden."
 
-#: ../preview.php:123
+#: ../preview.php:112
 msgid "pre__program__title"
 msgstr "Programm"
 
-#: ../preview.php:129
+#: ../preview.php:117
 msgid "pre__day1"
 msgstr "Dienstag, 22. Juli 2014"
 
-#: ../preview.php:137
+#: ../preview.php:124
 msgid "pre__arrival"
 msgstr "Ankunft der Teilnehmer."
 
-#: ../preview.php:144
+#: ../preview.php:130
 msgid "pre__inspection"
 msgstr "Technische Inspektion und Zulassung der Fahrzeuge im Fahrzentrum."
 
-#: ../preview.php:151
+#: ../preview.php:136
 msgid "pre__check-in"
 msgstr "Check-In im Hotel."
 
-#: ../preview.php:158
+#: ../preview.php:142
 msgid "pre__day1__dinner"
 msgstr "Abendessen im Hotel oder in einem Gourmet-Restaurant Merans."
 
-#: ../preview.php:167
+#: ../preview.php:150
 msgid "pre__day2"
 msgstr "Mittwoch, 23. Juli 2014"
 
-#: ../preview.php:176 ../preview.php:313 ../preview.php:460 ../preview.php:541
+#: ../preview.php:158 ../preview.php:273 ../preview.php:396 ../preview.php:465
 msgid "pre__location"
 msgstr "Ort"
 
-#: ../preview.php:180 ../preview.php:317 ../preview.php:464 ../preview.php:545
+#: ../preview.php:161 ../preview.php:276 ../preview.php:399 ../preview.php:468
 msgid "pre__altitude"
 msgstr "Meereshöhe"
 
-#: ../preview.php:188 ../preview.php:276 ../preview.php:472 ../preview.php:505
-#: ../preview.php:553
+#: ../preview.php:168 ../preview.php:240 ../preview.php:406 ../preview.php:433
+#: ../preview.php:475
 msgid "pre__meran"
 msgstr "Meran"
 
-#: ../preview.php:192 ../preview.php:280 ../preview.php:476 ../preview.php:509
-#: ../preview.php:557
+#: ../preview.php:171 ../preview.php:243 ../preview.php:409 ../preview.php:436
+#: ../preview.php:478
 msgid "pre__meran__altitude"
 msgstr "324m"
 
-#: ../preview.php:199
+#: ../preview.php:177
 msgid "pre__jaufen"
 msgstr "Jaufenpass"
 
-#: ../preview.php:203
+#: ../preview.php:180
 msgid "pre__jaufen__altitude"
 msgstr "2094m"
 
-#: ../preview.php:210
+#: ../preview.php:186
 msgid "pre__sterzing"
 msgstr "Sterzing"
 
-#: ../preview.php:214
+#: ../preview.php:189
 msgid "pre__sterzing__altitude"
 msgstr "948m"
 
-#: ../preview.php:221
+#: ../preview.php:195
 msgid "pre__penser"
 msgstr "Penser Joch"
 
-#: ../preview.php:225
+#: ../preview.php:198
 msgid "pre__penser__altitude"
 msgstr "2211m"
 
-#: ../preview.php:232 ../preview.php:325 ../preview.php:424 ../preview.php:630
+#: ../preview.php:204 ../preview.php:283 ../preview.php:364 ../preview.php:538
 msgid "pre__bozen"
 msgstr "Bozen"
 
-#: ../preview.php:236 ../preview.php:329 ../preview.php:428 ../preview.php:634
+#: ../preview.php:207 ../preview.php:286 ../preview.php:367 ../preview.php:541
 msgid "pre__bozen__altitude"
 msgstr "262m"
 
-#: ../preview.php:243
+#: ../preview.php:213
 msgid "pre__mendel"
 msgstr "Mendelpass"
 
-#: ../preview.php:247
+#: ../preview.php:216
 msgid "pre__mendel__altitude"
 msgstr "1363m"
 
-#: ../preview.php:254
+#: ../preview.php:222
 msgid "pre__fondo"
 msgstr "Pfunds"
 
-#: ../preview.php:258
+#: ../preview.php:225
 msgid "pre__fondo__altitude"
 msgstr "997m"
 
-#: ../preview.php:265
+#: ../preview.php:231
 msgid "pre__gampen"
 msgstr "Gampenpass"
 
-#: ../preview.php:269
+#: ../preview.php:234
 msgid "pre__gampen__altitude"
 msgstr "1518m"
 
-#: ../preview.php:290
+#: ../preview.php:252
 msgid "pre__day2__dinner"
 msgstr ""
 "Italienisches Abendessen &mdash; das beste aus der italienischen Küche."
 
-#: ../preview.php:304
+#: ../preview.php:265
 msgid "pre__day3"
 msgstr "Donnerstag, 24. Juli 2014"
 
-#: ../preview.php:336
+#: ../preview.php:292
 msgid "pre__ritten"
 msgstr "Ritten"
 
-#: ../preview.php:340
+#: ../preview.php:295
 msgid "pre__ritten__altitude"
 msgstr "1154m"
 
-#: ../preview.php:347
+#: ../preview.php:301
 msgid "pre__barbian"
 msgstr "Barbian"
 
-#: ../preview.php:351
+#: ../preview.php:304
 msgid "pre__barbian__altitude"
 msgstr "830m"
 
-#: ../preview.php:358
+#: ../preview.php:310
 msgid "pre__erbe"
 msgstr "Würzjoch"
 
-#: ../preview.php:362
+#: ../preview.php:313
 msgid "pre__erbe__altitude"
 msgstr "2003m"
 
-#: ../preview.php:369
+#: ../preview.php:319
 msgid "pre__corvara"
 msgstr "Corvara"
 
-#: ../preview.php:373
+#: ../preview.php:322
 msgid "pre__corvara__altitude"
 msgstr "1568m"
 
-#: ../preview.php:380
+#: ../preview.php:328
 msgid "pre__gader"
 msgstr "Gardena Pass"
 
-#: ../preview.php:384
+#: ../preview.php:331
 msgid "pre__gader__altitude"
 msgstr "2121m"
 
-#: ../preview.php:391
+#: ../preview.php:337
 msgid "pre__ortisei"
 msgstr "St. Ulrich in Gröden"
 
-#: ../preview.php:395
+#: ../preview.php:340
 msgid "pre__ortisei__altitude"
 msgstr "1236m"
 
-#: ../preview.php:402
+#: ../preview.php:346
 msgid "pre__kastelruth"
 msgstr "Kastelruth"
 
-#: ../preview.php:406
+#: ../preview.php:349
 msgid "pre__kastelruth__altitude"
 msgstr "1060m"
 
-#: ../preview.php:413
+#: ../preview.php:355
 msgid "pre__siusi"
 msgstr "Seis am Schlern"
 
-#: ../preview.php:417
+#: ../preview.php:358
 msgid "pre__siusi__altitude"
 msgstr "1004m"
 
-#: ../preview.php:438
+#: ../preview.php:376
 msgid "pre__day3__dinner"
 msgstr ""
 "Erleben Sie die edelsten und köstlichsten Spezialitäten der originalen "
 "Südtiroler Küche."
 
-#: ../preview.php:451
+#: ../preview.php:388
 msgid "pre__day4"
 msgstr "Freitag, 25. Juli 2014"
 
-#: ../preview.php:483
+#: ../preview.php:415
 msgid "pre__glurns"
 msgstr "Glurns"
 
-#: ../preview.php:487
+#: ../preview.php:418
 msgid "pre__glurns__altitude"
 msgstr "907m"
 
-#: ../preview.php:494
+#: ../preview.php:424
 msgid "pre__stilfs"
 msgstr "Stilfser Joch"
 
-#: ../preview.php:498
+#: ../preview.php:427
 msgid "pre__stilfs__altitude"
 msgstr "2763m"
 
-#: ../preview.php:519
+#: ../preview.php:445
 msgid "pre__day4__dinner"
 msgstr "Entdecken Sie Ihr neues Lieblingsrestaurant der Gegend."
 
-#: ../preview.php:532
+#: ../preview.php:457
 msgid "pre__day5"
 msgstr "Samstag, 26. Juli 2014"
 
-#: ../preview.php:564
+#: ../preview.php:484
 msgid "pre__lana"
 msgstr "Lana"
 
-#: ../preview.php:568
+#: ../preview.php:487
 msgid "pre__lana__altitude"
 msgstr "310m"
 
-#: ../preview.php:575
+#: ../preview.php:493
 msgid "pre__andrian"
 msgstr "Andrian"
 
-#: ../preview.php:579
+#: ../preview.php:496
 msgid "pre__andrian__altitude"
 msgstr "274m"
 
-#: ../preview.php:586
+#: ../preview.php:502
 msgid "pre__pauls"
 msgstr "St. Pauls"
 
-#: ../preview.php:590
+#: ../preview.php:505
 msgid "pre__pauls__altitude"
 msgstr "395m"
 
-#: ../preview.php:597
+#: ../preview.php:511
 msgid "pre__eppan"
 msgstr "Eppan"
 
-#: ../preview.php:601
+#: ../preview.php:514
 msgid "pre__eppan__altitude"
 msgstr "415m"
 
-#: ../preview.php:608
+#: ../preview.php:520
 msgid "pre__kaltern"
 msgstr "Kaltern"
 
-#: ../preview.php:612
+#: ../preview.php:523
 msgid "pre__kaltern__altitude"
 msgstr "425m"
 
-#: ../preview.php:619
+#: ../preview.php:529
 msgid "pre__neumarkt"
 msgstr "Neumarkt"
 
-#: ../preview.php:623
+#: ../preview.php:532
 msgid "pre__neumarkt__altitude"
 msgstr "217m"
 
-#: ../preview.php:644
+#: ../preview.php:550
 msgid "pre__day5__dinner"
-msgstr "Gala Dinner im edlen Kurhaus Meran."
+msgstr "Gala Dinner."
 
-#: ../preview.php:657
+#: ../preview.php:562
 msgid "pre__day6"
 msgstr "Sonntag, 27. Juli 2014"
 
-#: ../preview.php:665
+#: ../preview.php:569
 msgid "pre__day6__ceremony"
 msgstr ""
 "Preisverleihung und Siegerehrung auf der wunderschönen Promenade Meran."
 
-#: ../preview.php:678
+#: ../preview.php:581
 msgid "pre__rules__title"
 msgstr "Zulassung"
 
-#: ../preview.php:682
+#: ../preview.php:584
 msgid "pre__rules__subtitle"
 msgstr "FIVA Oldtimer Fahrzeugklassen"
 
-#: ../preview.php:688
+#: ../preview.php:589
 msgid "pre__rules__a"
 msgstr "Klasse A \"Ancetre\""
 
-#: ../preview.php:692
+#: ../preview.php:592
 msgid "pre__rules__a__year"
 msgstr "Alle Fahrzeuge, die vor dem Jahr 1904 gebaut wurden."
 
-#: ../preview.php:696
+#: ../preview.php:595
 msgid "pre__rules__b"
 msgstr "Klasse B \"Veteran\""
 
-#: ../preview.php:700
+#: ../preview.php:598
 msgid "pre__rules__b__year"
 msgstr ""
 "Alle Fahrzeuge, die zwischen dem 1. Januar 1905 und 31. Dezember 1918 gebaut "
 "wurden."
 
-#: ../preview.php:704
+#: ../preview.php:601
 msgid "pre__rules__c"
 msgstr "Klasse C \"Vintage\""
 
-#: ../preview.php:708
+#: ../preview.php:604
 msgid "pre__rules__c__year"
 msgstr ""
 "Alle Fahrzeuge, die zwischen dem 1. Januar 1919 und 31. Dezember 1930 gebaut "
 "wurden."
 
-#: ../preview.php:712
+#: ../preview.php:607
 msgid "pre__rules__d"
 msgstr "Klasse D \"Post Vintage\""
 
-#: ../preview.php:716
+#: ../preview.php:610
 msgid "pre__rules__d__year"
 msgstr ""
 "Alle Fahrzeuge, die zwischen dem 1. Januar 1931 und 31. Dezember 1945 gebaut "
 "wurden."
 
-#: ../preview.php:720
+#: ../preview.php:613
 msgid "pre__rules__e"
 msgstr "Klasse E"
 
-#: ../preview.php:724
+#: ../preview.php:616
 msgid "pre__rules__e__year"
 msgstr ""
 "Alle Fahrzeuge, die zwischen dem 1. Januar 1946 und 31. Dezember 1960 gebaut "
 "wurden."
 
-#: ../preview.php:734
+#: ../preview.php:625
 msgid "pre__newsletter__title"
 msgstr "Newsletter"
 
-#: ../preview.php:744
+#: ../preview.php:628
+msgid "pre__newsletter__subtitle"
+msgstr ""
+"Melden Sie sich zum Newsletter an, um immer auf dem neuesten Stand zu sein"
+
+#: ../preview.php:646
 msgid "pre__contact__title"
 msgstr "Kontakt"
 
-#: ../preview.php:748
+#: ../preview.php:649
 msgid "pre__content__subtitle"
 msgstr "Wir freuen uns, von Ihnen zu hören"
 

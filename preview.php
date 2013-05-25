@@ -71,6 +71,9 @@
 
 	<div class="branding">
 		<div class="container">
+			<div class="lang">
+				<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+			</div>
 			<h1 class="event-name">
 				<small class="event-name__gp">Gran Premio</small>
 				Dolomiti
@@ -80,7 +83,7 @@
 	</div>
 
 	<section class="info">
-		<? echo qtrans_getLanguage(); ?>
+		<? //echo qtrans_getLanguage(); ?>
 		<div class="container">
 			<hgroup>
 				<h1 class="section__title">
@@ -628,13 +631,13 @@
 				<? _e("pre__newsletter__subtitle", "gp-dolomiti"); ?>
 			</h2>
 			<?
-				if(qtrans_getLanguage() == "en") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Subscribe to our newsletter!</a>'; }
+				if(qtrans_getLanguage() == "en") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Subscribe to our newsletter</a>'; }
 
-				if(qtrans_getLanguage() == "fr") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Abonner à la newsletter!</a>'; }
+				if(qtrans_getLanguage() == "fr") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Abonner à la newsletter</a>'; }
 
-				if(qtrans_getLanguage() == "de") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Zum Newsletter anmelden!</a>'; }
+				if(qtrans_getLanguage() == "de") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Zum Newsletter anmelden</a>'; }
 
-				if(qtrans_getLanguage() == "it") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Iscriversi alla newsletter!</a>'; }
+				if(qtrans_getLanguage() == "it") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Iscriversi alla newsletter</a>'; }
 			?>
 		</div>
 	</section>
@@ -654,11 +657,11 @@
 					// id="11" on http://granpremiodolomiti.com
 					if(qtrans_getLanguage() == "en") { echo do_shortcode( '[contact-form-7 id="11" title="contact-EN"]' ); }
 
-					if(qtrans_getLanguage() == "fr") { echo do_shortcode( '[contact-form-7 id="11" title="contact-EN"]' ); }
+					if(qtrans_getLanguage() == "fr") { echo do_shortcode( '[contact-form-7 id="14" title="contact-FR"]' ); }
 
-					if(qtrans_getLanguage() == "de") { echo do_shortcode( '[contact-form-7 id="11" title="contact-EN"]' ); }
+					if(qtrans_getLanguage() == "de") { echo do_shortcode( '[contact-form-7 id="12" title="contact-DE"]' ); }
 
-					if(qtrans_getLanguage() == "it") { echo do_shortcode( '[contact-form-7 id="11" title="contact-EN"]' ); }
+					if(qtrans_getLanguage() == "it") { echo do_shortcode( '[contact-form-7 id="13" title="contact-IT"]' ); }
 				?>
 			</div>
 		</div>

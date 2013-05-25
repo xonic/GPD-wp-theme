@@ -49,6 +49,7 @@
 	textarea 
 	{
 		font-family: $baseFontFamily; // And only set font-family here for those that need it (note the missing label element)
+		-webkit-appearance:none;
 	}
 
 	// Reset width of input images, buttons, radios, checkboxes
@@ -694,7 +695,7 @@
 		[type="color"],
 		[type="file"] 
 		{
-			@include rem(height, $inputHeightLarge);
+			@include rem(min-height, $inputHeightLarge);
 			@include rem(line-height, $inputHeightLarge);
 		}
 

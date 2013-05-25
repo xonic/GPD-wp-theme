@@ -1,0 +1,52 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for lang switcher
+//
+//  ---------------------------------------------------------------------------
+	
+	.lang
+	{
+		@extend .nav;
+		float:right;
+		@include rem(padding, 0 .5);
+		background:rgba($blackSand, .3);
+		border-radius:0 0 2px 2px;
+		@include setType(1.4, 2.4);
+		font-family:$headingsFontFamily;
+		letter-spacing:0;
+
+		ul
+		{
+			margin:0;
+		}
+	}
+
+	[class^="lang-"]
+	{
+		a 
+		{
+			color:rgba($white, .4);
+		}
+
+		a:hover
+		{
+			background:transparent;
+			color:$white;
+		}
+
+		&.active a
+		{
+			color:$white;
+			cursor:default;
+		}
+
+		&:after
+		{
+			content:" | ";
+		}
+
+		&:last-child:after
+		{
+			content:none;
+		}
+	}
