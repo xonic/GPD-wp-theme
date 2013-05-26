@@ -116,6 +116,32 @@ define(function()
 			name: "TheStyle"
 		},
 
+		callDelayTimers: [],
+
+		callWithDelay: function(ms, fname, fn)
+		{
+			var args = Array.prototype.slice.call(arguments),
+				self = this;
+
+			// If the passed in function already exists, 
+			// the timer gets resetted
+			this.callDelayTimers[fname] && clearTimeout(this.callDelayTimers[fname]);
+
+			// Set a new timer
+			this.callDelayTimers[fname] = setTimeout(function()
+			{
+				// Call the passed in function with the rest 
+				// of the parameters (args.slice(3,4)[0] = IndicatorView)
+				// fun.apply(thisArg[, argsArray]) --> thisArg = value of this, 
+				// argsArray = additional params to pass to the function
+				fn.apply(args.slice(3,4)[0], []);
+
+				// The timer was completed, the function executed.
+				// Reset the limiter array
+				self.callDelayTimers[fname] = null;
+			}, ms);
+		},
+
 		init: function()
 		{
 

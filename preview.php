@@ -48,13 +48,17 @@
 <!-- TypeKit -->
 <script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script>
 
 <!-- RequireJS -->
 <script data-main="<?php echo get_template_directory_uri(); ?>/js/main" src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>
 
 <!--[if lte IE 8]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/ie.css" />
 <![endif]-->
 <?php
 
@@ -69,7 +73,7 @@
 
 <body <?php body_class(); ?>>
 
-	<div class="branding">
+	<header class="branding">
 		<div class="container">
 			<div class="lang">
 				<?php echo qtrans_generateLanguageSelectCode('text'); ?>
@@ -77,28 +81,25 @@
 			<h1 class="event-name">
 				<small class="event-name__gp">Gran Premio</small>
 				Dolomiti
-				<!-- <small class="event-name__year">2014</small> -->
 			</h1>
 		</div>
-	</div>
+	</header>
 
 	<section class="info">
 		<? //echo qtrans_getLanguage(); ?>
 		<div class="container">
-			<hgroup>
-				<h1 class="section__title">
-					<? _e("pre__info__title", "gp-dolomiti"); ?>
-				</h1>
-				<h2 class="info__date">
-					<time datetime="2014-07-23">
-						<? _e("pre__info__start-date", "gp-dolomiti"); ?>
-					</time> 
-					<? _e("pre__info__to", "gp-dolomiti"); ?>
-					<time datetime="2014-07-27">
-						<? _e("pre__info__end-date", "gp-dolomiti"); ?>
-					</time>
-				</h2>
-			</hgroup>
+			<h1 class="section__title">
+				<? _e("pre__info__title", "gp-dolomiti"); ?>
+			</h1>
+			<h2 class="info__date">
+				<time datetime="2014-07-23">
+					<? _e("pre__info__start-date", "gp-dolomiti"); ?>
+				</time> 
+				<? _e("pre__info__to", "gp-dolomiti"); ?>
+				<time datetime="2014-07-27">
+					<? _e("pre__info__end-date", "gp-dolomiti"); ?>
+				</time>
+			</h2>
 
 			<p>
 				<? _e("pre__info__p1", "gp-dolomiti"); ?>
@@ -156,13 +157,15 @@
 
 				<table class="day__route">
 					<thead>
-						<th class="route__icon"></th>
-						<th class="route__location">
-							<? _e("pre__location", "gp-dolomiti"); ?>
-						</th>
-						<th class="route__altitude">
-							<? _e("pre__altitude", "gp-dolomiti"); ?>
-						</th>
+						<tr>
+							<th class="route__icon"></th>
+							<th class="route__location">
+								<? _e("pre__location", "gp-dolomiti"); ?>
+							</th>
+							<th class="route__altitude">
+								<? _e("pre__altitude", "gp-dolomiti"); ?>
+							</th>
+						</tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -271,13 +274,15 @@
 
 				<table class="day__route">
 					<thead>
-						<th class="route__icon"></th>
-						<th class="route__location">
-							<? _e("pre__location", "gp-dolomiti"); ?>
-						</th>
-						<th class="route__altitude">
-							<? _e("pre__altitude", "gp-dolomiti"); ?>
-						</th>
+						<tr>
+							<th class="route__icon"></th>
+							<th class="route__location">
+								<? _e("pre__location", "gp-dolomiti"); ?>
+							</th>
+							<th class="route__altitude">
+								<? _e("pre__altitude", "gp-dolomiti"); ?>
+							</th>
+						</tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -394,13 +399,15 @@
 
 				<table class="day__route">
 					<thead>
-						<th class="route__icon"></th>
-						<th class="route__location">
-							<? _e("pre__location", "gp-dolomiti"); ?>
-						</th>
-						<th class="route__altitude">
-							<? _e("pre__altitude", "gp-dolomiti"); ?>
-						</th>
+						<tr>
+							<th class="route__icon"></th>
+							<th class="route__location">
+								<? _e("pre__location", "gp-dolomiti"); ?>
+							</th>
+							<th class="route__altitude">
+								<? _e("pre__altitude", "gp-dolomiti"); ?>
+							</th>
+						</tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -463,13 +470,15 @@
 
 				<table class="day__route">
 					<thead>
-						<th class="route__icon"></th>
-						<th class="route__location">
-							<? _e("pre__location", "gp-dolomiti"); ?>
-						</th>
-						<th class="route__altitude">
-							<? _e("pre__altitude", "gp-dolomiti"); ?>
-						</th>
+						<tr>
+							<th class="route__icon"></th>
+							<th class="route__location">
+								<? _e("pre__location", "gp-dolomiti"); ?>
+							</th>
+							<th class="route__altitude">
+								<? _e("pre__altitude", "gp-dolomiti"); ?>
+							</th>
+						</tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -579,14 +588,12 @@
 
 	<section class="rules">
 		<div class="container">
-			<hgroup>
-				<h1 class="section__title section__title--emphasized">
-					<? _e("pre__rules__title", "gp-dolomiti"); ?>
-				</h1>
-				<h2>
-					<? _e("pre__rules__subtitle", "gp-dolomiti"); ?>
-				</h2>
-			</hgroup>
+			<h1 class="section__title section__title--emphasized">
+				<? _e("pre__rules__title", "gp-dolomiti"); ?>
+			</h1>
+			<h2>
+				<? _e("pre__rules__subtitle", "gp-dolomiti"); ?>
+			</h2>
 			<dl>
 				<dt>
 					<? _e("pre__rules__a", "gp-dolomiti"); ?>
@@ -644,14 +651,12 @@
 
 	<section class="contact">
 		<div class="container">
-			<hgroup>
-				<h1 class="section__title section__title--emphasized">
-					<? _e("pre__contact__title", "gp-dolomiti"); ?>
-				</h1>
-				<h2>
-					<? _e("pre__content__subtitle", "gp-dolomiti"); ?>
-				</h2>
-			</hgroup>
+			<h1 class="section__title section__title--emphasized">
+				<? _e("pre__contact__title", "gp-dolomiti"); ?>
+			</h1>
+			<h2>
+				<? _e("pre__content__subtitle", "gp-dolomiti"); ?>
+			</h2>
 			<div class='contact-form'>
 				<?
 					// id="11" on http://granpremiodolomiti.com
@@ -666,6 +671,24 @@
 			</div>
 		</div>
 	</section>
+	<footer class="impressum section--dark">
+		<div class="container">
+			<p>&copy; Gran Premio Dolomiti 2014</p>
+			<address class="vcard">
+				<!-- WAT?! -->
+				<span class="fn n">
+					<span class="given-name"></span>
+				</span>
+			 	<div class="org">Rentor KG des Biasi Gerhard</div>
+			 	<div class="adr">
+			  		<span class="street-address">Piavestr. 27</span><br/>
+			  		<span class="postal-code">39012</span>
+			  		<span class="locality">Meran</span><br/>
+			  		<span class="country-name">Italien</span>
+			 	</div>
+			</address>
+		</div>
+	</footer>
 	<?php wp_footer(); ?>
 </body>
-
+</html>

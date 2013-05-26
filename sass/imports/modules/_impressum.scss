@@ -1,0 +1,20 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the shared styling for the impressum section
+//
+//  ---------------------------------------------------------------------------
+	
+	.impressum
+	{
+		@include rem(padding-top, $doubleSpace);
+		@include setType($bodyFontSize, $bodyLineHeight);
+		text-align:center;
+		color:$sandDark;
+
+		address
+		{
+			@include rem(margin-bottom, $doubleSpace);
+			color:$olive;
+			font-style:normal;
+		}
+	}
