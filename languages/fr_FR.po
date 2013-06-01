@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-06-01 11:09+0100\n"
-"PO-Revision-Date: 2013-06-01 11:12+0100\n"
+"POT-Creation-Date: 2013-06-01 11:13+0100\n"
+"PO-Revision-Date: 2013-06-01 11:14+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,70 +52,73 @@ msgstr ""
 
 #: ../preview.php:92
 msgid "pre__info__title"
-msgstr "Racing for Classic Car Connoisseurs"
+msgstr "L’événement de voitures anciennes est unique en son genre."
 
 #: ../preview.php:96
 msgid "pre__info__start-date"
-msgstr "July 23rd"
+msgstr "Du 23."
 
 #: ../preview.php:98
 msgid "pre__info__to"
-msgstr "to"
+msgstr "Au"
 
 #: ../preview.php:100
 msgid "pre__info__end-date"
-msgstr "27th, 2014"
+msgstr "27. Juillet 2014"
 
 #: ../preview.php:105
 msgid "pre__info__p1"
 msgstr ""
-"The Gran Premio Dolomiti is an extraordinary and ambitious classic car race. "
-"Experience the beauty of the Dolomite and Brenta areas, conquer the most "
-"impressive mountain passes, specifically Passo Stelvio, Passo Giovo, Passo "
-"Pennes, Passo Mendola and many more. This rallye is an overwhelming "
-"expedition through the astonishing Dolomite Alps."
+"Le Grand Prix Des Dolomites est un rendez-vous exceptionnel de voitures "
+"anciennes, de très haut niveau. Cela signifie emprunter le col unique avec "
+"élégance et charme dans le territoire des Dolomites et Brenta; une conquête "
+"du Passo Stelvio, Passo Giovo, Passo Stelvio, Passo Mendola, Passo Gardena "
+"et bien d’autres. C’est une exploration du Patrimoine culturel mondial dans "
+"les imposantes montagnes des Dolomites."
 
 #: ../preview.php:108
 msgid "pre__info__p2"
 msgstr ""
-"Furthermore, this special event will guide you through the unique and "
-"delicious culinary indulgences of South Tyrol. Try the most sophisticated, "
-"yet indigenous delicacies the South Tyrolean and Italian cuisine have to "
-"offer. Come with us on a culinary journey and discover the most tempting "
-"and  authentic local dishes along with some of the best South Tyrolean "
-"wines. Sit back, relax and savour these moments, together with friends."
+"Cet excellent événement comprend également la conquête du plaisir culinaire "
+"du Tyrol du Sud. Apprenez à découvrir l’exigence, mais aussi les simples et "
+"traditionnelles facettes de la cuisine du Tyrol du Sud et la cuisine "
+"italienne et entrer avec nous dans le monde culinaire et déguster de bons "
+"mets, connu et moins connu, accompagnés de nobles vins de la région. "
+"Apprécier et savourer la cuisine typique de lieux différents dans une "
+"atmosphère chaleureuse entre amis. "
 
 #: ../preview.php:116
 msgid "pre__program__title"
-msgstr "Timetable"
+msgstr "Le programme"
 
 #: ../preview.php:121
 msgid "pre__day1"
-msgstr "Tuesday, July 22nd, 2014"
+msgstr "Mardi 22 juillet 2014"
 
 #: ../preview.php:128
 msgid "pre__arrival"
-msgstr "Arrival of participants"
+msgstr "Arrivée des participants."
 
 #: ../preview.php:134
 msgid "pre__inspection"
-msgstr "Technical inspection and approval at the driving center"
+msgstr ""
+"Contrôle technique et enregistrement des véhicules dans le centre de guide."
 
 #: ../preview.php:140
 msgid "pre__check-in"
-msgstr "Hotel Check-In"
+msgstr "Enregistrement à l’hôtel."
 
 #: ../preview.php:146
 msgid "pre__day1__dinner"
-msgstr "Dinner at the hotel or in one of Merano's gourmet restaurants."
+msgstr "Diner à l’hôtel ou dans un restaurant gastronomique à Merano."
 
 #: ../preview.php:154
 msgid "pre__day2"
-msgstr "Wednesday, July 23rd, 2014"
+msgstr "Mercredi 23 juillet 2014"
 
 #: ../preview.php:163 ../preview.php:280 ../preview.php:407 ../preview.php:478
 msgid "pre__location"
-msgstr "Location"
+msgstr "Localisation"
 
 #: ../preview.php:166 ../preview.php:283 ../preview.php:410 ../preview.php:481
 msgid "pre__altitude"
@@ -189,11 +192,11 @@ msgstr "1518m"
 
 #: ../preview.php:258
 msgid "pre__day2__dinner"
-msgstr "Italian dinner &mdash; the best of italian cuisine."
+msgstr "Le diner italien – le meilleur de la cuisine italienne."
 
 #: ../preview.php:271
 msgid "pre__day3"
-msgstr "Thursday, July 24th, 2014"
+msgstr "Jeudi 24 juillet 2014"
 
 #: ../preview.php:300 ../preview.php:363
 msgid "pre__ortisei"
@@ -253,11 +256,12 @@ msgstr "2240m"
 
 #: ../preview.php:384
 msgid "pre__day3__dinner"
-msgstr "Dinner: A walk through the best of South Tyrolean kitchen."
+msgstr ""
+"Découvrez les plus délicieuses spécialités de la cuisine typique tyrolienne."
 
 #: ../preview.php:398
 msgid "pre__day4"
-msgstr "Friday, July 25th, 2014"
+msgstr "Vendredi 25 juillet 2014"
 
 #: ../preview.php:427
 msgid "pre__glurns"
@@ -277,11 +281,11 @@ msgstr "2763m"
 
 #: ../preview.php:457
 msgid "pre__day4__dinner"
-msgstr "Optional Dinner: Discover a new favourite restaurant in the area."
+msgstr "Venez découvrir vos restaurants préférés dans la région."
 
 #: ../preview.php:469
 msgid "pre__day5"
-msgstr "Saturday, July 26th, 2014"
+msgstr "Samedi 26 juillet 2014"
 
 #: ../preview.php:498
 msgid "pre__lana"
@@ -333,67 +337,71 @@ msgstr "217m"
 
 #: ../preview.php:564
 msgid "pre__day5__dinner"
-msgstr "Gala Dinner."
+msgstr "Diner de Gala."
 
 #: ../preview.php:576
 msgid "pre__day6"
-msgstr "Sunday, July 27th, 2014"
+msgstr "Dimanche 27 juillet 2014"
 
 #: ../preview.php:583
 msgid "pre__day6__ceremony"
-msgstr "Awards ceremony at the Promenade Merano."
+msgstr "Cérémonie de la remise des prix sur la belle promenade de Merano."
 
 #: ../preview.php:594
 msgid "pre__rules__title"
-msgstr "Entry Regulations"
+msgstr "Admission"
 
 #: ../preview.php:597
 msgid "pre__rules__subtitle"
-msgstr "FIVA Oldtimer Vehicle Classes"
+msgstr "Véhicule ancien FIVA"
 
 #: ../preview.php:601
 msgid "pre__rules__a"
-msgstr "Class A, \"Ancetre\""
+msgstr "Classe A, \"Ancetre\""
 
 #: ../preview.php:604
 msgid "pre__rules__a__year"
-msgstr "All cars manufactured before 1904."
+msgstr "Tous les véhicules construits avant 1904."
 
 #: ../preview.php:607
 msgid "pre__rules__b"
-msgstr "Class B, \"Veteran\""
+msgstr "Classe B, \"Veteran\""
 
 #: ../preview.php:610
 msgid "pre__rules__b__year"
 msgstr ""
-"All cars manufactured between January 1st, 1905 and December 31st, 1918."
+"Tous les véhicules construits entre le 1er Janvier 1905 et le 31 Décembre "
+"1918."
 
 #: ../preview.php:613
 msgid "pre__rules__c"
-msgstr "Class C, \"Vintage\""
+msgstr "Classe C, \"Vintage\""
 
 #: ../preview.php:616
 msgid "pre__rules__c__year"
 msgstr ""
-"All cars manufactured between January 1st, 1919 and December 31st, 1930."
+"Tous les véhicules construits entre le 1er Janvier 1919 et le 31 Décembre "
+"1930."
 
 #: ../preview.php:619
 msgid "pre__rules__d"
-msgstr "Class D, \"Post Vintage\""
+msgstr "Classe D, \"Post Vintage\""
 
 #: ../preview.php:622
 msgid "pre__rules__d__year"
 msgstr ""
-"All cars manufactured between January 1st, 1931 and December 31st, 1945."
+"Tous les véhicules construits entre le 1er Janvier 1931 et le 31 Décembre "
+"1945."
 
 #: ../preview.php:625
 msgid "pre__rules__e"
-msgstr "Class E"
+msgstr "Classe E"
 
 #: ../preview.php:628
 msgid "pre__rules__e__year"
 msgstr ""
-"All cars manufactured between January 1st, 1946 and December 31st, 1960."
+"Tous les véhicules construits entre le 1er Janvier 1946 et le 31 Décembre "
+"1960."
 
 #: ../preview.php:637
 msgid "pre__newsletter__title"
@@ -401,7 +409,8 @@ msgstr "Newsletter"
 
 #: ../preview.php:640
 msgid "pre__newsletter__subtitle"
-msgstr "Subscribe to our newsletter to get the latest updates"
+msgstr ""
+"Inscrivez-vous à notre newsletter pour être informé des dernières actualités."
 
 #: ../preview.php:657
 msgid "pre__contact__title"
@@ -409,7 +418,7 @@ msgstr "Contact"
 
 #: ../preview.php:660
 msgid "pre__content__subtitle"
-msgstr "We're happy to hear from you"
+msgstr "Nous sommes impatients de vous entendre"
 
 #: ../single.php:18
 msgid "Post navigation"

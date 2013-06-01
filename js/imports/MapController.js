@@ -38,14 +38,26 @@ define(function()
 				destination:"Bolzano, Italy",
 				waypoints:
 				[
-					{ location: "Renon, Italy" },
-					// { location: "San Barbiano, Italy" },
-					{ location: "Passo delle Erbe, Italy" },
-					{ location: "Corvara, Italy" },
-					{ location: "Passo Gardena, Italy" },
-					{ location: "Ortisei, Italy" },
-					{ location: "Castelrotto, Italy" },
-					{ location: "Siusi, Italy" }
+					// { location:"Völs, Italy" },
+					// { location:"Kastelruth, Italy" },
+					{ location:"Ortisei, Italy" },
+					{ location:"Wolkenstein, Italy" },
+					{ location:"Grödnerjoch, Italy" },
+					{ location:"Corvara, Italy" },
+					{ location:"Passo Campolungo, Italy" },
+					// { location:"Arabba, Italy" },
+					{ location:"Passo Pordoi, Italy" },
+					{ location:"Sellajoch, Italy" },
+					{ location:"Ortisei, Italy" }
+					// Old route too similar to Südtirol Classic
+					// { location: "Renon, Italy" },
+					// // { location: "San Barbiano, Italy" },
+					// { location: "Passo delle Erbe, Italy" },
+					// { location: "Corvara, Italy" },
+					// { location: "Passo Gardena, Italy" },
+					// { location: "Ortisei, Italy" },
+					// { location: "Castelrotto, Italy" },
+					// { location: "Siusi, Italy" }
 				],
 				travelMode: google.maps.TravelMode.DRIVING,
 				optimizeWaypoints: false
@@ -70,7 +82,7 @@ define(function()
 			dayFour:
 			{
 				origin:"Merano, Italy",
-				destination:"Merano, Italy",
+				destination:"Bolzano, Italy",
 				waypoints:
 				[
 					{ location: "Lana, Italy" },
@@ -246,43 +258,16 @@ define(function()
 				   });
 				});
 
-			// console.log("Init Maps");
-
-			// var maps = {};
-
-			// for (template in this.mapTemplates)
-			// {
-			// 	// this.mapTemplates[template].dirDisplay = new google.maps.DirectionsRenderer();
-			// 	// this.mapTemplates[template].dirService = new google.maps.DirectionsService();
-
-			// 	maps[template] = new google.maps.Map(document.getElementById(this.mapTemplates[template].mapId), this.mapOptions);
-			// 	this.mapTemplates[template].dirDisplay.setMap(maps[template]);
-
-			// 	var that = this;
-
-			// 	this.mapTemplates[template].dirService.route(this.mapTemplates[template].route, function(response, status)
-			// 	{
-			// 		if(status == google.maps.DirectionsStatus.OK)
-			// 		{
-			// 			that.mapTemplates[template].dirDisplay.setDirections(response);
-			// 		}
-			// 	});
-			// }
-			// console.log(this.mapTemplates);
-			// console.log(maps);
-			// 	// dayOneMap = new google.maps.Map(document.getElementById("map-day-one"), this.mapOptions);
-
-
-
+			
 
 
 			// var coder = new google.maps.Geocoder();
 
-			// coder.geocode({ address: "Merano, Italy" }, function(results, status)
+			// coder.geocode({ address: "völs, Italy" }, function(results, status)
 			// {
 			// 	if(status == google.maps.GeocoderStatus.OK)
 			// 	{
-			// 		console.log(results);
+			// 		console.log(results[0].geometry.location);
 			// 	}
 			// });
 		}
