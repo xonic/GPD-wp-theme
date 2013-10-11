@@ -92,7 +92,7 @@
 
 	$htmlFontSize:          62.5%;	
 	$htmlLineHeight:        1;
-	$baseLineHeight:		1.2;
+	$baseLineHeight:		1.1;
 	$bodyFontSize:          1.6;
 	$bodyLineHeight:        $baseLineHeight * 2;
 
@@ -181,6 +181,7 @@
 
 	$singleSpace:			$baseLineHeight;
 	$doubleSpace:			$singleSpace * 2;
+	$touchSize:				$doubleSpace * 2;
 
 
 

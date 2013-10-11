@@ -157,15 +157,16 @@
 		@include transition(all);
 		@include transition-duration(.1s);
 
-		&:hover
-		{
-			background-color:$linkColor;
-			text-decoration:none;
-			color:$white;
-		}
+		-webkit-tap-highlight-color: rgba(0,0,0,0); // according to ipad app
 	}
 	
-
+	a:active,
+	.no-touch a:hover
+	{
+		background-color:$linkColor;
+		text-decoration:none;
+		color:$white;
+	}
 
 //  = LISTS
 //  ---------------------------------------------------------------------------

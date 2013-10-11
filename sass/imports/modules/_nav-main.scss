@@ -1,0 +1,106 @@
+
+//  ---------------------------------------------------------------------------
+//
+//  Main navigation
+//
+//  ---------------------------------------------------------------------------
+
+	.flyout
+	{
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		@include rem(padding, 0 $r-grid-padding);
+		// @include background(linear-gradient($blackSand, $blackSand));
+		background:$blackSand;
+	}
+
+	.flyout__toggle
+	{
+		display:block;
+		position:relative;
+		@include rem(width, $touchSize);
+		@include rem(height, $touchSize);
+		@include rem(margin-left, -$r-grid-padding);
+		@include rem(line-height, $touchSize);
+		@include rem(font-size, $h3Size);
+		text-align:center;
+
+		.icon-reorder,
+		.icon-remove
+		{
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			@include rem(line-height, $touchSize);
+		}
+
+		.icon-reorder
+		{
+			@include transform(rotateZ(360deg) scale3d(1,1,1));
+			@include transition(transform .3s ease, opacity .3s linear);
+		}
+
+		.icon-remove
+		{
+			opacity:0;
+			@include transform(rotateZ(360deg) scale3d(.5,.5,1));
+			@include transition(transform .3s ease, opacity .3s linear);
+		}
+	}
+
+	.nav-is-shown .flyout__toggle
+	{
+		.icon-reorder
+		{
+			opacity:0;
+			@include transform(rotateZ(0) scale3d(.5,.5,1));
+		}
+
+		.icon-remove
+		{
+			opacity:1;
+			@include transform(rotateZ(0) scale3d(1,1,1));
+		}
+	}
+
+	.nav-main__entries
+	{
+		@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
+		@include transition(transform .3s ease);
+	}
+
+	.nav-is-shown .nav-main__entries
+	{
+		@include transform(scale3d(1,1,1) translate3d(0,0,0));
+	}
+
+	.nav-main__link
+	{
+		display:block;
+		@include bleed;
+		border-bottom:0 solid darken($blackSand, 3%);
+		@include rem(border-bottom-width, $borderThin);
+		font-family:$headingsFontFamily;
+		@include setType($h3Size, $touchSize);
+		text-align:center;
+		text-transform:uppercase;
+	}
+
+	.content
+	{
+		position:relative;
+		@include bleed;
+		@include rem(margin-top, $touchSize);
+		background:$white;
+		box-shadow:0 0 10px rgba($black, .5);
+		@include transition(transform .3s ease);
+	}
+
+	.nav-is-shown .content
+	{
+		@include transform(translate3d(0, 180px, 0));
+	}
