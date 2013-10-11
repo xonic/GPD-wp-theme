@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2013-06-01 11:08+0100\n"
-"PO-Revision-Date: 2013-06-01 11:12+0100\n"
+"PO-Revision-Date: 2013-07-02 21:07+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../preview.php:92
 msgid "pre__info__title"
-msgstr "Un raduno di auto d‘epoca unico"
+msgstr "Un incomparabile raduno di auto d‘epoca"
 
 #: ../preview.php:96
 msgid "pre__info__start-date"
@@ -69,21 +69,20 @@ msgstr "27. Luglio 2014"
 #: ../preview.php:105
 msgid "pre__info__p1"
 msgstr ""
-"Il Gran Premio Dolomiti è un evento unico e con molte pretese, significa "
-"guidare in armonia tra i passi più belli della zona dolomitica e tra le "
-"montagne del Brenta, significa esplorare i passi della Mendola, del Giovo, "
-"del Pennes, del Gardena e specialmente dello Stelvio. Un affascinante volo "
+"Il Gran Premio Dolomiti è un evento particolare ed esclusivo. Significa "
+"guidare in armonia tra i passi più belli della zona dolomitica e le montagne "
+"del Brenta. Implica esplorare le strade che s’inerpicano sulla Mendola, il "
+"Giovo, il Pennes, il Gardena e soprattutto lo Stelvio. Un affascinante tour "
 "nelle Alpi dolomitiche."
 
 #: ../preview.php:108
 msgid "pre__info__p2"
 msgstr ""
-"Inoltre durante questo unico evento andremo alla conquista delle varie "
-"specialità e pietanze della zona altoatesina e italiana. Impareremo a "
-"conoscere le più svariate proposte nate in decenni di cucina. Insieme "
-"viaggeremo nei programmi serali tra piatti unici e bevande storiche, "
-"prodotte con amore dai produttori locali. Godere in relax, gustare con calma "
-"in mezzo a tanti amici."
+"Inoltre durante questo originale avvenimento andremo a conoscere e gustare "
+"le specialità enogastronomiche tirolesi e italiane, nate in decenni di "
+"tradizione culinaria. Insieme nelle sere estive ad assaporare bevande e cibi "
+"prodotti e preparati con amore dalla gente di questa terra. Distensione e "
+"benessere fra tanti amici."
 
 #: ../preview.php:116
 msgid "pre__program__title"
