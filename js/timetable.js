@@ -1,5 +1,5 @@
 
-require(["jquery"], function($)
+require(["jquery", "maps"], function($, MapController)
 {
-	
+	// MapController.init();
 });

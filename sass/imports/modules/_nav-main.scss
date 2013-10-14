@@ -12,13 +12,18 @@
 		right:0;
 		left:0;
 		@include rem(padding, 0 $r-grid-padding);
-		// @include background(linear-gradient($blackSand, $blackSand));
 		background:$blackSand;
+
+		a
+		{
+			color:$white;
+		}
 	}
 
 	.flyout__toggle
 	{
 		display:block;
+		float:left;
 		position:relative;
 		@include rem(width, $touchSize);
 		@include rem(height, $touchSize);
@@ -50,6 +55,11 @@
 			@include transform(rotateZ(360deg) scale3d(.5,.5,1));
 			@include transition(transform .3s ease, opacity .3s linear);
 		}
+
+		@include at-breakpoint($medium-width)
+		{
+			display:none;
+		}
 	}
 
 	.nav-is-shown .flyout__toggle
@@ -67,15 +77,63 @@
 		}
 	}
 
+	.mountains
+	{
+		float:right;
+		@include rem(max-height, $touchSize);
+	}
+
 	.nav-main__entries
 	{
+		@include rem(margin, $touchSize 0 0);
 		@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
 		@include transition(transform .3s ease);
+
+		a 
+		{
+			color:rgba($white, .4);
+		}
+
+		.nav-main__link--is-active
+		{
+			color:$white;
+		}
+
+		@include at-breakpoint($medium-width)
+		{
+			margin:0;
+			@include transform(scale3d(1,1,1) translate3d(0,0,0));		
+		}
+	}
+
+	.no-touch .nav-main__entries a:hover,
+	.touch .nav-main__entries a:active
+	{
+		color:$white;
 	}
 
 	.nav-is-shown .nav-main__entries
 	{
 		@include transform(scale3d(1,1,1) translate3d(0,0,0));
+	}
+
+	.nav-main__entry
+	{
+		@include at-breakpoint($medium-width)
+		{
+			display:inline;
+			// @include rem(margin-right, $singleSpace);
+
+			// &:last-child
+			// {
+			// 	margin-right:0;
+			// }
+
+			&:first-child
+			{
+				@include rem(margin-left, -$r-grid-padding);
+			}
+		}
 	}
 
 	.nav-main__link
@@ -88,6 +146,17 @@
 		@include setType($h3Size, $touchSize);
 		text-align:center;
 		text-transform:uppercase;
+
+		@include at-breakpoint($medium-width)
+		{
+			display:inline-block;
+			margin-right:0;
+			margin-left:0;
+			border-bottom-width:0;
+			@include rem(font-size, 2.1);
+			text-align:left;
+			text-transform:capitalize;
+		}
 	}
 
 	.content
@@ -96,11 +165,15 @@
 		@include bleed;
 		@include rem(margin-top, $touchSize);
 		background:$white;
-		box-shadow:0 0 10px rgba($black, .5);
 		@include transition(transform .3s ease);
 	}
 
 	.nav-is-shown .content
 	{
-		@include transform(translate3d(0, 180px, 0));
+		@include transform(translate3d(0, 224px, 0));
+
+		@include at-breakpoint($medium-width)
+		{
+			@include transform(translate3d(0, 0, 0));
+		}
 	}

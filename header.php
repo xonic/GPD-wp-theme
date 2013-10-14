@@ -84,7 +84,7 @@
 				baseUrl:'<? echo get_template_directory_uri(); ?>',
 				paths:
 				{
-					// 'jquery'			: 'js/imports/jquery-1.9.1',
+					'jquery'			: 'js/imports/jquery-1.9.1',
 					'modernizr'			: 'js/imports/modernizr',
 					'selectivizr'		: 'js/imports/selectivizr', 
 					'maps'				: 'js/imports/MapController',
@@ -113,28 +113,24 @@
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed grid">
 			<div class="flyout">
-				<div class="nav-bar">
-					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
-				</div>
+				<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
+				<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70px" height="44px">
 				<nav class="nav-main">
-					<!-- <? wp_list_pages(); ?> -->
 					<ul class="nav-main__entries">
-						<li class="nav-main__entry"><a class="nav-main__link" href="<? echo $pagename ?>"><? echo $pagename ?></a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Page 2</a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Page 3</a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Page 4</a></li>
+						<li class="nav-main__entry"><a class="nav-main__link nav-main__link--is-active" href="<? echo $pagename ?>"><? echo qtrans_use($q_config['language'], $post->post_title, true);?></a></li>
+						<li class="nav-main__entry"><a class="nav-main__link" href="#">Packages</a></li>
+						<li class="nav-main__entry"><a class="nav-main__link" href="#">Anmeldung</a></li>
+						<li class="nav-main__entry"><a class="nav-main__link" href="#">Kontakt</a></li>
 					</ul>
 				</nav>
+				<div class="lang">
+					<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+				</div>
 			</div>
 			<div class="content">
 				<header class="branding" role="banner">
-					<div class="container">
-						<div class="lang">
-							<?php echo qtrans_generateLanguageSelectCode('text'); ?>
-						</div>
-						<h1 class="event-name">
-							<small class="event-name__gp">Gran Premio</small>
-							Dolomiti
-						</h1>
-					</div>
+					<h1 class="event-name">
+						<small class="event-name__gp">Gran Premio</small>
+						Dolomiti
+					</h1>
 				</header>

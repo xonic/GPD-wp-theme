@@ -859,8 +859,11 @@ code {
   border-radius: 999em;
 }
 
-/* line 13, ../sass/imports/base/_images.scss */
-img {
+/* line 16, ../sass/imports/base/_images.scss */
+img,
+video,
+iframe,
+object {
   max-width: 100%;
 }
 
@@ -1270,6 +1273,10 @@ body {
 
 /* line 17, ../sass/imports/modules/_branding.scss */
 .branding {
+  margin-left: -0.625em;
+  padding-left: 0.625em;
+  margin-right: -0.625em;
+  padding-right: 0.625em;
   position: relative;
   padding-bottom: 40%;
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
@@ -1279,16 +1286,8 @@ body {
   border-bottom-width:  1.1rem;
   letter-spacing: -.2rem;
 }
-/* line 27, ../sass/imports/modules/_branding.scss */
-.branding .container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 
-/* line 37, ../sass/imports/modules/_branding.scss */
+/* line 29, ../sass/imports/modules/_branding.scss */
 .event-name {
   position: absolute;
   left:  10px;
@@ -1301,7 +1300,7 @@ body {
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   color: #332e24;
 }
-/* line 52, ../sass/imports/modules/_branding.scss */
+/* line 44, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  24px;
@@ -1312,14 +1311,14 @@ body {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 37, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  72px;
     font-size:  7.2rem;
     line-height:  60px;
     line-height:  6rem;
   }
-  /* line 64, ../sass/imports/modules/_branding.scss */
+  /* line 56, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  29px;
     font-size:  2.9rem;
@@ -1328,14 +1327,14 @@ body {
   }
 }
 @media (min-width: 64em) {
-  /* line 37, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  82px;
     font-size:  8.2rem;
     line-height:  70px;
     line-height:  7rem;
   }
-  /* line 74, ../sass/imports/modules/_branding.scss */
+  /* line 66, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  34px;
     font-size:  3.4rem;
@@ -1344,14 +1343,14 @@ body {
   }
 }
 @media (min-width: 80em) {
-  /* line 37, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  92px;
     font-size:  9.2rem;
     line-height:  80px;
     line-height:  8rem;
   }
-  /* line 84, ../sass/imports/modules/_branding.scss */
+  /* line 76, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;

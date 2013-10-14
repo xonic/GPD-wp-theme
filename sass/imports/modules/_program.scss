@@ -13,13 +13,39 @@
 //
 //  ---------------------------------------------------------------------------
 	
+	.day
+	{
+		@include rem(padding-top, $doubleSpace * 2);
+		border-top:0 solid $sandDark;
+		@include rem(border-top-width, $borderMedium);
+
+		&:nth-child(2)
+		{
+			padding-top:0;
+			border-top:0 none;
+		}
+	}
+
+	.day .program__icon
+	{
+		margin-right:0;
+		@include rem(width, $doubleSpace * 1.5);
+	}
+
+	.day__video
+	{
+		@include bleed;
+		margin-bottom:0;
+		padding:0;
+	}
+
 	.day__route
 	{
 		width:100%;
 
 		tr
 		{
-			border-bottom:1px solid $sandVeryDark;
+			border-bottom:1px solid $sandDark;
 
 			&:last-child
 			{
@@ -31,6 +57,12 @@
 	.day__date
 	{
 		@extend %h2;
+	}
+
+	.day__subheading
+	{
+		@include rem(margin-bottom, $singleSpace);
+		@include setType($h4Size, $h4LineHeight);
 	}
 
 	.route__icon
