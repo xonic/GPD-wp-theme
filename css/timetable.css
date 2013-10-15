@@ -366,12 +366,12 @@ table {
 /* line 80, ../sass/imports/modules/_grid.scss */
 .grid {
   *zoom: 1;
-  max-width: 23.75em;
-  _width: 23.75em;
   padding-left: 0.625em;
   padding-right: 0.625em;
   margin-left: auto;
   margin-right: auto;
+  max-width:  980px;
+  max-width:  98rem;
 }
 /* line 38, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .grid:after {
@@ -379,22 +379,11 @@ table {
   display: table;
   clear: both;
 }
-@media (min-width: 20em) {
-  /* line 80, ../sass/imports/modules/_grid.scss */
-  .grid {
-    max-width: 23.75em;
-  }
-}
-@media (min-width: 30em) {
-  /* line 80, ../sass/imports/modules/_grid.scss */
-  .grid {
-    max-width: 36.25em;
-  }
-}
 
 /* line 24, ../sass/imports/patterns/_clearfix.scss */
-.cf:before, .form-component:before,
+.cf:before, .slides:before, .form-component:before,
 .cf:after,
+.slides:after,
 .form-component:after {
   content: " ";
   /* 1 */
@@ -403,12 +392,12 @@ table {
 }
 
 /* line 29, ../sass/imports/patterns/_clearfix.scss */
-.cf:after, .form-component:after {
+.cf:after, .slides:after, .form-component:after {
   clear: both;
 }
 
 /* line 33, ../sass/imports/patterns/_clearfix.scss */
-.cf, .form-component {
+.cf, .slides, .form-component {
   *zoom: 1;
   /* 3 */
 }
@@ -1065,10 +1054,6 @@ object {
 /* line 163, ../sass/imports/modules/_nav-main.scss */
 .content {
   position: relative;
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
   margin-top:  44px;
   margin-top:  4.4rem;
   background: white;
@@ -1078,7 +1063,7 @@ object {
   transition: transform 0.3s ease;
 }
 
-/* line 172, ../sass/imports/modules/_nav-main.scss */
+/* line 171, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   -webkit-transform: translate3d(0, 224px, 0);
   -moz-transform: translate3d(0, 224px, 0);
@@ -1087,7 +1072,7 @@ object {
   transform: translate3d(0, 224px, 0);
 }
 @media (min-width: 30em) {
-  /* line 172, ../sass/imports/modules/_nav-main.scss */
+  /* line 171, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1460,6 +1445,121 @@ object {
   background: -o-linear-gradient(#febb33, #fec34c);
   background: linear-gradient(#febb33, #fec34c);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+/* line 9, ../sass/imports/modules/_tile.scss */
+.tile {
+  position: relative;
+}
+
+/* line 14, ../sass/imports/modules/_tile.scss */
+.tile__helper {
+  padding-top: 68.75%;
+}
+
+/* line 19, ../sass/imports/modules/_tile.scss */
+.tile__content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 9, ../sass/imports/modules/_bleeder.scss */
+.bleed {
+  margin-left: -0.625em;
+  padding-left: 0.625em;
+  margin-right: -0.625em;
+  padding-right: 0.625em;
+}
+
+/* line 14, ../sass/imports/modules/_bleeder.scss */
+.bleed--content-too {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 9, ../sass/imports/modules/_slider.scss */
+.slider {
+  position: relative;
+  background: #f3f0e1;
+  margin-left: -0.625em;
+  padding-left: 0.625em;
+  margin-right: -0.625em;
+  padding-right: 0.625em;
+  padding:  22px 0;
+  padding:  2.2rem 0;
+  margin-bottom:  22px;
+  margin-bottom:  2.2rem;
+}
+/* line 18, ../sass/imports/modules/_slider.scss */
+.slider:before, .slider:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width:  11px;
+  width:  1.1rem;
+}
+/* line 27, ../sass/imports/modules/_slider.scss */
+.slider:before {
+  left: 0;
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f3f0e1), color-stop(50%, #f3f0e1), color-stop(100%, rgba(243, 240, 225, 0)));
+  background: -webkit-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: -moz-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: -o-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  z-index: 902;
+}
+/* line 34, ../sass/imports/modules/_slider.scss */
+.slider:after {
+  right: 0;
+  background: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #f3f0e1), color-stop(50%, #f3f0e1), color-stop(100%, rgba(243, 240, 225, 0)));
+  background: -webkit-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: -moz-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: -o-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  background: linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
+  z-index: 903;
+}
+
+/* line 42, ../sass/imports/modules/_slider.scss */
+.slider__inner {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 47, ../sass/imports/modules/_slider.scss */
+.slider__inner::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 53, ../sass/imports/modules/_slider.scss */
+.slides {
+  margin-bottom: 0;
+}
+
+/* line 59, ../sass/imports/modules/_slider.scss */
+.slides--contains-4 {
+  width: 400%;
+}
+/* line 63, ../sass/imports/modules/_slider.scss */
+.slides--contains-4 .slide {
+  width: 22%;
+}
+
+/* line 69, ../sass/imports/modules/_slider.scss */
+.slide {
+  float: left;
+  padding:  11px;
+  padding:  1.1rem;
+}
+
+/* line 9, ../sass/imports/modules/_polaroid.scss */
+.polaroid {
+  padding:  4px;
+  padding:  0.4rem;
+  background: white;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* line 13, ../sass/imports/modules/_forms.scss */
@@ -2693,35 +2793,27 @@ form {
 /* line 43, ../sass/imports/modules/_map.scss */
 .map-link {
   display: block;
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-  margin-bottom:  22px;
-  margin-bottom:  2.2rem;
-  height:  220px;
-  height:  22rem;
   background-image: url(../images/routes/routes--320.jpg);
   background-size: 400% 100%;
 }
 
-/* line 53, ../sass/imports/modules/_map.scss */
+/* line 50, ../sass/imports/modules/_map.scss */
 .map-link--route-2 {
   background-position: -100% 0;
 }
 
-/* line 58, ../sass/imports/modules/_map.scss */
+/* line 55, ../sass/imports/modules/_map.scss */
 .map-link--route-3 {
   background-position: -200% 0;
 }
 
-/* line 63, ../sass/imports/modules/_map.scss */
+/* line 60, ../sass/imports/modules/_map.scss */
 .map-link--route-4 {
   background-position: -300% 0;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 70, ../sass/imports/modules/_map.scss */
+  /* line 67, ../sass/imports/modules/_map.scss */
   .map-link {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
@@ -2783,10 +2875,6 @@ form {
 
 /* line 17, ../sass/imports/modules/_branding.scss */
 .branding {
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
   position: relative;
   padding-bottom: 40%;
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
@@ -2797,7 +2885,7 @@ form {
   letter-spacing: -.2rem;
 }
 
-/* line 29, ../sass/imports/modules/_branding.scss */
+/* line 28, ../sass/imports/modules/_branding.scss */
 .event-name {
   position: absolute;
   left:  10px;
@@ -2810,7 +2898,7 @@ form {
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   color: #332e24;
 }
-/* line 44, ../sass/imports/modules/_branding.scss */
+/* line 43, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  24px;
@@ -2821,14 +2909,14 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  72px;
     font-size:  7.2rem;
     line-height:  60px;
     line-height:  6rem;
   }
-  /* line 56, ../sass/imports/modules/_branding.scss */
+  /* line 55, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  29px;
     font-size:  2.9rem;
@@ -2837,14 +2925,14 @@ form {
   }
 }
 @media (min-width: 64em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  82px;
     font-size:  8.2rem;
     line-height:  70px;
     line-height:  7rem;
   }
-  /* line 66, ../sass/imports/modules/_branding.scss */
+  /* line 65, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  34px;
     font-size:  3.4rem;
@@ -2853,14 +2941,14 @@ form {
   }
 }
 @media (min-width: 80em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  92px;
     font-size:  9.2rem;
     line-height:  80px;
     line-height:  8rem;
   }
-  /* line 76, ../sass/imports/modules/_branding.scss */
+  /* line 75, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;

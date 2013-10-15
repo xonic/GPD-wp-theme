@@ -42,9 +42,6 @@
 	.map-link
 	{
 		display:block;
-		@include bleed;
-		@include rem(margin-bottom, $doubleSpace);
-		@include rem(height, $doubleSpace * 10);
 		background-image:url(../images/routes/routes--320.jpg);
 		background-size:400% 100%;
 	}

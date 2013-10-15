@@ -366,30 +366,18 @@ table {
 /* line 80, ../sass/imports/modules/_grid.scss */
 .grid {
   *zoom: 1;
-  max-width: 23.75em;
-  _width: 23.75em;
   padding-left: 0.625em;
   padding-right: 0.625em;
   margin-left: auto;
   margin-right: auto;
+  max-width:  980px;
+  max-width:  98rem;
 }
 /* line 38, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .grid:after {
   content: "";
   display: table;
   clear: both;
-}
-@media (min-width: 20em) {
-  /* line 80, ../sass/imports/modules/_grid.scss */
-  .grid {
-    max-width: 23.75em;
-  }
-}
-@media (min-width: 30em) {
-  /* line 80, ../sass/imports/modules/_grid.scss */
-  .grid {
-    max-width: 36.25em;
-  }
 }
 
 /* line 15, ../sass/imports/patterns/_nav.scss */
@@ -2443,35 +2431,27 @@ form {
 /* line 43, ../sass/imports/modules/_map.scss */
 .map-link {
   display: block;
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-  margin-bottom:  22px;
-  margin-bottom:  2.2rem;
-  height:  220px;
-  height:  22rem;
   background-image: url(../images/routes/routes--320.jpg);
   background-size: 400% 100%;
 }
 
-/* line 53, ../sass/imports/modules/_map.scss */
+/* line 50, ../sass/imports/modules/_map.scss */
 .map-link--route-2 {
   background-position: -100% 0;
 }
 
-/* line 58, ../sass/imports/modules/_map.scss */
+/* line 55, ../sass/imports/modules/_map.scss */
 .map-link--route-3 {
   background-position: -200% 0;
 }
 
-/* line 63, ../sass/imports/modules/_map.scss */
+/* line 60, ../sass/imports/modules/_map.scss */
 .map-link--route-4 {
   background-position: -300% 0;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 70, ../sass/imports/modules/_map.scss */
+  /* line 67, ../sass/imports/modules/_map.scss */
   .map-link {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
@@ -2533,10 +2513,6 @@ form {
 
 /* line 17, ../sass/imports/modules/_branding.scss */
 .branding {
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
   position: relative;
   padding-bottom: 40%;
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
@@ -2547,7 +2523,7 @@ form {
   letter-spacing: -.2rem;
 }
 
-/* line 29, ../sass/imports/modules/_branding.scss */
+/* line 28, ../sass/imports/modules/_branding.scss */
 .event-name {
   position: absolute;
   left:  10px;
@@ -2560,7 +2536,7 @@ form {
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   color: #332e24;
 }
-/* line 44, ../sass/imports/modules/_branding.scss */
+/* line 43, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  24px;
@@ -2571,14 +2547,14 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  72px;
     font-size:  7.2rem;
     line-height:  60px;
     line-height:  6rem;
   }
-  /* line 56, ../sass/imports/modules/_branding.scss */
+  /* line 55, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  29px;
     font-size:  2.9rem;
@@ -2587,14 +2563,14 @@ form {
   }
 }
 @media (min-width: 64em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  82px;
     font-size:  8.2rem;
     line-height:  70px;
     line-height:  7rem;
   }
-  /* line 66, ../sass/imports/modules/_branding.scss */
+  /* line 65, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  34px;
     font-size:  3.4rem;
@@ -2603,14 +2579,14 @@ form {
   }
 }
 @media (min-width: 80em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 28, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  92px;
     font-size:  9.2rem;
     line-height:  80px;
     line-height:  8rem;
   }
-  /* line 76, ../sass/imports/modules/_branding.scss */
+  /* line 75, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;

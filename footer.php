@@ -15,7 +15,6 @@
 
 		</footer>
 	</div><!-- .content -->
-</div><!-- .grid -->
 
 <?php wp_footer(); ?>
 

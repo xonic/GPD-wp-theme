@@ -162,7 +162,6 @@
 	.content
 	{
 		position:relative;
-		@include bleed;
 		@include rem(margin-top, $touchSize);
 		background:$white;
 		@include transition(transform .3s ease);

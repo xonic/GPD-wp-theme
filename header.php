@@ -23,7 +23,7 @@
 <!--<![endif]-->
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<title><?php
 			/*
 			 * Print the <title> tag based on what is being viewed.
@@ -111,10 +111,9 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<div id="page" class="hfeed grid">
 			<div class="flyout">
 				<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
-				<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70px" height="44px">
+				<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70" height="44">
 				<nav class="nav-main">
 					<ul class="nav-main__entries">
 						<li class="nav-main__entry"><a class="nav-main__link nav-main__link--is-active" href="<? echo $pagename ?>"><? echo qtrans_use($q_config['language'], $post->post_title, true);?></a></li>

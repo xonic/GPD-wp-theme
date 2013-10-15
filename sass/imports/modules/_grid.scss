@@ -33,7 +33,7 @@
 	$gutter-width		: convert-length($r-gutter-width*10px,em,$bodyFontSize*10px); // convert to em
 	$grid-padding		: convert-length($r-grid-padding*10px,em,$bodyFontSize*10px); // convert to em
 
-	$container-style	: magic;
+	$container-style	: fluid;
 
 
 
@@ -79,10 +79,7 @@
 	.grid
 	{
 		@include container;
-
-		// background:lighten($bodyBackground, 15%);
-		// box-shadow:0 0 1px 1px rgba(0,0,0,.15);
-
+		@include rem(max-width, 98);
 
 		// @include susy-grid-background;
 	 	// @include debugmessage("Tiny screen, " + $tiny-cols + " columns", $red);
@@ -116,48 +113,48 @@
 	//  = 600-UP
 	//  ---------------------------------------------------------------------------
 
-		// @include at-breakpoint($large-width $large-cols)
-		// {
-		// 	@include set-container-width;
-		// 	@include susy-grid-background;
-		// 	// @include debugmessage("Large screen, " + $large-cols + " columns", $blue);
-		// }
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include set-container-width;
+			// @include susy-grid-background;
+			// @include debugmessage("Large screen, " + $large-cols + " columns", $blue);
+		}
 
 
 
-	// //  = 1024-UP 
-	// //  ---------------------------------------------------------------------------
+	//  = 1024-UP 
+	//  ---------------------------------------------------------------------------
 
-	// 	@include at-breakpoint($huge-width $huge-cols no-mq)
-	// 	{
-	// 		@include set-container-width;
-	// 		@include susy-grid-background;
-	// 		// @include debugmessage("Huge screen, " + $huge-cols + " columns", $cyan);
-	// 	}
-
-
-
-	// //  = 1280-UP
-	// //  ---------------------------------------------------------------------------
-
-	// 	@include at-breakpoint($giant-width $giant-cols)
-	// 	{
-	// 		@include set-container-width;
-	// 		@include susy-grid-background;
-	// 		// @include debugmessage("Giant screen, " + $giant-cols + " columns", $green);
-	// 	}
+		@include at-breakpoint($huge-width $huge-cols no-mq)
+		{
+			@include set-container-width;
+			// @include susy-grid-background;
+			// @include debugmessage("Huge screen, " + $huge-cols + " columns", $cyan);
+		}
 
 
 
-	// //  = 1600-UP
-	// //  ---------------------------------------------------------------------------
+	//  = 1280-UP
+	//  ---------------------------------------------------------------------------
 
-	// 	@include at-breakpoint($monstrous-width $monstrous-cols)
-	// 	{
-	// 		@include set-container-width;
-	// 		@include susy-grid-background;
-	// 		// @include debugmessage("Monstrous screen, " + $monstrous-cols + " columns", $yellow);
-	// 	}
+		@include at-breakpoint($giant-width $giant-cols)
+		{
+			@include set-container-width;
+			// @include susy-grid-background;
+			// @include debugmessage("Giant screen, " + $giant-cols + " columns", $green);
+		}
+
+
+
+	//  = 1600-UP
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($monstrous-width $monstrous-cols)
+		{
+			@include set-container-width;
+			// @include susy-grid-background;
+			// @include debugmessage("Monstrous screen, " + $monstrous-cols + " columns", $yellow);
+		}
 	}
 
 

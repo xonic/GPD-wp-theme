@@ -1,0 +1,72 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the slider
+//
+//  ---------------------------------------------------------------------------
+
+
+	.slider
+	{
+		position:relative;
+		background:$sandLight;
+		@include bleed;
+		@include rem(padding, $doubleSpace 0);
+		@include rem(margin-bottom, $doubleSpace);
+
+		&:before,
+		&:after
+		{
+			content:" ";
+			position:absolute;
+			top:0;
+			bottom:0;
+			@include rem(width, $singleSpace);
+		}
+
+		&:before
+		{
+			left:0;
+			@include background(linear-gradient(left, $sandLight, $sandLight 50%, transparentize($sandLight, 1)));
+			z-index:902;
+		}
+
+		&:after
+		{
+			right:0;
+			@include background(linear-gradient(right, $sandLight, $sandLight 50%, transparentize($sandLight, 1)));
+			z-index:903;
+		}
+	}
+
+	.slider__inner
+	{
+		overflow-x:scroll;
+		-webkit-overflow-scrolling:touch;
+
+		&::-webkit-scrollbar
+		{
+    		display: none; 
+		}
+	}
+
+	.slides
+	{
+		@extend .cf;
+		margin-bottom:0;
+	}
+
+	.slides--contains-4
+	{
+		width:400%;
+
+		.slide 
+		{
+			width:22%;
+		}
+	}
+
+	.slide 
+	{
+		float:left;
+		@include rem(padding, $singleSpace);
+	}

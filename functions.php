@@ -5,8 +5,8 @@
  * @since GP Dolomiti 1.0
  */
 
-update_option('siteurl','http://192.168.1.2:8888/gp-dolomiti-new');
-update_option('home','http://192.168.1.2:8888/gp-dolomiti-new');
+update_option('siteurl','http://192.168.1.13:8888/gp-dolomiti-new');
+update_option('home','http://192.168.1.13:8888/gp-dolomiti-new');
 
 // Load languages
 add_action("init", "theme_init");
