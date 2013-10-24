@@ -381,9 +381,9 @@ table {
 }
 
 /* line 24, ../sass/imports/patterns/_clearfix.scss */
-.cf:before, .slides:before, .form-component:before,
+.cf:before, .slider__slides:before, .form-component:before,
 .cf:after,
-.slides:after,
+.slider__slides:after,
 .form-component:after {
   content: " ";
   /* 1 */
@@ -392,12 +392,12 @@ table {
 }
 
 /* line 29, ../sass/imports/patterns/_clearfix.scss */
-.cf:after, .slides:after, .form-component:after {
+.cf:after, .slider__slides:after, .form-component:after {
   clear: both;
 }
 
 /* line 33, ../sass/imports/patterns/_clearfix.scss */
-.cf, .slides, .form-component {
+.cf, .slider__slides, .form-component {
   *zoom: 1;
   /* 3 */
 }
@@ -1492,63 +1492,60 @@ object {
   padding:  2.2rem 0;
   margin-bottom:  22px;
   margin-bottom:  2.2rem;
-}
-/* line 18, ../sass/imports/modules/_slider.scss */
-.slider:before, .slider:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width:  11px;
-  width:  1.1rem;
-}
-/* line 27, ../sass/imports/modules/_slider.scss */
-.slider:before {
-  left: 0;
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f3f0e1), color-stop(50%, #f3f0e1), color-stop(100%, rgba(243, 240, 225, 0)));
-  background: -webkit-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: -moz-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: -o-linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: linear-gradient(left, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  z-index: 902;
-}
-/* line 34, ../sass/imports/modules/_slider.scss */
-.slider:after {
-  right: 0;
-  background: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #f3f0e1), color-stop(50%, #f3f0e1), color-stop(100%, rgba(243, 240, 225, 0)));
-  background: -webkit-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: -moz-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: -o-linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  background: linear-gradient(right, #f3f0e1, #f3f0e1 50%, rgba(243, 240, 225, 0));
-  z-index: 903;
-}
-
-/* line 42, ../sass/imports/modules/_slider.scss */
-.slider__inner {
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
-/* line 47, ../sass/imports/modules/_slider.scss */
-.slider__inner::-webkit-scrollbar {
+/* line 19, ../sass/imports/modules/_slider.scss */
+.slider::-webkit-scrollbar {
   display: none;
 }
+@media (min-width: 64em) {
+  /* line 9, ../sass/imports/modules/_slider.scss */
+  .slider {
+    padding: 0;
+    background: transparent;
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
 
-/* line 53, ../sass/imports/modules/_slider.scss */
-.slides {
+@media (min-width: 64em) {
+  /* line 32, ../sass/imports/modules/_slider.scss */
+  .slider--rev {
+    margin-right: 0;
+    width: 49.15254%;
+    float: right;
+    margin-left: 1.69492%;
+  }
+}
+
+/* line 41, ../sass/imports/modules/_slider.scss */
+.slider__slides {
   margin-bottom: 0;
 }
 
-/* line 59, ../sass/imports/modules/_slider.scss */
-.slides--contains-4 {
+/* line 47, ../sass/imports/modules/_slider.scss */
+.slider__slides--contains-4 {
   width: 350%;
 }
-/* line 63, ../sass/imports/modules/_slider.scss */
-.slides--contains-4 .slide {
+/* line 51, ../sass/imports/modules/_slider.scss */
+.slider__slides--contains-4 .slider__slide {
   width: 25%;
 }
+@media (min-width: 37.5em) {
+  /* line 47, ../sass/imports/modules/_slider.scss */
+  .slider__slides--contains-4 {
+    width: 100%;
+  }
+  /* line 60, ../sass/imports/modules/_slider.scss */
+  .slider__slides--contains-4 .slider__slide {
+    width: 50%;
+  }
+}
 
-/* line 69, ../sass/imports/modules/_slider.scss */
-.slide {
+/* line 67, ../sass/imports/modules/_slider.scss */
+.slider__slide {
   float: left;
   padding:  11px;
   padding:  1.1rem;
@@ -3020,8 +3017,16 @@ form {
 .day__route tr:last-child {
   border: 0 none;
 }
+@media (min-width: 64em) {
+  /* line 43, ../sass/imports/modules/_program.scss */
+  .day__route {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
 
-/* line 63, ../sass/imports/modules/_program.scss */
+/* line 68, ../sass/imports/modules/_program.scss */
 .day__subheading {
   margin-bottom:  11px;
   margin-bottom:  1.1rem;
@@ -3031,20 +3036,52 @@ form {
   line-height:  2.8rem;
 }
 
-/* line 69, ../sass/imports/modules/_program.scss */
+/* line 74, ../sass/imports/modules/_program.scss */
 .route__icon {
   width:  33px;
   width:  3.3rem;
 }
 
-/* line 74, ../sass/imports/modules/_program.scss */
+/* line 79, ../sass/imports/modules/_program.scss */
 .route__location {
   text-align: left;
 }
 
-/* line 79, ../sass/imports/modules/_program.scss */
+/* line 84, ../sass/imports/modules/_program.scss */
 .route__altitude {
   text-align: right;
+}
+
+/* line 89, ../sass/imports/modules/_program.scss */
+.day__dinner {
+  clear: both;
+}
+
+@media (min-width: 64em) {
+  /* line 94, ../sass/imports/modules/_program.scss */
+  .dinner__description {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 102, ../sass/imports/modules/_program.scss */
+  .dinner__description--rev {
+    width: 49.15254%;
+    float: right;
+    margin-left: 0;
+  }
+}
+
+/* line 113, ../sass/imports/modules/_program.scss */
+.dinner--1,
+.dinner--2,
+.dinner--3,
+.dinner--4 {
+  background-image: url(../images/events/notte-italiana.jpg);
+  background-size: cover;
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */

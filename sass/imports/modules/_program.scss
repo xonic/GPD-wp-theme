@@ -52,6 +52,11 @@
 				border:0 none;
 			}
 		}
+
+		@include at-breakpoint($huge-width)
+		{
+			@include span-columns(6 omega, $huge-cols);
+		}
 	}
 
 	.day__date
@@ -80,10 +85,32 @@
 		text-align:right;
 	}
 
-	// .day__dinner--italian
-	// {
-	// 	@include bleed;
-	// 	padding-bottom:40%;
-	// 	background:url(../images/dinner-italian-bg.jpg) top center no-repeat;
-	// 	background-size:100% auto;
-	// }
+	.day__dinner
+	{
+		clear:both;
+	}
+
+	.dinner__description
+	{
+		@include at-breakpoint($huge-width)
+		{
+			@include span-columns(6 omega, $huge-cols);
+		}
+	}
+
+	.dinner__description--rev
+	{
+		@include at-breakpoint($huge-width)
+		{
+			@include span-columns(6 omega, $huge-cols, $from:right);
+		}
+	}
+
+	.dinner--1,
+	.dinner--2,
+	.dinner--3,
+	.dinner--4,
+	{
+		background-image:url(../images/events/notte-italiana.jpg);
+		background-size:cover;
+	}

@@ -2658,8 +2658,16 @@ form {
 .day__route tr:last-child {
   border: 0 none;
 }
+@media (min-width: 64em) {
+  /* line 43, ../sass/imports/modules/_program.scss */
+  .day__route {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
 
-/* line 63, ../sass/imports/modules/_program.scss */
+/* line 68, ../sass/imports/modules/_program.scss */
 .day__subheading {
   margin-bottom:  11px;
   margin-bottom:  1.1rem;
@@ -2669,20 +2677,52 @@ form {
   line-height:  2.8rem;
 }
 
-/* line 69, ../sass/imports/modules/_program.scss */
+/* line 74, ../sass/imports/modules/_program.scss */
 .route__icon {
   width:  33px;
   width:  3.3rem;
 }
 
-/* line 74, ../sass/imports/modules/_program.scss */
+/* line 79, ../sass/imports/modules/_program.scss */
 .route__location {
   text-align: left;
 }
 
-/* line 79, ../sass/imports/modules/_program.scss */
+/* line 84, ../sass/imports/modules/_program.scss */
 .route__altitude {
   text-align: right;
+}
+
+/* line 89, ../sass/imports/modules/_program.scss */
+.day__dinner {
+  clear: both;
+}
+
+@media (min-width: 64em) {
+  /* line 94, ../sass/imports/modules/_program.scss */
+  .dinner__description {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 102, ../sass/imports/modules/_program.scss */
+  .dinner__description--rev {
+    width: 49.15254%;
+    float: right;
+    margin-left: 0;
+  }
+}
+
+/* line 113, ../sass/imports/modules/_program.scss */
+.dinner--1,
+.dinner--2,
+.dinner--3,
+.dinner--4 {
+  background-image: url(../images/events/notte-italiana.jpg);
+  background-size: cover;
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */

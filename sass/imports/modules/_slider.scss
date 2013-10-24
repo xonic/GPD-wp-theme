@@ -12,34 +12,6 @@
 		@include bleed;
 		@include rem(padding, $doubleSpace 0);
 		@include rem(margin-bottom, $doubleSpace);
-
-		&:before,
-		&:after
-		{
-			content:" ";
-			position:absolute;
-			top:0;
-			bottom:0;
-			@include rem(width, $singleSpace);
-		}
-
-		&:before
-		{
-			left:0;
-			@include background(linear-gradient(left, $sandLight, $sandLight 50%, transparentize($sandLight, 1)));
-			z-index:902;
-		}
-
-		&:after
-		{
-			right:0;
-			@include background(linear-gradient(right, $sandLight, $sandLight 50%, transparentize($sandLight, 1)));
-			z-index:903;
-		}
-	}
-
-	.slider__inner
-	{
 		overflow-x:scroll;
 		-webkit-overflow-scrolling:touch;
 
@@ -47,25 +19,51 @@
 		{
     		display: none; 
 		}
+
+		@include at-breakpoint($huge-width)
+		{
+			padding:0;
+			background:transparent;
+			@include span-columns(6, $huge-cols);
+		}
 	}
 
-	.slides
+	.slider--rev
+	{
+		@include at-breakpoint($huge-width)
+		{
+			margin-right:0;
+			@include span-columns(6, $huge-cols, $from:right);
+		}
+	}
+
+	.slider__slides
 	{
 		@extend .cf;
 		margin-bottom:0;
 	}
 
-	.slides--contains-4
+	.slider__slides--contains-4
 	{
 		width:350%;
 
-		.slide 
+		.slider__slide 
 		{
 			width:25%;
 		}
+
+		@include at-breakpoint($large-width)
+		{
+			width:100%;
+
+			.slider__slide 
+			{
+				width:50%;
+			}
+		}
 	}
 
-	.slide 
+	.slider__slide 
 	{
 		float:left;
 		@include rem(padding, $singleSpace);
