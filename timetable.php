@@ -205,7 +205,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--1"></div>
+											<div class="tile__content dinner dinner--italian-1"></div>
 										</div>
 									</div>
 								</li>
@@ -213,7 +213,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--2"></div>
+											<div class="tile__content dinner dinner--italian-2"></div>
 										</div>
 									</div>
 								</li>
@@ -221,7 +221,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--3"></div>
+											<div class="tile__content dinner dinner--italian-3"></div>
 										</div>
 									</div>
 								</li>
@@ -229,7 +229,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--4"></div>
+											<div class="tile__content dinner dinner--italian-4"></div>
 										</div>
 									</div>
 								</li>
@@ -420,7 +420,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--1"></div>
+											<div class="tile__content dinner dinner--lounge-1"></div>
 										</div>
 									</div>
 								</li>
@@ -428,7 +428,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--2"></div>
+											<div class="tile__content dinner dinner--lounge-2"></div>
 										</div>
 									</div>
 								</li>
@@ -436,7 +436,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--3"></div>
+											<div class="tile__content dinner dinner--lounge-3"></div>
 										</div>
 									</div>
 								</li>
@@ -444,7 +444,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--4"></div>
+											<div class="tile__content dinner dinner--lounge-4"></div>
 										</div>
 									</div>
 								</li>
@@ -569,7 +569,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--1"></div>
+											<div class="tile__content dinner dinner--choice-1"></div>
 										</div>
 									</div>
 								</li>
@@ -577,7 +577,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--2"></div>
+											<div class="tile__content dinner dinner--choice-2"></div>
 										</div>
 									</div>
 								</li>
@@ -585,7 +585,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--3"></div>
+											<div class="tile__content dinner dinner--choice-3"></div>
 										</div>
 									</div>
 								</li>
@@ -593,7 +593,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--4"></div>
+											<div class="tile__content dinner dinner--choice-4"></div>
 										</div>
 									</div>
 								</li>
@@ -754,7 +754,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--1"></div>
+											<div class="tile__content dinner dinner--kurhaus-1"></div>
 										</div>
 									</div>
 								</li>
@@ -762,7 +762,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--2"></div>
+											<div class="tile__content dinner dinner--kurhaus-2"></div>
 										</div>
 									</div>
 								</li>
@@ -770,7 +770,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--3"></div>
+											<div class="tile__content dinner dinner--kurhaus-3"></div>
 										</div>
 									</div>
 								</li>
@@ -778,7 +778,7 @@ get_header(); ?>
 									<div class="polaroid">
 										<div class="tile">
 											<div class="tile__helper"></div>
-											<div class="tile__content dinner--4"></div>
+											<div class="tile__content dinner dinner--kurhaus-4"></div>
 										</div>
 									</div>
 								</li>

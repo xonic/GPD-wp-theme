@@ -2716,13 +2716,90 @@ form {
   }
 }
 
-/* line 113, ../sass/imports/modules/_program.scss */
-.dinner--1,
-.dinner--2,
-.dinner--3,
-.dinner--4 {
-  background-image: url(../images/events/notte-italiana.jpg);
+/* line 110, ../sass/imports/modules/_program.scss */
+.dinner {
   background-size: cover;
+  background-position: center;
+}
+
+/* line 116, ../sass/imports/modules/_program.scss */
+.dinner--italian-1 {
+  background-image: url(../images/events/notte-italiana-1.jpg);
+}
+
+/* line 121, ../sass/imports/modules/_program.scss */
+.dinner--italian-2 {
+  background-image: url(../images/events/notte-italiana-2.jpg);
+}
+
+/* line 126, ../sass/imports/modules/_program.scss */
+.dinner--italian-3 {
+  background-image: url(../images/events/notte-italiana-3.jpg);
+}
+
+/* line 131, ../sass/imports/modules/_program.scss */
+.dinner--italian-4 {
+  background-image: url(../images/events/notte-italiana-4.jpg);
+}
+
+/* line 136, ../sass/imports/modules/_program.scss */
+.dinner--lounge-1 {
+  background-image: url(../images/events/wandelhalle-1.jpg);
+}
+
+/* line 141, ../sass/imports/modules/_program.scss */
+.dinner--lounge-2 {
+  background-image: url(../images/events/wandelhalle-2.jpg);
+}
+
+/* line 146, ../sass/imports/modules/_program.scss */
+.dinner--lounge-3 {
+  background-image: url(../images/events/wandelhalle-3.jpg);
+}
+
+/* line 151, ../sass/imports/modules/_program.scss */
+.dinner--lounge-4 {
+  background-image: url(../images/events/wandelhalle-4.jpg);
+}
+
+/* line 156, ../sass/imports/modules/_program.scss */
+.dinner--choice-1 {
+  background-image: url(../images/events/choice-1.jpg);
+}
+
+/* line 161, ../sass/imports/modules/_program.scss */
+.dinner--choice-2 {
+  background-image: url(../images/events/choice-2.jpg);
+}
+
+/* line 166, ../sass/imports/modules/_program.scss */
+.dinner--choice-3 {
+  background-image: url(../images/events/choice-3.jpg);
+}
+
+/* line 171, ../sass/imports/modules/_program.scss */
+.dinner--choice-4 {
+  background-image: url(../images/events/choice-4.jpg);
+}
+
+/* line 176, ../sass/imports/modules/_program.scss */
+.dinner--kurhaus-1 {
+  background-image: url(../images/events/kurhaus-1.jpg);
+}
+
+/* line 181, ../sass/imports/modules/_program.scss */
+.dinner--kurhaus-2 {
+  background-image: url(../images/events/kurhaus-2.jpg);
+}
+
+/* line 186, ../sass/imports/modules/_program.scss */
+.dinner--kurhaus-3 {
+  background-image: url(../images/events/kurhaus-3.jpg);
+}
+
+/* line 191, ../sass/imports/modules/_program.scss */
+.dinner--kurhaus-4 {
+  background-image: url(../images/events/kurhaus-4.jpg);
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */
