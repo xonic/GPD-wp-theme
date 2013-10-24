@@ -67,7 +67,7 @@
 	.day__subheading
 	{
 		@include rem(margin-bottom, $singleSpace);
-		@include setType($h4Size, $h4LineHeight);
+		@include setType($h3Size, $h3LineHeight);
 	}
 
 	.route__icon

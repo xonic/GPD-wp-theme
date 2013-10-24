@@ -197,7 +197,7 @@ get_header(); ?>
 						</tbody>
 					</table>
 					<div class="day__dinner cf">
-						<h2 class="day__subheading">Abendevent</h2>
+						<!-- <h2 class="day__subheading">Abendevent</h2> -->
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -412,7 +412,7 @@ get_header(); ?>
 						</tbody>
 					</table>
 					<div class="day__dinner cf">
-						<h2 class="day__subheading">Abendevent</h2>
+						<!-- <h2 class="day__subheading">Abendevent</h2> -->
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -452,9 +452,8 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<h3>La notte italiana</h3>
-							<p>Ein Abend mit kulinarischen und kulturellen Höhepunkten Italiens im einzigartigen Thermenbad in Meran.</p>
-							<p>Unsere Gäste genießen feinste Spezialitäten der italienischen Küche und lauschen den Klassikern der italienischen Musik.</p>
+							<h3>Lounge Wandelhalle</h3>
+							<p>Vor der atemberaubenden Kulisse der Wandelhalle auf der Meraner Winterpromenade, servieren wir unseren Gästen vorzügliche Delikatessen aus der traditionellen und modernen südtiroler Küche.</p>
 						</div>
 					</div>
 					
@@ -562,7 +561,7 @@ get_header(); ?>
 						</tbody>
 					</table>
 					<div class="day__dinner cf">
-						<h2 class="day__subheading">Abendevent</h2>
+						<!-- <h2 class="day__subheading">Abendevent</h2> -->
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -602,9 +601,8 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<h3>La notte italiana</h3>
-							<p>Ein Abend mit kulinarischen und kulturellen Höhepunkten Italiens im einzigartigen Thermenbad in Meran.</p>
-							<p>Unsere Gäste genießen feinste Spezialitäten der italienischen Küche und lauschen den Klassikern der italienischen Musik.</p>
+							<h3>Genuss nach Wahl</h3>
+							<p>Am dritten Abend bieten wir unseren Gästen eine vielfältige Auswahl an unterschiedlichen Restaurants. Jeder darf sein bevorzugtes Restaurant frei wählen und dort dinieren.</p>
 						</div>
 					</div>
 					
@@ -748,7 +746,7 @@ get_header(); ?>
 						</tbody>
 					</table>
 					<div class="day__dinner cf">
-						<h2 class="day__subheading">Abendevent</h2>
+						<!-- <h2 class="day__subheading">Abendevent</h2> -->
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -788,9 +786,8 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<h3>La notte italiana</h3>
-							<p>Ein Abend mit kulinarischen und kulturellen Höhepunkten Italiens im einzigartigen Thermenbad in Meran.</p>
-							<p>Unsere Gäste genießen feinste Spezialitäten der italienischen Küche und lauschen den Klassikern der italienischen Musik.</p>
+							<h3>Gala Dinner &amp; Siegerehrung</h3>
+							<p>Im edlen Kurhaus von Meran veranstalten wir einen Gala-Abend mit passender musikalischer Begleitung und einem exzellenten Dinner.</p>
 						</div>
 					</div>
 
