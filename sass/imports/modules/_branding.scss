@@ -15,65 +15,89 @@
 	
 	.branding
 	{ 
-		position:relative;
-		padding-bottom: 40%;
-		background:url(../images/branding-bg-2.jpg) top center no-repeat;
-		background-size:100% auto;
-		border-bottom:0 solid $olive;
-		@include rem(border-bottom-width, $singleSpace);
 		letter-spacing: -.2rem;
+		text-align:center;
+		@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+
+		@include at-breakpoint($large-width)
+		{
+			position:relative;
+			@include rem(padding, $doubleSpace * 8 0 0);
+			background:url(../images/branding-bg-2.jpg) top center no-repeat;
+			background-size:cover;
+			border-bottom:0 solid $olive;
+			@include rem(border-bottom-width, $singleSpace);
+		}
+
+		@include at-breakpoint(48em)
+		{
+			@include rem(padding, $doubleSpace * 10 0 0);
+		}
+
+		@include at-breakpoint($huge-width)
+		{
+			@include rem(padding, $doubleSpace * 12 0 0);
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			@include rem(padding, $doubleSpace * 15 0 0);
+		}
+
+		@include at-breakpoint($monstrous-width)
+		{
+			@include rem(padding, $doubleSpace * 18 0 0);
+		}
 	}
 
 	.event-name
 	{
-		position:absolute;
-		@include rem(left, $r-grid-padding);
-		bottom: 0;
-
-		@include setType(6.2, 5);
-		text-shadow:0 0 30px $white,
-					0 0 20px $white,
-					0 0 20px $white,
-					0 0 10px $white,
-					0 0 10px $white,
-					0 0 5px $white;
+		margin:0;
+		// @include setType(6.2, 5);
+		@include setType(8, 7);
 		color:$blackSand;
+		letter-spacing:-.4rem;
 		
 		small
 		{
 			color:$blackSand;
-			@include setType(2.4, 2.4);
+			// @include setType(2.4, 2.4);
+			@include setType(3.2, 2.4);
 			font-family:$sansFontFamily;
 			letter-spacing: -.1rem;
 		}
 
 		@include at-breakpoint($large-width)
 		{
-			@include setType(7.2, 6);
+			@include rem(padding, $singleSpace);
+			background:$white;
+			background:rgba($white, .9);
+			@include setType(9, 8);
 			
 			small
 			{
-				@include setType(2.9, 2.9);
+				@include setType(3.6, 3.2);
 			}
 		}
 
 		@include at-breakpoint($huge-width)
 		{
-			@include setType(8.2, 7);
+			@include setType(10, 9);
+			letter-spacing: -.5rem;
 			
 			small
 			{
-				@include setType(3.4, 3.4);
+				@include setType(3.8, 3.4);
 			}
 		}
 
 		@include at-breakpoint($giant-width)
 		{
-			@include setType(9.2, 8);
+			@include setType(11, 10);
 			
 			small
 			{
-				@include setType(3.9, 3.9);
+				@include setType(3.9, 3.6);
 			}
 		}
 	}

@@ -8,9 +8,10 @@
 	.slider
 	{
 		position:relative;
-		background:$sandLight;
+		// background:$sandLight;
 		@include bleed;
-		@include rem(padding, $doubleSpace 0);
+		padding:0;
+		// @include rem(padding, $doubleSpace 0);
 		@include rem(margin-bottom, $doubleSpace);
 		overflow-x:scroll;
 		-webkit-overflow-scrolling:touch;
@@ -23,7 +24,7 @@
 		@include at-breakpoint($huge-width)
 		{
 			padding:0;
-			background:transparent;
+			// background:transparent;
 			@include span-columns(6, $huge-cols);
 		}
 	}
