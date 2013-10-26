@@ -87,6 +87,7 @@
 
 	.day__dinner
 	{
+		@include rem(padding-top, $doubleSpace * 3);
 		clear:both;
 	}
 

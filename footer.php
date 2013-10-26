@@ -53,6 +53,50 @@
 		</footer>
 	</div><!-- .content -->
 
+	<?  $jsDir = get_template_directory_uri();
+		$jsDir = $jsDir . "/js/";
+
+		// Get the current page name for use in JS/CSS paths
+		$currentTemplate = basename(get_page_template());
+		$pos = strpos($currentTemplate, ".php");
+		$currentPage = substr($currentTemplate, 0, $pos);
+	?>
+	<!-- RequireJS -->
+	<script src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>
+
+	<script type="text/javascript">
+
+		requirejs.config(
+		{
+			baseUrl:'<? echo get_template_directory_uri(); ?>',
+			paths:
+			{
+				'jquery'			: 'js/imports/jquery-1.9.1',
+				'modernizr'			: 'js/imports/modernizr',
+				'selectivizr'		: 'js/imports/selectivizr',
+				'nav'				: 'js/imports/NavController'
+			},
+
+			shim:
+			{
+				'modernizr': {
+					exports: 'Modernizr'
+				}
+			}
+		});
+
+		// Load common code that includes config,
+		// then load the app logic for this page.
+		require(['<?php echo get_template_directory_uri(); ?>/js/common.js']);
+		// // Load common code that includes config,
+		// // then load the app logic for this page.
+		// require(['<?php echo get_template_directory_uri(); ?>/js/common.js'], function (common)
+		// {
+		// 	// Load app logic for this page
+		// 	require(['<? echo $jsDir . $currentPage . ".js" ?>']);
+		// });
+	</script>
+
 <?php wp_footer(); ?>
 
 </body>

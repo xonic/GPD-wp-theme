@@ -79,43 +79,6 @@
 			 */
 			wp_head();
 		?>
-		<?  $jsDir = get_template_directory_uri();
-			$jsDir = $jsDir . "/js/";
-		?>
-		<!-- RequireJS -->
-		<script src="<?php echo get_template_directory_uri(); ?>/js/require.js"></script>
-
-		<script type="text/javascript">
-
-			requirejs.config(
-			{
-				baseUrl:'<? echo get_template_directory_uri(); ?>',
-				paths:
-				{
-					'jquery'			: 'js/imports/jquery-1.9.1',
-					'modernizr'			: 'js/imports/modernizr',
-					'selectivizr'		: 'js/imports/selectivizr', 
-					'maps'				: 'js/imports/MapController',
-					'nav'				: 'js/imports/NavController',
-					'timetable'			: 'js/timetable'
-				},
-
-				shim:
-				{
-					'modernizr': {
-						exports: 'Modernizr'
-					}
-				}
-			});
-
-			// Load common code that includes config,
-			// then load the app logic for this page.
-			require(['<?php echo get_template_directory_uri(); ?>/js/common.js'], function (common)
-			{
-				// Load app logic for this page
-				require(['<? echo $jsDir . $currentPage . ".js" ?>']);
-			});
-		</script>
 	</head>
 
 	<body <?php body_class(); ?>>
