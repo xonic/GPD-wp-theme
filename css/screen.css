@@ -2768,88 +2768,83 @@ form {
 
 /* line 111, ../sass/imports/modules/_program.scss */
 .dinner {
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/events/events.jpg);
+  background-size: 1600% auto;
 }
 
 /* line 117, ../sass/imports/modules/_program.scss */
-.dinner--italian-1 {
-  background-image: url(../images/events/notte-italiana-1.jpg);
+.dinner--italian-2 {
+  background-position: -100% 0;
 }
 
 /* line 122, ../sass/imports/modules/_program.scss */
-.dinner--italian-2 {
-  background-image: url(../images/events/notte-italiana-2.jpg);
+.dinner--italian-3 {
+  background-position: -200% 0;
 }
 
 /* line 127, ../sass/imports/modules/_program.scss */
-.dinner--italian-3 {
-  background-image: url(../images/events/notte-italiana-3.jpg);
+.dinner--italian-4 {
+  background-position: -300% 0;
 }
 
 /* line 132, ../sass/imports/modules/_program.scss */
-.dinner--italian-4 {
-  background-image: url(../images/events/notte-italiana-4.jpg);
+.dinner--lounge-1 {
+  background-position: -400% 0;
 }
 
 /* line 137, ../sass/imports/modules/_program.scss */
-.dinner--lounge-1 {
-  background-image: url(../images/events/wandelhalle-1.jpg);
+.dinner--lounge-2 {
+  background-position: -500% 0;
 }
 
 /* line 142, ../sass/imports/modules/_program.scss */
-.dinner--lounge-2 {
-  background-image: url(../images/events/wandelhalle-2.jpg);
+.dinner--lounge-3 {
+  background-position: -600% 0;
 }
 
 /* line 147, ../sass/imports/modules/_program.scss */
-.dinner--lounge-3 {
-  background-image: url(../images/events/wandelhalle-3.jpg);
+.dinner--lounge-4 {
+  background-position: -700% 0;
 }
 
 /* line 152, ../sass/imports/modules/_program.scss */
-.dinner--lounge-4 {
-  background-image: url(../images/events/wandelhalle-4.jpg);
+.dinner--choice-1 {
+  background-position: -800% 0;
 }
 
 /* line 157, ../sass/imports/modules/_program.scss */
-.dinner--choice-1 {
-  background-image: url(../images/events/choice-1.jpg);
+.dinner--choice-2 {
+  background-position: -900% 0;
 }
 
 /* line 162, ../sass/imports/modules/_program.scss */
-.dinner--choice-2 {
-  background-image: url(../images/events/choice-2.jpg);
+.dinner--choice-3 {
+  background-position: -1000% 0;
 }
 
 /* line 167, ../sass/imports/modules/_program.scss */
-.dinner--choice-3 {
-  background-image: url(../images/events/choice-3.jpg);
+.dinner--choice-4 {
+  background-position: -1100% 0;
 }
 
 /* line 172, ../sass/imports/modules/_program.scss */
-.dinner--choice-4 {
-  background-image: url(../images/events/choice-4.jpg);
+.dinner--kurhaus-1 {
+  background-position: -1200% 0;
 }
 
 /* line 177, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-1 {
-  background-image: url(../images/events/kurhaus-1.jpg);
+.dinner--kurhaus-2 {
+  background-position: -1300% 0;
 }
 
 /* line 182, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-2 {
-  background-image: url(../images/events/kurhaus-2.jpg);
+.dinner--kurhaus-3 {
+  background-position: -1400% 0;
 }
 
 /* line 187, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-3 {
-  background-image: url(../images/events/kurhaus-3.jpg);
-}
-
-/* line 192, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-4 {
-  background-image: url(../images/events/kurhaus-4.jpg);
+  background-position: -1500% 0;
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */
