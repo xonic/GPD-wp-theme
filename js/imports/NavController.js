@@ -7,17 +7,17 @@
 
 
 // Module definition
-define(["jquery"], function($)
+define(function()
 {
 	var NavController =
 	{
-		$body:undefined,
-		$toggle:undefined,
+		body:undefined,
+		toggle:undefined,
 
 		init:function()
 		{
-			this.$body = $("body");
-			this.$toggle = $(".js-flyout__toggle");
+			this.body = document.querySelector("body");
+			this.toggle = document.querySelector(".js-flyout__toggle");
 
 			this.bindEventListeners();
 		},
@@ -26,12 +26,47 @@ define(["jquery"], function($)
 		{
 			var self = this;
 
-			this.$toggle.on("click", function(e){ self.toggleMenu.call(self); });
+			if(!this.toggle.addEventListener)
+				this.toggle.attachEvent("onclick", function(e){ self.toggleMenu.call(self); });
+
+			else
+				this.toggle.addEventListener("click", function(e){ self.toggleMenu.call(self); });
 		},
 
 		toggleMenu:function()
 		{
-			this.$body.toggleClass("nav-is-shown");
+			if(!this.body.classList)
+			{
+				var classes = this.body.className.split(" "),
+					found = false,
+					index = 0;
+
+				for(var i=0, l=classes.length; i<l; i++)
+				{
+					if(classes[i] === "nav-is-shown")
+					{
+						found = true;
+						index = i;
+						break;
+					}
+				}
+
+				if(found)
+				{
+					classes.splice(index, 1);
+				}
+				else
+				{
+					classes.push("nav-is-shown");
+				}
+
+				this.body.className = classes.join(" ");
+			}
+			else
+			{
+
+				this.body.classList.toggle("nav-is-shown");
+			}
 		}
 	};
 
