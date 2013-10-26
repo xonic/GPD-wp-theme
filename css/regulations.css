@@ -1051,11 +1051,11 @@ object {
 
 /* line 173, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
-  -webkit-transform: translate3d(0, 224px, 0);
-  -moz-transform: translate3d(0, 224px, 0);
-  -ms-transform: translate3d(0, 224px, 0);
-  -o-transform: translate3d(0, 224px, 0);
-  transform: translate3d(0, 224px, 0);
+  -webkit-transform: translate3d(0, 240px, 0);
+  -moz-transform: translate3d(0, 240px, 0);
+  -ms-transform: translate3d(0, 240px, 0);
+  -o-transform: translate3d(0, 240px, 0);
+  transform: translate3d(0, 240px, 0);
 }
 @media (min-width: 37.5em) {
   /* line 173, ../sass/imports/modules/_nav-main.scss */

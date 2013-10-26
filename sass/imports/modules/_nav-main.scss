@@ -171,7 +171,7 @@
 
 	.nav-is-shown .content
 	{
-		@include transform(translate3d(0, 224px, 0));
+		@include transform(translate3d(0, $doubleSpace * 100px, 0));
 
 		@include at-breakpoint($large-width)
 		{
