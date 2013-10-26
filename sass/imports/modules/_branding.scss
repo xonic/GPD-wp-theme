@@ -74,8 +74,14 @@
 		{
 			@include rem(padding, $singleSpace);
 			background:$white;
-			background:rgba($white, .9);
+			background:rgba($white, .5);
 			@include setType(9, 8);
+			text-shadow:0 0 30px $white,
+					0 0 20px $white,
+					0 0 20px $white,
+					0 0 10px $white,
+					0 0 10px $white,
+					0 0 5px $white;
 			
 			small
 			{
