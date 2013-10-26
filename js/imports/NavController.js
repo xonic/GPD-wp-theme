@@ -52,13 +52,10 @@ define(function()
 				}
 
 				if(found)
-				{
 					classes.splice(index, 1);
-				}
+
 				else
-				{
 					classes.push("nav-is-shown");
-				}
 
 				this.body.className = classes.join(" ");
 			}

@@ -901,6 +901,7 @@ object {
 }
 /* line 57, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-remove {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transform: rotateZ(360deg) scale3d(0.5, 0.5, 1);
   -moz-transform: rotateZ(360deg) scale3d(0.5, 0.5, 1);
@@ -918,9 +919,14 @@ object {
     display: none;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .flyout__toggle {
+  display: none;
+}
 
 /* line 72, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-reorder {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   -moz-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
@@ -930,6 +936,7 @@ object {
 }
 /* line 78, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-remove {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   -webkit-transform: rotateZ(0) scale3d(1, 1, 1);
   -moz-transform: rotateZ(0) scale3d(1, 1, 1);
@@ -982,6 +989,12 @@ object {
     transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-hauptmenue-container {
+  margin: 0;
+  -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+  transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+}
 @media (min-width: 37.5em) {
   /* line 121, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
@@ -992,6 +1005,15 @@ object {
     margin-left:  -10px;
     margin-left:  -1rem;
   }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-item {
+  display: inline;
+}
+/* line 127, ../sass/imports/modules/_nav-main.scss */
+.no-mq .nav-main .menu-item:first-child {
+  margin-left:  -10px;
+  margin-left:  -1rem;
 }
 /* line 134, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
@@ -1024,6 +1046,17 @@ object {
     text-transform: capitalize;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-item a {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  border-bottom-width: 0;
+  font-size:  21px;
+  font-size:  2.1rem;
+  text-align: left;
+  text-transform: capitalize;
+}
 
 /* line 159, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
@@ -1053,7 +1086,7 @@ object {
 }
 
 /* line 177, ../sass/imports/modules/_nav-main.scss */
-.nav-is-shown .content {
+.csstransforms3d .nav-is-shown .content {
   -webkit-transform: translate3d(0, 240px, 0);
   -moz-transform: translate3d(0, 240px, 0);
   -ms-transform: translate3d(0, 240px, 0);
@@ -1062,13 +1095,36 @@ object {
 }
 @media (min-width: 37.5em) {
   /* line 177, ../sass/imports/modules/_nav-main.scss */
-  .nav-is-shown .content {
+  .csstransforms3d .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .csstransforms3d .nav-is-shown .content {
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 187, ../sass/imports/modules/_nav-main.scss */
+.nav-is-shown .content {
+  margin-top:  288px;
+  margin-top:  28.8rem;
+}
+@media (min-width: 37.5em) {
+  /* line 187, ../sass/imports/modules/_nav-main.scss */
+  .nav-is-shown .content {
+    margin-top:  48px;
+    margin-top:  4.8rem;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-is-shown .content {
+  margin-top:  48px;
+  margin-top:  4.8rem;
 }
 
 /* line 11, ../sass/imports/modules/_button.scss */
@@ -1481,6 +1537,14 @@ object {
   margin-bottom:  2.4rem;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  /* Hides the scrollbar. */
+  -ms-scroll-chaining: none;
+  /* Prevents Metro from swiping to the next tab or app. */
+  -ms-scroll-snap-type: mandatory;
+  /* Forces a snap scroll behavior on your images. */
+  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
+  /* Defines the y and x intervals to snap to when scrolling. */
 }
 /* line 20, ../sass/imports/modules/_slider.scss */
 .slider::-webkit-scrollbar {
@@ -1497,7 +1561,7 @@ object {
 }
 
 @media (min-width: 64em) {
-  /* line 33, ../sass/imports/modules/_slider.scss */
+  /* line 45, ../sass/imports/modules/_slider.scss */
   .slider--rev {
     margin-right: 0;
     width: 49.15254%;
@@ -1506,31 +1570,31 @@ object {
   }
 }
 
-/* line 42, ../sass/imports/modules/_slider.scss */
+/* line 54, ../sass/imports/modules/_slider.scss */
 .slider__slides {
   margin-bottom: 0;
 }
 
-/* line 48, ../sass/imports/modules/_slider.scss */
+/* line 60, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 {
   width: 350%;
 }
-/* line 52, ../sass/imports/modules/_slider.scss */
+/* line 64, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 .slider__slide {
   width: 25%;
 }
 @media (min-width: 37.5em) {
-  /* line 48, ../sass/imports/modules/_slider.scss */
+  /* line 60, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 {
     width: 100%;
   }
-  /* line 61, ../sass/imports/modules/_slider.scss */
+  /* line 73, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 .slider__slide {
     width: 50%;
   }
 }
 
-/* line 68, ../sass/imports/modules/_slider.scss */
+/* line 80, ../sass/imports/modules/_slider.scss */
 .slider__slide {
   float: left;
   padding:  12px;

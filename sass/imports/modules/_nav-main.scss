@@ -55,12 +55,12 @@
 
 		.icon-remove
 		{
-			opacity:0;
+			@include opacity(0);
 			@include transform(rotateZ(360deg) scale3d(.5,.5,1));
 			@include transition(transform .3s ease, opacity .3s linear);
 		}
 
-		@include at-breakpoint($large-width)
+		@include at-breakpoint($large-width no-mq)
 		{
 			display:none;
 		}
@@ -70,13 +70,13 @@
 	{
 		.icon-reorder
 		{
-			opacity:0;
+			@include opacity(0);
 			@include transform(rotateZ(0) scale3d(.5,.5,1));
 		}
 
 		.icon-remove
 		{
-			opacity:1;
+			@include opacity(1);
 			@include transform(rotateZ(0) scale3d(1,1,1));
 		}
 	}
@@ -110,7 +110,7 @@
 				color:$white;
 			}
 
-			@include at-breakpoint($large-width)
+			@include at-breakpoint($large-width no-mq)
 			{
 				margin:0;
 				@include transform(scale3d(1,1,1) translate3d(0,0,0));		
@@ -119,7 +119,7 @@
 
 		.menu-item
 		{
-			@include at-breakpoint($large-width)
+			@include at-breakpoint($large-width no-mq)
 			{
 				display:inline;
 
@@ -141,7 +141,7 @@
 			text-align:center;
 			text-transform:uppercase;
 
-			@include at-breakpoint($large-width)
+			@include at-breakpoint($large-width no-mq)
 			{
 				display:inline-block;
 				margin-right:0;
@@ -173,12 +173,25 @@
 		@include transition(transform .3s ease);
 	}
 
-	.nav-is-shown .content
+	.csstransforms3d .nav-is-shown .content
 	{
 		@include transform(translate3d(0, $doubleSpace * 100px, 0));
 
-		@include at-breakpoint($large-width)
+		@include at-breakpoint($large-width no-mq)
 		{
 			@include transform(translate3d(0, 0, 0));
 		}
 	}
+
+	.nav-is-shown .content
+	{
+		@include rem(margin-top, $doubleSpace * 10 + $touchSize);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include rem(margin-top, $touchSize);
+		}
+	}
+
+
+

@@ -21,6 +21,18 @@
     		display: none; 
 		}
 
+		-ms-overflow-style: none;
+		/* Hides the scrollbar. */
+		
+		-ms-scroll-chaining: none;
+		/* Prevents Metro from swiping to the next tab or app. */
+		
+		-ms-scroll-snap-type: mandatory;
+		/* Forces a snap scroll behavior on your images. */
+		
+		-ms-scroll-snap-points-x: snapInterval(0%, 100%);
+		/* Defines the y and x intervals to snap to when scrolling. */
+
 		@include at-breakpoint($huge-width)
 		{
 			padding:0;

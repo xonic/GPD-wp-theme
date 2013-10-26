@@ -900,6 +900,7 @@ object {
 }
 /* line 57, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-remove {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transform: rotateZ(360deg) scale3d(0.5, 0.5, 1);
   -moz-transform: rotateZ(360deg) scale3d(0.5, 0.5, 1);
@@ -917,9 +918,14 @@ object {
     display: none;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .flyout__toggle {
+  display: none;
+}
 
 /* line 72, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-reorder {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   -moz-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
@@ -929,6 +935,7 @@ object {
 }
 /* line 78, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-remove {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   -webkit-transform: rotateZ(0) scale3d(1, 1, 1);
   -moz-transform: rotateZ(0) scale3d(1, 1, 1);
@@ -981,6 +988,12 @@ object {
     transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-hauptmenue-container {
+  margin: 0;
+  -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+  transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+}
 @media (min-width: 37.5em) {
   /* line 121, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
@@ -991,6 +1004,15 @@ object {
     margin-left:  -10px;
     margin-left:  -1rem;
   }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-item {
+  display: inline;
+}
+/* line 127, ../sass/imports/modules/_nav-main.scss */
+.no-mq .nav-main .menu-item:first-child {
+  margin-left:  -10px;
+  margin-left:  -1rem;
 }
 /* line 134, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
@@ -1023,6 +1045,17 @@ object {
     text-transform: capitalize;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-main .menu-item a {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  border-bottom-width: 0;
+  font-size:  21px;
+  font-size:  2.1rem;
+  text-align: left;
+  text-transform: capitalize;
+}
 
 /* line 159, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
@@ -1052,7 +1085,7 @@ object {
 }
 
 /* line 177, ../sass/imports/modules/_nav-main.scss */
-.nav-is-shown .content {
+.csstransforms3d .nav-is-shown .content {
   -webkit-transform: translate3d(0, 240px, 0);
   -moz-transform: translate3d(0, 240px, 0);
   -ms-transform: translate3d(0, 240px, 0);
@@ -1061,13 +1094,36 @@ object {
 }
 @media (min-width: 37.5em) {
   /* line 177, ../sass/imports/modules/_nav-main.scss */
-  .nav-is-shown .content {
+  .csstransforms3d .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .csstransforms3d .nav-is-shown .content {
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 187, ../sass/imports/modules/_nav-main.scss */
+.nav-is-shown .content {
+  margin-top:  288px;
+  margin-top:  28.8rem;
+}
+@media (min-width: 37.5em) {
+  /* line 187, ../sass/imports/modules/_nav-main.scss */
+  .nav-is-shown .content {
+    margin-top:  48px;
+    margin-top:  4.8rem;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .nav-is-shown .content {
+  margin-top:  48px;
+  margin-top:  4.8rem;
 }
 
 /* line 11, ../sass/imports/modules/_button.scss */
