@@ -8,6 +8,11 @@
  * @subpackage GP Dolomiti
  * @since GP Dolomiti 1.0
  */
+	// Get the current page name for use in JS/CSS paths
+	$currentTemplate = basename(get_page_template());
+	$pos = strpos($currentTemplate, ".php");
+	$currentPage = substr($currentTemplate, 0, $pos);
+
 ?><!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
@@ -21,6 +26,9 @@
 <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
+
+<?php //echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
+<?php //echo '<!-- ' . $currentPage . ' -->'; ?>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -46,7 +54,7 @@
 
 			?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri() . '/css/' . $pagename . '.css' ?>" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri() . '/css/' . $currentPage . '.css' ?>" />
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/font-awesome-ie7.min.css' ?>">
 		<![endif]-->
@@ -105,7 +113,7 @@
 			require(['<?php echo get_template_directory_uri(); ?>/js/common.js'], function (common)
 			{
 				// Load app logic for this page
-				require(['<? echo $jsDir . $pagename . ".js" ?>']);
+				require(['<? echo $jsDir . $currentPage . ".js" ?>']);
 			});
 		</script>
 	</head>
@@ -115,12 +123,7 @@
 				<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
 				<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70" height="44">
 				<nav class="nav-main">
-					<ul class="nav-main__entries">
-						<li class="nav-main__entry"><a class="nav-main__link nav-main__link--is-active" href="<? echo $pagename ?>"><? echo qtrans_use($q_config['language'], $post->post_title, true);?></a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Packages</a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Anmeldung</a></li>
-						<li class="nav-main__entry"><a class="nav-main__link" href="#">Kontakt</a></li>
-					</ul>
+					<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
 				</nav>
 				<div class="lang">
 					<?php echo qtrans_generateLanguageSelectCode('text'); ?>

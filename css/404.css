@@ -1356,8 +1356,8 @@ body {
 }
 /* line 15, ../sass/imports/modules/_impressum.scss */
 .impressum address {
-  margin-bottom:  22px;
-  margin-bottom:  2.2rem;
+  padding-bottom:  22px;
+  padding-bottom:  2.2rem;
   color: #8b826a;
   font-style: normal;
 }

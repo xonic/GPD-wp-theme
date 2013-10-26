@@ -2470,7 +2470,7 @@ form {
 .lang ul {
   margin: 0;
 }
-@media (min-width: 30em) {
+@media (min-width: 37.5em) {
   /* line 8, ../sass/imports/modules/_lang.scss */
   .lang {
     float: none;
@@ -2820,8 +2820,8 @@ form {
 }
 /* line 15, ../sass/imports/modules/_impressum.scss */
 .impressum address {
-  margin-bottom:  22px;
-  margin-bottom:  2.2rem;
+  padding-bottom:  22px;
+  padding-bottom:  2.2rem;
   color: #8b826a;
   font-style: normal;
 }

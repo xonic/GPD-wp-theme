@@ -5,8 +5,8 @@
  * @since GP Dolomiti 1.0
  */
 
-update_option('siteurl','http://192.168.1.10:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
-update_option('home','http://192.168.1.10:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
+update_option('siteurl','http://localhost:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
+update_option('home','http://localhost:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
 
 // Load languages
 add_action("init", "theme_init");
@@ -29,5 +29,12 @@ function remove_header_info()
 // {
 // 	wp_deregister_script('jquery');
 // }
+
+// Register a custom navigation menu
+add_action("init", "register_custom_menu");
+function register_custom_menu()
+{
+	register_nav_menu('nav-main', __( 'Hauptnavigation' ));
+}
 
 ?>

@@ -17,7 +17,7 @@
 			margin:0;
 		}
 
-		@include at-breakpoint($medium-width)
+		@include at-breakpoint($large-width)
 		{
 			float:none;
 			position:absolute;

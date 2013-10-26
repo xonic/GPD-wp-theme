@@ -56,7 +56,7 @@
 			@include transition(transform .3s ease, opacity .3s linear);
 		}
 
-		@include at-breakpoint($medium-width)
+		@include at-breakpoint($large-width)
 		{
 			display:none;
 		}
@@ -83,80 +83,82 @@
 		@include rem(max-height, $touchSize);
 	}
 
-	.nav-main__entries
+	.nav-main 
 	{
-		@include rem(margin, $touchSize 0 0);
-		@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
-		@include transition(transform .3s ease);
-
-		a 
+		.menu-hauptmenue-container
 		{
-			color:rgba($white, .4);
-		}
+			@include rem(margin, $touchSize 0 0);
+			@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
+			@include transition(transform .3s ease);
 
-		.nav-main__link--is-active
-		{
-			color:$white;
-		}
-
-		@include at-breakpoint($medium-width)
-		{
-			margin:0;
-			@include transform(scale3d(1,1,1) translate3d(0,0,0));		
-		}
-	}
-
-	.no-touch .nav-main__entries a:hover,
-	.touch .nav-main__entries a:active
-	{
-		color:$white;
-	}
-
-	.nav-is-shown .nav-main__entries
-	{
-		@include transform(scale3d(1,1,1) translate3d(0,0,0));
-	}
-
-	.nav-main__entry
-	{
-		@include at-breakpoint($medium-width)
-		{
-			display:inline;
-			// @include rem(margin-right, $singleSpace);
-
-			// &:last-child
-			// {
-			// 	margin-right:0;
-			// }
-
-			&:first-child
+			ul
 			{
-				@include rem(margin-left, -$r-grid-padding);
+				margin:0;
+			}
+
+			a 
+			{
+				color:rgba($white, .4);
+			}
+
+			.current-menu-item a
+			{
+				color:$white;
+			}
+
+			@include at-breakpoint($large-width)
+			{
+				margin:0;
+				@include transform(scale3d(1,1,1) translate3d(0,0,0));		
+			}
+		}
+
+		.menu-item
+		{
+			@include at-breakpoint($large-width)
+			{
+				display:inline;
+
+				&:first-child
+				{
+					@include rem(margin-left, -$r-grid-padding);
+				}
+			}
+		}
+
+		.menu-item a
+		{
+			display:block;
+			@include bleed;
+			border-bottom:0 solid darken($blackSand, 3%);
+			@include rem(border-bottom-width, $borderThin);
+			font-family:$headingsFontFamily;
+			@include setType($h3Size, $touchSize);
+			text-align:center;
+			text-transform:uppercase;
+
+			@include at-breakpoint($large-width)
+			{
+				display:inline-block;
+				margin-right:0;
+				margin-left:0;
+				border-bottom-width:0;
+				@include rem(font-size, 2.1);
+				text-align:left;
+				text-transform:capitalize;
 			}
 		}
 	}
 
-	.nav-main__link
+	.no-touch .nav-main .menu a:hover,
+	.touch .nav-main .menu a:active
 	{
-		display:block;
-		@include bleed;
-		border-bottom:0 solid darken($blackSand, 3%);
-		@include rem(border-bottom-width, $borderThin);
-		font-family:$headingsFontFamily;
-		@include setType($h3Size, $touchSize);
-		text-align:center;
-		text-transform:uppercase;
+		color:$white;
+	}
 
-		@include at-breakpoint($medium-width)
-		{
-			display:inline-block;
-			margin-right:0;
-			margin-left:0;
-			border-bottom-width:0;
-			@include rem(font-size, 2.1);
-			text-align:left;
-			text-transform:capitalize;
-		}
+	.nav-is-shown .nav-main .menu-hauptmenue-container
+	{
+		@include transform(scale3d(1,1,1) translate3d(0,0,0));
 	}
 
 	.content
@@ -171,7 +173,7 @@
 	{
 		@include transform(translate3d(0, 224px, 0));
 
-		@include at-breakpoint($medium-width)
+		@include at-breakpoint($large-width)
 		{
 			@include transform(translate3d(0, 0, 0));
 		}

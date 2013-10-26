@@ -13,7 +13,7 @@
 
 		address
 		{
-			@include rem(margin-bottom, $doubleSpace);
+			@include rem(padding-bottom, $doubleSpace);
 			color:$olive;
 			font-style:normal;
 		}

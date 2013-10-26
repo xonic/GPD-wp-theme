@@ -381,9 +381,8 @@ table {
 }
 
 /* line 24, ../sass/imports/patterns/_clearfix.scss */
-.cf:before, .slider__slides:before,
-.cf:after,
-.slider__slides:after {
+.cf:before,
+.cf:after {
   content: " ";
   /* 1 */
   display: table;
@@ -391,12 +390,12 @@ table {
 }
 
 /* line 29, ../sass/imports/patterns/_clearfix.scss */
-.cf:after, .slider__slides:after {
+.cf:after {
   clear: both;
 }
 
 /* line 33, ../sass/imports/patterns/_clearfix.scss */
-.cf, .slider__slides {
+.cf {
   *zoom: 1;
   /* 3 */
 }
@@ -680,7 +679,7 @@ dt {
 
 /* line 195, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6, .day__date {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   color: #332e24;
@@ -691,7 +690,7 @@ h1, h2, h3, h4, h5, h6,
 }
 /* line 203, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
-.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, .day__date small {
+.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
   display: block;
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-size: 60%;
@@ -752,7 +751,7 @@ h1, .h1 {
 }
 
 /* line 223, ../sass/imports/base/_typography.scss */
-h2, .h2, .day__date {
+h2, .h2 {
   font-size:  32px;
   font-size:  3.2rem;
   line-height:  33px;
@@ -760,7 +759,7 @@ h2, .h2, .day__date {
 }
 @media (min-width: 30em) {
   /* line 223, ../sass/imports/base/_typography.scss */
-  h2, .h2, .day__date {
+  h2, .h2 {
     font-size:  32px;
     font-size:  3.2rem;
     line-height:  33px;
@@ -769,7 +768,7 @@ h2, .h2, .day__date {
 }
 @media (min-width: 37.5em) {
   /* line 223, ../sass/imports/base/_typography.scss */
-  h2, .h2, .day__date {
+  h2, .h2 {
     font-size:  38px;
     font-size:  3.8rem;
     line-height:  44px;
@@ -778,7 +777,7 @@ h2, .h2, .day__date {
 }
 @media (min-width: 64em) {
   /* line 223, ../sass/imports/base/_typography.scss */
-  h2, .h2, .day__date {
+  h2, .h2 {
     font-size:  44px;
     font-size:  4.4rem;
     line-height:  44px;
@@ -787,7 +786,7 @@ h2, .h2, .day__date {
 }
 @media (min-width: 80em) {
   /* line 223, ../sass/imports/base/_typography.scss */
-  h2, .h2, .day__date {
+  h2, .h2 {
     font-size:  50px;
     font-size:  5rem;
     line-height:  55px;
@@ -796,7 +795,7 @@ h2, .h2, .day__date {
 }
 @media (min-width: 100em) {
   /* line 223, ../sass/imports/base/_typography.scss */
-  h2, .h2, .day__date {
+  h2, .h2 {
     font-size:  56px;
     font-size:  5.6rem;
     line-height:  66px;
@@ -1434,118 +1433,6 @@ object {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 9, ../sass/imports/modules/_tile.scss */
-.tile {
-  position: relative;
-}
-
-/* line 14, ../sass/imports/modules/_tile.scss */
-.tile__helper {
-  padding-top: 68.75%;
-}
-
-/* line 19, ../sass/imports/modules/_tile.scss */
-.tile__content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* line 9, ../sass/imports/modules/_bleeder.scss */
-.bleed {
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-}
-
-/* line 14, ../sass/imports/modules/_bleeder.scss */
-.bleed--content-too {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* line 9, ../sass/imports/modules/_slider.scss */
-.slider {
-  position: relative;
-  background: #f3f0e1;
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-  padding:  22px 0;
-  padding:  2.2rem 0;
-  margin-bottom:  22px;
-  margin-bottom:  2.2rem;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-/* line 19, ../sass/imports/modules/_slider.scss */
-.slider::-webkit-scrollbar {
-  display: none;
-}
-@media (min-width: 64em) {
-  /* line 9, ../sass/imports/modules/_slider.scss */
-  .slider {
-    padding: 0;
-    background: transparent;
-    width: 49.15254%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-}
-
-@media (min-width: 64em) {
-  /* line 32, ../sass/imports/modules/_slider.scss */
-  .slider--rev {
-    margin-right: 0;
-    width: 49.15254%;
-    float: right;
-    margin-left: 1.69492%;
-  }
-}
-
-/* line 41, ../sass/imports/modules/_slider.scss */
-.slider__slides {
-  margin-bottom: 0;
-}
-
-/* line 47, ../sass/imports/modules/_slider.scss */
-.slider__slides--contains-4 {
-  width: 350%;
-}
-/* line 51, ../sass/imports/modules/_slider.scss */
-.slider__slides--contains-4 .slider__slide {
-  width: 25%;
-}
-@media (min-width: 37.5em) {
-  /* line 47, ../sass/imports/modules/_slider.scss */
-  .slider__slides--contains-4 {
-    width: 100%;
-  }
-  /* line 60, ../sass/imports/modules/_slider.scss */
-  .slider__slides--contains-4 .slider__slide {
-    width: 50%;
-  }
-}
-
-/* line 67, ../sass/imports/modules/_slider.scss */
-.slider__slide {
-  float: left;
-  padding:  11px;
-  padding:  1.1rem;
-}
-
-/* line 9, ../sass/imports/modules/_polaroid.scss */
-.polaroid {
-  padding:  4px;
-  padding:  0.4rem;
-  background: white;
-  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
-}
-
 /* line 17, ../sass/imports/modules/_sections.scss */
 .section--dark {
   background: #332e24;
@@ -1574,62 +1461,6 @@ object {
   text-transform: uppercase;
 }
 
-/* line 17, ../sass/imports/modules/_map.scss */
-.map-container {
-  position: relative;
-  height:  220px;
-  height:  22rem;
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-  padding: 0;
-  overflow: hidden;
-}
-/* line 25, ../sass/imports/modules/_map.scss */
-.map-container:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 200%;
-  height: 100%;
-  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.3);
-}
-/* line 37, ../sass/imports/modules/_map.scss */
-.map-container .map-canvas {
-  height:  220px;
-  height:  22rem;
-}
-
-/* line 43, ../sass/imports/modules/_map.scss */
-.map-link {
-  display: block;
-  background-image: url(../images/routes/routes--320.jpg);
-  background-size: 400% 100%;
-}
-
-/* line 50, ../sass/imports/modules/_map.scss */
-.map-link--route-2 {
-  background-position: -100% 0;
-}
-
-/* line 55, ../sass/imports/modules/_map.scss */
-.map-link--route-3 {
-  background-position: -200% 0;
-}
-
-/* line 60, ../sass/imports/modules/_map.scss */
-.map-link--route-4 {
-  background-position: -300% 0;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 67, ../sass/imports/modules/_map.scss */
-  .map-link {
-    background-image: url(../images/routes/routes--320--2x.jpg);
-  }
-}
 /* line 8, ../sass/imports/modules/_lang.scss */
 .lang {
   font-size:  14px;
@@ -1767,193 +1598,6 @@ object {
     line-height:  39px;
     line-height:  3.9rem;
   }
-}
-
-/* line 17, ../sass/imports/modules/_program.scss */
-.day {
-  padding-top:  44px;
-  padding-top:  4.4rem;
-  border-top: 0 solid #d4cfb0;
-  border-top-width:  2px;
-  border-top-width:  0.2rem;
-}
-/* line 23, ../sass/imports/modules/_program.scss */
-.day:nth-child(2) {
-  padding-top: 0;
-  border-top: 0 none;
-}
-
-/* line 30, ../sass/imports/modules/_program.scss */
-.day .program__icon {
-  margin-right: 0;
-  width:  33px;
-  width:  3.3rem;
-}
-
-/* line 36, ../sass/imports/modules/_program.scss */
-.day__video {
-  margin-left: -0.625em;
-  padding-left: 0.625em;
-  margin-right: -0.625em;
-  padding-right: 0.625em;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-/* line 43, ../sass/imports/modules/_program.scss */
-.day__route {
-  width: 100%;
-}
-/* line 47, ../sass/imports/modules/_program.scss */
-.day__route tr {
-  border-bottom: 1px solid #d4cfb0;
-}
-/* line 51, ../sass/imports/modules/_program.scss */
-.day__route tr:last-child {
-  border: 0 none;
-}
-@media (min-width: 64em) {
-  /* line 43, ../sass/imports/modules/_program.scss */
-  .day__route {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0;
-  }
-}
-
-/* line 68, ../sass/imports/modules/_program.scss */
-.day__subheading {
-  margin-bottom:  11px;
-  margin-bottom:  1.1rem;
-  font-size:  26px;
-  font-size:  2.6rem;
-  line-height:  28px;
-  line-height:  2.8rem;
-}
-
-/* line 74, ../sass/imports/modules/_program.scss */
-.route__icon {
-  width:  33px;
-  width:  3.3rem;
-}
-
-/* line 79, ../sass/imports/modules/_program.scss */
-.route__location {
-  text-align: left;
-}
-
-/* line 84, ../sass/imports/modules/_program.scss */
-.route__altitude {
-  text-align: right;
-}
-
-/* line 89, ../sass/imports/modules/_program.scss */
-.day__dinner {
-  clear: both;
-}
-
-@media (min-width: 64em) {
-  /* line 94, ../sass/imports/modules/_program.scss */
-  .dinner__description {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0;
-  }
-}
-
-@media (min-width: 64em) {
-  /* line 102, ../sass/imports/modules/_program.scss */
-  .dinner__description--rev {
-    width: 49.15254%;
-    float: right;
-    margin-left: 0;
-  }
-}
-
-/* line 110, ../sass/imports/modules/_program.scss */
-.dinner {
-  background-size: cover;
-  background-position: center;
-}
-
-/* line 116, ../sass/imports/modules/_program.scss */
-.dinner--italian-1 {
-  background-image: url(../images/events/notte-italiana-1.jpg);
-}
-
-/* line 121, ../sass/imports/modules/_program.scss */
-.dinner--italian-2 {
-  background-image: url(../images/events/notte-italiana-2.jpg);
-}
-
-/* line 126, ../sass/imports/modules/_program.scss */
-.dinner--italian-3 {
-  background-image: url(../images/events/notte-italiana-3.jpg);
-}
-
-/* line 131, ../sass/imports/modules/_program.scss */
-.dinner--italian-4 {
-  background-image: url(../images/events/notte-italiana-4.jpg);
-}
-
-/* line 136, ../sass/imports/modules/_program.scss */
-.dinner--lounge-1 {
-  background-image: url(../images/events/wandelhalle-1.jpg);
-}
-
-/* line 141, ../sass/imports/modules/_program.scss */
-.dinner--lounge-2 {
-  background-image: url(../images/events/wandelhalle-2.jpg);
-}
-
-/* line 146, ../sass/imports/modules/_program.scss */
-.dinner--lounge-3 {
-  background-image: url(../images/events/wandelhalle-3.jpg);
-}
-
-/* line 151, ../sass/imports/modules/_program.scss */
-.dinner--lounge-4 {
-  background-image: url(../images/events/wandelhalle-4.jpg);
-}
-
-/* line 156, ../sass/imports/modules/_program.scss */
-.dinner--choice-1 {
-  background-image: url(../images/events/choice-1.jpg);
-}
-
-/* line 161, ../sass/imports/modules/_program.scss */
-.dinner--choice-2 {
-  background-image: url(../images/events/choice-2.jpg);
-}
-
-/* line 166, ../sass/imports/modules/_program.scss */
-.dinner--choice-3 {
-  background-image: url(../images/events/choice-3.jpg);
-}
-
-/* line 171, ../sass/imports/modules/_program.scss */
-.dinner--choice-4 {
-  background-image: url(../images/events/choice-4.jpg);
-}
-
-/* line 176, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-1 {
-  background-image: url(../images/events/kurhaus-1.jpg);
-}
-
-/* line 181, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-2 {
-  background-image: url(../images/events/kurhaus-2.jpg);
-}
-
-/* line 186, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-3 {
-  background-image: url(../images/events/kurhaus-3.jpg);
-}
-
-/* line 191, ../sass/imports/modules/_program.scss */
-.dinner--kurhaus-4 {
-  background-image: url(../images/events/kurhaus-4.jpg);
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */
