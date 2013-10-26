@@ -848,16 +848,18 @@ object {
   top: 0;
   right: 0;
   left: 0;
-  padding:  0 10px;
-  padding:  0 1rem;
   background: #332e24;
 }
-/* line 18, ../sass/imports/modules/_nav-main.scss */
+/* line 17, ../sass/imports/modules/_nav-main.scss */
+.flyout .grid {
+  position: relative;
+}
+/* line 22, ../sass/imports/modules/_nav-main.scss */
 .flyout a {
   color: white;
 }
 
-/* line 24, ../sass/imports/modules/_nav-main.scss */
+/* line 28, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle {
   display: block;
   float: left;
@@ -874,7 +876,7 @@ object {
   font-size:  2.6rem;
   text-align: center;
 }
-/* line 37, ../sass/imports/modules/_nav-main.scss */
+/* line 41, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-reorder,
 .flyout__toggle .icon-remove {
   position: absolute;
@@ -885,7 +887,7 @@ object {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 47, ../sass/imports/modules/_nav-main.scss */
+/* line 51, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-reorder {
   -webkit-transform: rotateZ(360deg) scale3d(1, 1, 1);
   -moz-transform: rotateZ(360deg) scale3d(1, 1, 1);
@@ -897,7 +899,7 @@ object {
   -o-transition: -o-transform 0.3s ease, opacity 0.3s linear;
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
-/* line 53, ../sass/imports/modules/_nav-main.scss */
+/* line 57, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-remove {
   opacity: 0;
   -webkit-transform: rotateZ(360deg) scale3d(0.5, 0.5, 1);
@@ -911,13 +913,13 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
 @media (min-width: 37.5em) {
-  /* line 24, ../sass/imports/modules/_nav-main.scss */
+  /* line 28, ../sass/imports/modules/_nav-main.scss */
   .flyout__toggle {
     display: none;
   }
 }
 
-/* line 68, ../sass/imports/modules/_nav-main.scss */
+/* line 72, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-reorder {
   opacity: 0;
   -webkit-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
@@ -926,7 +928,7 @@ object {
   -o-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   transform: rotateZ(0) scale3d(0.5, 0.5, 1);
 }
-/* line 74, ../sass/imports/modules/_nav-main.scss */
+/* line 78, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-remove {
   opacity: 1;
   -webkit-transform: rotateZ(0) scale3d(1, 1, 1);
@@ -936,14 +938,14 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 81, ../sass/imports/modules/_nav-main.scss */
+/* line 85, ../sass/imports/modules/_nav-main.scss */
 .mountains {
   float: right;
   max-height:  48px;
   max-height:  4.8rem;
 }
 
-/* line 89, ../sass/imports/modules/_nav-main.scss */
+/* line 93, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   margin:  48px 0 0;
   margin:  4.8rem 0 0;
@@ -957,20 +959,20 @@ object {
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
 }
-/* line 95, ../sass/imports/modules/_nav-main.scss */
+/* line 99, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 100, ../sass/imports/modules/_nav-main.scss */
+/* line 104, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 105, ../sass/imports/modules/_nav-main.scss */
+/* line 109, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 37.5em) {
-  /* line 89, ../sass/imports/modules/_nav-main.scss */
+  /* line 93, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin: 0;
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -981,17 +983,17 @@ object {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 117, ../sass/imports/modules/_nav-main.scss */
+  /* line 121, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 123, ../sass/imports/modules/_nav-main.scss */
+  /* line 127, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     margin-left:  -10px;
     margin-left:  -1rem;
   }
 }
-/* line 130, ../sass/imports/modules/_nav-main.scss */
+/* line 134, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.55556em;
@@ -1010,7 +1012,7 @@ object {
   text-transform: uppercase;
 }
 @media (min-width: 37.5em) {
-  /* line 130, ../sass/imports/modules/_nav-main.scss */
+  /* line 134, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1023,13 +1025,13 @@ object {
   }
 }
 
-/* line 155, ../sass/imports/modules/_nav-main.scss */
+/* line 159, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 160, ../sass/imports/modules/_nav-main.scss */
+/* line 164, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1038,7 +1040,7 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 
-/* line 165, ../sass/imports/modules/_nav-main.scss */
+/* line 169, ../sass/imports/modules/_nav-main.scss */
 .content {
   position: relative;
   margin-top:  48px;
@@ -1050,7 +1052,7 @@ object {
   transition: transform 0.3s ease;
 }
 
-/* line 173, ../sass/imports/modules/_nav-main.scss */
+/* line 177, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   -webkit-transform: translate3d(0, 240px, 0);
   -moz-transform: translate3d(0, 240px, 0);
@@ -1059,7 +1061,7 @@ object {
   transform: translate3d(0, 240px, 0);
 }
 @media (min-width: 37.5em) {
-  /* line 173, ../sass/imports/modules/_nav-main.scss */
+  /* line 177, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1688,6 +1690,10 @@ object {
   text-align: center;
   padding:  48px 0 24px;
   padding:  4.8rem 0 2.4rem;
+  -webkit-transition: padding 1s ease-in-out;
+  -moz-transition: padding 1s ease-in-out;
+  -o-transition: padding 1s ease-in-out;
+  transition: padding 1s ease-in-out;
 }
 @media (min-width: 37.5em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
@@ -1731,7 +1737,7 @@ object {
   }
 }
 
-/* line 54, ../sass/imports/modules/_branding.scss */
+/* line 55, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -1740,8 +1746,13 @@ object {
   line-height:  7rem;
   color: #332e24;
   letter-spacing: -.4rem;
+  background-color: white;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
-/* line 62, ../sass/imports/modules/_branding.scss */
+/* line 65, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -1752,7 +1763,7 @@ object {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 55, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -1763,7 +1774,7 @@ object {
     line-height:  80px;
     line-height:  8rem;
   }
-  /* line 78, ../sass/imports/modules/_branding.scss */
+  /* line 81, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -1772,7 +1783,7 @@ object {
   }
 }
 @media (min-width: 64em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 55, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -1780,7 +1791,7 @@ object {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 89, ../sass/imports/modules/_branding.scss */
+  /* line 92, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -1789,14 +1800,14 @@ object {
   }
 }
 @media (min-width: 80em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 55, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 99, ../sass/imports/modules/_branding.scss */
+  /* line 102, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
@@ -2001,6 +2012,8 @@ object {
 
 /* line 8, ../sass/imports/modules/_impressum.scss */
 .impressum {
+  margin-top:  72px;
+  margin-top:  7.2rem;
   padding-top:  24px;
   padding-top:  2.4rem;
   font-size:  18px;
@@ -2010,7 +2023,7 @@ object {
   text-align: center;
   color: #d4cfb0;
 }
-/* line 15, ../sass/imports/modules/_impressum.scss */
+/* line 16, ../sass/imports/modules/_impressum.scss */
 .impressum address {
   padding-bottom:  24px;
   padding-bottom:  2.4rem;

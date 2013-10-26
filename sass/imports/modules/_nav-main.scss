@@ -11,8 +11,12 @@
 		top:0;
 		right:0;
 		left:0;
-		@include rem(padding, 0 $r-grid-padding);
 		background:$blackSand;
+
+		.grid
+		{
+			position:relative;
+		}
 
 		a
 		{

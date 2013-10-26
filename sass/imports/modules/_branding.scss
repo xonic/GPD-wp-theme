@@ -18,6 +18,7 @@
 		letter-spacing: -.2rem;
 		text-align:center;
 		@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+		@include transition(padding 1s ease-in-out);
 
 		@include at-breakpoint($large-width)
 		{
@@ -57,6 +58,8 @@
 		@include setType(8, 7);
 		color:$blackSand;
 		letter-spacing:-.4rem;
+		background-color:$white;
+		@include transition(background-color 1s ease-in-out);
 		
 		small
 		{

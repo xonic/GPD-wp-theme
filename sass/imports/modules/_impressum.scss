@@ -6,6 +6,7 @@
 	
 	.impressum
 	{
+		@include rem(margin-top, $doubleSpace * 3);
 		@include rem(padding-top, $doubleSpace);
 		@include setType($bodyFontSize, $bodyLineHeight);
 		text-align:center;

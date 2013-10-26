@@ -7,7 +7,13 @@
  * @subpackage GP Dolomiti
  */
 
-get_header(); ?>
+	get_header();
+	
+	if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+		wpcf7_enqueue_scripts();
+		wpcf7_enqueue_styles();
+	}
+?>
 
 <section class="contact">
 	<div class="grid">

@@ -64,7 +64,7 @@
 		<!-- TypeKit -->
 		<script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script>
+		<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script> -->
 
 
 		<!--[if lt IE 9]>
@@ -83,13 +83,15 @@
 
 	<body <?php body_class(); ?>>
 			<div class="flyout">
-				<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
-				<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70" height="44">
-				<nav class="nav-main">
-					<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
-				</nav>
-				<div class="lang">
-					<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+				<div class="grid cf">
+					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
+					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70" height="44">
+					<nav class="nav-main">
+						<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
+					</nav>
+					<div class="lang">
+						<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+					</div>
 				</div>
 			</div>
 			<div class="content">
