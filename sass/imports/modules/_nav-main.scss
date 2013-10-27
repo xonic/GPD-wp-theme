@@ -92,6 +92,12 @@
 		}
 	}
 
+	#ie7 .mountains,
+	#ie8 .mountains
+	{
+   		@include rem(margin-top, .9);
+	}
+
 	.nav-main 
 	{
 		.menu-hauptmenue-container

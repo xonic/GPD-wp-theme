@@ -968,7 +968,14 @@ object {
   display: none;
 }
 
-/* line 98, ../sass/imports/modules/_nav-main.scss */
+/* line 97, ../sass/imports/modules/_nav-main.scss */
+#ie7 .mountains,
+#ie8 .mountains {
+  margin-top:  9px;
+  margin-top:  0.9rem;
+}
+
+/* line 104, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   margin:  48px 0 0;
   margin:  4.8rem 0 0;
@@ -982,20 +989,20 @@ object {
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
 }
-/* line 104, ../sass/imports/modules/_nav-main.scss */
+/* line 110, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 109, ../sass/imports/modules/_nav-main.scss */
+/* line 115, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 114, ../sass/imports/modules/_nav-main.scss */
+/* line 120, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 37.5em) {
-  /* line 98, ../sass/imports/modules/_nav-main.scss */
+  /* line 104, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin: 0;
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1012,11 +1019,11 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 @media (min-width: 37.5em) {
-  /* line 126, ../sass/imports/modules/_nav-main.scss */
+  /* line 132, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 132, ../sass/imports/modules/_nav-main.scss */
+  /* line 138, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     margin-left:  -10px;
     margin-left:  -1rem;
@@ -1026,12 +1033,12 @@ object {
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 132, ../sass/imports/modules/_nav-main.scss */
+/* line 138, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
   margin-left:  -10px;
   margin-left:  -1rem;
 }
-/* line 139, ../sass/imports/modules/_nav-main.scss */
+/* line 145, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.55556em;
@@ -1050,7 +1057,7 @@ object {
   text-transform: uppercase;
 }
 @media (min-width: 37.5em) {
-  /* line 139, ../sass/imports/modules/_nav-main.scss */
+  /* line 145, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1074,13 +1081,13 @@ object {
   text-transform: capitalize;
 }
 
-/* line 164, ../sass/imports/modules/_nav-main.scss */
+/* line 170, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 169, ../sass/imports/modules/_nav-main.scss */
+/* line 175, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1089,7 +1096,7 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 
-/* line 174, ../sass/imports/modules/_nav-main.scss */
+/* line 180, ../sass/imports/modules/_nav-main.scss */
 .content {
   position: relative;
   margin-top:  48px;
@@ -1101,7 +1108,7 @@ object {
   transition: transform 0.3s ease;
 }
 
-/* line 182, ../sass/imports/modules/_nav-main.scss */
+/* line 188, ../sass/imports/modules/_nav-main.scss */
 .csstransforms3d .nav-is-shown .content {
   -webkit-transform: translate3d(0, 240px, 0);
   -moz-transform: translate3d(0, 240px, 0);
@@ -1110,7 +1117,7 @@ object {
   transform: translate3d(0, 240px, 0);
 }
 @media (min-width: 37.5em) {
-  /* line 182, ../sass/imports/modules/_nav-main.scss */
+  /* line 188, ../sass/imports/modules/_nav-main.scss */
   .csstransforms3d .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1125,13 +1132,13 @@ object {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 192, ../sass/imports/modules/_nav-main.scss */
+/* line 198, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   margin-top:  288px;
   margin-top:  28.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 192, ../sass/imports/modules/_nav-main.scss */
+  /* line 198, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     margin-top:  48px;
     margin-top:  4.8rem;
