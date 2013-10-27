@@ -88,7 +88,7 @@
 	//  = HUGE
 	//  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($huge-width $huge-cols)
+		@include at-breakpoint($huge-width $huge-cols no-mq)
 		{
 			@include setType($bodyFontSize--huge, $bodyLineHeight--huge);
 		}

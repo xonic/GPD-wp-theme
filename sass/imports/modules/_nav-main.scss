@@ -85,6 +85,11 @@
 	{
 		float:right;
 		@include rem(max-height, $touchSize);
+
+		& + .mountains
+		{
+			display:none;
+		}
 	}
 
 	.nav-main 

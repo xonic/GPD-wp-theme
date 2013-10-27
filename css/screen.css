@@ -364,6 +364,12 @@ table {
 /* horizontal */
 /* vertical */
 /* line 80, ../sass/imports/modules/_grid.scss */
+.no-mq .grid {
+  width:  980px;
+  width:  98rem;
+}
+
+/* line 85, ../sass/imports/modules/_grid.scss */
 .grid {
   *zoom: 1;
   padding-left: 0.55556em;
@@ -590,6 +596,13 @@ body > section {
     line-height:  36px;
     line-height:  3.6rem;
   }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq body {
+  font-size:  22px;
+  font-size:  2.2rem;
+  line-height:  36px;
+  line-height:  3.6rem;
 }
 @media (min-width: 80em) {
   /* line 51, ../sass/imports/base/_typography.scss */
@@ -1148,11 +1161,14 @@ object {
   margin:  0 0 4.8rem;
   border: 0 none;
   border-radius: 8px;
+  background-color: #febb33;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fec34c), color-stop(100%, #febb33));
   background: -webkit-linear-gradient(#fec34c, #febb33);
   background: -moz-linear-gradient(#fec34c, #febb33);
   background: -o-linear-gradient(#fec34c, #febb33);
   background: linear-gradient(#fec34c, #febb33);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fec44d,endColorstr=#febb33);
+  zoom: 1;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   text-transform: uppercase;
@@ -1166,18 +1182,21 @@ object {
   -o-transition: all 0.05s linear;
   transition: all 0.05s linear;
 }
-/* line 338, ../sass/imports/modules/_button.scss */
+/* line 341, ../sass/imports/modules/_button.scss */
 .btn--newsletter:hover {
+  background-color: #febb33;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fec757), color-stop(100%, #febe3d));
   background: -webkit-linear-gradient(#fec757, #febe3d);
   background: -moz-linear-gradient(#fec757, #febe3d);
   background: -o-linear-gradient(#fec757, #febe3d);
   background: linear-gradient(#fec757, #febe3d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fec758,endColorstr=#febf3e);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
   color: #3d372b;
 }
-/* line 350, ../sass/imports/modules/_button.scss */
+/* line 355, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
+  background-color: #febb33;
   margin:  5px 0 43px 0;
   margin:  0.5rem 0 4.3rem 0;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #febb33), color-stop(100%, #fec34c));
@@ -1185,10 +1204,11 @@ object {
   background: -moz-linear-gradient(#febb33, #fec34c);
   background: -o-linear-gradient(#febb33, #fec34c);
   background: linear-gradient(#febb33, #fec34c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#febb33,endColorstr=#fec44d);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 358, ../sass/imports/modules/_button.scss */
+/* line 365, ../sass/imports/modules/_button.scss */
 .touch .btn--newsletter:hover {
   margin:  5px 0 43px 0;
   margin:  0.5rem 0 4.3rem 0;
@@ -2526,8 +2546,8 @@ form {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  192px 0 0;
-    padding:  19.2rem 0 0;
+    padding:  300px 0 0;
+    padding:  30rem 0 0;
     background: url(../images/branding-bg-2.jpg) top center no-repeat;
     background-size: cover;
     border-bottom: 0 solid #8b826a;
@@ -2535,36 +2555,58 @@ form {
     border-bottom-width:  1.2rem;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .branding {
+  position: relative;
+  padding:  300px 0 0;
+  padding:  30rem 0 0;
+  background: url(../images/branding-bg-2.jpg) top center no-repeat;
+  background-size: cover;
+  border-bottom: 0 solid #8b826a;
+  border-bottom-width:  12px;
+  border-bottom-width:  1.2rem;
+}
 @media (min-width: 48em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  240px 0 0;
-    padding:  24rem 0 0;
+    padding:  300px 0 0;
+    padding:  30rem 0 0;
   }
 }
 @media (min-width: 64em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
-  .branding {
-    padding:  288px 0 0;
-    padding:  28.8rem 0 0;
-  }
-}
-@media (min-width: 80em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
-  .branding {
-    padding:  360px 0 0;
-    padding:  36rem 0 0;
-  }
-}
-@media (min-width: 100em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
     padding:  432.0px 0 0;
     padding:  43.2rem 0 0;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .branding {
+  padding:  432.0px 0 0;
+  padding:  43.2rem 0 0;
+}
+@media (min-width: 80em) {
+  /* line 17, ../sass/imports/modules/_branding.scss */
+  .branding {
+    padding:  528px 0 0;
+    padding:  52.8rem 0 0;
+  }
+}
+@media (min-width: 100em) {
+  /* line 17, ../sass/imports/modules/_branding.scss */
+  .branding {
+    padding:  672px 0 0;
+    padding:  67.2rem 0 0;
+  }
+}
 
-/* line 55, ../sass/imports/modules/_branding.scss */
+/* line 56, ../sass/imports/modules/_branding.scss */
+#ie7 .branding,
+#ie8 .branding {
+  -ms-behavior: url(http://192.168.1.12:8888/gp-dolomiti-new/backgroundsize.min.htc);
+}
+
+/* line 61, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -2579,7 +2621,7 @@ form {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 65, ../sass/imports/modules/_branding.scss */
+/* line 71, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -2590,7 +2632,7 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 55, ../sass/imports/modules/_branding.scss */
+  /* line 61, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -2602,7 +2644,7 @@ form {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 87, ../sass/imports/modules/_branding.scss */
+  /* line 93, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2610,8 +2652,27 @@ form {
     line-height:  3.2rem;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .event-name {
+  padding:  12px;
+  padding:  1.2rem;
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  font-size:  90px;
+  font-size:  9rem;
+  line-height:  80px;
+  line-height:  8rem;
+  text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
+}
+/* line 93, ../sass/imports/modules/_branding.scss */
+.no-mq .event-name small {
+  font-size:  36px;
+  font-size:  3.6rem;
+  line-height:  32px;
+  line-height:  3.2rem;
+}
 @media (min-width: 64em) {
-  /* line 55, ../sass/imports/modules/_branding.scss */
+  /* line 61, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2619,7 +2680,7 @@ form {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 98, ../sass/imports/modules/_branding.scss */
+  /* line 104, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2627,15 +2688,30 @@ form {
     line-height:  3.4rem;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .event-name {
+  font-size:  100px;
+  font-size:  10rem;
+  line-height:  90px;
+  line-height:  9rem;
+  letter-spacing: -.5rem;
+}
+/* line 104, ../sass/imports/modules/_branding.scss */
+.no-mq .event-name small {
+  font-size:  38px;
+  font-size:  3.8rem;
+  line-height:  34px;
+  line-height:  3.4rem;
+}
 @media (min-width: 80em) {
-  /* line 55, ../sass/imports/modules/_branding.scss */
+  /* line 61, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 108, ../sass/imports/modules/_branding.scss */
+  /* line 114, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
@@ -2715,6 +2791,14 @@ form {
     margin-right: 0;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .day__route {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.11111em;
+  display: inline;
+}
 
 /* line 68, ../sass/imports/modules/_program.scss */
 .day__subheading {
@@ -2757,6 +2841,14 @@ form {
     margin-right: 0;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .dinner__description {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.11111em;
+  display: inline;
+}
 
 @media (min-width: 64em) {
   /* line 103, ../sass/imports/modules/_program.scss */
@@ -2766,86 +2858,190 @@ form {
     margin-left: 0;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .dinner__description--rev {
+  width: 49.15254%;
+  float: right;
+  margin-left: 0;
+  *margin-left: -1.11111em;
+  display: inline;
+}
 
-/* line 111, ../sass/imports/modules/_program.scss */
+/* line 113, ../sass/imports/modules/_program.scss */
 .dinner {
   background-image: url(../images/events/events.jpg);
   background-size: 1600% auto;
 }
 
-/* line 117, ../sass/imports/modules/_program.scss */
+/* line 120, ../sass/imports/modules/_program.scss */
+#ie7 .dinner,
+#ie8 .dinner {
+  -ms-behavior: url(http://192.168.1.12:8888/gp-dolomiti-new/backgroundsize.min.htc);
+}
+
+/* line 125, ../sass/imports/modules/_program.scss */
 .dinner--italian-2 {
   background-position: -100% 0;
 }
 
-/* line 122, ../sass/imports/modules/_program.scss */
+/* line 131, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--italian-2,
+#ie8 .dinner--italian-2 {
+  background-position: -203px 0;
+}
+
+/* line 136, ../sass/imports/modules/_program.scss */
 .dinner--italian-3 {
   background-position: -200% 0;
 }
 
-/* line 127, ../sass/imports/modules/_program.scss */
+/* line 142, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--italian-3,
+#ie8 .dinner--italian-3 {
+  background-position: -406px 0;
+}
+
+/* line 147, ../sass/imports/modules/_program.scss */
 .dinner--italian-4 {
   background-position: -300% 0;
 }
 
-/* line 132, ../sass/imports/modules/_program.scss */
+/* line 153, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--italian-4,
+#ie8 .dinner--italian-4 {
+  background-position: -609px 0;
+}
+
+/* line 158, ../sass/imports/modules/_program.scss */
 .dinner--lounge-1 {
   background-position: -400% 0;
 }
 
-/* line 137, ../sass/imports/modules/_program.scss */
+/* line 164, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--lounge-1,
+#ie8 .dinner--lounge-1 {
+  background-position: -812px 0;
+}
+
+/* line 169, ../sass/imports/modules/_program.scss */
 .dinner--lounge-2 {
   background-position: -500% 0;
 }
 
-/* line 142, ../sass/imports/modules/_program.scss */
+/* line 175, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--lounge-2,
+#ie8 .dinner--lounge-2 {
+  background-position: -1015px 0;
+}
+
+/* line 180, ../sass/imports/modules/_program.scss */
 .dinner--lounge-3 {
   background-position: -600% 0;
 }
 
-/* line 147, ../sass/imports/modules/_program.scss */
+/* line 186, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--lounge-3,
+#ie8 .dinner--lounge-3 {
+  background-position: -1218px 0;
+}
+
+/* line 191, ../sass/imports/modules/_program.scss */
 .dinner--lounge-4 {
   background-position: -700% 0;
 }
 
-/* line 152, ../sass/imports/modules/_program.scss */
+/* line 197, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--lounge-4,
+#ie8 .dinner--lounge-4 {
+  background-position: -1421px 0;
+}
+
+/* line 202, ../sass/imports/modules/_program.scss */
 .dinner--choice-1 {
   background-position: -800% 0;
 }
 
-/* line 157, ../sass/imports/modules/_program.scss */
+/* line 208, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--choice-1,
+#ie8 .dinner--choice-1 {
+  background-position: -1624px 0;
+}
+
+/* line 213, ../sass/imports/modules/_program.scss */
 .dinner--choice-2 {
   background-position: -900% 0;
 }
 
-/* line 162, ../sass/imports/modules/_program.scss */
+/* line 219, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--choice-2,
+#ie8 .dinner--choice-2 {
+  background-position: -1827px 0;
+}
+
+/* line 224, ../sass/imports/modules/_program.scss */
 .dinner--choice-3 {
   background-position: -1000% 0;
 }
 
-/* line 167, ../sass/imports/modules/_program.scss */
+/* line 230, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--choice-3,
+#ie8 .dinner--choice-3 {
+  background-position: -2030px 0;
+}
+
+/* line 235, ../sass/imports/modules/_program.scss */
 .dinner--choice-4 {
   background-position: -1100% 0;
 }
 
-/* line 172, ../sass/imports/modules/_program.scss */
+/* line 241, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--choice-4,
+#ie8 .dinner--choice-4 {
+  background-position: -2233px 0;
+}
+
+/* line 246, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-1 {
   background-position: -1200% 0;
 }
 
-/* line 177, ../sass/imports/modules/_program.scss */
+/* line 252, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--kurhaus-1,
+#ie8 .dinner--kurhaus-1 {
+  background-position: -2436px 0;
+}
+
+/* line 257, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-2 {
   background-position: -1300% 0;
 }
 
-/* line 182, ../sass/imports/modules/_program.scss */
+/* line 263, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--kurhaus-2,
+#ie8 .dinner--kurhaus-2 {
+  background-position: -2639px 0;
+}
+
+/* line 268, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-3 {
   background-position: -1400% 0;
 }
 
-/* line 187, ../sass/imports/modules/_program.scss */
+/* line 274, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--kurhaus-3,
+#ie8 .dinner--kurhaus-3 {
+  background-position: -2842px 0;
+}
+
+/* line 279, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-4 {
   background-position: -1500% 0;
+}
+
+/* line 285, ../sass/imports/modules/_program.scss */
+#ie7 .dinner--kurhaus-4,
+#ie8 .dinner--kurhaus-4 {
+  background-position: -3045px 0;
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */
