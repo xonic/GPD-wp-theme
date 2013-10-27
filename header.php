@@ -103,7 +103,6 @@
 				</header>
 
 				<section class="section info">
-					<? //echo qtrans_getLanguage(); ?>
 					<div class="grid">
 						<h1 class="section__title">
 							<? _e("pre__info__title", "gp-dolomiti"); ?>

@@ -19,31 +19,37 @@
 		{
 			@include rem(margin-bottom, $singleSpace / 2);
 			@include setType($h3Size, $h3LineHeight);
+			@include rem(letter-spacing, -.05);
+
+			@include at-breakpoint($medium-width) 	 { @include setType($h1Size--medium, $h1LineHeight--medium); }
 
 			@include at-breakpoint($large-width no-mq)
 			{
 				@include rem(margin-top, $doubleSpace * 2);
+				@include setType($h1Size--large, $h1LineHeight--large);
 			}
+
+			@include at-breakpoint($huge-width) 	 { @include setType($h1Size--huge, $h1LineHeight--huge); }
+			@include at-breakpoint($giant-width) 	 { @include setType($h1Size--giant, $h1LineHeight--giant); }
+			@include at-breakpoint($monstrous-width) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
 		}
 	}
 
-	.info__tagline,
 	.info__date
 	{ 
 		@include setType($h3Size, $h3LineHeight);
-		// font-family:$serifFontFamily;
-		// font-weight:$boldFontWeight;
+		@include rem(letter-spacing, -.05);
 		text-align:center;
-	}
 
-	.info__tagline
-	{
-		letter-spacing:-.15rem;
-		// @include rem(padding-top, $doubleSpace);
-		@include setType(4.2, 4.4);
-	}
+		@include at-breakpoint($medium-width) 	 { @include setType($h2Size--medium, $h2LineHeight--medium); }
 
-	.info__date
-	{
-		letter-spacing:-.1rem;
+		@include at-breakpoint($large-width)
+		{
+			@include setType($h2Size--large, $h2LineHeight--large);
+			@include rem(letter-spacing, -.1);
+		}
+
+		@include at-breakpoint($huge-width) 	 { @include setType($h2Size--huge, $h2LineHeight--huge); }
+		@include at-breakpoint($giant-width) 	 { @include setType($h2Size--giant, $h2LineHeight--giant); }
+		@include at-breakpoint($monstrous-width) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
 	}

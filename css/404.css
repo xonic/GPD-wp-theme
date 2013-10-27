@@ -1253,7 +1253,8 @@ object {
 /* line 28, ../sass/imports/modules/_sections.scss */
 .section__title {
   text-align: center;
-  letter-spacing: -.15rem;
+  letter-spacing:  -1.5px;
+  letter-spacing:  -0.15rem;
 }
 
 /* line 34, ../sass/imports/modules/_sections.scss */
