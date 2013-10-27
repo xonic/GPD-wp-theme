@@ -17,7 +17,7 @@
 			margin:0;
 		}
 
-		@include at-breakpoint($large-width)
+		@include at-breakpoint($large-width no-mq)
 		{
 			float:none;
 			position:absolute;
@@ -29,6 +29,24 @@
 			border-radius:0 0 0 4px;
 			@include rem(line-height, 2.6);
 		}
+	}
+
+	#ie7 .lang,
+	#ie8 .lang 
+	{
+		background:$blackSand;
+
+		a 
+		{ 
+			color:$grayLight;
+
+			&:hover
+			{
+				color:$white;
+			}
+		}
+
+		.active a { color:$white; }
 	}
 
 	[class^="lang-"]

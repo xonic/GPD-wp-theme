@@ -2754,26 +2754,62 @@ form {
     line-height:  2.6rem;
   }
 }
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .lang {
+  float: none;
+  position: absolute;
+  top:  48px;
+  top:  4.8rem;
+  right: 0;
+  z-index: 901;
+  padding:  0 10px;
+  padding:  0 1rem;
+  background: rgba(51, 46, 36, 0.3);
+  border-radius: 0 0 0 4px;
+  line-height:  26px;
+  line-height:  2.6rem;
+}
 
-/* line 37, ../sass/imports/modules/_lang.scss */
+/* line 36, ../sass/imports/modules/_lang.scss */
+#ie7 .lang,
+#ie8 .lang {
+  background: #332e24;
+}
+/* line 40, ../sass/imports/modules/_lang.scss */
+#ie7 .lang a,
+#ie8 .lang a {
+  color: #b8b8b8;
+}
+/* line 44, ../sass/imports/modules/_lang.scss */
+#ie7 .lang a:hover,
+#ie8 .lang a:hover {
+  color: white;
+}
+/* line 49, ../sass/imports/modules/_lang.scss */
+#ie7 .lang .active a,
+#ie8 .lang .active a {
+  color: white;
+}
+
+/* line 55, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 42, ../sass/imports/modules/_lang.scss */
+/* line 60, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
   color: white;
 }
-/* line 48, ../sass/imports/modules/_lang.scss */
+/* line 66, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
   color: white;
   cursor: default;
 }
-/* line 54, ../sass/imports/modules/_lang.scss */
+/* line 72, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
 }
-/* line 59, ../sass/imports/modules/_lang.scss */
+/* line 77, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
 }
