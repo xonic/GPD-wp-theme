@@ -1569,17 +1569,23 @@ object {
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
-  /* Hides the scrollbar. */
   -ms-scroll-chaining: none;
-  /* Prevents Metro from swiping to the next tab or app. */
   -ms-scroll-snap-type: mandatory;
-  /* Forces a snap scroll behavior on your images. */
   -ms-scroll-snap-points-x: snapInterval(0%, 100%);
-  /* Defines the y and x intervals to snap to when scrolling. */
 }
 /* line 20, ../sass/imports/modules/_slider.scss */
 .slider::-webkit-scrollbar {
   display: none;
+}
+@media (min-width: 37.5em) {
+  /* line 9, ../sass/imports/modules/_slider.scss */
+  .slider {
+    overflow: hidden;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .slider {
+  overflow: hidden;
 }
 @media (min-width: 64em) {
   /* line 9, ../sass/imports/modules/_slider.scss */
@@ -1600,7 +1606,7 @@ object {
 }
 
 @media (min-width: 64em) {
-  /* line 45, ../sass/imports/modules/_slider.scss */
+  /* line 49, ../sass/imports/modules/_slider.scss */
   .slider--rev {
     margin-right: 0;
     width: 49.15254%;
@@ -1617,25 +1623,25 @@ object {
   display: inline;
 }
 
-/* line 54, ../sass/imports/modules/_slider.scss */
+/* line 58, ../sass/imports/modules/_slider.scss */
 .slider__slides {
   margin-bottom: 0;
 }
 
-/* line 60, ../sass/imports/modules/_slider.scss */
+/* line 64, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 {
   width: 350%;
 }
-/* line 64, ../sass/imports/modules/_slider.scss */
+/* line 68, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 .slider__slide {
   width: 25%;
 }
 @media (min-width: 37.5em) {
-  /* line 60, ../sass/imports/modules/_slider.scss */
+  /* line 64, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 {
     width: 100%;
   }
-  /* line 73, ../sass/imports/modules/_slider.scss */
+  /* line 77, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 .slider__slide {
     width: 50%;
   }
@@ -1644,12 +1650,12 @@ object {
 .no-mq .slider__slides--contains-4 {
   width: 100%;
 }
-/* line 73, ../sass/imports/modules/_slider.scss */
+/* line 77, ../sass/imports/modules/_slider.scss */
 .no-mq .slider__slides--contains-4 .slider__slide {
   width: 50%;
 }
 
-/* line 80, ../sass/imports/modules/_slider.scss */
+/* line 84, ../sass/imports/modules/_slider.scss */
 .slider__slide {
   float: left;
   padding:  12px;

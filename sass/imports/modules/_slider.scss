@@ -21,22 +21,26 @@
     		display: none; 
 		}
 
+		// Hides the scrollbar.
 		-ms-overflow-style: none;
-		/* Hides the scrollbar. */
 		
+		// Prevents Metro from swiping to the next tab or app.
 		-ms-scroll-chaining: none;
-		/* Prevents Metro from swiping to the next tab or app. */
 		
+		// Forces a snap scroll behavior on your images.
 		-ms-scroll-snap-type: mandatory;
-		/* Forces a snap scroll behavior on your images. */
 		
+		// Defines the y and x intervals to snap to when scrolling.
 		-ms-scroll-snap-points-x: snapInterval(0%, 100%);
-		/* Defines the y and x intervals to snap to when scrolling. */
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			overflow:hidden;
+		}
 
 		@include at-breakpoint($huge-width no-mq)
 		{
 			padding:0;
-			// background:transparent;
 			@include span-columns(6, $huge-cols);
 		}
 	}
