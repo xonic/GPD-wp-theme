@@ -1116,6 +1116,8 @@ object {
   -ms-transform: translate3d(0, 240px, 0);
   -o-transform: translate3d(0, 240px, 0);
   transform: translate3d(0, 240px, 0);
+  margin-top:  48px;
+  margin-top:  4.8rem;
 }
 @media (min-width: 37.5em) {
   /* line 188, ../sass/imports/modules/_nav-main.scss */
@@ -1133,13 +1135,13 @@ object {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 198, ../sass/imports/modules/_nav-main.scss */
+/* line 199, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   margin-top:  288px;
   margin-top:  28.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 198, ../sass/imports/modules/_nav-main.scss */
+  /* line 199, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     margin-top:  48px;
     margin-top:  4.8rem;
@@ -1696,6 +1698,52 @@ object {
   border-bottom-width:  2px;
   border-bottom-width:  0.2rem;
   text-transform: uppercase;
+}
+
+/* line 19, ../sass/imports/modules/_info.scss */
+.info .section__title {
+  margin-bottom:  6px;
+  margin-bottom:  0.6rem;
+  font-size:  26px;
+  font-size:  2.6rem;
+  line-height:  28px;
+  line-height:  2.8rem;
+}
+@media (min-width: 37.5em) {
+  /* line 19, ../sass/imports/modules/_info.scss */
+  .info .section__title {
+    margin-top:  48px;
+    margin-top:  4.8rem;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .info .section__title {
+  margin-top:  48px;
+  margin-top:  4.8rem;
+}
+
+/* line 32, ../sass/imports/modules/_info.scss */
+.info__tagline,
+.info__date {
+  font-size:  26px;
+  font-size:  2.6rem;
+  line-height:  28px;
+  line-height:  2.8rem;
+  text-align: center;
+}
+
+/* line 40, ../sass/imports/modules/_info.scss */
+.info__tagline {
+  letter-spacing: -.15rem;
+  font-size:  42px;
+  font-size:  4.2rem;
+  line-height:  44px;
+  line-height:  4.4rem;
+}
+
+/* line 47, ../sass/imports/modules/_info.scss */
+.info__date {
+  letter-spacing: -.1rem;
 }
 
 /* line 17, ../sass/imports/modules/_map.scss */

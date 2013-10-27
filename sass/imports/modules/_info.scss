@@ -15,13 +15,22 @@
 	
 	.info
 	{
-		// background:$red;
-		// color:$white;
+		.section__title
+		{
+			@include rem(margin-bottom, $singleSpace / 2);
+			@include setType($h3Size, $h3LineHeight);
+
+			@include at-breakpoint($large-width no-mq)
+			{
+				@include rem(margin-top, $doubleSpace * 2);
+			}
+		}
 	}
 
 	.info__tagline,
 	.info__date
 	{ 
+		@include setType($h3Size, $h3LineHeight);
 		// font-family:$serifFontFamily;
 		// font-weight:$boldFontWeight;
 		text-align:center;

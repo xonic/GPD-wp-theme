@@ -101,3 +101,28 @@
 						Dolomiti
 					</h1>
 				</header>
+
+				<section class="section info">
+					<? //echo qtrans_getLanguage(); ?>
+					<div class="grid">
+						<h1 class="section__title">
+							<? _e("pre__info__title", "gp-dolomiti"); ?>
+						</h1>
+						<h2 class="info__date">
+							<time datetime="2014-07-23">
+								<? _e("pre__info__start-date", "gp-dolomiti"); ?>
+							</time> 
+							<? _e("pre__info__to", "gp-dolomiti"); ?>
+							<time datetime="2014-07-27">
+								<? _e("pre__info__end-date", "gp-dolomiti"); ?>
+							</time>
+						</h2>
+<!-- 
+						<p>
+							<? _e("pre__info__p1", "gp-dolomiti"); ?>
+						</p>
+						<p>
+							<? _e("pre__info__p2", "gp-dolomiti"); ?>
+						</p> -->
+					</div>
+				</section>

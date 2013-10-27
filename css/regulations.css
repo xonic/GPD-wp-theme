@@ -1115,6 +1115,8 @@ object {
   -ms-transform: translate3d(0, 240px, 0);
   -o-transform: translate3d(0, 240px, 0);
   transform: translate3d(0, 240px, 0);
+  margin-top:  48px;
+  margin-top:  4.8rem;
 }
 @media (min-width: 37.5em) {
   /* line 188, ../sass/imports/modules/_nav-main.scss */
@@ -1132,13 +1134,13 @@ object {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 198, ../sass/imports/modules/_nav-main.scss */
+/* line 199, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   margin-top:  288px;
   margin-top:  28.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 198, ../sass/imports/modules/_nav-main.scss */
+  /* line 199, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     margin-top:  48px;
     margin-top:  4.8rem;
