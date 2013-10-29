@@ -904,8 +904,8 @@ object {
   transition: all, 0.1s;
   cursor: pointer;
 }
-/* line 46, ../sass/imports/modules/_button.scss */
-.btn:hover, .btn-group .btn-group__btn:hover, .btn-dropdown .btn-dropdown__toggle:hover {
+/* line 47, ../sass/imports/modules/_button.scss */
+.btn:hover, .btn-group .btn-group__btn:hover, .btn-dropdown .btn-dropdown__toggle:hover, .btn:focus, .btn-group .btn-group__btn:focus, .btn-dropdown .btn-dropdown__toggle:focus {
   background-color: #fbfbfb;
   background-image: -moz-linear-gradient(top, white, #f7f7f7);
   background-image: -ms-linear-gradient(top, white, #f7f7f7);
@@ -915,8 +915,9 @@ object {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='whitesmoke', GradientType=0);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   color: #4c4535;
+  outline: 0 none;
 }
-/* line 59, ../sass/imports/modules/_button.scss */
+/* line 61, ../sass/imports/modules/_button.scss */
 .btn:active, .btn-group .btn-group__btn:active, .btn-dropdown .btn-dropdown__toggle:active {
   background-color: #fcfcfc;
   background-image: -moz-linear-gradient(top, #fafafa, white);
@@ -987,7 +988,7 @@ object {
   }
 }
 
-/* line 105, ../sass/imports/modules/_button.scss */
+/* line 107, ../sass/imports/modules/_button.scss */
 .btn--with-icon [class*="icon-"] {
   margin-right:  6px;
   margin-right:  0.6rem;
@@ -995,7 +996,7 @@ object {
   font-size:  1.8rem;
 }
 
-/* line 117, ../sass/imports/modules/_button.scss */
+/* line 119, ../sass/imports/modules/_button.scss */
 .btn--large {
   padding:  23px 24px;
   padding:  2.3rem 2.4rem;
@@ -1003,7 +1004,7 @@ object {
   font-size:  2.1rem;
 }
 
-/* line 123, ../sass/imports/modules/_button.scss */
+/* line 125, ../sass/imports/modules/_button.scss */
 .btn--huge {
   padding:  35.0px 48px;
   padding:  3.5rem 4.8rem;
@@ -1013,12 +1014,12 @@ object {
   line-height:  3.6rem;
 }
 
-/* line 134, ../sass/imports/modules/_button.scss */
+/* line 136, ../sass/imports/modules/_button.scss */
 .btn--right-aligned {
   margin-right: 0;
 }
 
-/* line 148, ../sass/imports/modules/_button.scss */
+/* line 150, ../sass/imports/modules/_button.scss */
 .btn--primary {
   border-color: #f4a505;
   background: #feb31a;
@@ -1031,7 +1032,7 @@ object {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb115', endColorstr='#feac05', GradientType=0);
   color: white;
 }
-/* line 158, ../sass/imports/modules/_button.scss */
+/* line 160, ../sass/imports/modules/_button.scss */
 .btn--primary:hover {
   background-color: #fdb115;
   background-image: -moz-linear-gradient(top, #feb624, #fdaa01);
@@ -1044,7 +1045,7 @@ object {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   color: white;
 }
-/* line 174, ../sass/imports/modules/_button.scss */
+/* line 176, ../sass/imports/modules/_button.scss */
 .btn--primary:active {
   background-color: #feaf10;
   background-image: -moz-linear-gradient(top, #fead0a, #feb31a);
@@ -1056,7 +1057,7 @@ object {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 182, ../sass/imports/modules/_button.scss */
+/* line 184, ../sass/imports/modules/_button.scss */
 .btn--success {
   border-color: #b3d844;
   background: #bfe05a;
@@ -1069,7 +1070,7 @@ object {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddf56', endColorstr='#b8dd49', GradientType=0);
   color: #292929;
 }
-/* line 192, ../sass/imports/modules/_button.scss */
+/* line 194, ../sass/imports/modules/_button.scss */
 .btn--success:hover {
   background-color: #bddf57;
   background-image: -moz-linear-gradient(top, #c2e263, #b7dc45);
@@ -1082,7 +1083,7 @@ object {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
   color: #292929;
 }
-/* line 208, ../sass/imports/modules/_button.scss */
+/* line 210, ../sass/imports/modules/_button.scss */
 .btn--success:active {
   background-color: #bcde52;
   background-image: -moz-linear-gradient(top, #bade4d, #bfe05a);
@@ -1094,7 +1095,7 @@ object {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 216, ../sass/imports/modules/_button.scss */
+/* line 218, ../sass/imports/modules/_button.scss */
 .btn--disabled {
   background: white;
   border-color: #e3e3e3;
@@ -1102,7 +1103,7 @@ object {
   color: #b8b8b8;
   text-shadow: none;
 }
-/* line 225, ../sass/imports/modules/_button.scss */
+/* line 227, ../sass/imports/modules/_button.scss */
 .btn--disabled:hover, .btn--disabled:active {
   background: white;
   box-shadow: none;
@@ -1111,13 +1112,13 @@ object {
   cursor: not-allowed;
 }
 
-/* line 240, ../sass/imports/modules/_button.scss */
+/* line 242, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn {
   border-radius: 0;
   margin-right: 0;
   float: left;
 }
-/* line 247, ../sass/imports/modules/_button.scss */
+/* line 249, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -1127,7 +1128,7 @@ object {
   border-bottom-left-radius: 5px;
   border-right-width: 0;
 }
-/* line 253, ../sass/imports/modules/_button.scss */
+/* line 255, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:last-child {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -1140,12 +1141,12 @@ object {
   border-left-width: 0;
 }
 
-/* line 265, ../sass/imports/modules/_button.scss */
+/* line 267, ../sass/imports/modules/_button.scss */
 .btn-dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 277, ../sass/imports/modules/_button.scss */
+/* line 279, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu {
   display: none;
   position: absolute;
@@ -1164,7 +1165,7 @@ object {
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
   list-style: none;
 }
-/* line 297, ../sass/imports/modules/_button.scss */
+/* line 299, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu a {
   display: block;
   cursor: pointer;
@@ -1172,16 +1173,16 @@ object {
   padding:  0 1.2rem;
 }
 
-/* line 307, ../sass/imports/modules/_button.scss */
+/* line 309, ../sass/imports/modules/_button.scss */
 .open {
   *z-index: 1000;
 }
-/* line 311, ../sass/imports/modules/_button.scss */
+/* line 313, ../sass/imports/modules/_button.scss */
 .open > .btn-dropdown__menu {
   display: block;
 }
 
-/* line 322, ../sass/imports/modules/_button.scss */
+/* line 324, ../sass/imports/modules/_button.scss */
 .btn--newsletter {
   margin:  0 0 48px;
   margin:  0 0 4.8rem;
@@ -1208,8 +1209,8 @@ object {
   -o-transition: all 0.05s linear;
   transition: all 0.05s linear;
 }
-/* line 341, ../sass/imports/modules/_button.scss */
-.btn--newsletter:hover {
+/* line 344, ../sass/imports/modules/_button.scss */
+.btn--newsletter:hover, .btn--newsletter:focus {
   background-color: #febb33;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fec757), color-stop(100%, #febe3d));
   background: -webkit-linear-gradient(#fec757, #febe3d);
@@ -1220,7 +1221,7 @@ object {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
   color: #3d372b;
 }
-/* line 355, ../sass/imports/modules/_button.scss */
+/* line 358, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
   background-color: #febb33;
   margin:  5px 0 43px 0;
@@ -1234,7 +1235,7 @@ object {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 365, ../sass/imports/modules/_button.scss */
+/* line 368, ../sass/imports/modules/_button.scss */
 .touch .btn--newsletter:hover {
   margin:  5px 0 43px 0;
   margin:  0.5rem 0 4.3rem 0;

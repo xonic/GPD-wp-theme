@@ -42,7 +42,8 @@
 		// In hover state the normally
 		// quite flat button will pop
 		// out a little bit.
-		&:hover
+		&:hover,
+		&:focus
 		{
 			// Make it look more like a beveled button
 			@include gradient-vertical(lighten($btnColorLight, 1%), darken($btnColorDark, 1%));
@@ -53,6 +54,7 @@
 
 			// Override a:hover font color change
 			color:$btnFontColor;
+			outline:0 none;
 		}
 
 		&:active
@@ -337,7 +339,8 @@
 		text-shadow:0 1px rgba(255,255,255,.5);
 		@include transition(all .05s linear);
 
-		&:hover
+		&:hover,
+		&:focus
 		{
 			background-color:$orange;
 			@include background(linear-gradient(lighten($secondaryAccent, 7%), lighten($secondaryAccent, 2%)));
