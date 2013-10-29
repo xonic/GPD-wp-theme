@@ -5,8 +5,8 @@
  * @since GP Dolomiti 1.0
  */
 
-update_option('siteurl','http://192.168.1.12:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
-update_option('home','http://192.168.1.12:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
+update_option('siteurl','http://192.168.1.4:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
+update_option('home','http://192.168.1.4:8888/gp-dolomiti-new');//'http://192.168.1.13:8888/gp-dolomiti-new');
 
 // Load languages
 add_action("init", "theme_init");
@@ -14,6 +14,10 @@ function theme_init()
 {
 	load_theme_textdomain("gp-dolomiti" , get_template_directory() . "/languages");
 }
+
+// Hide Admin bar while developing
+add_filter('show_admin_bar', '__return_false');
+// because it sucks
 
 // Remove the head tags that qTranslate inserts. They don't validate
 add_action('init', 'remove_header_info');

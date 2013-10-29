@@ -22,6 +22,12 @@
 		{
 			color:$white;
 		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			position:fixed;
+			z-index:999;
+		}
 	}
 
 	.flyout__toggle
@@ -182,6 +188,16 @@
 		@include rem(margin-top, $touchSize);
 		background:$white;
 		@include transition(transform .3s ease);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			background:transparent;
+		}
+	}
+
+	.content__inner
+	{
+		background:$white;
 	}
 
 	.csstransforms3d .nav-is-shown .content

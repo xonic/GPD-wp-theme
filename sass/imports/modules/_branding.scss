@@ -23,38 +23,30 @@
 		@include at-breakpoint($large-width no-mq)
 		{
 			position:relative;
-			@include rem(padding, $doubleSpace * 12.5 0 0);
-			background:url(../images/branding-bg-2.jpg) top center no-repeat;
-			background-size:cover;
+			@include rem(padding, $doubleSpace * 8 0 0);
 			border-bottom:0 solid $olive;
 			@include rem(border-bottom-width, $singleSpace);
 		}
 
 		@include at-breakpoint(48em)
 		{
-			@include rem(padding, $doubleSpace * 12.5 0 0);
+			@include rem(padding, $doubleSpace * 12 0 0);
 		}
 
 		@include at-breakpoint($huge-width no-mq)
 		{
-			@include rem(padding, $doubleSpace * 18 0 0);
+			@include rem(padding, $doubleSpace * 17.5 0 0);
 		}
 
 		@include at-breakpoint($giant-width)
 		{
-			@include rem(padding, $doubleSpace * 22 0 0);
+			@include rem(padding, $doubleSpace * 21 0 0);
 		}
 
 		@include at-breakpoint($monstrous-width)
 		{
 			@include rem(padding, $doubleSpace * 28 0 0);
 		}
-	}
-
-	#ie7 .branding,
-	#ie8 .branding
-	{
-   		-ms-behavior: $backgroundSizePolyfillUrl;
 	}
 
 	.event-name

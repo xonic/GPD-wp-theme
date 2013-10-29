@@ -587,6 +587,19 @@ body > section {
     line-height:  32px;
     line-height:  3.2rem;
   }
+  /* line 86, ../sass/imports/base/_typography.scss */
+  body:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:  960px;
+    height:  96rem;
+    background: url(../images/branding-bg-2.jpg) 50% 48px no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
 }
 @media (min-width: 64em) {
   /* line 51, ../sass/imports/base/_typography.scss */
@@ -623,29 +636,42 @@ body > section {
   }
 }
 
-/* line 121, ../sass/imports/base/_typography.scss */
+/* line 132, ../sass/imports/base/_typography.scss */
+#ie7 body,
+#ie8 body {
+  background: url(../images/branding-bg-2.jpg) top center no-repeat;
+  background-size: 100% auto;
+  -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
+}
+/* line 138, ../sass/imports/base/_typography.scss */
+#ie7 body:after,
+#ie8 body:after {
+  content: none;
+}
+
+/* line 147, ../sass/imports/base/_typography.scss */
 p small {
   font-size: -0.2;
 }
 
-/* line 127, ../sass/imports/base/_typography.scss */
+/* line 153, ../sass/imports/base/_typography.scss */
 pre {
   word-wrap: normal;
 }
 
-/* line 133, ../sass/imports/base/_typography.scss */
+/* line 159, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
   background-color: #feb31a;
   color: white;
 }
 
-/* line 139, ../sass/imports/base/_typography.scss */
+/* line 165, ../sass/imports/base/_typography.scss */
 ::selection {
   background-color: #feb31a;
   color: white;
 }
 
-/* line 150, ../sass/imports/base/_typography.scss */
+/* line 176, ../sass/imports/base/_typography.scss */
 a {
   padding: 0 1px;
   text-decoration: none;
@@ -662,7 +688,7 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 165, ../sass/imports/base/_typography.scss */
+/* line 191, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
   background-color: #febb33;
@@ -670,7 +696,7 @@ a:active,
   color: white;
 }
 
-/* line 175, ../sass/imports/base/_typography.scss */
+/* line 201, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -678,13 +704,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 182, ../sass/imports/base/_typography.scss */
+/* line 208, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 195, ../sass/imports/base/_typography.scss */
+/* line 221, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, fieldset legend, .h4, .h5, .h6, .day__date {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -695,7 +721,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 203, ../sass/imports/base/_typography.scss */
+/* line 229, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, fieldset legend small, .h4 small, .h5 small, .h6 small, .day__date small {
   display: block;
@@ -704,7 +730,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 212, ../sass/imports/base/_typography.scss */
+/* line 238, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -712,7 +738,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -721,7 +747,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -730,7 +756,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -739,7 +765,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -748,7 +774,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -757,7 +783,7 @@ h1, .h1 {
   }
 }
 
-/* line 223, ../sass/imports/base/_typography.scss */
+/* line 249, ../sass/imports/base/_typography.scss */
 h2, .h2, .day__date {
   font-size:  32px;
   font-size:  3.2rem;
@@ -765,7 +791,7 @@ h2, .h2, .day__date {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  32px;
     font-size:  3.2rem;
@@ -774,7 +800,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  38px;
     font-size:  3.8rem;
@@ -783,7 +809,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 64em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  44px;
     font-size:  4.4rem;
@@ -792,7 +818,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 80em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  50px;
     font-size:  5rem;
@@ -801,7 +827,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 100em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  56px;
     font-size:  5.6rem;
@@ -810,7 +836,7 @@ h2, .h2, .day__date {
   }
 }
 
-/* line 234, ../sass/imports/base/_typography.scss */
+/* line 260, ../sass/imports/base/_typography.scss */
 h3, .h3, fieldset legend {
   font-size:  26px;
   font-size:  2.6rem;
@@ -818,7 +844,7 @@ h3, .h3, fieldset legend {
   line-height:  2.8rem;
 }
 
-/* line 239, ../sass/imports/base/_typography.scss */
+/* line 265, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -827,13 +853,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 252, ../sass/imports/base/_typography.scss */
+  /* line 278, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 266, ../sass/imports/base/_typography.scss */
+/* line 292, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -2583,10 +2609,8 @@ form {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  300px 0 0;
-    padding:  30rem 0 0;
-    background: url(../images/branding-bg-2.jpg) top center no-repeat;
-    background-size: cover;
+    padding:  192px 0 0;
+    padding:  19.2rem 0 0;
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
@@ -2595,10 +2619,8 @@ form {
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
-  padding:  300px 0 0;
-  padding:  30rem 0 0;
-  background: url(../images/branding-bg-2.jpg) top center no-repeat;
-  background-size: cover;
+  padding:  192px 0 0;
+  padding:  19.2rem 0 0;
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
@@ -2606,27 +2628,27 @@ form {
 @media (min-width: 48em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  300px 0 0;
-    padding:  30rem 0 0;
+    padding:  288px 0 0;
+    padding:  28.8rem 0 0;
   }
 }
 @media (min-width: 64em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  432.0px 0 0;
-    padding:  43.2rem 0 0;
+    padding:  420px 0 0;
+    padding:  42rem 0 0;
   }
 }
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .branding {
-  padding:  432.0px 0 0;
-  padding:  43.2rem 0 0;
+  padding:  420px 0 0;
+  padding:  42rem 0 0;
 }
 @media (min-width: 80em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  528px 0 0;
-    padding:  52.8rem 0 0;
+    padding:  504px 0 0;
+    padding:  50.4rem 0 0;
   }
 }
 @media (min-width: 100em) {
@@ -2637,13 +2659,7 @@ form {
   }
 }
 
-/* line 56, ../sass/imports/modules/_branding.scss */
-#ie7 .branding,
-#ie8 .branding {
-  -ms-behavior: url(http://192.168.1.12:8888/gp-dolomiti-new/backgroundsize.min.htc);
-}
-
-/* line 61, ../sass/imports/modules/_branding.scss */
+/* line 53, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -2658,7 +2674,7 @@ form {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 71, ../sass/imports/modules/_branding.scss */
+/* line 63, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -2669,7 +2685,7 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -2681,7 +2697,7 @@ form {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 93, ../sass/imports/modules/_branding.scss */
+  /* line 85, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2701,7 +2717,7 @@ form {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 93, ../sass/imports/modules/_branding.scss */
+/* line 85, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -2709,7 +2725,7 @@ form {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2717,7 +2733,7 @@ form {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 104, ../sass/imports/modules/_branding.scss */
+  /* line 96, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2733,7 +2749,7 @@ form {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 104, ../sass/imports/modules/_branding.scss */
+/* line 96, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -2741,14 +2757,14 @@ form {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 114, ../sass/imports/modules/_branding.scss */
+  /* line 106, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
@@ -2780,8 +2796,8 @@ form {
 @media (min-width: 37.5em) {
   /* line 19, ../sass/imports/modules/_info.scss */
   .info .section__title {
-    margin-top:  48px;
-    margin-top:  4.8rem;
+    padding-top:  48px;
+    padding-top:  4.8rem;
     font-size:  48px;
     font-size:  4.8rem;
     line-height:  55px;
@@ -2790,8 +2806,8 @@ form {
 }
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .info .section__title {
-  margin-top:  48px;
-  margin-top:  4.8rem;
+  padding-top:  48px;
+  padding-top:  4.8rem;
   font-size:  48px;
   font-size:  4.8rem;
   line-height:  55px;
@@ -3019,7 +3035,7 @@ form {
 /* line 120, ../sass/imports/modules/_program.scss */
 #ie7 .dinner,
 #ie8 .dinner {
-  -ms-behavior: url(http://192.168.1.12:8888/gp-dolomiti-new/backgroundsize.min.htc);
+  -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
 }
 
 /* line 125, ../sass/imports/modules/_program.scss */

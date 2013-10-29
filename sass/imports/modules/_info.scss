@@ -25,7 +25,7 @@
 
 			@include at-breakpoint($large-width no-mq)
 			{
-				@include rem(margin-top, $doubleSpace * 2);
+				@include rem(padding-top, $doubleSpace * 2);
 				@include setType($h1Size--large, $h1LineHeight--large);
 			}
 

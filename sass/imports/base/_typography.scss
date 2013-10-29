@@ -81,6 +81,19 @@
 		@include at-breakpoint($large-width $large-cols)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				content:" ";
+				position:absolute;
+				top:0;
+				right:0;
+				left:0;
+				@include rem(height, $doubleSpace * 40);
+				background:url(../images/branding-bg-2.jpg) 50% 48px no-repeat;
+				background-size:100%;
+				background-attachment:fixed;
+			}
 		}
 
 
@@ -112,6 +125,19 @@
 		{
 			@include setType($bodyFontSize--monstrous, $bodyLineHeight--monstrous);
 		}
+	}
+
+	#ie7 body,
+	#ie8 body
+	{
+		background:url(../images/branding-bg-2.jpg) top center no-repeat;
+		background-size:100% auto;
+   		-ms-behavior: $backgroundSizePolyfillUrl;
+
+   		&:after
+   		{
+   			content:none;
+   		}
 	}
 
 

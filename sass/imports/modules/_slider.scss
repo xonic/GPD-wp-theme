@@ -8,10 +8,8 @@
 	.slider
 	{
 		position:relative;
-		// background:$sandLight;
 		@include bleed;
 		padding:0;
-		// @include rem(padding, $doubleSpace 0);
 		@include rem(margin-bottom, $doubleSpace);
 		overflow-x:scroll;
 		-webkit-overflow-scrolling:touch;

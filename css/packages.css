@@ -593,6 +593,19 @@ body > section {
     line-height:  32px;
     line-height:  3.2rem;
   }
+  /* line 86, ../sass/imports/base/_typography.scss */
+  body:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:  960px;
+    height:  96rem;
+    background: url(../images/branding-bg-2.jpg) 50% 48px no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
 }
 @media (min-width: 64em) {
   /* line 51, ../sass/imports/base/_typography.scss */
@@ -629,29 +642,42 @@ body > section {
   }
 }
 
-/* line 121, ../sass/imports/base/_typography.scss */
+/* line 132, ../sass/imports/base/_typography.scss */
+#ie7 body,
+#ie8 body {
+  background: url(../images/branding-bg-2.jpg) top center no-repeat;
+  background-size: 100% auto;
+  -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
+}
+/* line 138, ../sass/imports/base/_typography.scss */
+#ie7 body:after,
+#ie8 body:after {
+  content: none;
+}
+
+/* line 147, ../sass/imports/base/_typography.scss */
 p small {
   font-size: -0.2;
 }
 
-/* line 127, ../sass/imports/base/_typography.scss */
+/* line 153, ../sass/imports/base/_typography.scss */
 pre {
   word-wrap: normal;
 }
 
-/* line 133, ../sass/imports/base/_typography.scss */
+/* line 159, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
   background-color: #feb31a;
   color: white;
 }
 
-/* line 139, ../sass/imports/base/_typography.scss */
+/* line 165, ../sass/imports/base/_typography.scss */
 ::selection {
   background-color: #feb31a;
   color: white;
 }
 
-/* line 150, ../sass/imports/base/_typography.scss */
+/* line 176, ../sass/imports/base/_typography.scss */
 a {
   padding: 0 1px;
   text-decoration: none;
@@ -668,7 +694,7 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 165, ../sass/imports/base/_typography.scss */
+/* line 191, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
   background-color: #febb33;
@@ -676,7 +702,7 @@ a:active,
   color: white;
 }
 
-/* line 175, ../sass/imports/base/_typography.scss */
+/* line 201, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -684,13 +710,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 182, ../sass/imports/base/_typography.scss */
+/* line 208, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 195, ../sass/imports/base/_typography.scss */
+/* line 221, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -701,7 +727,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 203, ../sass/imports/base/_typography.scss */
+/* line 229, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
   display: block;
@@ -710,7 +736,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 212, ../sass/imports/base/_typography.scss */
+/* line 238, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -718,7 +744,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -727,7 +753,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -736,7 +762,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -745,7 +771,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -754,7 +780,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 212, ../sass/imports/base/_typography.scss */
+  /* line 238, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -763,7 +789,7 @@ h1, .h1 {
   }
 }
 
-/* line 223, ../sass/imports/base/_typography.scss */
+/* line 249, ../sass/imports/base/_typography.scss */
 h2, .h2 {
   font-size:  32px;
   font-size:  3.2rem;
@@ -771,7 +797,7 @@ h2, .h2 {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2 {
     font-size:  32px;
     font-size:  3.2rem;
@@ -780,7 +806,7 @@ h2, .h2 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2 {
     font-size:  38px;
     font-size:  3.8rem;
@@ -789,7 +815,7 @@ h2, .h2 {
   }
 }
 @media (min-width: 64em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2 {
     font-size:  44px;
     font-size:  4.4rem;
@@ -798,7 +824,7 @@ h2, .h2 {
   }
 }
 @media (min-width: 80em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2 {
     font-size:  50px;
     font-size:  5rem;
@@ -807,7 +833,7 @@ h2, .h2 {
   }
 }
 @media (min-width: 100em) {
-  /* line 223, ../sass/imports/base/_typography.scss */
+  /* line 249, ../sass/imports/base/_typography.scss */
   h2, .h2 {
     font-size:  56px;
     font-size:  5.6rem;
@@ -816,7 +842,7 @@ h2, .h2 {
   }
 }
 
-/* line 234, ../sass/imports/base/_typography.scss */
+/* line 260, ../sass/imports/base/_typography.scss */
 h3, .h3 {
   font-size:  26px;
   font-size:  2.6rem;
@@ -824,7 +850,7 @@ h3, .h3 {
   line-height:  2.8rem;
 }
 
-/* line 239, ../sass/imports/base/_typography.scss */
+/* line 265, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -833,13 +859,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 252, ../sass/imports/base/_typography.scss */
+  /* line 278, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 266, ../sass/imports/base/_typography.scss */
+/* line 292, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -870,8 +896,20 @@ object {
 .flyout a {
   color: white;
 }
+@media (min-width: 37.5em) {
+  /* line 9, ../sass/imports/modules/_nav-main.scss */
+  .flyout {
+    position: fixed;
+    z-index: 999;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .flyout {
+  position: fixed;
+  z-index: 999;
+}
 
-/* line 28, ../sass/imports/modules/_nav-main.scss */
+/* line 34, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle {
   display: block;
   float: left;
@@ -888,7 +926,7 @@ object {
   font-size:  2.6rem;
   text-align: center;
 }
-/* line 41, ../sass/imports/modules/_nav-main.scss */
+/* line 47, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-reorder,
 .flyout__toggle .icon-remove {
   position: absolute;
@@ -899,7 +937,7 @@ object {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 51, ../sass/imports/modules/_nav-main.scss */
+/* line 57, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-reorder {
   -webkit-transform: rotateZ(360deg) scale3d(1, 1, 1);
   -moz-transform: rotateZ(360deg) scale3d(1, 1, 1);
@@ -911,7 +949,7 @@ object {
   -o-transition: -o-transform 0.3s ease, opacity 0.3s linear;
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
-/* line 57, ../sass/imports/modules/_nav-main.scss */
+/* line 63, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .icon-remove {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -926,7 +964,7 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
 @media (min-width: 37.5em) {
-  /* line 28, ../sass/imports/modules/_nav-main.scss */
+  /* line 34, ../sass/imports/modules/_nav-main.scss */
   .flyout__toggle {
     display: none;
   }
@@ -936,7 +974,7 @@ object {
   display: none;
 }
 
-/* line 72, ../sass/imports/modules/_nav-main.scss */
+/* line 78, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-reorder {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -946,7 +984,7 @@ object {
   -o-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   transform: rotateZ(0) scale3d(0.5, 0.5, 1);
 }
-/* line 78, ../sass/imports/modules/_nav-main.scss */
+/* line 84, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .icon-remove {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -957,25 +995,25 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 85, ../sass/imports/modules/_nav-main.scss */
+/* line 91, ../sass/imports/modules/_nav-main.scss */
 .mountains {
   float: right;
   max-height:  48px;
   max-height:  4.8rem;
 }
-/* line 90, ../sass/imports/modules/_nav-main.scss */
+/* line 96, ../sass/imports/modules/_nav-main.scss */
 .mountains + .mountains {
   display: none;
 }
 
-/* line 97, ../sass/imports/modules/_nav-main.scss */
+/* line 103, ../sass/imports/modules/_nav-main.scss */
 #ie7 .mountains,
 #ie8 .mountains {
   margin-top:  9px;
   margin-top:  0.9rem;
 }
 
-/* line 104, ../sass/imports/modules/_nav-main.scss */
+/* line 110, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   margin:  48px 0 0;
   margin:  4.8rem 0 0;
@@ -989,20 +1027,20 @@ object {
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
 }
-/* line 110, ../sass/imports/modules/_nav-main.scss */
+/* line 116, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 115, ../sass/imports/modules/_nav-main.scss */
+/* line 121, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 120, ../sass/imports/modules/_nav-main.scss */
+/* line 126, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 37.5em) {
-  /* line 104, ../sass/imports/modules/_nav-main.scss */
+  /* line 110, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin: 0;
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1019,11 +1057,11 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 @media (min-width: 37.5em) {
-  /* line 132, ../sass/imports/modules/_nav-main.scss */
+  /* line 138, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 138, ../sass/imports/modules/_nav-main.scss */
+  /* line 144, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     margin-left:  -10px;
     margin-left:  -1rem;
@@ -1033,12 +1071,12 @@ object {
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 138, ../sass/imports/modules/_nav-main.scss */
+/* line 144, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
   margin-left:  -10px;
   margin-left:  -1rem;
 }
-/* line 145, ../sass/imports/modules/_nav-main.scss */
+/* line 151, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.55556em;
@@ -1057,7 +1095,7 @@ object {
   text-transform: uppercase;
 }
 @media (min-width: 37.5em) {
-  /* line 145, ../sass/imports/modules/_nav-main.scss */
+  /* line 151, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1081,13 +1119,13 @@ object {
   text-transform: capitalize;
 }
 
-/* line 170, ../sass/imports/modules/_nav-main.scss */
+/* line 176, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 175, ../sass/imports/modules/_nav-main.scss */
+/* line 181, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1096,7 +1134,7 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 
-/* line 180, ../sass/imports/modules/_nav-main.scss */
+/* line 186, ../sass/imports/modules/_nav-main.scss */
 .content {
   position: relative;
   margin-top:  48px;
@@ -1107,8 +1145,23 @@ object {
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
 }
+@media (min-width: 37.5em) {
+  /* line 186, ../sass/imports/modules/_nav-main.scss */
+  .content {
+    background: transparent;
+  }
+}
+/* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
+.no-mq .content {
+  background: transparent;
+}
 
-/* line 188, ../sass/imports/modules/_nav-main.scss */
+/* line 199, ../sass/imports/modules/_nav-main.scss */
+.content__inner {
+  background: white;
+}
+
+/* line 204, ../sass/imports/modules/_nav-main.scss */
 .csstransforms3d .nav-is-shown .content {
   -webkit-transform: translate3d(0, 240px, 0);
   -moz-transform: translate3d(0, 240px, 0);
@@ -1119,7 +1172,7 @@ object {
   margin-top:  4.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 188, ../sass/imports/modules/_nav-main.scss */
+  /* line 204, ../sass/imports/modules/_nav-main.scss */
   .csstransforms3d .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1134,13 +1187,13 @@ object {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 199, ../sass/imports/modules/_nav-main.scss */
+/* line 215, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   margin-top:  288px;
   margin-top:  28.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 199, ../sass/imports/modules/_nav-main.scss */
+  /* line 215, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     margin-top:  48px;
     margin-top:  4.8rem;
@@ -1576,8 +1629,8 @@ object {
 @media (min-width: 37.5em) {
   /* line 19, ../sass/imports/modules/_info.scss */
   .info .section__title {
-    margin-top:  48px;
-    margin-top:  4.8rem;
+    padding-top:  48px;
+    padding-top:  4.8rem;
     font-size:  48px;
     font-size:  4.8rem;
     line-height:  55px;
@@ -1586,8 +1639,8 @@ object {
 }
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .info .section__title {
-  margin-top:  48px;
-  margin-top:  4.8rem;
+  padding-top:  48px;
+  padding-top:  4.8rem;
   font-size:  48px;
   font-size:  4.8rem;
   line-height:  55px;
@@ -1785,10 +1838,8 @@ object {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  300px 0 0;
-    padding:  30rem 0 0;
-    background: url(../images/branding-bg-2.jpg) top center no-repeat;
-    background-size: cover;
+    padding:  192px 0 0;
+    padding:  19.2rem 0 0;
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
@@ -1797,10 +1848,8 @@ object {
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
-  padding:  300px 0 0;
-  padding:  30rem 0 0;
-  background: url(../images/branding-bg-2.jpg) top center no-repeat;
-  background-size: cover;
+  padding:  192px 0 0;
+  padding:  19.2rem 0 0;
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
@@ -1808,27 +1857,27 @@ object {
 @media (min-width: 48em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  300px 0 0;
-    padding:  30rem 0 0;
+    padding:  288px 0 0;
+    padding:  28.8rem 0 0;
   }
 }
 @media (min-width: 64em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  432.0px 0 0;
-    padding:  43.2rem 0 0;
+    padding:  420px 0 0;
+    padding:  42rem 0 0;
   }
 }
 /* line 91, ../../../../../../../../usr/local/rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .no-mq .branding {
-  padding:  432.0px 0 0;
-  padding:  43.2rem 0 0;
+  padding:  420px 0 0;
+  padding:  42rem 0 0;
 }
 @media (min-width: 80em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  528px 0 0;
-    padding:  52.8rem 0 0;
+    padding:  504px 0 0;
+    padding:  50.4rem 0 0;
   }
 }
 @media (min-width: 100em) {
@@ -1839,13 +1888,7 @@ object {
   }
 }
 
-/* line 56, ../sass/imports/modules/_branding.scss */
-#ie7 .branding,
-#ie8 .branding {
-  -ms-behavior: url(http://192.168.1.12:8888/gp-dolomiti-new/backgroundsize.min.htc);
-}
-
-/* line 61, ../sass/imports/modules/_branding.scss */
+/* line 53, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -1860,7 +1903,7 @@ object {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 71, ../sass/imports/modules/_branding.scss */
+/* line 63, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -1871,7 +1914,7 @@ object {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -1883,7 +1926,7 @@ object {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 93, ../sass/imports/modules/_branding.scss */
+  /* line 85, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -1903,7 +1946,7 @@ object {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 93, ../sass/imports/modules/_branding.scss */
+/* line 85, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -1911,7 +1954,7 @@ object {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -1919,7 +1962,7 @@ object {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 104, ../sass/imports/modules/_branding.scss */
+  /* line 96, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -1935,7 +1978,7 @@ object {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 104, ../sass/imports/modules/_branding.scss */
+/* line 96, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -1943,14 +1986,14 @@ object {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 61, ../sass/imports/modules/_branding.scss */
+  /* line 53, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 114, ../sass/imports/modules/_branding.scss */
+  /* line 106, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
