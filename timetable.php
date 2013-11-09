@@ -22,25 +22,25 @@ get_header(); ?>
 					</h1>
 					<ol class="space-lover">
 						<li class="media">
-							<div class="media__img program__icon"><i class="icon-group"></i></div>
+							<div class="media__img program__icon"><i class="fa fa-users"></i></div>
 							<div class="media__bd">
 								<? _e("pre__arrival", "gp-dolomiti"); ?>
 							</div>
 						</li>
 						<li class="media">
-							<div class="media__img program__icon"><i class="icon-dashboard"></i></div>
+							<div class="media__img program__icon"><i class="fa fa-tachometer"></i></div>
 							<div class="media__bd">
 								<? _e("pre__inspection", "gp-dolomiti"); ?>
 							</div>
 						</li>
 						<li class="media">
-							<div class="media__img program__icon"><i class="icon-briefcase"></i></div>
+							<div class="media__img program__icon"><i class="fa fa-briefcase"></i></div>
 							<div class="media__bd">
 								<? _e("pre__check-in", "gp-dolomiti"); ?>
 							</div>
 						</li>
 						<li class="media">
-							<div class="media__img program__icon"><i class="icon-food"></i></div>
+							<div class="media__img program__icon"><i class="fa fa-cutlery"></i></div>
 							<div class="media__bd">
 								<? _e("pre__day1__dinner", "gp-dolomiti"); ?>
 							</div>
@@ -54,7 +54,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="icon-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
 					
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -114,7 +114,7 @@ get_header(); ?>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-alt"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-o"></i></td>
 								<td class="route__location">
 								<? _e("pre__meran", "gp-dolomiti"); ?>
 								</td>
@@ -123,7 +123,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__jaufen", "gp-dolomiti"); ?>
 								</td>
@@ -132,7 +132,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__sterzing", "gp-dolomiti"); ?>
 								</td>
@@ -141,7 +141,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__penser", "gp-dolomiti"); ?>
 								</td>
@@ -150,7 +150,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__bozen", "gp-dolomiti"); ?>
 								</td>
@@ -159,7 +159,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__mendel", "gp-dolomiti"); ?>
 								</td>
@@ -168,7 +168,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__fondo", "gp-dolomiti"); ?>
 								</td>
@@ -177,7 +177,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__gampen", "gp-dolomiti"); ?>
 								</td>
@@ -186,7 +186,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-checkered"></i></td>
 								<td class="route__location">
 									<? _e("pre__meran", "gp-dolomiti"); ?>
 								</td>
@@ -198,7 +198,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 
-						<h3 class="day__subheading"><i class="icon-food"></i>&nbsp;&nbsp;La notte italiana</h3>
+						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;La notte italiana</h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -245,7 +245,7 @@ get_header(); ?>
 						<!-- <div class="day__dinner__img">
 							<img src="<? echo get_template_directory_uri(); ?>/images/events/notte-italiana.jpg" alt="La notte italiana">
 						</div>
-						<div class="media__img program__icon"><i class="icon-food"></i></div>
+						<div class="media__img program__icon"><i class="fa fa-cutlery"></i></div>
 						<div class="media__bd">
 							<p>
 								<? _e("pre__day2__dinner", "gp-dolomiti"); ?>
@@ -262,7 +262,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="icon-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -320,7 +320,7 @@ get_header(); ?>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-alt"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-o"></i></td>
 								<td class="route__location">
 									<? _e("pre__bozen", "gp-dolomiti"); ?>
 								</td>
@@ -329,7 +329,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__ortisei", "gp-dolomiti"); ?>
 								</td>
@@ -338,7 +338,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__wolkenstein", "gp-dolomiti"); ?>
 								</td>
@@ -347,7 +347,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__groedner", "gp-dolomiti"); ?>
 								</td>
@@ -356,7 +356,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__corvara", "gp-dolomiti"); ?>
 								</td>
@@ -365,7 +365,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__campolungo", "gp-dolomiti"); ?>
 								</td>
@@ -374,7 +374,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__pordoi", "gp-dolomiti"); ?>
 								</td>
@@ -383,7 +383,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__sella", "gp-dolomiti"); ?>
 								</td>
@@ -392,7 +392,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__ortisei", "gp-dolomiti"); ?>
 								</td>
@@ -401,7 +401,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-checkered"></i></td>
 								<td class="route__location">
 									<? _e("pre__bozen", "gp-dolomiti"); ?>
 								</td>
@@ -413,7 +413,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 
-						<h3 class="day__subheading"><i class="icon-food"></i>&nbsp;&nbsp;Lounge Wandelhalle</h3>
+						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Lounge Wandelhalle</h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -465,7 +465,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="icon-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -523,7 +523,7 @@ get_header(); ?>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-alt"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-o"></i></td>
 								<td class="route__location">
 									<? _e("pre__meran", "gp-dolomiti"); ?>
 								</td>
@@ -532,7 +532,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__glurns", "gp-dolomiti"); ?>
 								</td>
@@ -541,7 +541,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__stilfs", "gp-dolomiti"); ?>
 								</td>
@@ -550,7 +550,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-checkered"></i></td>
 								<td class="route__location">
 									<? _e("pre__meran", "gp-dolomiti"); ?>
 								</td>
@@ -562,7 +562,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 						
-						<h3 class="day__subheading"><i class="icon-food"></i>&nbsp;&nbsp;Genuss nach Wahl</h3>
+						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Genuss nach Wahl</h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -614,7 +614,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="icon-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -672,7 +672,7 @@ get_header(); ?>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-alt"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-o"></i></td>
 								<td class="route__location">
 									<? _e("pre__meran", "gp-dolomiti"); ?>
 								</td>
@@ -681,7 +681,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__lana", "gp-dolomiti"); ?>
 								</td>
@@ -690,7 +690,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__andrian", "gp-dolomiti"); ?>
 								</td>
@@ -699,7 +699,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__pauls", "gp-dolomiti"); ?>
 								</td>
@@ -708,7 +708,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__eppan", "gp-dolomiti"); ?>
 								</td>
@@ -717,7 +717,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__kaltern", "gp-dolomiti"); ?>
 								</td>
@@ -726,7 +726,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-map-marker"></i></td>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
 									<? _e("pre__neumarkt", "gp-dolomiti"); ?>
 								</td>
@@ -735,7 +735,7 @@ get_header(); ?>
 								</td>
 							</tr>
 							<tr>
-								<td class="route__icon"><i class="icon-flag-checkered"></i></td>
+								<td class="route__icon"><i class="fa fa-flag-checkered"></i></td>
 								<td class="route__location">
 									<? _e("pre__bozen", "gp-dolomiti"); ?>
 								</td>
@@ -747,7 +747,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 
-						<h3 class="day__subheading"><i class="icon-food"></i>&nbsp;&nbsp;Gala Dinner &amp; Siegerehrung</h3>
+						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Gala Dinner &amp; Siegerehrung</h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -799,7 +799,7 @@ get_header(); ?>
 						</time>
 					</h1>
 					<div class="day__special media">
-						<div class="media__img"><i class="icon-trophy"></i></div>
+						<div class="media__img"><i class="fa fa-trophytrophy"></i></div>
 						<div class="media__bd">
 							<p>
 								<? _e("pre__day6__ceremony", "gp-dolomiti"); ?>

@@ -4,10 +4,70 @@
 //
 //  ---------------------------------------------------------------------------
 
+	$minorBreakpoint: 48em;
+
+	.package 
+	{
+		@extend .cf;
+		@include rem(margin-bottom, $doubleSpace * 2);
+		// @include rem(padding-bottom, $doubleSpace * 2);
+		border-bottom:0 solid $sand;
+		@include rem(border-bottom-width, $borderMedium);
+	}
+
 	.package__price
 	{
+		white-space:nowrap;
+		
 		@include at-breakpoint($large-width)
 		{
 			float:right;
+		}
+	}
+
+	.package__description
+	{
+		@include rem(margin-bottom, $doubleSpace * 2);
+
+		@include at-breakpoint($minorBreakpoint)
+		{
+			@include rem(margin-bottom, $doubleSpace * 3);
+			@include span-columns(8, $huge-cols);
+		}
+	}
+
+	.l-package__summary
+	{
+		display:none;
+
+		@include at-breakpoint($minorBreakpoint)
+		{
+			display:block;
+			@include span-columns(3 omega, $huge-cols);
+
+			i { color:$primaryAccent; }
+		}
+	}
+
+	.package__summary 
+	{
+		@include rem(padding, $singleSpace);
+		background:$sandLight;
+		border:0 solid $sandDark;
+		@include rem(border-width, $borderThin);
+	}
+
+	.l-package__action
+	{
+		@include at-breakpoint($minorBreakpoint)
+		{
+			clear:right;
+			@include span-columns(3 omega, $huge-cols);
+
+			a 
+			{ 
+				float:right;
+				width:100%;
+			}
 		}
 	}

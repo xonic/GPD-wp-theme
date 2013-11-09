@@ -101,30 +101,30 @@
 	//  = HUGE
 	//  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($huge-width $huge-cols no-mq)
-		{
-			@include setType($bodyFontSize--huge, $bodyLineHeight--huge);
-		}
+	// 	@include at-breakpoint($huge-width $huge-cols no-mq)
+	// 	{
+	// 		@include setType($bodyFontSize--huge, $bodyLineHeight--huge);
+	// 	}
 
 
 
-	//  = GIANT
-	//  ---------------------------------------------------------------------------
+	// //  = GIANT
+	// //  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($giant-width $giant-cols)
-		{
-			@include setType($bodyFontSize--giant, $bodyLineHeight--giant);
-		}
+	// 	@include at-breakpoint($giant-width $giant-cols)
+	// 	{
+	// 		@include setType($bodyFontSize--giant, $bodyLineHeight--giant);
+	// 	}
 
 
 
 	//  = MONSTROUS
 	//  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($monstrous-width $monstrous-cols)
-		{
-			@include setType($bodyFontSize--monstrous, $bodyLineHeight--monstrous);
-		}
+		// @include at-breakpoint($monstrous-width $monstrous-cols)
+		// {
+		// 	@include setType($bodyFontSize--monstrous, $bodyLineHeight--monstrous);
+		// }
 	}
 
 	#ie7 body,

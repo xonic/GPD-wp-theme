@@ -12,7 +12,7 @@
 	.l-feature
 	{
 		@include rem(margin-bottom, $doubleSpace);
-		
+
 		@include at-breakpoint($large-width)
 		{
 			@include span-columns(4, $large-cols);
@@ -36,13 +36,27 @@
 	.feature
 	{
 		@include rem(padding, $doubleSpace);
-		border:0px solid $olive;
-		@include rem(border-width, $borderThick);
+		border:0px solid $sandDark;
+		@include rem(border-width, $borderMedium);
 	}
 
-	.feature__title
+	.feature__title,
+	.feature__img
 	{
 		text-align:center;
+	}
+
+	.feature__img
+	{
+		@include rem(margin-bottom, $singleSpace);
+		height:5em;
+		line-height:5em;
+		color:$olive;
+	}
+
+	.feature__icon-text
+	{
+		@include rem(font-size, $singleSpace * 4);
 	}
 
 	.feature__description

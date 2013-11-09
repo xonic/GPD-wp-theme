@@ -44,8 +44,8 @@
 		@include rem(font-size, $h3Size);
 		text-align:center;
 
-		.icon-reorder,
-		.icon-remove
+		.fa-bars,
+		.fa-times
 		{
 			position:absolute;
 			top:0;
@@ -55,13 +55,13 @@
 			@include rem(line-height, $touchSize);
 		}
 
-		.icon-reorder
+		.fa-bars
 		{
 			@include transform(rotateZ(360deg) scale3d(1,1,1));
 			@include transition(transform .3s ease, opacity .3s linear);
 		}
 
-		.icon-remove
+		.fa-times
 		{
 			@include opacity(0);
 			@include transform(rotateZ(360deg) scale3d(.5,.5,1));
@@ -76,13 +76,13 @@
 
 	.nav-is-shown .flyout__toggle
 	{
-		.icon-reorder
+		.fa-bars
 		{
 			@include opacity(0);
 			@include transform(rotateZ(0) scale3d(.5,.5,1));
 		}
 
-		.icon-remove
+		.fa-times
 		{
 			@include opacity(1);
 			@include transform(rotateZ(0) scale3d(1,1,1));
@@ -200,6 +200,11 @@
 	.content__inner
 	{
 		background:$white;
+
+		@include at-breakpoint($large-width)
+		{
+			@include rem(padding-top, $doubleSpace);
+		}
 	}
 
 	.csstransforms3d .nav-is-shown .content

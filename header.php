@@ -81,7 +81,7 @@
 	<body <?php body_class(); ?>>
 			<div class="flyout">
 				<div class="grid cf">
-					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="icon-reorder"></i><i class="icon-remove"></i></a>
+					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 					<!--[if lte IE 8]>
 					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.png" alt="Gran Premio Dolomiti Logo">
 					<![endif]-->
