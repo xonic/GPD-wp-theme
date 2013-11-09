@@ -104,6 +104,7 @@
 
 				<div class="content__inner">
 
+	<!-- 
 					<section class="section info">
 						<div class="grid">
 							<h1 class="section__title">
@@ -118,12 +119,11 @@
 									<? _e("pre__info__end-date", "gp-dolomiti"); ?>
 								</time>
 							</h2>
-	<!-- 
 							<p>
 								<? _e("pre__info__p1", "gp-dolomiti"); ?>
 							</p>
 							<p>
 								<? _e("pre__info__p2", "gp-dolomiti"); ?>
-							</p> -->
+							</p>
 						</div>
-					</section>
+					</section> -->

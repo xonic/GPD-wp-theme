@@ -371,6 +371,7 @@ table {
 
 /* line 85, ../sass/imports/modules/_grid.scss */
 .grid {
+  position: relative;
   *zoom: 1;
   padding-left: 0.55556em;
   padding-right: 0.55556em;
@@ -1755,6 +1756,70 @@ object {
   text-transform: uppercase;
 }
 
+@media (min-width: 37.5em) {
+  /* line 43, ../sass/imports/modules/_sections.scss */
+  .section--has-img {
+    position: relative;
+    height:  600px;
+    height:  60rem;
+    background: url(../images/about__experience.jpg) center no-repeat transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 0 solid #8b826a;
+    border-bottom-width:  12px;
+    border-bottom-width:  1.2rem;
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 62, ../sass/imports/modules/_sections.scss */
+  .section--feel {
+    background-image: url(../images/feel.jpg);
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 70, ../sass/imports/modules/_sections.scss */
+  .section--conquer {
+    background-image: url(../images/conquer.jpg);
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 78, ../sass/imports/modules/_sections.scss */
+  .section--taste {
+    background-image: url(../images/taste.jpg);
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 86, ../sass/imports/modules/_sections.scss */
+  .section--experience {
+    background-image: url(../images/experience.jpg);
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 94, ../sass/imports/modules/_sections.scss */
+  .section__bd {
+    position: absolute;
+    top:  48px;
+    top:  4.8rem;
+    padding:  48px;
+    padding:  4.8rem;
+    background: rgba(255, 255, 255, 0.8);
+    width:  480px;
+    width:  48rem;
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 106, ../sass/imports/modules/_sections.scss */
+  .section__bd--is-right {
+    right: 0;
+  }
+}
+
 /* line 19, ../sass/imports/modules/_info.scss */
 .info .section__title {
   margin-bottom:  6px;
@@ -1937,6 +2002,68 @@ object {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
 }
+/* line 9, ../sass/imports/modules/_route-img.scss */
+.route-img {
+  display: block;
+  background-image: url(../images/experiences.jpg);
+  background-size: 1200% 100%;
+}
+
+/* line 16, ../sass/imports/modules/_route-img.scss */
+.route-img--2 {
+  background-position: -100% 0;
+}
+
+/* line 21, ../sass/imports/modules/_route-img.scss */
+.route-img--3 {
+  background-position: -200% 0;
+}
+
+/* line 26, ../sass/imports/modules/_route-img.scss */
+.route-img--4 {
+  background-position: -300% 0;
+}
+
+/* line 31, ../sass/imports/modules/_route-img.scss */
+.route-img--5 {
+  background-position: -400% 0;
+}
+
+/* line 36, ../sass/imports/modules/_route-img.scss */
+.route-img--6 {
+  background-position: -500% 0;
+}
+
+/* line 41, ../sass/imports/modules/_route-img.scss */
+.route-img--7 {
+  background-position: -600% 0;
+}
+
+/* line 46, ../sass/imports/modules/_route-img.scss */
+.route-img--8 {
+  background-position: -700% 0;
+}
+
+/* line 51, ../sass/imports/modules/_route-img.scss */
+.route-img--9 {
+  background-position: -800% 0;
+}
+
+/* line 56, ../sass/imports/modules/_route-img.scss */
+.route-img--10 {
+  background-position: -900% 0;
+}
+
+/* line 61, ../sass/imports/modules/_route-img.scss */
+.route-img--11 {
+  background-position: -1000% 0;
+}
+
+/* line 66, ../sass/imports/modules/_route-img.scss */
+.route-img--12 {
+  background-position: -1100% 0;
+}
+
 /* line 8, ../sass/imports/modules/_lang.scss */
 .lang {
   font-size:  14px;
