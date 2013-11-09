@@ -1,0 +1,51 @@
+//  ---------------------------------------------------------------------------
+//
+//  Package features
+//
+//  ---------------------------------------------------------------------------
+
+	.package__features
+	{
+		@extend .cf;
+	}
+
+	.l-feature
+	{
+		@include rem(margin-bottom, $doubleSpace);
+		
+		@include at-breakpoint($large-width)
+		{
+			@include span-columns(4, $large-cols);
+			@include nth-omega(2n);
+
+			&:nth-child(2n + 1) { clear:both; }
+		}
+
+		@include at-breakpoint($huge-width)
+		{
+
+			&:nth-child(2n + 1) { clear:none; }
+			@include remove-nth-omega(2n, $context:$huge-cols);
+
+			@include span-columns(4, $huge-cols);
+			@include nth-omega(3n);
+			&:nth-child(3n + 1) { clear:both; }
+		}
+	}
+
+	.feature
+	{
+		@include rem(padding, $doubleSpace);
+		border:0px solid $olive;
+		@include rem(border-width, $borderThick);
+	}
+
+	.feature__title
+	{
+		text-align:center;
+	}
+
+	.feature__description
+	{
+		margin-bottom:0;
+	}
