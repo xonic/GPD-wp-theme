@@ -28,10 +28,10 @@ get_header(); ?>
 						</time>
 					</h2>
 
-					<p>
+					<p class="info__paragraph">
 						<? _e("pre__info__p1", "gp-dolomiti"); ?>
 					</p>
-					<p>
+					<p class="info__paragraph">
 						<? _e("pre__info__p2", "gp-dolomiti"); ?>
 					</p>
 				</section>

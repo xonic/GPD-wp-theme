@@ -127,6 +127,58 @@
 		// }
 	}
 
+	.page-template-timetable-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-program.jpg);
+			}
+		}
+	}
+
+	.page-template-packages-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-packages.jpg);
+			}
+		}
+	}
+
+	.page-template-regulations-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-regulations.jpg);
+			}
+		}
+	}
+
+	.page-template-contact-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-contact.jpg);
+			}
+		}
+	}
+
 	#ie7 body,
 	#ie8 body
 	{

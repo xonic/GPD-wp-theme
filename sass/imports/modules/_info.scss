@@ -15,6 +15,8 @@
 
 	.info
 	{
+		@extend .cf;
+		
 		@include rem(margin-bottom, $doubleSpace * 2);
 	}
 	
@@ -55,4 +57,17 @@
 		@include at-breakpoint($huge-width) 	 { @include setType($h2Size--huge, $h2LineHeight--huge); }
 		@include at-breakpoint($giant-width) 	 { @include setType($h2Size--giant, $h2LineHeight--giant); }
 		@include at-breakpoint($monstrous-width) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
+	}
+
+	.info__paragraph
+	{
+		@include at-breakpoint(48em)
+		{
+			@include span-columns(4, $large-cols);
+
+			&:last-child
+			{
+				@include omega;
+			}
+		}
 	}
