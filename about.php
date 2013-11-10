@@ -15,7 +15,7 @@ get_header(); ?>
 			<div class="grid">
 				<section class="info">
 					<? //echo qtrans_getLanguage(); ?>
-					<h1 class="section__title">
+					<h1 class="section__title section__title--smaller">
 						<? _e("pre__info__title", "gp-dolomiti"); ?>
 					</h1>
 					<h2 class="info__date">
@@ -68,53 +68,93 @@ get_header(); ?>
 						</li>
 					</ol>
 				</section> -->
+				<section class="experience">
+					<h1 class="section__title section__title--emphasized">
+						<? _e("<!--:en-->Experience<!--:--><!--:de-->Das Erlebnis<!--:--><!--:it-->L'esperienza<!--:--><!--:fr-->Expérience<!--:-->"); ?>
+					</h1>
+					<ul class="features--about cf">
+						<li class="l-feature">
+							<div class="feature">
+								<h3 class="feature__title">4</h3>
+								<p class="feature__description">
+									<? _e("<!--:en-->Day routes<!--:--><!--:de-->Tagesrouten<br>erkunden<!--:--><!--:it-->Percorsi<!--:--><!--:fr-->Routes<!--:-->"); ?>
+								</p>
+							</div>
+						</li>
+						<li class="l-feature">
+							<div class="feature">
+								<h3 class="feature__title">9</h3>
+								<p class="feature__description">
+									<? _e("<!--:en-->Passes<!--:--><!--:de-->Bergpässe<br>erobern<!--:--><!--:it-->Passi<!--:--><!--:fr-->Passes<!--:-->"); ?>
+								</p>
+							</div>
+						</li>
+						<li class="l-feature">
+							<div class="feature">
+								<h3 class="feature__title">750</h3>
+								<p class="feature__description">
+									<? _e("<!--:en-->Kilometers<!--:--><!--:de-->Kilometer<br>fahren<!--:--><!--:it-->Chilometri<!--:--><!--:fr-->Kilomètres<!--:-->"); ?>
+								</p>
+							</div>
+						</li>
+						<li class="l-feature">
+							<div class="feature">
+								<h3 class="feature__title">20.000</h3>
+								<p class="feature__description">
+									<? _e("<!--:en-->Meters altitude<!--:--><!--:de-->Höhenmeter<br>bezwingen<!--:--><!--:it-->Metri d'altezza<!--:--><!--:fr-->Mètres altitudines<!--:-->"); ?>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</section>
 			</div>
-				
-			<section class="section section--has-img">
-				<div class="grid">
-					<div class="section__bd section__bd--is-right">
-						<h1 class="section__title">Discover</h1>
-						<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
-					</div>
-				</div>
-			</section>
-				
-			<section class="section section--has-img section--feel">
-				<div class="grid">
-					<div class="section__bd">
-						<h1 class="section__title">Feel</h1>
-						<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
-					</div>
-				</div>
-			</section>
-				
-			<section class="section section--has-img section--conquer">
-				<div class="grid">
-					<div class="section__bd section__bd--is-right">
-						<h1 class="section__title">Conquer</h1>
-						<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
-					</div>
-				</div>
-			</section>
-				
-			<section class="section section--has-img section--taste">
-				<div class="grid">
-					<div class="section__bd section__bd--is-right">
-						<h1 class="section__title">Taste</h1>
-						<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
-					</div>
-				</div>
-			</section>
-				
-			<section class="section section--has-img section--experience">
-				<div class="grid">
-					<div class="section__bd">
-						<h1 class="section__title">Experience</h1>
-						<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
-					</div>
-				</div>
-			</section>
 
+			<?	
+			// <section class="section section--has-img">
+			// 	<div class="grid">
+			// 		<div class="section__bd section__bd--is-right">
+			// 			<h1 class="section__title">Discover</h1>
+			// 			<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
+			// 		</div>
+			// 	</div>
+			// </section>
+				
+			// <section class="section section--has-img section--feel">
+			// 	<div class="grid">
+			// 		<div class="section__bd">
+			// 			<h1 class="section__title">Feel</h1>
+			// 			<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
+			// 		</div>
+			// 	</div>
+			// </section>
+				
+			// <section class="section section--has-img section--conquer">
+			// 	<div class="grid">
+			// 		<div class="section__bd section__bd--is-right">
+			// 			<h1 class="section__title">Conquer</h1>
+			// 			<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
+			// 		</div>
+			// 	</div>
+			// </section>
+				
+			// <section class="section section--has-img section--taste">
+			// 	<div class="grid">
+			// 		<div class="section__bd section__bd--is-right">
+			// 			<h1 class="section__title">Taste</h1>
+			// 			<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
+			// 		</div>
+			// 	</div>
+			// </section>
+				
+			// <section class="section section--has-img section--experience">
+			// 	<div class="grid">
+			// 		<div class="section__bd">
+			// 			<h1 class="section__title">Experience</h1>
+			// 			<p class="section__text">High mountains, deep valleys and the most beautiful landscapes.</p>
+			// 		</div>
+			// 	</div>
+			// </section>
+			?>
 		</section>
 
 <?php get_footer(); ?>

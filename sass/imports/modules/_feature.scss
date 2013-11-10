@@ -63,3 +63,72 @@
 	{
 		margin-bottom:0;
 	}
+
+	.features--about
+	{
+		margin-bottom:0;
+
+		.l-feature
+		{
+			@include span-columns(2, $small-cols);
+			@include nth-omega(2n);
+
+			&:last-child
+			{
+				margin-bottom:0;
+			}
+
+			@include at-breakpoint($huge-width)
+			{
+				@include remove-nth-omega(2n, $context:$huge-cols);
+				@include remove-nth-omega(3n, $context:$huge-cols);
+
+				@include span-columns(3, $huge-cols);
+				@include nth-omega(4n);
+				&:nth-child(3n + 1) { clear:none; }
+			}
+		}
+
+		.feature
+		{
+			text-align:center;
+		}
+
+		.feature__title
+		{
+			@include setType($h1Size, $h1LineHeight);
+			@include rem(margin-bottom, $singleSpace);
+			
+			@include at-breakpoint($medium-width) 	 { @include setType($h1Size--medium, $h1LineHeight--medium); }
+
+			@include at-breakpoint($large-width no-mq) { @include setType($h1Size--large, $h1LineHeight--large); }
+
+			@include at-breakpoint($huge-width) 	 { @include setType($h1Size--huge, $h1LineHeight--huge); }
+			// @include at-breakpoint($giant-width) 	 { @include setType($h1Size--giant, $h1LineHeight--giant); }
+			// @include at-breakpoint($monstrous-width) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
+		}
+
+		.feature__description
+		{
+			// font-size:120%;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,27 +12,29 @@
 //  Defines the styling for info section
 //
 //  ---------------------------------------------------------------------------
-	
+
 	.info
 	{
-		.section__title
+		@include rem(margin-bottom, $doubleSpace * 2);
+	}
+	
+	.section__title--smaller
+	{
+		@include rem(margin-bottom, $singleSpace / 2);
+		@include setType($h3Size, $h3LineHeight);
+		@include rem(letter-spacing, -.05);
+
+		@include at-breakpoint($medium-width) 	 { @include setType($h1Size--medium, $h1LineHeight--medium); }
+
+		@include at-breakpoint($large-width no-mq)
 		{
-			@include rem(margin-bottom, $singleSpace / 2);
-			@include setType($h3Size, $h3LineHeight);
-			@include rem(letter-spacing, -.05);
-
-			@include at-breakpoint($medium-width) 	 { @include setType($h1Size--medium, $h1LineHeight--medium); }
-
-			@include at-breakpoint($large-width no-mq)
-			{
-				@include rem(padding-top, $doubleSpace * 2);
-				@include setType($h1Size--large, $h1LineHeight--large);
-			}
-
-			@include at-breakpoint($huge-width) 	 { @include setType($h1Size--huge, $h1LineHeight--huge); }
-			@include at-breakpoint($giant-width) 	 { @include setType($h1Size--giant, $h1LineHeight--giant); }
-			@include at-breakpoint($monstrous-width) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
+			@include rem(padding, $doubleSpace * 2 0 $singleSpace);
+			@include setType($h1Size--large, $h1LineHeight--large);
 		}
+
+		@include at-breakpoint($huge-width) 	 { @include setType($h1Size--huge, $h1LineHeight--huge); }
+		@include at-breakpoint($giant-width) 	 { @include setType($h1Size--giant, $h1LineHeight--giant); }
+		@include at-breakpoint($monstrous-width) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
 	}
 
 	.info__date
@@ -45,6 +47,7 @@
 
 		@include at-breakpoint($large-width)
 		{
+			@include rem(padding-bottom, $doubleSpace * 2);
 			@include setType($h2Size--large, $h2LineHeight--large);
 			@include rem(letter-spacing, -.1);
 		}

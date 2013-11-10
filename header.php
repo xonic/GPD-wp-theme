@@ -12,6 +12,7 @@
 	$currentTemplate = basename(get_page_template());
 	$pos = strpos($currentTemplate, ".php");
 	$currentPage = substr($currentTemplate, 0, $pos);
+	$currentLang = qtrans_getLanguage();
 
 ?><!DOCTYPE html>
 <!--[if IE 7]>

@@ -26,7 +26,7 @@
 			z-index:901;
 			@include rem(padding, 0 $r-grid-padding);
 			background:rgba($blackSand,.3);
-			border-radius:0 0 0 4px;
+			border-radius:0 0 4px 4px;
 			@include rem(line-height, 2.6);
 		}
 	}
@@ -54,6 +54,7 @@
 		a 
 		{
 			color:rgba($white, .4);
+			border:0 none;
 		}
 
 		a:hover

@@ -154,7 +154,7 @@
 		background:$btnPrimaryColorLight;
 		@include gradient-vertical($btnPrimaryColorLight, $btnPrimaryColorDark);
 
-		color:$btnPrimaryFontColor;
+		color:$textColor;
 
 		&:hover
 		{
@@ -211,25 +211,6 @@
 			// Give the button a slight pressed effect
 			@include gradient-vertical($btnSuccessColorDark, $btnSuccessColorLight);
 			box-shadow:	inset 0 1px 3px rgba(0,0,0,.1);					// inner dark shadow
-		}
-	}
-
-	.btn--disabled
-	{
-		background:$btnDisabledColor;
-		border-color:$btnDisabledBorderColor;
-		box-shadow:none;
-		color:$btnDisabledFontColor;
-		text-shadow:none;
-
-		&:hover,
-		&:active
-		{
-			background:$btnDisabledColor;
-			box-shadow:none;
-			color:$btnDisabledFontColor;
-			text-shadow:none;
-			cursor:not-allowed;
 		}
 	}
 
@@ -369,6 +350,28 @@
 		@include rem(margin, .5 0 $doubleSpace * 2 - .5 0);
 		@include background(linear-gradient($secondaryAccent, lighten($secondaryAccent, 5%)));
 		box-shadow:0 0 0 2px rgba(0,0,0,.8);	
+	}
+
+	.btn--disabled,
+	.touch .btn--disabled,
+	.no-touch .btn--disabled
+	{
+		background:$grayVeryLight;
+		border-color:$btnDisabledBorderColor;
+		box-shadow:none;
+		color:$btnDisabledFontColor;
+		text-shadow:none;
+
+		&:hover,
+		&:active,
+		&:focus
+		{
+			background:$grayVeryLight;
+			box-shadow:none;
+			color:$btnDisabledFontColor;
+			text-shadow:none;
+			cursor:not-allowed;
+		}
 	}
 
 

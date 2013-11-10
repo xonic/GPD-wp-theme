@@ -18,14 +18,38 @@
 	.package__price
 	{
 		white-space:nowrap;
-		
+
 		@include at-breakpoint($large-width)
 		{
 			float:right;
 		}
 	}
 
-	.package__description
+	.package__action 
+	{
+		@include rem(margin-bottom, $singleSpace);
+	}
+
+	.package__action__msg
+	{
+		display:block;
+		@include rem(margin-bottom, $doubleSpace * 2);
+
+		// a { white-space:nowrap; }
+
+		@include at-breakpoint($minorBreakpoint)
+		{
+			@include rem(line-height, $doubleSpace);
+		}
+	}
+
+	.package__action__msg,
+	.package__price--on-demand
+	{
+		font-size:80%;
+	}
+
+	.l-package__description
 	{
 		@include rem(margin-bottom, $doubleSpace * 2);
 
@@ -64,7 +88,7 @@
 			clear:right;
 			@include span-columns(3 omega, $huge-cols);
 
-			a 
+			.btn 
 			{ 
 				float:right;
 				width:100%;

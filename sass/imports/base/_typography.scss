@@ -174,10 +174,13 @@
 	
 	a
 	{
-		padding:0 1px;
+		// padding:0 1px;
+
+		border-bottom:0 solid $linkColor;
+		@include rem(border-bottom-width, $borderMedium);
 
 		text-decoration:none;
-		color:$linkColor;
+		color:$textColor;
 		cursor:pointer;
 
 		@include transition(all);
@@ -189,9 +192,9 @@
 	a:active,
 	.no-touch a:hover
 	{
-		background-color:$linkColor;
+		// background-color:$linkColor;
 		text-decoration:none;
-		color:$white;
+		color:$linkColor;
 	}
 
 //  = LISTS

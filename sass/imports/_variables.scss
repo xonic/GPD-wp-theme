@@ -60,7 +60,7 @@
 	$yellow:				#fff2bf;
 	$orange:				#febb33;
 
-	$primaryAccent:			darken($orange, 5%);
+	$primaryAccent:			saturate(darken($orange, 10%), 5%);
 	$secondaryAccent:		$orange;
 
 

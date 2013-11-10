@@ -497,7 +497,7 @@ table {
 
 /* line 17, ../sass/imports/patterns/_style.scss */
 .h--emphasized {
-  border-bottom: 0 solid #feb31a;
+  border-bottom: 0 solid #feaa00;
   border-bottom-width:  4px;
   border-bottom-width:  0.4rem;
   padding-bottom:  20px;
@@ -628,21 +628,23 @@ pre {
 
 /* line 159, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
-  background-color: #feb31a;
+  background-color: #feaa00;
   color: white;
 }
 
 /* line 165, ../sass/imports/base/_typography.scss */
 ::selection {
-  background-color: #feb31a;
+  background-color: #feaa00;
   color: white;
 }
 
 /* line 176, ../sass/imports/base/_typography.scss */
 a {
-  padding: 0 1px;
+  border-bottom: 0 solid #febb33;
+  border-bottom-width:  2px;
+  border-bottom-width:  0.2rem;
   text-decoration: none;
-  color: #febb33;
+  color: #4c4535;
   cursor: pointer;
   -webkit-transition: all;
   -moz-transition: all;
@@ -655,15 +657,14 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 191, ../sass/imports/base/_typography.scss */
+/* line 194, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
-  background-color: #febb33;
   text-decoration: none;
-  color: white;
+  color: #febb33;
 }
 
-/* line 201, ../sass/imports/base/_typography.scss */
+/* line 204, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -671,13 +672,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 208, ../sass/imports/base/_typography.scss */
+/* line 211, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 221, ../sass/imports/base/_typography.scss */
+/* line 224, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, fieldset legend, .h4, .h5, .h6, .day__date {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -688,7 +689,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 229, ../sass/imports/base/_typography.scss */
+/* line 232, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, fieldset legend small, .h4 small, .h5 small, .h6 small, .day__date small {
   display: block;
@@ -697,7 +698,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 238, ../sass/imports/base/_typography.scss */
+/* line 241, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -705,7 +706,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 238, ../sass/imports/base/_typography.scss */
+  /* line 241, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -714,7 +715,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 238, ../sass/imports/base/_typography.scss */
+  /* line 241, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -723,7 +724,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 238, ../sass/imports/base/_typography.scss */
+  /* line 241, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -732,7 +733,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 238, ../sass/imports/base/_typography.scss */
+  /* line 241, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -741,7 +742,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 238, ../sass/imports/base/_typography.scss */
+  /* line 241, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -750,7 +751,7 @@ h1, .h1 {
   }
 }
 
-/* line 249, ../sass/imports/base/_typography.scss */
+/* line 252, ../sass/imports/base/_typography.scss */
 h2, .h2, .day__date {
   font-size:  32px;
   font-size:  3.2rem;
@@ -758,7 +759,7 @@ h2, .h2, .day__date {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 249, ../sass/imports/base/_typography.scss */
+  /* line 252, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  32px;
     font-size:  3.2rem;
@@ -767,7 +768,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 249, ../sass/imports/base/_typography.scss */
+  /* line 252, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  38px;
     font-size:  3.8rem;
@@ -776,7 +777,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 64em) {
-  /* line 249, ../sass/imports/base/_typography.scss */
+  /* line 252, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  44px;
     font-size:  4.4rem;
@@ -785,7 +786,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 80em) {
-  /* line 249, ../sass/imports/base/_typography.scss */
+  /* line 252, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  50px;
     font-size:  5rem;
@@ -794,7 +795,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 100em) {
-  /* line 249, ../sass/imports/base/_typography.scss */
+  /* line 252, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  56px;
     font-size:  5.6rem;
@@ -803,7 +804,7 @@ h2, .h2, .day__date {
   }
 }
 
-/* line 260, ../sass/imports/base/_typography.scss */
+/* line 263, ../sass/imports/base/_typography.scss */
 h3, .h3, fieldset legend {
   font-size:  26px;
   font-size:  2.6rem;
@@ -811,7 +812,7 @@ h3, .h3, fieldset legend {
   line-height:  2.8rem;
 }
 
-/* line 265, ../sass/imports/base/_typography.scss */
+/* line 268, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -820,13 +821,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 278, ../sass/imports/base/_typography.scss */
+  /* line 281, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 292, ../sass/imports/base/_typography.scss */
+/* line 295, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -988,39 +989,39 @@ object {
 
 /* line 150, ../sass/imports/modules/_button.scss */
 .btn--primary {
-  border-color: #f4a505;
-  background: #feb31a;
-  background-color: #feb013;
-  background-image: -moz-linear-gradient(top, #feb31a, #fead0a);
-  background-image: -ms-linear-gradient(top, #feb31a, #fead0a);
-  background-image: -webkit-linear-gradient(top, #feb31a, #fead0a);
-  background-image: linear-gradient(top, #feb31a, #fead0a);
+  border-color: #dc9503;
+  background: #feaa00;
+  background-color: #f8a600;
+  background-image: -moz-linear-gradient(top, #feaa00, #efa000);
+  background-image: -ms-linear-gradient(top, #feaa00, #efa000);
+  background-image: -webkit-linear-gradient(top, #feaa00, #efa000);
+  background-image: linear-gradient(top, #feaa00, #efa000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb115', endColorstr='#feac05', GradientType=0);
-  color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9a700', endColorstr='#ea9d00', GradientType=0);
+  color: #4c4535;
 }
 /* line 160, ../sass/imports/modules/_button.scss */
 .btn--primary:hover {
-  background-color: #fdb115;
-  background-image: -moz-linear-gradient(top, #feb624, #fdaa01);
-  background-image: -ms-linear-gradient(top, #feb624, #fdaa01);
-  background-image: -webkit-linear-gradient(top, #feb624, #fdaa01);
-  background-image: linear-gradient(top, #feb624, #fdaa01);
+  background-color: #f4a505;
+  background-image: -moz-linear-gradient(top, #ffae09, #e59900);
+  background-image: -ms-linear-gradient(top, #ffae09, #e59900);
+  background-image: -webkit-linear-gradient(top, #ffae09, #e59900);
+  background-image: linear-gradient(top, #ffae09, #e59900);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb41f', endColorstr='#f8a601', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffac04', endColorstr='#df9600', GradientType=0);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   color: white;
 }
 /* line 176, ../sass/imports/modules/_button.scss */
 .btn--primary:active {
-  background-color: #feaf10;
-  background-image: -moz-linear-gradient(top, #fead0a, #feb31a);
-  background-image: -ms-linear-gradient(top, #fead0a, #feb31a);
-  background-image: -webkit-linear-gradient(top, #fead0a, #feb31a);
-  background-image: linear-gradient(top, #fead0a, #feb31a);
+  background-color: #f5a400;
+  background-image: -moz-linear-gradient(top, #efa000, #feaa00);
+  background-image: -ms-linear-gradient(top, #efa000, #feaa00);
+  background-image: -webkit-linear-gradient(top, #efa000, #feaa00);
+  background-image: linear-gradient(top, #efa000, #feaa00);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feac05', endColorstr='#feb115', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea9d00', endColorstr='#f9a700', GradientType=0);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -1062,30 +1063,13 @@ object {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 218, ../sass/imports/modules/_button.scss */
-.btn--disabled {
-  background: white;
-  border-color: #e3e3e3;
-  box-shadow: none;
-  color: #b8b8b8;
-  text-shadow: none;
-}
-/* line 227, ../sass/imports/modules/_button.scss */
-.btn--disabled:hover, .btn--disabled:active {
-  background: white;
-  box-shadow: none;
-  color: #b8b8b8;
-  text-shadow: none;
-  cursor: not-allowed;
-}
-
-/* line 242, ../sass/imports/modules/_button.scss */
+/* line 223, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn {
   border-radius: 0;
   margin-right: 0;
   float: left;
 }
-/* line 249, ../sass/imports/modules/_button.scss */
+/* line 230, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -1095,7 +1079,7 @@ object {
   border-bottom-left-radius: 5px;
   border-right-width: 0;
 }
-/* line 255, ../sass/imports/modules/_button.scss */
+/* line 236, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:last-child {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -1108,12 +1092,12 @@ object {
   border-left-width: 0;
 }
 
-/* line 267, ../sass/imports/modules/_button.scss */
+/* line 248, ../sass/imports/modules/_button.scss */
 .btn-dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 279, ../sass/imports/modules/_button.scss */
+/* line 260, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu {
   display: none;
   position: absolute;
@@ -1132,7 +1116,7 @@ object {
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
   list-style: none;
 }
-/* line 299, ../sass/imports/modules/_button.scss */
+/* line 280, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu a {
   display: block;
   cursor: pointer;
@@ -1140,16 +1124,16 @@ object {
   padding:  0 1.2rem;
 }
 
-/* line 309, ../sass/imports/modules/_button.scss */
+/* line 290, ../sass/imports/modules/_button.scss */
 .open {
   *z-index: 1000;
 }
-/* line 313, ../sass/imports/modules/_button.scss */
+/* line 294, ../sass/imports/modules/_button.scss */
 .open > .btn-dropdown__menu {
   display: block;
 }
 
-/* line 324, ../sass/imports/modules/_button.scss */
+/* line 305, ../sass/imports/modules/_button.scss */
 .btn--newsletter {
   margin:  0 0 48px;
   margin:  0 0 4.8rem;
@@ -1176,7 +1160,7 @@ object {
   -o-transition: all 0.05s linear;
   transition: all 0.05s linear;
 }
-/* line 344, ../sass/imports/modules/_button.scss */
+/* line 325, ../sass/imports/modules/_button.scss */
 .btn--newsletter:hover, .btn--newsletter:focus {
   background-color: #febb33;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fec757), color-stop(100%, #febe3d));
@@ -1188,7 +1172,7 @@ object {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
   color: #3d372b;
 }
-/* line 358, ../sass/imports/modules/_button.scss */
+/* line 339, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
   background-color: #febb33;
   margin:  5px 0 43px 0;
@@ -1202,7 +1186,7 @@ object {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 368, ../sass/imports/modules/_button.scss */
+/* line 349, ../sass/imports/modules/_button.scss */
 .touch .btn--newsletter:hover {
   margin:  5px 0 43px 0;
   margin:  0.5rem 0 4.3rem 0;
@@ -1212,6 +1196,31 @@ object {
   background: -o-linear-gradient(#febb33, #fec34c);
   background: linear-gradient(#febb33, #fec34c);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+/* line 358, ../sass/imports/modules/_button.scss */
+.btn--disabled,
+.touch .btn--disabled,
+.no-touch .btn--disabled {
+  background: #dbdbdb;
+  border-color: #e3e3e3;
+  box-shadow: none;
+  color: #b8b8b8;
+  text-shadow: none;
+}
+/* line 368, ../sass/imports/modules/_button.scss */
+.btn--disabled:hover, .btn--disabled:active, .btn--disabled:focus,
+.touch .btn--disabled:hover,
+.touch .btn--disabled:active,
+.touch .btn--disabled:focus,
+.no-touch .btn--disabled:hover,
+.no-touch .btn--disabled:active,
+.no-touch .btn--disabled:focus {
+  background: #dbdbdb;
+  box-shadow: none;
+  color: #b8b8b8;
+  text-shadow: none;
+  cursor: not-allowed;
 }
 
 /* line 13, ../sass/imports/modules/_forms.scss */
@@ -1660,8 +1669,8 @@ textarea:focus,
 [type="tel"]:focus,
 [type="color"]:active,
 [type="color"]:focus {
-  border-color: #febb33;
-  border-top-color: #feb31a;
+  border-color: #ffb319;
+  border-top-color: #feaa00;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -2561,7 +2570,7 @@ form {
     padding:  0 10px;
     padding:  0 1rem;
     background: rgba(51, 46, 36, 0.3);
-    border-radius: 0 0 0 4px;
+    border-radius: 0 0 4px 4px;
     line-height:  26px;
     line-height:  2.6rem;
   }
@@ -2577,7 +2586,7 @@ form {
   padding:  0 10px;
   padding:  0 1rem;
   background: rgba(51, 46, 36, 0.3);
-  border-radius: 0 0 0 4px;
+  border-radius: 0 0 4px 4px;
   line-height:  26px;
   line-height:  2.6rem;
 }
@@ -2606,22 +2615,23 @@ form {
 /* line 55, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
   color: rgba(255, 255, 255, 0.4);
+  border: 0 none;
 }
-/* line 60, ../sass/imports/modules/_lang.scss */
+/* line 61, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
   color: white;
 }
-/* line 66, ../sass/imports/modules/_lang.scss */
+/* line 67, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
   color: white;
   cursor: default;
 }
-/* line 72, ../sass/imports/modules/_lang.scss */
+/* line 73, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
 }
-/* line 77, ../sass/imports/modules/_lang.scss */
+/* line 78, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
 }
@@ -2805,8 +2815,14 @@ form {
   }
 }
 
-/* line 19, ../sass/imports/modules/_info.scss */
-.info .section__title {
+/* line 17, ../sass/imports/modules/_info.scss */
+.info {
+  margin-bottom:  48px;
+  margin-bottom:  4.8rem;
+}
+
+/* line 22, ../sass/imports/modules/_info.scss */
+.section__title--smaller {
   margin-bottom:  6px;
   margin-bottom:  0.6rem;
   font-size:  26px;
@@ -2817,8 +2833,8 @@ form {
   letter-spacing:  -0.05rem;
 }
 @media (min-width: 30em) {
-  /* line 19, ../sass/imports/modules/_info.scss */
-  .info .section__title {
+  /* line 22, ../sass/imports/modules/_info.scss */
+  .section__title--smaller {
     font-size:  42px;
     font-size:  4.2rem;
     line-height:  44px;
@@ -2826,10 +2842,10 @@ form {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 19, ../sass/imports/modules/_info.scss */
-  .info .section__title {
-    padding-top:  48px;
-    padding-top:  4.8rem;
+  /* line 22, ../sass/imports/modules/_info.scss */
+  .section__title--smaller {
+    padding:  48px 0 12px;
+    padding:  4.8rem 0 1.2rem;
     font-size:  48px;
     font-size:  4.8rem;
     line-height:  55px;
@@ -2837,17 +2853,17 @@ form {
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
-.no-mq .info .section__title {
-  padding-top:  48px;
-  padding-top:  4.8rem;
+.no-mq .section__title--smaller {
+  padding:  48px 0 12px;
+  padding:  4.8rem 0 1.2rem;
   font-size:  48px;
   font-size:  4.8rem;
   line-height:  55px;
   line-height:  5.5rem;
 }
 @media (min-width: 64em) {
-  /* line 19, ../sass/imports/modules/_info.scss */
-  .info .section__title {
+  /* line 22, ../sass/imports/modules/_info.scss */
+  .section__title--smaller {
     font-size:  54px;
     font-size:  5.4rem;
     line-height:  55px;
@@ -2855,8 +2871,8 @@ form {
   }
 }
 @media (min-width: 80em) {
-  /* line 19, ../sass/imports/modules/_info.scss */
-  .info .section__title {
+  /* line 22, ../sass/imports/modules/_info.scss */
+  .section__title--smaller {
     font-size:  60px;
     font-size:  6rem;
     line-height:  66px;
@@ -2864,8 +2880,8 @@ form {
   }
 }
 @media (min-width: 100em) {
-  /* line 19, ../sass/imports/modules/_info.scss */
-  .info .section__title {
+  /* line 22, ../sass/imports/modules/_info.scss */
+  .section__title--smaller {
     font-size:  72px;
     font-size:  7.2rem;
     line-height:  77px;
@@ -2873,7 +2889,7 @@ form {
   }
 }
 
-/* line 39, ../sass/imports/modules/_info.scss */
+/* line 41, ../sass/imports/modules/_info.scss */
 .info__date {
   font-size:  26px;
   font-size:  2.6rem;
@@ -2884,7 +2900,7 @@ form {
   text-align: center;
 }
 @media (min-width: 30em) {
-  /* line 39, ../sass/imports/modules/_info.scss */
+  /* line 41, ../sass/imports/modules/_info.scss */
   .info__date {
     font-size:  32px;
     font-size:  3.2rem;
@@ -2893,8 +2909,10 @@ form {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 39, ../sass/imports/modules/_info.scss */
+  /* line 41, ../sass/imports/modules/_info.scss */
   .info__date {
+    padding-bottom:  48px;
+    padding-bottom:  4.8rem;
     font-size:  38px;
     font-size:  3.8rem;
     line-height:  44px;
@@ -2904,7 +2922,7 @@ form {
   }
 }
 @media (min-width: 64em) {
-  /* line 39, ../sass/imports/modules/_info.scss */
+  /* line 41, ../sass/imports/modules/_info.scss */
   .info__date {
     font-size:  44px;
     font-size:  4.4rem;
@@ -2913,7 +2931,7 @@ form {
   }
 }
 @media (min-width: 80em) {
-  /* line 39, ../sass/imports/modules/_info.scss */
+  /* line 41, ../sass/imports/modules/_info.scss */
   .info__date {
     font-size:  50px;
     font-size:  5rem;
@@ -2922,7 +2940,7 @@ form {
   }
 }
 @media (min-width: 100em) {
-  /* line 39, ../sass/imports/modules/_info.scss */
+  /* line 41, ../sass/imports/modules/_info.scss */
   .info__date {
     font-size:  56px;
     font-size:  5.6rem;

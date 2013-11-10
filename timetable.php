@@ -799,7 +799,7 @@ get_header(); ?>
 						</time>
 					</h1>
 					<div class="day__special media">
-						<div class="media__img"><i class="fa fa-trophytrophy"></i></div>
+						<div class="media__img"><i class="fa fa-trophy"></i></div>
 						<div class="media__bd">
 							<p>
 								<? _e("pre__day6__ceremony", "gp-dolomiti"); ?>
