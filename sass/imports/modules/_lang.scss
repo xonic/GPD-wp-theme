@@ -25,7 +25,7 @@
 			right:0;
 			z-index:901;
 			@include rem(padding, 0 $r-grid-padding);
-			background:rgba($blackSand,.3);
+			background:rgba($blackSand,.5);
 			border-radius:0 0 4px 4px;
 			@include rem(line-height, 2.6);
 		}

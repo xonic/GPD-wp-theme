@@ -2041,25 +2041,79 @@ object {
   display: block;
   background-image: url(../images/routes/routes--320.jpg);
   background-size: 400% 100%;
+  border: 0 none;
+}
+/* line 50, ../sass/imports/modules/_map.scss */
+.map-link:after {
+  content: "Google Maps Route";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 25%;
+  background: rgba(41, 41, 41, 0.5);
+  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(41, 41, 41, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+/* line 68, ../sass/imports/modules/_map.scss */
+.map-link:hover:after {
+  opacity: 1;
 }
 
-/* line 50, ../sass/imports/modules/_map.scss */
+/* line 74, ../sass/imports/modules/_map.scss */
+.touch .map-link:after {
+  top: auto;
+  right: auto;
+  opacity: 1;
+  padding:  3px 5px;
+  padding:  0.3rem 0.5rem;
+}
+
+/* line 82, ../sass/imports/modules/_map.scss */
+[lang*="en-"] .map-link:after {
+  content: "View on Google Maps";
+}
+
+/* line 87, ../sass/imports/modules/_map.scss */
+[lang*="de-"] .map-link:after {
+  content: "Auf Google Maps anzeigen";
+}
+
+/* line 92, ../sass/imports/modules/_map.scss */
+[lang*="it-"] .map-link:after {
+  content: "Mostra su Google Maps";
+}
+
+/* line 97, ../sass/imports/modules/_map.scss */
+[lang*="fr-"] .map-link:after {
+  content: "Voir sur Google Maps";
+}
+
+/* line 102, ../sass/imports/modules/_map.scss */
 .map-link--route-2 {
   background-position: -100% 0;
 }
 
-/* line 55, ../sass/imports/modules/_map.scss */
+/* line 107, ../sass/imports/modules/_map.scss */
 .map-link--route-3 {
   background-position: -200% 0;
 }
 
-/* line 60, ../sass/imports/modules/_map.scss */
+/* line 112, ../sass/imports/modules/_map.scss */
 .map-link--route-4 {
   background-position: -300% 0;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 67, ../sass/imports/modules/_map.scss */
+  /* line 119, ../sass/imports/modules/_map.scss */
   .map-link {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
@@ -2151,7 +2205,7 @@ object {
     z-index: 901;
     padding:  0 10px;
     padding:  0 1rem;
-    background: rgba(51, 46, 36, 0.3);
+    background: rgba(51, 46, 36, 0.5);
     border-radius: 0 0 4px 4px;
     line-height:  26px;
     line-height:  2.6rem;
@@ -2167,7 +2221,7 @@ object {
   z-index: 901;
   padding:  0 10px;
   padding:  0 1rem;
-  background: rgba(51, 46, 36, 0.3);
+  background: rgba(51, 46, 36, 0.5);
   border-radius: 0 0 4px 4px;
   line-height:  26px;
   line-height:  2.6rem;
@@ -2259,31 +2313,17 @@ object {
 @media (min-width: 64em) {
   /* line 17, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  348px 0 0;
-    padding:  34.8rem 0 0;
+    padding:  420px 0 0;
+    padding:  42rem 0 0;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
-  padding:  348px 0 0;
-  padding:  34.8rem 0 0;
-}
-@media (min-width: 80em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
-  .branding {
-    padding:  504px 0 0;
-    padding:  50.4rem 0 0;
-  }
-}
-@media (min-width: 100em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
-  .branding {
-    padding:  672px 0 0;
-    padding:  67.2rem 0 0;
-  }
+  padding:  420px 0 0;
+  padding:  42rem 0 0;
 }
 
-/* line 53, ../sass/imports/modules/_branding.scss */
+/* line 54, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -2298,7 +2338,7 @@ object {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 63, ../sass/imports/modules/_branding.scss */
+/* line 64, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -2309,7 +2349,7 @@ object {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 53, ../sass/imports/modules/_branding.scss */
+  /* line 54, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -2321,7 +2361,7 @@ object {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 85, ../sass/imports/modules/_branding.scss */
+  /* line 86, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2341,7 +2381,7 @@ object {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 85, ../sass/imports/modules/_branding.scss */
+/* line 86, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -2349,7 +2389,7 @@ object {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 53, ../sass/imports/modules/_branding.scss */
+  /* line 54, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2357,7 +2397,7 @@ object {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 96, ../sass/imports/modules/_branding.scss */
+  /* line 97, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2373,7 +2413,7 @@ object {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 96, ../sass/imports/modules/_branding.scss */
+/* line 97, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -2381,14 +2421,14 @@ object {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 53, ../sass/imports/modules/_branding.scss */
+  /* line 54, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 106, ../sass/imports/modules/_branding.scss */
+  /* line 107, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
