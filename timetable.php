@@ -242,16 +242,6 @@ get_header(); ?>
 								<? _e("program__day2__dinner", "gp-dolomiti"); ?>
 							</p>
 						</div>
-						
-						<!-- <div class="day__dinner__img">
-							<img src="<? echo get_template_directory_uri(); ?>/images/events/notte-italiana.jpg" alt="La notte italiana">
-						</div>
-						<div class="media__img program__icon"><i class="fa fa-cutlery"></i></div>
-						<div class="media__bd">
-							<p>
-								<? _e("pre__day2__dinner", "gp-dolomiti"); ?>
-							</p>
-						</div> -->
 					</div>
 
 				</section>
@@ -271,7 +261,7 @@ get_header(); ?>
 								<div class="polaroid">
 									<div class="tile">
 										<div class="tile__helper"></div>
-										<a class="tile__content map-link map-link--route-2" title="Google Maps" target="_blank" href="http://maps.google.de/maps?saddr=Meran,+S%C3%BCdtirol,+Italien&amp;daddr=Jaufenpass,+St.+Leonhard+in+Passeier,+S%C3%BCdtirol,+Italien+to:Sterzing,+S%C3%BCdtirol,+Italien+to:Penser+Joch,+Sarntal,+S%C3%BCdtirol,+Italien+to:Bozen,+S%C3%BCdtirol,+Italien+to:Mendelpass,+Mendola,+Trient,+Italien+to:Fondo,+Trient,+Italien+to:Gampenpass,+Unsere+Liebe+Frau+im+Walde-St.+Felix,+S%C3%BCdtirol,+Italien+to:Meran,+S%C3%BCdtirol,+Italien&amp;hl=de&amp;ie=UTF8&amp;sll=46.65415,11.299438&amp;sspn=0.945449,1.141205&amp;geocode=Fb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg%3BFbWeygIdu62sAClnVbN9b7KCRzEgTnEuiAkHHQ%3BFYCGywIdk3auACntTyuRQFOdRzH5_NYp3pHP7A%3BFZtdygIddXWuACn_HvJzkquCRzFQTnEuiAkHHQ%3BFfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ%3BFTBExAIdNgKrACkZljiUJoWCRzFATnEuiAkHHQ%3BFcKQxAIdKfypACmxF1oGJ5CCRzFXqmBhJJ6ZoQ%3BFfz_xQIdHo-pACl5PXXqppaCRzH_Wz3I4d1znw%3BFb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg&amp;oq=meran&amp;mra=ls&amp;t=m&amp;z=10"></a>
+										<a class="tile__content map-link map-link--route-2" title="Google Maps" target="_blank" href="https://maps.google.de/maps?saddr=Meran,+S%C3%BCdtirol,+Italien&amp;daddr=Naturns,+S%C3%BCdtirol,+Italien+to:Prad+am+Stilfserjoch,+S%C3%BCdtirol,+Italien+to:Stilfserjoch+to:Via+Umbrail,+Sta.+Maria+Val+M%C3%BCstair,+Schweiz+to:Via+Umbrail+to:Glurns,+S%C3%BCdtirol,+Italien+to:Meran,+S%C3%BCdtirol,+Italien&amp;hl=de&amp;ie=UTF8&amp;ll=46.588125,10.818787&amp;spn=0.477552,0.901566&amp;sll=46.611361,10.460358&amp;sspn=0.119337,0.225391&amp;geocode=Fb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg%3BFYLTxwIdcPinACkTK_-lAcGCRzH-wJMhBkKEtA%3BFeFTxwIdvJ6hACnjZ-oUCR-DRzFUwfqFMagebw%3BFdUKxgIdUHSfACkdHBhV5BqDRzFg64MuiAkHHQ%3BFRTqxgIdriufAClnGOCgVxeDRzF-XQBEpQfQcA%3BFWYSxwIdvhSfAA%3BFSUjyAIddAahACm1Kmm7IyKDRzGqfkGdrEfFQg%3BFb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg&amp;oq=via+umbrail&amp;mra=dme&amp;mrsp=5&amp;sz=13&amp;t=m&amp;z=11"></a>
 									</div>
 								</div>
 							</li>
@@ -476,7 +466,7 @@ get_header(); ?>
 								<div class="polaroid">
 									<div class="tile">
 										<div class="tile__helper"></div>
-										<a class="tile__content map-link map-link--route-3" title="Google Maps" target="_blank" href="http://maps.google.de/maps?saddr=Meran,+S%C3%BCdtirol,+Italien&amp;daddr=Jaufenpass,+St.+Leonhard+in+Passeier,+S%C3%BCdtirol,+Italien+to:Sterzing,+S%C3%BCdtirol,+Italien+to:Penser+Joch,+Sarntal,+S%C3%BCdtirol,+Italien+to:Bozen,+S%C3%BCdtirol,+Italien+to:Mendelpass,+Mendola,+Trient,+Italien+to:Fondo,+Trient,+Italien+to:Gampenpass,+Unsere+Liebe+Frau+im+Walde-St.+Felix,+S%C3%BCdtirol,+Italien+to:Meran,+S%C3%BCdtirol,+Italien&amp;hl=de&amp;ie=UTF8&amp;sll=46.65415,11.299438&amp;sspn=0.945449,1.141205&amp;geocode=Fb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg%3BFbWeygIdu62sAClnVbN9b7KCRzEgTnEuiAkHHQ%3BFYCGywIdk3auACntTyuRQFOdRzH5_NYp3pHP7A%3BFZtdygIddXWuACn_HvJzkquCRzFQTnEuiAkHHQ%3BFfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ%3BFTBExAIdNgKrACkZljiUJoWCRzFATnEuiAkHHQ%3BFcKQxAIdKfypACmxF1oGJ5CCRzFXqmBhJJ6ZoQ%3BFfz_xQIdHo-pACl5PXXqppaCRzH_Wz3I4d1znw%3BFb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg&amp;oq=meran&amp;mra=ls&amp;t=m&amp;z=10"></a>
+										<a class="tile__content map-link map-link--route-3" title="Google Maps" target="_blank" href="https://maps.google.de/maps?f=d&amp;source=s_d&amp;saddr=Bozen,+Südtirol,+Italien&amp;daddr=Siffianer-Weg+to:Barbian,+Südtirol,+Italien+to:Unbekannte+Straße+to:Klausen,+Südtirol,+Italien+to:46.5996331,11.57849+to:St.+Ulrich+in+Gröden,+Südtirol,+Italien+to:Gardena+Pass,+Wolkenstein+in+Gröden,+Südtirol,+Italien+to:Corvara,+Südtirol,+Italien+to:Passo+Campolongo,+Livinallongo+del+Col+di+Lana,+Belluno,+Italien+to:Arabba,+Belluno,+Italien+to:Passo+Pordoi+to:Passo+Sella+to:Selva+Gardena,+Südtirol,+Italien+to:Ortisei,+Südtirol,+Italien+to:Castelrotto,+Südtirol,+Italien+to:Bolzano&amp;hl=de&amp;geocode=FfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ%3BFSUOxgIdeteuAA%3BFfQSxwIdhMOvAClDSwO-kAt4RzEhR_bEPrjiZQ%3BFWo9xwIdcx-wAA%3BFXyrxwIdg3ywACkva3oyug54RzHaJI00ssW5OQ%3BFdENxwIdeqywACmltz6tTwx4RzGXp4O1SUwVaw%3BFUGrxgId8xeyACmRZ1p1-RJ4RzHTrM6CN4Jsvg%3BFfBLxgIdwA20ACmVw9jwZRV4RzFgTnEuiAkHHQ%3BFQ5WxgId4i-1ACmfprHjBj94RzEkeMnpGUOq3A%3BFbvJxQIdKxK1ACmZG28WmUB4RzFwTnEuiAkHHQ%3BFY99xQId7C21ACmRAuF_v0B4RzEx9HNbrS7K8A%3BFYVHxQId2060ACnROCyBNEB4RzGA64MuiAkHHQ%3BFaCIxQIdcEqzAClFDDg06Gp4RzGQ64MuiAkHHQ%3BFS5lxgIdoVyzACnpcxq15RR4RzE8gftNGubQGA%3BFXunxgIdWyKyACm524Cn-RJ4RzE7oJYosjXYOg%3BFceSxgIdvXOwACmVQi8ywwx4RzH83XEn_YXT0w%3BFfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ&amp;aq=t&amp;sll=46.557802,11.621362&amp;sspn=0.388109,0.679779&amp;vpsrc=0&amp;mra=dvme&amp;mrsp=5&amp;sz=11&amp;via=5&amp;ie=UTF8&amp;t=m&amp;z=11&amp;dirflg=d&amp;dg=feature"></a>
 									</div>
 								</div>
 							</li>
@@ -627,7 +617,7 @@ get_header(); ?>
 								<div class="polaroid">
 									<div class="tile">
 										<div class="tile__helper"></div>
-										<a class="tile__content map-link map-link--route-4" title="Google Maps" target="_blank" href="http://maps.google.de/maps?saddr=Meran,+S%C3%BCdtirol,+Italien&amp;daddr=Jaufenpass,+St.+Leonhard+in+Passeier,+S%C3%BCdtirol,+Italien+to:Sterzing,+S%C3%BCdtirol,+Italien+to:Penser+Joch,+Sarntal,+S%C3%BCdtirol,+Italien+to:Bozen,+S%C3%BCdtirol,+Italien+to:Mendelpass,+Mendola,+Trient,+Italien+to:Fondo,+Trient,+Italien+to:Gampenpass,+Unsere+Liebe+Frau+im+Walde-St.+Felix,+S%C3%BCdtirol,+Italien+to:Meran,+S%C3%BCdtirol,+Italien&amp;hl=de&amp;ie=UTF8&amp;sll=46.65415,11.299438&amp;sspn=0.945449,1.141205&amp;geocode=Fb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg%3BFbWeygIdu62sAClnVbN9b7KCRzEgTnEuiAkHHQ%3BFYCGywIdk3auACntTyuRQFOdRzH5_NYp3pHP7A%3BFZtdygIddXWuACn_HvJzkquCRzFQTnEuiAkHHQ%3BFfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ%3BFTBExAIdNgKrACkZljiUJoWCRzFATnEuiAkHHQ%3BFcKQxAIdKfypACmxF1oGJ5CCRzFXqmBhJJ6ZoQ%3BFfz_xQIdHo-pACl5PXXqppaCRzH_Wz3I4d1znw%3BFb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg&amp;oq=meran&amp;mra=ls&amp;t=m&amp;z=10"></a>
+										<a class="tile__content map-link map-link--route-4" title="Google Maps" target="_blank" href="https://maps.google.de/maps?saddr=Meran,+Südtirol,+Italien&amp;daddr=Lana,+Südtirol,+Italien+to:Andrian,+Südtirol,+Italien+to:St.+Pauls,+Südtirol,+Italien+to:Eppan,+Südtirol,+Italien+to:Kaltern,+Südtirol,+Italien+to:Neumarkt,+Südtirol,+Italien+to:Bozen,+Südtirol,+Italien&amp;hl=de&amp;ie=UTF8&amp;sll=46.571425,11.20423&amp;sspn=0.236725,0.285301&amp;geocode=Fb4lyAIdhiyqACnbGvnPAbyCRzFZpNB1yimAgg%3BFYc8xwIdSlWqACmvbK1awr2CRzGMWIT3SGkYqQ%3BFavSxQIdl2mrACm96caqk5mCRzEh49uDGewsJQ%3BFWkZxQIdPtCrACkxGLhymJuCRzFtp_GuK0RRGA%3BFTolxQIdH6GrACkBkS3jCJuCRzEwMJEVhwkHBA%3BFW73wwIdZoqrACnj_C3kfoSCRzHgMJEVhwkHBA%3BFZxuwgIddhGsACkPypVuWYCCRzHAMZEVhwkHBA%3BFfeBxQIdhkKtAClJcJ5BK5yCRzEqQ4s0T2krZQ&amp;oq=bozen&amp;mra=ls&amp;t=m&amp;z=11&amp;dg=feature"></a>
 									</div>
 								</div>
 							</li>

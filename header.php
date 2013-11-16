@@ -62,7 +62,7 @@
 		<!-- TypeKit -->
 		<script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script> -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script>
 
 
 		<!--[if lt IE 9]>

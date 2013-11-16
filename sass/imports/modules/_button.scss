@@ -303,6 +303,7 @@
 
 	.btn--newsletter
 	{
+		min-height:0;
 		@include rem(margin, 0 0 $doubleSpace * 2);
 		border:0 none;
 		border-radius:8px;

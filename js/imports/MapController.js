@@ -34,30 +34,15 @@ define(function()
 
 			dayTwo:
 			{
-				origin:"Bolzano, Italy",
-				destination:"Bolzano, Italy",
+				origin:"Merano, Italy",
+				destination:"Merano, Italy",
 				waypoints:
 				[
-					// { location:"Völs, Italy" },
-					// { location:"Kastelruth, Italy" },
-					{ location:"Ortisei, Italy" },
-					{ location:"Wolkenstein, Italy" },
-					{ location:"Grödnerjoch, Italy" },
-					{ location:"Corvara, Italy" },
-					{ location:"Passo Campolungo, Italy" },
-					// { location:"Arabba, Italy" },
-					{ location:"Passo Pordoi, Italy" },
-					{ location:"Sellajoch, Italy" },
-					{ location:"Ortisei, Italy" }
-					// Old route too similar to Südtirol Classic
-					// { location: "Renon, Italy" },
-					// // { location: "San Barbiano, Italy" },
-					// { location: "Passo delle Erbe, Italy" },
-					// { location: "Corvara, Italy" },
-					// { location: "Passo Gardena, Italy" },
-					// { location: "Ortisei, Italy" },
-					// { location: "Castelrotto, Italy" },
-					// { location: "Siusi, Italy" }
+					{ location: "Naturno, Italy" },
+					{ location: "Stilfser Joch, Italy" },
+					{ location: "Muranza, Sta. Maria Val Müstair, Switzerland" },
+					{ location: "Via Umbrail" },
+					{ location: "Glorenza, Italy" }
 				],
 				travelMode: google.maps.TravelMode.DRIVING,
 				optimizeWaypoints: false
@@ -65,15 +50,21 @@ define(function()
 
 			dayThree:
 			{
-				origin:"Merano, Italy",
-				destination:"Merano, Italy",
+				origin:"Bolzano, Italy",
+				destination:"Bolzano, Italy",
 				waypoints:
 				[
-					{ location: "Glorenza, Italy" },
-					{ location: "Stilfser Joch, Italy" },
-					{ location: "Passo del Tonale, Italy" }
-					// { location: "Pirovano Stelvio, Italy" },
-					// { location: "Trafoi, Italy" }
+					{ location:"Renon, Italy" },
+					{ location:"Barbiano, Italy" },
+					{ location:"Chiusa, Italy" },
+					// { location:"Ortisei, Italy" },
+					// { location:"Wolkenstein, Italy" },
+					{ location:"Grödnerjoch, Italy" },
+					{ location:"Corvara, Italy" },
+					// { location:"Passo Campolungo, Italy" },
+					{ location:"Passo Pordoi, Italy" },
+					{ location:"Sellajoch, Italy" },
+					{ location:"Ortisei, Italy" }
 				],
 				travelMode: google.maps.TravelMode.DRIVING,
 				optimizeWaypoints: false
