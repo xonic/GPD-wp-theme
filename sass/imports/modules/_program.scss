@@ -107,6 +107,14 @@
 		}
 	}
 
+	.ceremony
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include span-columns(6, $huge-cols);
+		}
+	}
+
 	$ieBackgroundPosX: -203px;
 
 	.dinner 

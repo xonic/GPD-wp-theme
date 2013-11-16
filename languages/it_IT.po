@@ -1,43 +1,175 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-06-01 11:08+0100\n"
-"PO-Revision-Date: 2013-07-02 21:07+0100\n"
+"POT-Creation-Date: 2013-11-16 16:27+0100\n"
+"PO-Revision-Date: 2013-11-16 16:34+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../footer.php:27
-msgid "http://wordpress.org/"
+#: ../about.php:19 ../header.php:113 ../preview.php:92
+msgid "pre__info__title"
+msgstr "Un incomparabile raduno di auto d‘epoca"
+
+#: ../about.php:23 ../header.php:117 ../preview.php:96
+msgid "pre__info__start-date"
+msgstr "23."
+
+#: ../about.php:25 ../header.php:119 ../preview.php:98
+msgid "pre__info__to"
+msgstr "-"
+
+#: ../about.php:27 ../header.php:121 ../preview.php:100
+msgid "pre__info__end-date"
+msgstr "27. Luglio 2014"
+
+#: ../about.php:32 ../header.php:125 ../preview.php:105
+msgid "pre__info__p1"
+msgstr ""
+"Il Gran Premio Dolomiti è un evento particolare ed esclusivo. Significa "
+"guidare in armonia tra i passi più belli della zona dolomitica e le montagne "
+"del Brenta. Implica esplorare le strade che s’inerpicano sulla Mendola, il "
+"Giovo, il Pennes, il Gardena e soprattutto lo Stelvio. Un affascinante tour "
+"nelle Alpi dolomitiche."
+
+#: ../about.php:35 ../header.php:128 ../preview.php:108
+msgid "pre__info__p2"
+msgstr ""
+"Inoltre durante questo originale avvenimento andremo a conoscere e gustare "
+"le specialità enogastronomiche tirolesi e italiane, nate in decenni di "
+"tradizione culinaria. Insieme nelle sere estive ad assaporare bevande e cibi "
+"prodotti e preparati con amore dalla gente di questa terra. Distensione e "
+"benessere fra tanti amici."
+
+#: ../about.php:41 ../preview.php:121 ../timetable.php:20
+msgid "pre__day1"
+msgstr "Martedì, 22. Luglio 2014"
+
+#: ../about.php:48 ../preview.php:128 ../timetable.php:27
+msgid "pre__arrival"
+msgstr "Arrivo partecipanti."
+
+#: ../about.php:54 ../preview.php:134 ../timetable.php:33
+msgid "pre__inspection"
+msgstr "Ispezione technica."
+
+#: ../about.php:60 ../preview.php:140 ../timetable.php:39
+msgid "pre__check-in"
+msgstr "Check-In Hotel."
+
+#: ../about.php:66 ../preview.php:146 ../timetable.php:45
+msgid "pre__day1__dinner"
+msgstr "Cena in Hotel oppure ristorante Gourmet a scelta."
+
+#: ../about.php:73
+msgid ""
+"<!--:en-->Experience<!--:--><!--:de-->Das Erlebnis<!--:--><!--:it--"
+">L'esperienza<!--:--><!--:fr-->Expérience<!--:-->"
 msgstr ""
 
-#: ../footer.php:27
+#: ../about.php:80
+msgid ""
+"<!--:en-->Day routes<!--:--><!--:de-->Tagesrouten<br>erkunden<!--:--><!--:"
+"it-->Percorsi<!--:--><!--:fr-->Routes<!--:-->"
+msgstr ""
+
+#: ../about.php:88
+msgid ""
+"<!--:en-->Passes<!--:--><!--:de-->Bergpässe<br>erobern<!--:--><!--:it--"
+">Passi<!--:--><!--:fr-->Passes<!--:-->"
+msgstr ""
+
+#: ../about.php:96
+msgid ""
+"<!--:en-->Kilometers<!--:--><!--:de-->Kilometer<br>fahren<!--:--><!--:it--"
+">Chilometri<!--:--><!--:fr-->Kilomètres<!--:-->"
+msgstr ""
+
+#: ../about.php:104
+msgid ""
+"<!--:en-->Meters altitude<!--:--><!--:de-->Höhenmeter<br>bezwingen<!--:--"
+"><!--:it-->Metri d'altezza<!--:--><!--:fr-->Mètres altitudines<!--:-->"
+msgstr ""
+
+#: ../contact.php:21 ../preview.php:662
+msgid "pre__contact__title"
+msgstr "Contatto"
+
+#: ../contact.php:24 ../preview.php:665
+msgid "pre__content__subtitle"
+msgstr "Siamo felici di ricevere le vostre richieste"
+
+#: ../content.php:16
+msgid "Featured"
+msgstr ""
+
+#: ../content.php:30
+msgid "Reply"
+msgstr ""
+
+#: ../content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: ../content.php:51 ../content.php:63
+msgid ", "
+msgstr ""
+
+#: ../content.php:55
 #, php-format
-msgid "Proudly powered by %s"
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
 msgstr ""
 
-#: ../header.php:45
+#: ../content.php:69
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../content.php:79
+msgid "Leave a reply"
+msgstr ""
+
+#: ../content.php:79
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: ../content.php:79
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: ../content.php:82
+msgid "Edit"
+msgstr ""
+
+#: ../footer.php:19 ../preview.php:642
+msgid "pre__newsletter__title"
+msgstr "Newsletter"
+
+#: ../footer.php:22 ../preview.php:645
+msgid "pre__newsletter__subtitle"
+msgstr ""
+"Iscrivetevi per ricevere la newsletter, per sapere tutte le novità e per "
+"essere sempre aggiornati."
+
+#: ../functions.php:41
+msgid "Hauptnavigation"
+msgstr ""
+
+#: ../header.php:51
 #, php-format
 msgid "Page %s"
-msgstr ""
-
-#: ../header.php:129
-msgid "Main menu"
-msgstr ""
-
-#: ../header.php:131
-msgid "Skip to primary content"
-msgstr ""
-
-#: ../header.php:132
-msgid "Skip to secondary content"
 msgstr ""
 
 #: ../index.php:37
@@ -50,371 +182,512 @@ msgid ""
 "searching will help find a related post."
 msgstr ""
 
-#: ../preview.php:92
-msgid "pre__info__title"
-msgstr "Un incomparabile raduno di auto d‘epoca"
-
-#: ../preview.php:96
-msgid "pre__info__start-date"
-msgstr "23."
-
-#: ../preview.php:98
-msgid "pre__info__to"
-msgstr "-"
-
-#: ../preview.php:100
-msgid "pre__info__end-date"
-msgstr "27. Luglio 2014"
-
-#: ../preview.php:105
-msgid "pre__info__p1"
+#: ../packages.php:23
+msgid ""
+"<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti<!--:--"
+"><!--:fr-->Forfaits<!--:-->"
 msgstr ""
-"Il Gran Premio Dolomiti è un evento particolare ed esclusivo. Significa "
-"guidare in armonia tra i passi più belli della zona dolomitica e le montagne "
-"del Brenta. Implica esplorare le strade che s’inerpicano sulla Mendola, il "
-"Giovo, il Pennes, il Gardena e soprattutto lo Stelvio. Un affascinante tour "
-"nelle Alpi dolomitiche."
 
-#: ../preview.php:108
-msgid "pre__info__p2"
+#: ../packages.php:27
+msgid ""
+"<!--:en-->Premium package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
+">Pacchetto premium<!--:--><!--:fr-->Forfait premium<!--:-->"
 msgstr ""
-"Inoltre durante questo originale avvenimento andremo a conoscere e gustare "
-"le specialità enogastronomiche tirolesi e italiane, nate in decenni di "
-"tradizione culinaria. Insieme nelle sere estive ad assaporare bevande e cibi "
-"prodotti e preparati con amore dalla gente di questa terra. Distensione e "
-"benessere fra tanti amici."
 
-#: ../preview.php:116
+#: ../packages.php:30
+msgid "package__premium__description"
+msgstr ""
+"Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
+"prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
+"<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
+"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
+"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
+"serali con intrattenimenti musicali di altissimo livello, vestiario della "
+"manifestazione e parcheggio coperto per la sua auto d'epoca."
+
+#: ../packages.php:32 ../packages.php:122
+msgid ""
+"<!--:en-->/contact/?lang=en<!--:--><!--:de-->/contact/?lang=de<!--:--><!--:"
+"it-->/contact/?lang=it<!--:--><!--:fr-->/contact/?lang=fr<!--:-->"
+msgstr ""
+
+#: ../packages.php:32
+msgid ""
+"<!--:en-->Contact us<!--:--><!--:de-->Kontaktieren Sie uns<!--:--><!--:it--"
+">Contattaci<!--:--><!--:fr-->Contactez-nous<!--:-->"
+msgstr ""
+
+#: ../packages.php:32 ../packages.php:110
+msgid ""
+"<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it--"
+">Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"
+msgstr ""
+
+#: ../packages.php:36 ../packages.php:114
+msgid ""
+"<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it--"
+">Partecipazione<!--:--><!--:fr-->Participation<!--:-->"
+msgstr ""
+
+#: ../packages.php:37
+msgid ""
+"<!--:en-->Accomodation<!--:--><!--:de-->Unterkunft<!--:--><!--:it--"
+">Albergo<!--:--><!--:fr-->Hébergement<!--:-->"
+msgstr ""
+
+#: ../packages.php:38 ../packages.php:116
+msgid ""
+"<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it--"
+">Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"
+msgstr ""
+
+#: ../packages.php:39 ../packages.php:117
+msgid ""
+"<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
+"><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements "
+"officiels<!--:-->"
+msgstr ""
+
+#: ../packages.php:40 ../packages.php:118
+msgid ""
+"<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it--"
+">Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"
+msgstr ""
+
+#: ../packages.php:44
+msgid ""
+"<!--:en-->Order<!--:--><!--:de-->Bestellen<!--:--><!--:it-->Ordina<!--:--"
+"><!--:fr-->Commander<!--:-->"
+msgstr ""
+
+#: ../packages.php:44
+msgid ""
+"<!--:en-->Tickets are not available yet. We'd love to <a href=\"http://"
+"eepurl.com/xOMaz\" title=\"Newsletter\">notify you</a> as soon as we're "
+"ready.<!--:--><!--:de-->Bestellung derzeit noch nicht möglich. Gerne <a href="
+"\"http://eepurl.com/xOMaz\" title=\"Newsletter\">benachrichtigen wir Sie</"
+"a>, wenn es soweit ist.<!--:--><!--:it-->Contattaci<!--:--><!--:fr-->Les "
+"inscriptions ne sont pas encore possibles. <a href=\"http://eepurl.com/xOMaz"
+"\" title=\"Newsletter\">Nous vous informerons</a> dès que possible de leur "
+"ouverture. <!--:-->"
+msgstr ""
+
+#: ../packages.php:49
+msgid ""
+"<!--:en-->Digital Roadbook<!--:--><!--:de-->Digitales Roadbook<!--:--><!--:"
+"it-->Roadbook Digitale<!--:--><!--:fr-->Roadbook numérique<!--:-->"
+msgstr ""
+
+#: ../packages.php:52
+msgid "package__roadbook"
+msgstr ""
+"Per il raduno vi equipaggieremo di un Tablet, dove troverete il Road book "
+"elettronico e tutte le informazioni neccessarie sul percorso e le varie "
+"manifestazioni collaterali. (Il Tablet rimarrà di sua proprietà)"
+
+#: ../packages.php:58
+msgid ""
+"<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
+">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
+msgstr ""
+
+#: ../packages.php:61
+msgid "package__hotel"
+msgstr ""
+"Considerando le varie tappe giornaliere, i programmi di contorno, "
+"sicuramente avrete bisogno di notti tranquille, e per questo abbiamo scelto "
+"per voi i migliori alberghi al centro di Merano, e molto vicini agli eventi "
+"della manifestazione."
+
+#: ../packages.php:67
+msgid ""
+"<!--:en-->Delicious Catering<!--:--><!--:de-->Köstliche Verpflegung<!--:--"
+"><!--:it-->Catering Delizioso<!--:--><!--:fr-->Restauration<!--:-->"
+msgstr ""
+
+#: ../packages.php:70
+msgid "package__food"
+msgstr ""
+"Ci teniamo molto a presentarvi cucina tradizionale di alta qualità e durante "
+"l'arco del evento vi garantiamo che sia le proposte a pranzo e quelle "
+"serali, i nostri maestri di cucina vi soddisferanno al massimo."
+
+#: ../packages.php:76
+msgid ""
+"<!--:en-->Safe Parking<!--:--><!--:de-->Bewachtes Parken<!--:--><!--:it--"
+">Parcheggio custodito<!--:--><!--:fr-->Parking Surveillé<!--:-->"
+msgstr ""
+
+#: ../packages.php:79
+msgid "package__parking"
+msgstr ""
+"Per garantire dei sogni tranquilli, vi offriamo un parcheggio coperto e "
+"custodito, includendo shuttle service verso le pernottazioni più distanti."
+
+#: ../packages.php:85
+msgid ""
+"<!--:en-->Official Clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
+"><!--:it-->Abbigliamento Ufficiale<!--:--><!--:fr-->Tenue Officielle<!--:-->"
+msgstr ""
+
+#: ../packages.php:88
+msgid "package__clothing"
+msgstr ""
+"Vi vestiremo con pezzi unici, creati e disegnati appositamente come linea "
+"Gran Premio Dolomiti."
+
+#: ../packages.php:94
+msgid ""
+"<!--:en-->Concert<!--:--><!--:de-->Konzert<!--:--><!--:it-->Concerto<!--:--"
+"><!--:fr-->Concert<!--:-->"
+msgstr ""
+
+#: ../packages.php:97
+msgid "package__concert"
+msgstr ""
+"Nella serata finale vi presenteremo un Gala Dinner al Kursaal di Merano, "
+"accompagnandovi con un concerto di musica divina."
+
+#: ../packages.php:105
+msgid ""
+"<!--:en-->Platinum package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it--"
+">Pacchetto platinum<!--:--><!--:fr-->Forfait platinum<!--:-->"
+msgstr ""
+
+#: ../packages.php:105
+msgid ""
+"<!--:en-->Price on request<!--:--><!--:de-->Preis auf Anfrage<!--:--><!--:"
+"it-->Prezzo su richiesta<!--:--><!--:fr-->Prix sur demande<!--:-->"
+msgstr ""
+
+#: ../packages.php:108
+msgid "package__platinum__description"
+msgstr ""
+"Il pacchetto Platinum è una proposta per coloro che non vogliono fare a meno "
+"del abituale lusso. Al posto di pernottamenti in albergo vi proponiamo "
+"alloggi esclusivi in appartamenti di gran classe. Anche questa proposta "
+"include le varie prestazioni del pacchetto Premium."
+
+#: ../packages.php:115
+msgid ""
+"<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--"
+"><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive "
+"appartment<!--:-->"
+msgstr ""
+
+#: ../packages.php:122
+msgid ""
+"<!--:en-->Request<!--:--><!--:de-->Anfragen<!--:--><!--:it-->Richiesta<!--:--"
+"><!--:fr-->Demande<!--:-->"
+msgstr ""
+
+#: ../preview.php:116 ../timetable.php:15
 msgid "pre__program__title"
 msgstr "Programma"
 
-#: ../preview.php:121
-msgid "pre__day1"
-msgstr "Martedì, 22. Luglio 2014"
-
-#: ../preview.php:128
-msgid "pre__arrival"
-msgstr "Arrivo partecipanti."
-
-#: ../preview.php:134
-msgid "pre__inspection"
-msgstr "Ispezione technica."
-
-#: ../preview.php:140
-msgid "pre__check-in"
-msgstr "Check-In Hotel."
-
-#: ../preview.php:146
-msgid "pre__day1__dinner"
-msgstr "Cena in Hotel oppure ristorante Gourmet a scelta."
-
-#: ../preview.php:154
+#: ../preview.php:154 ../timetable.php:53
 msgid "pre__day2"
 msgstr "Mercoledì, 23. Luglio 2014"
 
-#: ../preview.php:163 ../preview.php:280 ../preview.php:407 ../preview.php:478
+#: ../preview.php:163 ../preview.php:282 ../preview.php:409 ../preview.php:481
+#: ../timetable.php:108 ../timetable.php:315 ../timetable.php:520
+#: ../timetable.php:671
 msgid "pre__location"
 msgstr "Luogo"
 
-#: ../preview.php:166 ../preview.php:283 ../preview.php:410 ../preview.php:481
+#: ../preview.php:166 ../preview.php:285 ../preview.php:412 ../preview.php:484
+#: ../timetable.php:111 ../timetable.php:318 ../timetable.php:523
+#: ../timetable.php:674
 msgid "pre__altitude"
 msgstr "Altitudine"
 
-#: ../preview.php:174 ../preview.php:246 ../preview.php:418 ../preview.php:445
-#: ../preview.php:489
+#: ../preview.php:174 ../preview.php:246 ../preview.php:420 ../preview.php:447
+#: ../preview.php:492 ../timetable.php:119 ../timetable.php:191
+#: ../timetable.php:531 ../timetable.php:558 ../timetable.php:682
 msgid "pre__meran"
 msgstr "Merano"
 
-#: ../preview.php:177 ../preview.php:249 ../preview.php:421 ../preview.php:448
-#: ../preview.php:492
+#: ../preview.php:177 ../preview.php:249 ../preview.php:423 ../preview.php:450
+#: ../preview.php:495 ../timetable.php:122 ../timetable.php:194
+#: ../timetable.php:534 ../timetable.php:561 ../timetable.php:685
 msgid "pre__meran__altitude"
 msgstr "324m"
 
-#: ../preview.php:183
+#: ../preview.php:183 ../timetable.php:128
 msgid "pre__jaufen"
 msgstr "Passo Giovo"
 
-#: ../preview.php:186
+#: ../preview.php:186 ../timetable.php:131
 msgid "pre__jaufen__altitude"
 msgstr "2094m"
 
-#: ../preview.php:192
+#: ../preview.php:192 ../timetable.php:137
 msgid "pre__sterzing"
 msgstr "Vipiteno"
 
-#: ../preview.php:195
+#: ../preview.php:195 ../timetable.php:140
 msgid "pre__sterzing__altitude"
 msgstr "948m"
 
-#: ../preview.php:201
+#: ../preview.php:201 ../timetable.php:146
 msgid "pre__penser"
 msgstr "Passo Pennes"
 
-#: ../preview.php:204
+#: ../preview.php:204 ../timetable.php:149
 msgid "pre__penser__altitude"
 msgstr "2211m"
 
-#: ../preview.php:210 ../preview.php:291 ../preview.php:372 ../preview.php:552
+#: ../preview.php:210 ../preview.php:293 ../preview.php:374 ../preview.php:555
+#: ../timetable.php:155 ../timetable.php:326 ../timetable.php:407
+#: ../timetable.php:745
 msgid "pre__bozen"
 msgstr "Bolzano"
 
-#: ../preview.php:213 ../preview.php:294 ../preview.php:375 ../preview.php:555
+#: ../preview.php:213 ../preview.php:296 ../preview.php:377 ../preview.php:558
+#: ../timetable.php:158 ../timetable.php:329 ../timetable.php:410
+#: ../timetable.php:748
 msgid "pre__bozen__altitude"
 msgstr "262m"
 
-#: ../preview.php:219
+#: ../preview.php:219 ../timetable.php:164
 msgid "pre__mendel"
 msgstr "Passo Mendola"
 
-#: ../preview.php:222
+#: ../preview.php:222 ../timetable.php:167
 msgid "pre__mendel__altitude"
 msgstr "1363m"
 
-#: ../preview.php:228
+#: ../preview.php:228 ../timetable.php:173
 msgid "pre__fondo"
 msgstr "Fondo"
 
-#: ../preview.php:231
+#: ../preview.php:231 ../timetable.php:176
 msgid "pre__fondo__altitude"
 msgstr "997m"
 
-#: ../preview.php:237
+#: ../preview.php:237 ../timetable.php:182
 msgid "pre__gampen"
 msgstr "Passo Palade"
 
-#: ../preview.php:240
+#: ../preview.php:240 ../timetable.php:185
 msgid "pre__gampen__altitude"
 msgstr "1518m"
 
-#: ../preview.php:258
+#: ../preview.php:258 ../timetable.php:252
 msgid "pre__day2__dinner"
 msgstr "Notte italiana a base di specialità di pesce."
 
-#: ../preview.php:271
+#: ../preview.php:273 ../timetable.php:262
 msgid "pre__day3"
 msgstr "Giovedì, 24. Luglio 2014"
 
-#: ../preview.php:300 ../preview.php:363
+#: ../preview.php:302 ../preview.php:365 ../timetable.php:335
+#: ../timetable.php:398
 msgid "pre__ortisei"
 msgstr "Ortisei"
 
-#: ../preview.php:303 ../preview.php:366
+#: ../preview.php:305 ../preview.php:368 ../timetable.php:338
+#: ../timetable.php:401
 msgid "pre__ortisei__altitude"
 msgstr "1236m"
 
-#: ../preview.php:309
+#: ../preview.php:311 ../timetable.php:344
 msgid "pre__wolkenstein"
 msgstr "Selva di Val Gardena"
 
-#: ../preview.php:312
+#: ../preview.php:314 ../timetable.php:347
 msgid "pre__wolkenstein__altitude"
 msgstr "1563m"
 
-#: ../preview.php:318
+#: ../preview.php:320 ../timetable.php:353
 msgid "pre__groedner"
 msgstr "Passo Gardena"
 
-#: ../preview.php:321
+#: ../preview.php:323 ../timetable.php:356
 msgid "pre__groedner__altitude"
 msgstr "2121m"
 
-#: ../preview.php:327
+#: ../preview.php:329 ../timetable.php:362
 msgid "pre__corvara"
 msgstr "Corvara"
 
-#: ../preview.php:330
+#: ../preview.php:332 ../timetable.php:365
 msgid "pre__corvara__altitude"
 msgstr "1568m"
 
-#: ../preview.php:336
+#: ../preview.php:338 ../timetable.php:371
 msgid "pre__campolungo"
 msgstr "Campolongo-Pass"
 
-#: ../preview.php:339
+#: ../preview.php:341 ../timetable.php:374
 msgid "pre__campolungo__altitude"
 msgstr "1875m"
 
-#: ../preview.php:345
+#: ../preview.php:347 ../timetable.php:380
 msgid "pre__pordoi"
 msgstr "Passo Pordoi"
 
-#: ../preview.php:348
+#: ../preview.php:350 ../timetable.php:383
 msgid "pre__pordoi__altitude"
 msgstr "2239m"
 
-#: ../preview.php:354
+#: ../preview.php:356 ../timetable.php:389
 msgid "pre__sella"
 msgstr "Passo Sella"
 
-#: ../preview.php:357
+#: ../preview.php:359 ../timetable.php:392
 msgid "pre__sella__altitude"
 msgstr "2240m"
 
-#: ../preview.php:384
+#: ../preview.php:386
 msgid "pre__day3__dinner"
 msgstr ""
 "Grande serata tirolese con specialità originali della cucina dell' Alto "
 "Adige."
 
-#: ../preview.php:398
+#: ../preview.php:400 ../timetable.php:467
 msgid "pre__day4"
 msgstr "Venerdì, 25. Luglio 2014"
 
-#: ../preview.php:427
+#: ../preview.php:429 ../timetable.php:540
 msgid "pre__glurns"
 msgstr "Glorenza"
 
-#: ../preview.php:430
+#: ../preview.php:432 ../timetable.php:543
 msgid "pre__glurns__altitude"
 msgstr "907m"
 
-#: ../preview.php:436
+#: ../preview.php:438 ../timetable.php:549
 msgid "pre__stilfs"
 msgstr "Passo Stelvio"
 
-#: ../preview.php:439
+#: ../preview.php:441 ../timetable.php:552
 msgid "pre__stilfs__altitude"
 msgstr "2763m"
 
-#: ../preview.php:457
+#: ../preview.php:459
 msgid "pre__day4__dinner"
 msgstr ""
 "Scoprite il vostro ristorante favorito tra i vari grandi ristoranti della "
 "zona."
 
-#: ../preview.php:469
+#: ../preview.php:472 ../timetable.php:618
 msgid "pre__day5"
 msgstr "Sabato, 26. Luglio 2014"
 
-#: ../preview.php:498
+#: ../preview.php:501 ../timetable.php:691
 msgid "pre__lana"
 msgstr "Lana"
 
-#: ../preview.php:501
+#: ../preview.php:504 ../timetable.php:694
 msgid "pre__lana__altitude"
 msgstr "310m"
 
-#: ../preview.php:507
+#: ../preview.php:510 ../timetable.php:700
 msgid "pre__andrian"
 msgstr "Andriano"
 
-#: ../preview.php:510
+#: ../preview.php:513 ../timetable.php:703
 msgid "pre__andrian__altitude"
 msgstr "274m"
 
-#: ../preview.php:516
+#: ../preview.php:519 ../timetable.php:709
 msgid "pre__pauls"
 msgstr "San Paolo"
 
-#: ../preview.php:519
+#: ../preview.php:522 ../timetable.php:712
 msgid "pre__pauls__altitude"
 msgstr "395m"
 
-#: ../preview.php:525
+#: ../preview.php:528 ../timetable.php:718
 msgid "pre__eppan"
 msgstr "Appiano"
 
-#: ../preview.php:528
+#: ../preview.php:531 ../timetable.php:721
 msgid "pre__eppan__altitude"
 msgstr "415m"
 
-#: ../preview.php:534
+#: ../preview.php:537 ../timetable.php:727
 msgid "pre__kaltern"
 msgstr "Caldaro"
 
-#: ../preview.php:537
+#: ../preview.php:540 ../timetable.php:730
 msgid "pre__kaltern__altitude"
 msgstr "425m"
 
-#: ../preview.php:543
+#: ../preview.php:546 ../timetable.php:736
 msgid "pre__neumarkt"
 msgstr "Egna"
 
-#: ../preview.php:546
+#: ../preview.php:549 ../timetable.php:739
 msgid "pre__neumarkt__altitude"
 msgstr "217m"
 
-#: ../preview.php:564
+#: ../preview.php:567
 msgid "pre__day5__dinner"
 msgstr "Gran Gala."
 
-#: ../preview.php:576
+#: ../preview.php:581 ../timetable.php:805
 msgid "pre__day6"
 msgstr "Domenica, 27. Luglio 2014"
 
-#: ../preview.php:583
+#: ../preview.php:588 ../timetable.php:812
 msgid "pre__day6__ceremony"
-msgstr "Premiazione sulla passeggiata di Merano."
+msgstr ""
+"Un colazione/brunch all' aperto con premiazione dei vincitori della Gran "
+"Premio Dolomiti 2014."
 
-#: ../preview.php:594
+#: ../preview.php:599 ../regulations.php:15
 msgid "pre__rules__title"
 msgstr "Condizioni Partecipazione"
 
-#: ../preview.php:597
+#: ../preview.php:602 ../regulations.php:18
 msgid "pre__rules__subtitle"
 msgstr "FIVA Oldtimer Classe Vetture"
 
-#: ../preview.php:601
+#: ../preview.php:606 ../regulations.php:22
 msgid "pre__rules__a"
 msgstr "Classe A, \"Ancetre\""
 
-#: ../preview.php:604
+#: ../preview.php:609 ../regulations.php:25
 msgid "pre__rules__a__year"
 msgstr "Tutte le vetture costruite prima del 1904."
 
-#: ../preview.php:607
+#: ../preview.php:612 ../regulations.php:28
 msgid "pre__rules__b"
 msgstr "Classe B, \"Veteran\""
 
-#: ../preview.php:610
+#: ../preview.php:615 ../regulations.php:31
 msgid "pre__rules__b__year"
 msgstr ""
 "Tutte le vetture costruite tra il 1. Gennaio 1905 e il 31. Dicembre 1918."
 
-#: ../preview.php:613
+#: ../preview.php:618 ../regulations.php:34
 msgid "pre__rules__c"
 msgstr "Classe C, \"Vintage\""
 
-#: ../preview.php:616
+#: ../preview.php:621 ../regulations.php:37
 msgid "pre__rules__c__year"
 msgstr ""
 "Tutte le vetture costruite tra il 1. Gennaio 1919 e il 31. Dicembre 1930."
 
-#: ../preview.php:619
+#: ../preview.php:624 ../regulations.php:40
 msgid "pre__rules__d"
 msgstr "Classe D, \"Post Vintage\""
 
-#: ../preview.php:622
+#: ../preview.php:627 ../regulations.php:43
 msgid "pre__rules__d__year"
 msgstr ""
 "Tutte le vetture costruite tra il 1. Gennaio 1931 e il 31. Dicembre 1945."
 
-#: ../preview.php:625
+#: ../preview.php:630 ../regulations.php:46
 msgid "pre__rules__e"
 msgstr "Classe E"
 
-#: ../preview.php:628
+#: ../preview.php:633 ../regulations.php:49
 msgid "pre__rules__e__year"
 msgstr ""
 "Tutte le vetture costruite tra il 1. Gennaio 1946 e il 31. Dicembre 1960."
-
-#: ../preview.php:637
-msgid "pre__newsletter__title"
-msgstr "Newsletter"
-
-#: ../preview.php:640
-msgid "pre__newsletter__subtitle"
-msgstr ""
-"Iscrivetevi per ricevere la newsletter, per sapere tutte le novità e per "
-"essere sempre aggiornati."
-
-#: ../preview.php:657
-msgid "pre__contact__title"
-msgstr "Contatto"
-
-#: ../preview.php:660
-msgid "pre__content__subtitle"
-msgstr "Siamo felici di ricevere le vostre richieste"
 
 #: ../single.php:18
 msgid "Post navigation"
@@ -427,6 +700,41 @@ msgstr ""
 #: ../single.php:20
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
+
+#: ../timetable.php:57 ../timetable.php:266 ../timetable.php:471
+#: ../timetable.php:622
+msgid ""
+"<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it--"
+">Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"
+msgstr ""
+
+#: ../timetable.php:242
+msgid "program__day2__dinner"
+msgstr ""
+"Una serata indimenticabile tra specialità gastronomiche e culturali all' "
+"interno delle Terme di Merano. I nostri ospiti assaporeranno specialità "
+"uniche della cucina italiana, per poi godersi le grandi canzoni classiche "
+"della musica italiana."
+
+#: ../timetable.php:458
+msgid "program__day3__dinner"
+msgstr ""
+"All' interno di un portico Jugendstil la \"Wandelhalle\" sulla passeggiata "
+"invernale di Merano, presenteremo ai nostri opsiti un confronto di alta "
+"cucina italiana e tradizionale grande cucina altoatesina."
+
+#: ../timetable.php:609
+msgid "program__day4__dinner"
+msgstr ""
+"Questa serata dedicata ai grandi ristoranti dove l'ospite sceglierà il suo "
+"locale preferito, sia tirolese, italiano, cucina fine ecc."
+
+#: ../timetable.php:796
+msgid "program__day5__dinner"
+msgstr ""
+"Nella unica sala del Kurhaus di Merano festeggieremo insieme una serata di "
+"Gala indimenticabile, con proposte culinarie uniche e grande musica di "
+"contorno e finale danzante."
 
 #: ../inc/theme-options.php:55 ../inc/theme-options.php:474
 msgid "Color Scheme"

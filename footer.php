@@ -98,6 +98,7 @@
 		// 	require(['<? echo $jsDir . $currentPage . ".js" ?>']);
 		// });
 	</script>
+	
 
 <?php wp_footer(); ?>
 

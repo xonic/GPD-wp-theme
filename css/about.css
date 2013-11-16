@@ -1567,7 +1567,7 @@ object {
   background: linear-gradient(#fec757, #febe3d);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fec758,endColorstr=#febf3e);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
-  color: #3d372b;
+  color: white;
 }
 /* line 339, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
@@ -1584,18 +1584,26 @@ object {
 }
 
 /* line 349, ../sass/imports/modules/_button.scss */
-.touch .btn--newsletter:hover {
-  margin:  5px 0 43px 0;
-  margin:  0.5rem 0 4.3rem 0;
+.no-touch .btn--newsletter:hover {
+  color: white;
+  text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
+}
+
+/* line 355, ../sass/imports/modules/_button.scss */
+.touch .btn--newsletter:active {
+  margin:  5px 0 43px;
+  margin:  0.5rem 0 4.3rem;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #febb33), color-stop(100%, #fec34c));
   background: -webkit-linear-gradient(#febb33, #fec34c);
   background: -moz-linear-gradient(#febb33, #fec34c);
   background: -o-linear-gradient(#febb33, #fec34c);
   background: linear-gradient(#febb33, #fec34c);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
+  color: white;
+  text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
 }
 
-/* line 358, ../sass/imports/modules/_button.scss */
+/* line 366, ../sass/imports/modules/_button.scss */
 .btn--disabled,
 .touch .btn--disabled,
 .no-touch .btn--disabled {
@@ -1605,7 +1613,7 @@ object {
   color: #b8b8b8;
   text-shadow: none;
 }
-/* line 368, ../sass/imports/modules/_button.scss */
+/* line 376, ../sass/imports/modules/_button.scss */
 .btn--disabled:hover, .btn--disabled:active, .btn--disabled:focus,
 .touch .btn--disabled:hover,
 .touch .btn--disabled:active,
@@ -1613,6 +1621,8 @@ object {
 .no-touch .btn--disabled:hover,
 .no-touch .btn--disabled:active,
 .no-touch .btn--disabled:focus {
+  margin:  0 0 12px;
+  margin:  0 0 1.2rem;
   background: #dbdbdb;
   box-shadow: none;
   color: #b8b8b8;
@@ -2166,6 +2176,31 @@ object {
     clear: both;
   }
 }
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .l-feature {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 27, ../sass/imports/modules/_feature.scss */
+.no-mq .l-feature:nth-child(2n + 1) {
+  clear: none;
+}
+/* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.no-mq .l-feature:nth-child(2n) {
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.no-mq .l-feature:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 32, ../sass/imports/modules/_feature.scss */
+.no-mq .l-feature:nth-child(3n + 1) {
+  clear: both;
+}
 
 /* line 37, ../sass/imports/modules/_feature.scss */
 .feature {
@@ -2248,6 +2283,32 @@ object {
   .features--about .l-feature:nth-child(3n + 1) {
     clear: none;
   }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .features--about .l-feature {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.no-mq .features--about .l-feature:nth-child(2n) {
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.no-mq .features--about .l-feature:nth-child(3n) {
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.no-mq .features--about .l-feature:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 88, ../sass/imports/modules/_feature.scss */
+.no-mq .features--about .l-feature:nth-child(3n + 1) {
+  clear: none;
 }
 /* line 93, ../sass/imports/modules/_feature.scss */
 .features--about .feature {

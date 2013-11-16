@@ -332,7 +332,7 @@
 					   0 5px 0 2px  rgba(0,0,0,.8),
 					   0 10px 20px 3px rgba(0,0,0,.3);
 
-			color:darken($textColor, 5%);
+			color:$white;
 		}
 
 		&:active
@@ -345,11 +345,19 @@
 		}
 	}
 
-	.touch .btn--newsletter:hover
+	.no-touch .btn--newsletter:hover
 	{
-		@include rem(margin, .5 0 $doubleSpace * 2 - .5 0);
+		color:$white;
+		text-shadow:0 1px 1px rgba($textColor, .8);
+	}
+
+	.touch .btn--newsletter:active
+	{
+		@include rem(margin, .5 0 $doubleSpace * 2 - .5);
 		@include background(linear-gradient($secondaryAccent, lighten($secondaryAccent, 5%)));
 		box-shadow:0 0 0 2px rgba(0,0,0,.8);	
+		color:$white;
+		text-shadow:0 1px 1px rgba($textColor, .8);
 	}
 
 	.btn--disabled,
@@ -366,6 +374,7 @@
 		&:active,
 		&:focus
 		{
+			@include rem(margin, 0 0 $singleSpace);
 			background:$grayVeryLight;
 			box-shadow:none;
 			color:$btnDisabledFontColor;

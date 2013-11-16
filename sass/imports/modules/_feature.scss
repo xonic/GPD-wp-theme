@@ -21,7 +21,7 @@
 			&:nth-child(2n + 1) { clear:both; }
 		}
 
-		@include at-breakpoint($huge-width)
+		@include at-breakpoint($huge-width no-mq)
 		{
 
 			&:nth-child(2n + 1) { clear:none; }
@@ -78,7 +78,7 @@
 				margin-bottom:0;
 			}
 
-			@include at-breakpoint($huge-width)
+			@include at-breakpoint($huge-width no-mq)
 			{
 				@include remove-nth-omega(2n, $context:$huge-cols);
 				@include remove-nth-omega(3n, $context:$huge-cols);

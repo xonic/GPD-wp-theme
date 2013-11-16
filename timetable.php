@@ -54,7 +54,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;<? _e("<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it-->Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"); ?></h2>
 					
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -238,8 +238,9 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<p>Ein Abend mit kulinarischen und kulturellen Höhepunkten Italiens im einzigartigen Thermenbad in Meran.</p>
-							<p>Unsere Gäste genießen feinste Spezialitäten der italienischen Küche und lauschen den Klassikern der italienischen Musik.</p>
+							<p>
+								<? _e("program__day2__dinner", "gp-dolomiti"); ?>
+							</p>
 						</div>
 						
 						<!-- <div class="day__dinner__img">
@@ -262,7 +263,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;<? _e("<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it-->Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"); ?></h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -453,7 +454,9 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<p>Vor der atemberaubenden Kulisse der Wandelhalle auf der Meraner Winterpromenade, servieren wir unseren Gästen vorzügliche Delikatessen aus der traditionellen und modernen südtiroler Küche.</p>
+							<p>
+								<? _e("program__day3__dinner", "gp-dolomiti"); ?>
+							</p>
 						</div>
 					</div>
 					
@@ -465,7 +468,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;<? _e("<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it-->Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"); ?></h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -602,7 +605,9 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<p>Am dritten Abend bieten wir unseren Gästen eine vielfältige Auswahl an unterschiedlichen Restaurants. Jeder darf sein bevorzugtes Restaurant frei wählen und dort dinieren.</p>
+							<p>
+								<? _e("program__day4__dinner", "gp-dolomiti"); ?>
+							</p>
 						</div>
 					</div>
 					
@@ -614,7 +619,7 @@ get_header(); ?>
 						</time>
 					</h1>
 
-					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;Tagesroute</h2>
+					<h2 class="day__subheading"><i class="fa fa-road"></i>&nbsp;&nbsp;<? _e("<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it-->Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"); ?></h2>
 
 					<section class="slider">
 						<ul class="slider__slides slider__slides--contains-4">
@@ -747,7 +752,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 
-						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Gala Dinner &amp; Siegerehrung</h3>
+						<h3 class="day__subheading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Gala Dinner</h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
@@ -787,7 +792,9 @@ get_header(); ?>
 						</section>
 
 						<div class="dinner__description dinner__description--rev">
-							<p>Im edlen Kurhaus von Meran veranstalten wir einen Gala-Abend mit passender musikalischer Begleitung und einem exzellenten Dinner.</p>
+							<p>
+								<? _e("program__day5__dinner", "gp-dolomiti"); ?>
+							</p>
 						</div>
 					</div>
 
@@ -798,7 +805,7 @@ get_header(); ?>
 							<? _e("pre__day6", "gp-dolomiti"); ?>
 						</time>
 					</h1>
-					<div class="day__special media">
+					<div class="day__special media ceremony">
 						<div class="media__img"><i class="fa fa-trophy"></i></div>
 						<div class="media__bd">
 							<p>

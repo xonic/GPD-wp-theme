@@ -1226,7 +1226,7 @@ object {
   background: linear-gradient(#fec757, #febe3d);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fec758,endColorstr=#febf3e);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
-  color: #3d372b;
+  color: white;
 }
 /* line 339, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
@@ -1243,18 +1243,26 @@ object {
 }
 
 /* line 349, ../sass/imports/modules/_button.scss */
-.touch .btn--newsletter:hover {
-  margin:  5px 0 43px 0;
-  margin:  0.5rem 0 4.3rem 0;
+.no-touch .btn--newsletter:hover {
+  color: white;
+  text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
+}
+
+/* line 355, ../sass/imports/modules/_button.scss */
+.touch .btn--newsletter:active {
+  margin:  5px 0 43px;
+  margin:  0.5rem 0 4.3rem;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #febb33), color-stop(100%, #fec34c));
   background: -webkit-linear-gradient(#febb33, #fec34c);
   background: -moz-linear-gradient(#febb33, #fec34c);
   background: -o-linear-gradient(#febb33, #fec34c);
   background: linear-gradient(#febb33, #fec34c);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
+  color: white;
+  text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
 }
 
-/* line 358, ../sass/imports/modules/_button.scss */
+/* line 366, ../sass/imports/modules/_button.scss */
 .btn--disabled,
 .touch .btn--disabled,
 .no-touch .btn--disabled {
@@ -1264,7 +1272,7 @@ object {
   color: #b8b8b8;
   text-shadow: none;
 }
-/* line 368, ../sass/imports/modules/_button.scss */
+/* line 376, ../sass/imports/modules/_button.scss */
 .btn--disabled:hover, .btn--disabled:active, .btn--disabled:focus,
 .touch .btn--disabled:hover,
 .touch .btn--disabled:active,
@@ -1272,6 +1280,8 @@ object {
 .no-touch .btn--disabled:hover,
 .no-touch .btn--disabled:active,
 .no-touch .btn--disabled:focus {
+  margin:  0 0 12px;
+  margin:  0 0 1.2rem;
   background: #dbdbdb;
   box-shadow: none;
   color: #b8b8b8;
@@ -3186,178 +3196,194 @@ form {
   display: inline;
 }
 
-/* line 113, ../sass/imports/modules/_program.scss */
+@media (min-width: 64em) {
+  /* line 111, ../sass/imports/modules/_program.scss */
+  .ceremony {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .ceremony {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 121, ../sass/imports/modules/_program.scss */
 .dinner {
   background-image: url(../images/events/events.jpg);
   background-size: 1600% auto;
 }
 
-/* line 120, ../sass/imports/modules/_program.scss */
+/* line 128, ../sass/imports/modules/_program.scss */
 #ie7 .dinner,
 #ie8 .dinner {
   -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
 }
 
-/* line 125, ../sass/imports/modules/_program.scss */
+/* line 133, ../sass/imports/modules/_program.scss */
 .dinner--italian-2 {
   background-position: -100% 0;
 }
 
-/* line 131, ../sass/imports/modules/_program.scss */
+/* line 139, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-2,
 #ie8 .dinner--italian-2 {
   background-position: -203px 0;
 }
 
-/* line 136, ../sass/imports/modules/_program.scss */
+/* line 144, ../sass/imports/modules/_program.scss */
 .dinner--italian-3 {
   background-position: -200% 0;
 }
 
-/* line 142, ../sass/imports/modules/_program.scss */
+/* line 150, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-3,
 #ie8 .dinner--italian-3 {
   background-position: -406px 0;
 }
 
-/* line 147, ../sass/imports/modules/_program.scss */
+/* line 155, ../sass/imports/modules/_program.scss */
 .dinner--italian-4 {
   background-position: -300% 0;
 }
 
-/* line 153, ../sass/imports/modules/_program.scss */
+/* line 161, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-4,
 #ie8 .dinner--italian-4 {
   background-position: -609px 0;
 }
 
-/* line 158, ../sass/imports/modules/_program.scss */
+/* line 166, ../sass/imports/modules/_program.scss */
 .dinner--lounge-1 {
   background-position: -400% 0;
 }
 
-/* line 164, ../sass/imports/modules/_program.scss */
+/* line 172, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-1,
 #ie8 .dinner--lounge-1 {
   background-position: -812px 0;
 }
 
-/* line 169, ../sass/imports/modules/_program.scss */
+/* line 177, ../sass/imports/modules/_program.scss */
 .dinner--lounge-2 {
   background-position: -500% 0;
 }
 
-/* line 175, ../sass/imports/modules/_program.scss */
+/* line 183, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-2,
 #ie8 .dinner--lounge-2 {
   background-position: -1015px 0;
 }
 
-/* line 180, ../sass/imports/modules/_program.scss */
+/* line 188, ../sass/imports/modules/_program.scss */
 .dinner--lounge-3 {
   background-position: -600% 0;
 }
 
-/* line 186, ../sass/imports/modules/_program.scss */
+/* line 194, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-3,
 #ie8 .dinner--lounge-3 {
   background-position: -1218px 0;
 }
 
-/* line 191, ../sass/imports/modules/_program.scss */
+/* line 199, ../sass/imports/modules/_program.scss */
 .dinner--lounge-4 {
   background-position: -700% 0;
 }
 
-/* line 197, ../sass/imports/modules/_program.scss */
+/* line 205, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-4,
 #ie8 .dinner--lounge-4 {
   background-position: -1421px 0;
 }
 
-/* line 202, ../sass/imports/modules/_program.scss */
+/* line 210, ../sass/imports/modules/_program.scss */
 .dinner--choice-1 {
   background-position: -800% 0;
 }
 
-/* line 208, ../sass/imports/modules/_program.scss */
+/* line 216, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-1,
 #ie8 .dinner--choice-1 {
   background-position: -1624px 0;
 }
 
-/* line 213, ../sass/imports/modules/_program.scss */
+/* line 221, ../sass/imports/modules/_program.scss */
 .dinner--choice-2 {
   background-position: -900% 0;
 }
 
-/* line 219, ../sass/imports/modules/_program.scss */
+/* line 227, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-2,
 #ie8 .dinner--choice-2 {
   background-position: -1827px 0;
 }
 
-/* line 224, ../sass/imports/modules/_program.scss */
+/* line 232, ../sass/imports/modules/_program.scss */
 .dinner--choice-3 {
   background-position: -1000% 0;
 }
 
-/* line 230, ../sass/imports/modules/_program.scss */
+/* line 238, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-3,
 #ie8 .dinner--choice-3 {
   background-position: -2030px 0;
 }
 
-/* line 235, ../sass/imports/modules/_program.scss */
+/* line 243, ../sass/imports/modules/_program.scss */
 .dinner--choice-4 {
   background-position: -1100% 0;
 }
 
-/* line 241, ../sass/imports/modules/_program.scss */
+/* line 249, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-4,
 #ie8 .dinner--choice-4 {
   background-position: -2233px 0;
 }
 
-/* line 246, ../sass/imports/modules/_program.scss */
+/* line 254, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-1 {
   background-position: -1200% 0;
 }
 
-/* line 252, ../sass/imports/modules/_program.scss */
+/* line 260, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-1,
 #ie8 .dinner--kurhaus-1 {
   background-position: -2436px 0;
 }
 
-/* line 257, ../sass/imports/modules/_program.scss */
+/* line 265, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-2 {
   background-position: -1300% 0;
 }
 
-/* line 263, ../sass/imports/modules/_program.scss */
+/* line 271, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-2,
 #ie8 .dinner--kurhaus-2 {
   background-position: -2639px 0;
 }
 
-/* line 268, ../sass/imports/modules/_program.scss */
+/* line 276, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-3 {
   background-position: -1400% 0;
 }
 
-/* line 274, ../sass/imports/modules/_program.scss */
+/* line 282, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-3,
 #ie8 .dinner--kurhaus-3 {
   background-position: -2842px 0;
 }
 
-/* line 279, ../sass/imports/modules/_program.scss */
+/* line 287, ../sass/imports/modules/_program.scss */
 .dinner--kurhaus-4 {
   background-position: -1500% 0;
 }
 
-/* line 285, ../sass/imports/modules/_program.scss */
+/* line 293, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-4,
 #ie8 .dinner--kurhaus-4 {
   background-position: -3045px 0;
