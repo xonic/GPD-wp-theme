@@ -36,14 +36,40 @@
 
 					<section class="container">
 						<p>&copy; Gran Premio Dolomiti 2014</p>
+
+						<div class="l-organizer">
+							<div class="polaroid">
+								<img src="<? echo get_template_directory_uri() . '/images/rentor.jpg' ?>" alt="Rentor KG Logo">
+							</div>
+						</div>
+
+						<div class="l-organizer">
+							<div class="polaroid">
+								<img src="<? echo get_template_directory_uri() . '/images/smt.jpg' ?>" alt="SMT Consulting Logo">
+							</div>
+						</div>
+
+						<div class="l-organizer">
+							<div class="polaroid">
+								<img src="<? echo get_template_directory_uri() . '/images/veteran.jpg' ?>" alt="Veteran Car Team Logo">
+							</div>
+						</div>
+
 						<address class="vcard">
 							<!-- WAT?! -->
 							<span class="fn n">
 								<span class="given-name"></span>
 							</span>
-						 	<div class="org">Rentor KG des Biasi Gerhard</div>
+						 	<div class="org">SMT Consulting</div>
+						 	<div class="email">
+						 		<a class="value" href="mailto:hannes@granpremiodolomiti.com">hannes@granpremiodolomiti.com</a>
+						 	</div>
+						 	<div class="tel">
+						 		<abbr class="type" title="voice"></abbr>
+						 		<span class="type">Work</span> Phone: <span class="value">+39 0473 201 253</span>
+						 	</div>
 						 	<div class="adr">
-						  		<span class="street-address">Piavestr. 27</span><br/>
+						  		<span class="street-address">Gampenstraße 99i</span><br/>
 						  		<span class="postal-code">39012</span>
 						  		<span class="locality">Meran</span><br/>
 						  		<span class="country-name">Italien</span>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-11-16 10:34+0100\n"
-"PO-Revision-Date: 2013-11-16 10:35+0100\n"
+"POT-Creation-Date: 2013-11-17 13:16+0100\n"
+"PO-Revision-Date: 2013-11-17 13:17+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,23 +15,23 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../about.php:19 ../header.php:112 ../preview.php:92
+#: ../about.php:19 ../header.php:113 ../preview.php:92
 msgid "pre__info__title"
 msgstr "Racing for Classic Car Connoisseurs"
 
-#: ../about.php:23 ../header.php:116 ../preview.php:96
+#: ../about.php:23 ../header.php:117 ../preview.php:96
 msgid "pre__info__start-date"
 msgstr "July 23rd"
 
-#: ../about.php:25 ../header.php:118 ../preview.php:98
+#: ../about.php:25 ../header.php:119 ../preview.php:98
 msgid "pre__info__to"
 msgstr "to"
 
-#: ../about.php:27 ../header.php:120 ../preview.php:100
+#: ../about.php:27 ../header.php:121 ../preview.php:100
 msgid "pre__info__end-date"
 msgstr "27th, 2014"
 
-#: ../about.php:32 ../header.php:124 ../preview.php:105
+#: ../about.php:32 ../header.php:125 ../preview.php:105
 msgid "pre__info__p1"
 msgstr ""
 "The Gran Premio Dolomiti is an extraordinary and ambitious classic car race. "
@@ -40,7 +40,7 @@ msgstr ""
 "Pennes, Passo Mendola and many more. This rallye is an overwhelming "
 "expedition through the astonishing Dolomite Alps."
 
-#: ../about.php:35 ../header.php:127 ../preview.php:108
+#: ../about.php:35 ../header.php:128 ../preview.php:108
 msgid "pre__info__p2"
 msgstr ""
 "Furthermore, this special event will guide you through the unique and "
@@ -69,6 +69,36 @@ msgstr "Hotel Check-In"
 #: ../about.php:66 ../preview.php:146 ../timetable.php:45
 msgid "pre__day1__dinner"
 msgstr "Dinner at the hotel or in one of Merano's gourmet restaurants."
+
+#: ../about.php:73
+msgid ""
+"<!--:en-->Experience<!--:--><!--:de-->Das Erlebnis<!--:--><!--:it--"
+">L'esperienza<!--:--><!--:fr-->Expérience<!--:-->"
+msgstr ""
+
+#: ../about.php:80
+msgid ""
+"<!--:en-->Day routes<!--:--><!--:de-->Tagesrouten<br>erkunden<!--:--><!--:"
+"it-->Percorsi<!--:--><!--:fr-->Routes<!--:-->"
+msgstr ""
+
+#: ../about.php:88
+msgid ""
+"<!--:en-->Passes<!--:--><!--:de-->Bergpässe<br>erobern<!--:--><!--:it--"
+">Passi<!--:--><!--:fr-->Passes<!--:-->"
+msgstr ""
+
+#: ../about.php:96
+msgid ""
+"<!--:en-->Kilometers<!--:--><!--:de-->Kilometer<br>fahren<!--:--><!--:it--"
+">Chilometri<!--:--><!--:fr-->Kilomètres<!--:-->"
+msgstr ""
+
+#: ../about.php:104
+msgid ""
+"<!--:en-->Meters altitude<!--:--><!--:de-->Höhenmeter<br>bezwingen<!--:--"
+"><!--:it-->Metri d'altezza<!--:--><!--:fr-->Mètres altitudines<!--:-->"
+msgstr ""
 
 #: ../contact.php:21 ../preview.php:662
 msgid "pre__contact__title"
@@ -233,8 +263,11 @@ msgid ""
 "eepurl.com/xOMaz\" title=\"Newsletter\">notify you</a> as soon as we're "
 "ready.<!--:--><!--:de-->Bestellung derzeit noch nicht möglich. Gerne <a href="
 "\"http://eepurl.com/xOMaz\" title=\"Newsletter\">benachrichtigen wir Sie</"
-"a>, wenn es soweit ist.<!--:--><!--:it-->Contattaci<!--:--><!--:fr--"
-">Contactez-nous<!--:-->"
+"a>, wenn es soweit ist.<!--:--><!--:it-->Le iscrizioni non sono attualmente "
+"possibili, <a href=\"http://eepurl.com/xOMaz\" title=\"Newsletter\">vi "
+"informeremo</a> entro breve.<!--:--><!--:fr-->Les inscriptions ne sont pas "
+"encore possibles. <a href=\"http://eepurl.com/xOMaz\" title=\"Newsletter"
+"\">Nous vous informerons</a> dès que possible de leur ouverture. <!--:-->"
 msgstr ""
 
 #: ../packages.php:49
@@ -353,26 +386,26 @@ msgid "pre__day2"
 msgstr "Wednesday, July 23rd, 2014"
 
 #: ../preview.php:163 ../preview.php:282 ../preview.php:409 ../preview.php:481
-#: ../timetable.php:108 ../timetable.php:315 ../timetable.php:520
-#: ../timetable.php:671
+#: ../timetable.php:108 ../timetable.php:305 ../timetable.php:466
+#: ../timetable.php:680
 msgid "pre__location"
 msgstr "Location"
 
 #: ../preview.php:166 ../preview.php:285 ../preview.php:412 ../preview.php:484
-#: ../timetable.php:111 ../timetable.php:318 ../timetable.php:523
-#: ../timetable.php:674
+#: ../timetable.php:111 ../timetable.php:308 ../timetable.php:469
+#: ../timetable.php:683
 msgid "pre__altitude"
 msgstr "Altitude"
 
 #: ../preview.php:174 ../preview.php:246 ../preview.php:420 ../preview.php:447
 #: ../preview.php:492 ../timetable.php:119 ../timetable.php:191
-#: ../timetable.php:531 ../timetable.php:558 ../timetable.php:682
+#: ../timetable.php:316 ../timetable.php:352 ../timetable.php:691
 msgid "pre__meran"
 msgstr "Merano"
 
 #: ../preview.php:177 ../preview.php:249 ../preview.php:423 ../preview.php:450
 #: ../preview.php:495 ../timetable.php:122 ../timetable.php:194
-#: ../timetable.php:534 ../timetable.php:561 ../timetable.php:685
+#: ../timetable.php:319 ../timetable.php:355 ../timetable.php:694
 msgid "pre__meran__altitude"
 msgstr "324m"
 
@@ -401,14 +434,14 @@ msgid "pre__penser__altitude"
 msgstr "2211m"
 
 #: ../preview.php:210 ../preview.php:293 ../preview.php:374 ../preview.php:555
-#: ../timetable.php:155 ../timetable.php:326 ../timetable.php:407
-#: ../timetable.php:745
+#: ../timetable.php:155 ../timetable.php:477 ../timetable.php:567
+#: ../timetable.php:754
 msgid "pre__bozen"
 msgstr "Bolzano"
 
 #: ../preview.php:213 ../preview.php:296 ../preview.php:377 ../preview.php:558
-#: ../timetable.php:158 ../timetable.php:329 ../timetable.php:410
-#: ../timetable.php:748
+#: ../timetable.php:158 ../timetable.php:480 ../timetable.php:570
+#: ../timetable.php:757
 msgid "pre__bozen__altitude"
 msgstr "262m"
 
@@ -436,69 +469,67 @@ msgstr "Passo Palade"
 msgid "pre__gampen__altitude"
 msgstr "1518m"
 
-#: ../preview.php:258 ../timetable.php:252
+#: ../preview.php:258
 msgid "pre__day2__dinner"
 msgstr "Italian dinner &mdash; the best of italian cuisine."
 
-#: ../preview.php:273 ../timetable.php:262
+#: ../preview.php:273 ../timetable.php:252
 msgid "pre__day3"
 msgstr "Thursday, July 24th, 2014"
 
-#: ../preview.php:302 ../preview.php:365 ../timetable.php:335
-#: ../timetable.php:398
+#: ../preview.php:302 ../preview.php:365 ../timetable.php:495
 msgid "pre__ortisei"
 msgstr "Ortisei"
 
-#: ../preview.php:305 ../preview.php:368 ../timetable.php:338
-#: ../timetable.php:401
+#: ../preview.php:305 ../preview.php:368 ../timetable.php:498
 msgid "pre__ortisei__altitude"
 msgstr "1236m"
 
-#: ../preview.php:311 ../timetable.php:344
+#: ../preview.php:311 ../timetable.php:549
 msgid "pre__wolkenstein"
 msgstr "Selva di Val Gardena"
 
-#: ../preview.php:314 ../timetable.php:347
+#: ../preview.php:314 ../timetable.php:552
 msgid "pre__wolkenstein__altitude"
 msgstr "1563m"
 
-#: ../preview.php:320 ../timetable.php:353
+#: ../preview.php:320 ../timetable.php:504
 msgid "pre__groedner"
 msgstr "Passo Gardena"
 
-#: ../preview.php:323 ../timetable.php:356
+#: ../preview.php:323 ../timetable.php:507
 msgid "pre__groedner__altitude"
 msgstr "2121m"
 
-#: ../preview.php:329 ../timetable.php:362
+#: ../preview.php:329 ../timetable.php:513
 msgid "pre__corvara"
 msgstr "Corvara"
 
-#: ../preview.php:332 ../timetable.php:365
+#: ../preview.php:332 ../timetable.php:516
 msgid "pre__corvara__altitude"
 msgstr "1568m"
 
-#: ../preview.php:338 ../timetable.php:371
+#: ../preview.php:338 ../timetable.php:522
 msgid "pre__campolungo"
 msgstr "Passo Campolongo"
 
-#: ../preview.php:341 ../timetable.php:374
+#: ../preview.php:341 ../timetable.php:525
 msgid "pre__campolungo__altitude"
 msgstr "1875m"
 
-#: ../preview.php:347 ../timetable.php:380
+#: ../preview.php:347 ../timetable.php:531
 msgid "pre__pordoi"
 msgstr "Passo Pordoi"
 
-#: ../preview.php:350 ../timetable.php:383
+#: ../preview.php:350 ../timetable.php:534
 msgid "pre__pordoi__altitude"
 msgstr "2239m"
 
-#: ../preview.php:356 ../timetable.php:389
+#: ../preview.php:356 ../timetable.php:540
 msgid "pre__sella"
 msgstr "Passo Sella"
 
-#: ../preview.php:359 ../timetable.php:392
+#: ../preview.php:359 ../timetable.php:543
 msgid "pre__sella__altitude"
 msgstr "2240m"
 
@@ -506,23 +537,23 @@ msgstr "2240m"
 msgid "pre__day3__dinner"
 msgstr "Dinner: A walk through the best of South Tyrolean kitchen."
 
-#: ../preview.php:400 ../timetable.php:467
+#: ../preview.php:400 ../timetable.php:413
 msgid "pre__day4"
 msgstr "Friday, July 25th, 2014"
 
-#: ../preview.php:429 ../timetable.php:540
+#: ../preview.php:429 ../timetable.php:343
 msgid "pre__glurns"
 msgstr "Glorenza"
 
-#: ../preview.php:432 ../timetable.php:543
+#: ../preview.php:432 ../timetable.php:346
 msgid "pre__glurns__altitude"
 msgstr "907m"
 
-#: ../preview.php:438 ../timetable.php:549
+#: ../preview.php:438 ../timetable.php:334
 msgid "pre__stilfs"
 msgstr "Passo Stelvio"
 
-#: ../preview.php:441 ../timetable.php:552
+#: ../preview.php:441 ../timetable.php:337
 msgid "pre__stilfs__altitude"
 msgstr "2763m"
 
@@ -530,55 +561,55 @@ msgstr "2763m"
 msgid "pre__day4__dinner"
 msgstr "Optional Dinner: Discover a new favourite restaurant in the area."
 
-#: ../preview.php:472 ../timetable.php:618
+#: ../preview.php:472 ../timetable.php:627
 msgid "pre__day5"
 msgstr "Saturday, July 26th, 2014"
 
-#: ../preview.php:501 ../timetable.php:691
+#: ../preview.php:501 ../timetable.php:700
 msgid "pre__lana"
 msgstr "Lana"
 
-#: ../preview.php:504 ../timetable.php:694
+#: ../preview.php:504 ../timetable.php:703
 msgid "pre__lana__altitude"
 msgstr "310m"
 
-#: ../preview.php:510 ../timetable.php:700
+#: ../preview.php:510 ../timetable.php:709
 msgid "pre__andrian"
 msgstr "Andriano"
 
-#: ../preview.php:513 ../timetable.php:703
+#: ../preview.php:513 ../timetable.php:712
 msgid "pre__andrian__altitude"
 msgstr "274m"
 
-#: ../preview.php:519 ../timetable.php:709
+#: ../preview.php:519 ../timetable.php:718
 msgid "pre__pauls"
 msgstr "San Paolo"
 
-#: ../preview.php:522 ../timetable.php:712
+#: ../preview.php:522 ../timetable.php:721
 msgid "pre__pauls__altitude"
 msgstr "395m"
 
-#: ../preview.php:528 ../timetable.php:718
+#: ../preview.php:528 ../timetable.php:727
 msgid "pre__eppan"
 msgstr "Appiano"
 
-#: ../preview.php:531 ../timetable.php:721
+#: ../preview.php:531 ../timetable.php:730
 msgid "pre__eppan__altitude"
 msgstr "415m"
 
-#: ../preview.php:537 ../timetable.php:727
+#: ../preview.php:537 ../timetable.php:736
 msgid "pre__kaltern"
 msgstr "Caldaro"
 
-#: ../preview.php:540 ../timetable.php:730
+#: ../preview.php:540 ../timetable.php:739
 msgid "pre__kaltern__altitude"
 msgstr "425m"
 
-#: ../preview.php:546 ../timetable.php:736
+#: ../preview.php:546 ../timetable.php:745
 msgid "pre__neumarkt"
 msgstr "Egna"
 
-#: ../preview.php:549 ../timetable.php:739
+#: ../preview.php:549 ../timetable.php:748
 msgid "pre__neumarkt__altitude"
 msgstr "217m"
 
@@ -586,11 +617,11 @@ msgstr "217m"
 msgid "pre__day5__dinner"
 msgstr "Gala Dinner."
 
-#: ../preview.php:581 ../timetable.php:805
+#: ../preview.php:581 ../timetable.php:814
 msgid "pre__day6"
 msgstr "Sunday, July 27th, 2014"
 
-#: ../preview.php:588 ../timetable.php:812
+#: ../preview.php:588 ../timetable.php:821
 msgid "pre__day6__ceremony"
 msgstr ""
 "While having a relaxing brunch outside, we'll celebrate the price-giving "
@@ -660,8 +691,8 @@ msgstr ""
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../timetable.php:57 ../timetable.php:266 ../timetable.php:471
-#: ../timetable.php:622
+#: ../timetable.php:57 ../timetable.php:256 ../timetable.php:417
+#: ../timetable.php:631
 msgid ""
 "<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it--"
 ">Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"
@@ -674,21 +705,45 @@ msgstr ""
 "the finest delicacies of italian cuisine and listen to the best songs of "
 "classic italian music."
 
-#: ../timetable.php:458
+#: ../timetable.php:325
+msgid "pre__prad"
+msgstr "Prato"
+
+#: ../timetable.php:328
+msgid "pre__prad__altitude"
+msgstr "915m"
+
+#: ../timetable.php:404
 msgid "program__day3__dinner"
 msgstr ""
 "Expect intense delight and well-being while having some of the best "
 "traditional and modern south tyrolean dishes, relaxing outside on the "
 "\"Wandelhalle\", the wonderful promenade of Merano where town meets nature."
 
-#: ../timetable.php:609
+#: ../timetable.php:486
+msgid "pre__klausen"
+msgstr "Chiusa"
+
+#: ../timetable.php:489
+msgid "pre__klausen__altitude"
+msgstr "523m"
+
+#: ../timetable.php:558
+msgid "pre__castelrotto"
+msgstr "Castelrotto"
+
+#: ../timetable.php:561
+msgid "pre__castelrotto__altitude"
+msgstr "1060m"
+
+#: ../timetable.php:618
 msgid "program__day4__dinner"
 msgstr ""
 "Merano and its surroundings offer a good amount of great restaurants with "
 "typical, high-quality food. On the fourth evening we'll let you choose your "
 "personal favorite from a list of pre-selected restaurants."
 
-#: ../timetable.php:796
+#: ../timetable.php:805
 msgid "program__day5__dinner"
 msgstr ""
 "On Saturday evening there will be an outstanding gala dinner and a special "
@@ -860,12 +915,6 @@ msgstr ""
 
 #~ msgid "pre__erbe__altitude"
 #~ msgstr "2003m"
-
-#~ msgid "pre__kastelruth"
-#~ msgstr "Castelrotto"
-
-#~ msgid "pre__kastelruth__altitude"
-#~ msgstr "1060m"
 
 #~ msgid "pre__siusi"
 #~ msgstr "Siusi"
