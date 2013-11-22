@@ -17,5 +17,11 @@
 			@include rem(padding-bottom, $doubleSpace);
 			color:$olive;
 			font-style:normal;
+
+			a 
+			{
+				color:$olive;
+				border:0 none;
+			}
 		}
 	}

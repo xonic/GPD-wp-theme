@@ -2498,33 +2498,34 @@ object {
   color: #8b826a;
   font-style: normal;
 }
+/* line 22, ../sass/imports/modules/_impressum.scss */
+.impressum address a {
+  color: #8b826a;
+  border: 0 none;
+}
 
 /* line 8, ../sass/imports/modules/_organizer.scss */
 .l-organizer {
   margin-bottom:  24px;
   margin-bottom:  2.4rem;
+  width: 28.57143%;
+  float: left;
+  margin-right: 7.14286%;
+  display: inline;
 }
-@media (min-width: 37.5em) {
-  /* line 8, ../sass/imports/modules/_organizer.scss */
-  .l-organizer {
-    width: 28.57143%;
-    float: left;
-    margin-right: 7.14286%;
-  }
-  /* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-  .l-organizer:nth-child(4n) {
-    float: right;
-    margin-right: 0;
-  }
+/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+.l-organizer:nth-child(4n) {
+  float: right;
+  margin-right: 0;
 }
-/* line 18, ../sass/imports/modules/_organizer.scss */
+/* line 15, ../sass/imports/modules/_organizer.scss */
 .l-organizer .polaroid {
   max-width:  70px;
   max-width:  7rem;
   margin: 0 auto;
   border-radius: 3px;
 }
-/* line 24, ../sass/imports/modules/_organizer.scss */
+/* line 21, ../sass/imports/modules/_organizer.scss */
 .l-organizer img {
   display: block;
 }

@@ -65,8 +65,7 @@
 						 		<a class="value" href="mailto:hannes@granpremiodolomiti.com">hannes@granpremiodolomiti.com</a>
 						 	</div>
 						 	<div class="tel">
-						 		<abbr class="type" title="voice"></abbr>
-						 		<span class="type">Work</span> Phone: <span class="value">+39 0473 201 253</span>
+								<span class="value">+39 0473 201 253</span>
 						 	</div>
 						 	<div class="adr">
 						  		<span class="street-address">Gampenstraße 99i</span><br/>
