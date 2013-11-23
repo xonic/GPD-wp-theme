@@ -52,6 +52,7 @@
 
 			?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri() . '/css/' . $currentPage . '.css' ?>" />
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/font-awesome-ie7.min.css' ?>">
@@ -62,12 +63,12 @@
 		<!-- TypeKit -->
 		<script type="text/javascript" src="//use.typekit.net/wkm4uha.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script>
+		<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiah6D-8-DEO6lAtyEXFvPkeohKQdhjKU&amp;sensor=false"></script>-->
 
 
 		<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/imports/selectivizr.js" type="text/javascript"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/imports/selectivizr-min.js" type="text/javascript"></script>
 		<![endif]-->
 		<?php
 

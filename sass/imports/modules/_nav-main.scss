@@ -75,6 +75,12 @@
 		}
 	}
 
+	.touch .flyout__toggle:active
+	{
+		color:$white;
+		background:$primaryAccent;
+	}
+
 	.nav-is-shown .flyout__toggle
 	{
 		.fa-bars
@@ -180,6 +186,11 @@
 		color:$white;
 	}
 
+	.touch .nav-main .menu a:active
+	{
+		background:$primaryAccent;
+	}
+
 	.nav-is-shown .nav-main .menu-hauptmenue-container
 	{
 		@include transform(scale3d(1,1,1) translate3d(0,0,0));
@@ -202,7 +213,7 @@
 	{
 		background:$white;
 
-		@include at-breakpoint($large-width)
+		@include at-breakpoint($large-width no-mq)
 		{
 			@include rem(padding-top, $doubleSpace);
 		}

@@ -664,7 +664,7 @@ body > section {
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
-  -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
+  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
 }
 /* line 190, ../sass/imports/base/_typography.scss */
 #ie7 body:after,
@@ -672,29 +672,53 @@ body > section {
   content: none;
 }
 
-/* line 199, ../sass/imports/base/_typography.scss */
+/* line 197, ../sass/imports/base/_typography.scss */
+#ie7 .page-template-timetable-php,
+#ie8 .page-template-timetable-php {
+  background-image: url(../images/branding-bg-program.jpg);
+}
+
+/* line 203, ../sass/imports/base/_typography.scss */
+#ie7 .page-template-packages-php,
+#ie8 .page-template-packages-php {
+  background-image: url(../images/branding-bg-packages.jpg);
+}
+
+/* line 209, ../sass/imports/base/_typography.scss */
+#ie7 .page-template-regulations-php,
+#ie8 .page-template-regulations-php {
+  background-image: url(../images/branding-bg-regulations.jpg);
+}
+
+/* line 215, ../sass/imports/base/_typography.scss */
+#ie7 .page-template-contact-php,
+#ie8 .page-template-contact-php {
+  background-image: url(../images/branding-bg-contact.jpg);
+}
+
+/* line 223, ../sass/imports/base/_typography.scss */
 p small {
   font-size: -0.2;
 }
 
-/* line 205, ../sass/imports/base/_typography.scss */
+/* line 229, ../sass/imports/base/_typography.scss */
 pre {
   word-wrap: normal;
 }
 
-/* line 211, ../sass/imports/base/_typography.scss */
+/* line 235, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 217, ../sass/imports/base/_typography.scss */
+/* line 241, ../sass/imports/base/_typography.scss */
 ::selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 228, ../sass/imports/base/_typography.scss */
+/* line 252, ../sass/imports/base/_typography.scss */
 a {
   border-bottom: 0 solid #febb33;
   border-bottom-width:  2px;
@@ -713,14 +737,14 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 246, ../sass/imports/base/_typography.scss */
+/* line 270, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
   text-decoration: none;
   color: #febb33;
 }
 
-/* line 256, ../sass/imports/base/_typography.scss */
+/* line 280, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -728,13 +752,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 263, ../sass/imports/base/_typography.scss */
+/* line 287, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 276, ../sass/imports/base/_typography.scss */
+/* line 300, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, fieldset legend, .h4, .h5, .h6, .day__date {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -745,7 +769,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 284, ../sass/imports/base/_typography.scss */
+/* line 308, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, fieldset legend small, .h4 small, .h5 small, .h6 small, .day__date small {
   display: block;
@@ -754,7 +778,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 293, ../sass/imports/base/_typography.scss */
+/* line 317, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -762,7 +786,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 293, ../sass/imports/base/_typography.scss */
+  /* line 317, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -771,7 +795,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 293, ../sass/imports/base/_typography.scss */
+  /* line 317, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -780,7 +804,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 293, ../sass/imports/base/_typography.scss */
+  /* line 317, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -789,7 +813,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 293, ../sass/imports/base/_typography.scss */
+  /* line 317, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -798,7 +822,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 293, ../sass/imports/base/_typography.scss */
+  /* line 317, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -807,7 +831,7 @@ h1, .h1 {
   }
 }
 
-/* line 304, ../sass/imports/base/_typography.scss */
+/* line 328, ../sass/imports/base/_typography.scss */
 h2, .h2, .day__date {
   font-size:  32px;
   font-size:  3.2rem;
@@ -815,7 +839,7 @@ h2, .h2, .day__date {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 304, ../sass/imports/base/_typography.scss */
+  /* line 328, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  32px;
     font-size:  3.2rem;
@@ -824,7 +848,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 304, ../sass/imports/base/_typography.scss */
+  /* line 328, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  38px;
     font-size:  3.8rem;
@@ -833,7 +857,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 64em) {
-  /* line 304, ../sass/imports/base/_typography.scss */
+  /* line 328, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  44px;
     font-size:  4.4rem;
@@ -842,7 +866,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 80em) {
-  /* line 304, ../sass/imports/base/_typography.scss */
+  /* line 328, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  50px;
     font-size:  5rem;
@@ -851,7 +875,7 @@ h2, .h2, .day__date {
   }
 }
 @media (min-width: 100em) {
-  /* line 304, ../sass/imports/base/_typography.scss */
+  /* line 328, ../sass/imports/base/_typography.scss */
   h2, .h2, .day__date {
     font-size:  56px;
     font-size:  5.6rem;
@@ -860,7 +884,7 @@ h2, .h2, .day__date {
   }
 }
 
-/* line 315, ../sass/imports/base/_typography.scss */
+/* line 339, ../sass/imports/base/_typography.scss */
 h3, .h3, fieldset legend {
   font-size:  26px;
   font-size:  2.6rem;
@@ -868,7 +892,7 @@ h3, .h3, fieldset legend {
   line-height:  2.8rem;
 }
 
-/* line 320, ../sass/imports/base/_typography.scss */
+/* line 344, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -877,13 +901,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 333, ../sass/imports/base/_typography.scss */
+  /* line 357, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 347, ../sass/imports/base/_typography.scss */
+/* line 371, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -3212,7 +3236,7 @@ form {
 /* line 128, ../sass/imports/modules/_program.scss */
 #ie7 .dinner,
 #ie8 .dinner {
-  -ms-behavior: url(http://192.168.1.4:8888/gp-dolomiti-new/backgroundsize.min.htc);
+  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
 }
 
 /* line 133, ../sass/imports/modules/_program.scss */
@@ -3223,7 +3247,7 @@ form {
 /* line 139, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-2,
 #ie8 .dinner--italian-2 {
-  background-position: -203px 0;
+  background-position: -204px 0;
 }
 
 /* line 144, ../sass/imports/modules/_program.scss */
@@ -3234,7 +3258,7 @@ form {
 /* line 150, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-3,
 #ie8 .dinner--italian-3 {
-  background-position: -406px 0;
+  background-position: -408px 0;
 }
 
 /* line 155, ../sass/imports/modules/_program.scss */
@@ -3245,7 +3269,7 @@ form {
 /* line 161, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--italian-4,
 #ie8 .dinner--italian-4 {
-  background-position: -609px 0;
+  background-position: -612px 0;
 }
 
 /* line 166, ../sass/imports/modules/_program.scss */
@@ -3256,7 +3280,7 @@ form {
 /* line 172, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-1,
 #ie8 .dinner--lounge-1 {
-  background-position: -812px 0;
+  background-position: -816px 0;
 }
 
 /* line 177, ../sass/imports/modules/_program.scss */
@@ -3267,7 +3291,7 @@ form {
 /* line 183, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-2,
 #ie8 .dinner--lounge-2 {
-  background-position: -1015px 0;
+  background-position: -1020px 0;
 }
 
 /* line 188, ../sass/imports/modules/_program.scss */
@@ -3278,7 +3302,7 @@ form {
 /* line 194, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-3,
 #ie8 .dinner--lounge-3 {
-  background-position: -1218px 0;
+  background-position: -1224px 0;
 }
 
 /* line 199, ../sass/imports/modules/_program.scss */
@@ -3289,7 +3313,7 @@ form {
 /* line 205, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--lounge-4,
 #ie8 .dinner--lounge-4 {
-  background-position: -1421px 0;
+  background-position: -1428px 0;
 }
 
 /* line 210, ../sass/imports/modules/_program.scss */
@@ -3300,7 +3324,7 @@ form {
 /* line 216, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-1,
 #ie8 .dinner--choice-1 {
-  background-position: -1624px 0;
+  background-position: -1632px 0;
 }
 
 /* line 221, ../sass/imports/modules/_program.scss */
@@ -3311,7 +3335,7 @@ form {
 /* line 227, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-2,
 #ie8 .dinner--choice-2 {
-  background-position: -1827px 0;
+  background-position: -1836px 0;
 }
 
 /* line 232, ../sass/imports/modules/_program.scss */
@@ -3322,7 +3346,7 @@ form {
 /* line 238, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-3,
 #ie8 .dinner--choice-3 {
-  background-position: -2030px 0;
+  background-position: -2040px 0;
 }
 
 /* line 243, ../sass/imports/modules/_program.scss */
@@ -3333,7 +3357,7 @@ form {
 /* line 249, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--choice-4,
 #ie8 .dinner--choice-4 {
-  background-position: -2233px 0;
+  background-position: -2244px 0;
 }
 
 /* line 254, ../sass/imports/modules/_program.scss */
@@ -3344,7 +3368,7 @@ form {
 /* line 260, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-1,
 #ie8 .dinner--kurhaus-1 {
-  background-position: -2436px 0;
+  background-position: -2448px 0;
 }
 
 /* line 265, ../sass/imports/modules/_program.scss */
@@ -3355,7 +3379,7 @@ form {
 /* line 271, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-2,
 #ie8 .dinner--kurhaus-2 {
-  background-position: -2639px 0;
+  background-position: -2652px 0;
 }
 
 /* line 276, ../sass/imports/modules/_program.scss */
@@ -3366,7 +3390,7 @@ form {
 /* line 282, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-3,
 #ie8 .dinner--kurhaus-3 {
-  background-position: -2842px 0;
+  background-position: -2856px 0;
 }
 
 /* line 287, ../sass/imports/modules/_program.scss */
@@ -3377,7 +3401,7 @@ form {
 /* line 293, ../sass/imports/modules/_program.scss */
 #ie7 .dinner--kurhaus-4,
 #ie8 .dinner--kurhaus-4 {
-  background-position: -3045px 0;
+  background-position: -3060px 0;
 }
 
 /* line 17, ../sass/imports/modules/_newsletter.scss */
