@@ -43,9 +43,10 @@
 		@include rem(padding-bottom, $singleSpace / 2);
 	}
 
-	input,
+	[type="text"],
+	[type="password"],
+	[type="email"],
 	button,
-	select,
 	textarea 
 	{
 		font-family: $baseFontFamily; // And only set font-family here for those that need it (note the missing label element)

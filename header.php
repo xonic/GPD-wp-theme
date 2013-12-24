@@ -25,9 +25,12 @@
 <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
-
-<?php //echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
-<?php //echo '<!-- ' . $currentPage . ' -->'; ?>
+<!-- basename -->
+<?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
+<!-- $currentPage -->
+<?php echo '<!-- ' . $currentPage . ' -->'; ?>
+<!-- page ID -->
+<?php echo '<!-- ' . get_the_ID() . ' -->'; ?>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />

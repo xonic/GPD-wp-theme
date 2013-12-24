@@ -22,14 +22,15 @@
 
 		.event_questions
 		{
-			@include rem(margin, 0 0 $doubleSpace * 4);
-			padding:0;
-			border:0 none;
+			@include rem(margin, 0 0 $doubleSpace * 2);
+			@include rem(padding, 0 0 $doubleSpace * 2);
+			border-bottom:0 solid $sandDark;
+			@include rem(border-bottom-width, $borderMedium);
 		}
 
 		.reg-quest-title
 		{
-			@include rem(margin, $doubleSpace * 4 0 $doubleSpace);
+			@include rem(margin, $doubleSpace * 3 0 $doubleSpace);
 			@include setType($h3Size, $h3LineHeight);
 			font-weight:normal;
 		}
@@ -82,7 +83,6 @@
 				width:100%;
 				@include rem(height, $touchSize);
 				@include rem(line-height, $touchSize);
-				-webkit-appearence:none;
 			}
 		}
 
@@ -90,6 +90,7 @@
 		{
 			display:block;
 			width:100%;
+			@include rem(min-height, $bodyLineHeight);
 			padding:0;
 			@include rem(margin-bottom, $singleSpace / 2);
 			text-align:left;
