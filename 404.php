@@ -13,7 +13,7 @@ get_header(); ?>
 	<section class="not-found">
 		<div class="grid">
 			<h1>Oh no, something went wrong. Sorry about that.</h1>
-			<p>Let's <a href="<?php echo home_url(); ?>" title="Back to homepage">start over!</a></p>
+			<a class="btn btn--huge btn--newsletter" href="<?php echo home_url(); ?>" title="Back to homepage">Let's start over!</a>
 		</div>
 	</section>
 

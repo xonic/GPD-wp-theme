@@ -2075,3 +2075,9 @@ object {
 .l-organizer img {
   display: block;
 }
+
+/* line 8, ../sass/imports/modules/_404.scss */
+.not-found {
+  background: white;
+  text-align: center;
+}
