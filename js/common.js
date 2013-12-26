@@ -6,7 +6,7 @@
 // }
 
 
-require(["nav", "modernizr"], function(NavController)
+require(["nav", "translator", "modernizr"], function(NavController, Translator)
 {
 	// Add this event listener to prevent mobile safari 
 	// from disabling the ::active pseudo class
@@ -14,4 +14,5 @@ require(["nav", "modernizr"], function(NavController)
 		document.addEventListener("touchstart", function() {});
 
 	NavController.init();
+	Translator.init();
 });

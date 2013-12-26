@@ -14,6 +14,7 @@
 			@include setType($bodyFontSize, $bodyLineHeight);
 		}
 
+		form,
 		#event-reg-form-groups
 		{
 			margin:0 auto;
@@ -33,6 +34,11 @@
 			@include rem(margin, $doubleSpace * 3 0 $doubleSpace);
 			@include setType($h3Size, $h3LineHeight);
 			font-weight:normal;
+
+			&:first-child
+			{
+				margin-top:0;
+			}
 		}
 
 		.event_form_field
@@ -112,3 +118,13 @@
 		}
 
 	}
+
+	.page form 
+	{
+		@include rem(padding, $doubleSpace $doubleSpace 0);
+		background:$white;
+		border:0 solid lighten($olive, 20%);
+		@include rem(border-width, $borderThin);
+		box-shadow:0 2px 3px rgba(0,0,0,.25);
+	}
+

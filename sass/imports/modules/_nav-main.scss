@@ -18,6 +18,7 @@
 		.grid
 		{
 			position:relative;
+			@include rem(min-height, $touchSize);
 		}
 
 		a

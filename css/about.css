@@ -941,8 +941,10 @@ object {
 /* line 19, ../sass/imports/modules/_nav-main.scss */
 .flyout .grid {
   position: relative;
+  min-height:  48px;
+  min-height:  4.8rem;
 }
-/* line 24, ../sass/imports/modules/_nav-main.scss */
+/* line 25, ../sass/imports/modules/_nav-main.scss */
 .flyout a {
   border: 0 none;
   color: white;
@@ -960,7 +962,7 @@ object {
   z-index: 999;
 }
 
-/* line 37, ../sass/imports/modules/_nav-main.scss */
+/* line 38, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle {
   display: block;
   float: left;
@@ -977,7 +979,7 @@ object {
   font-size:  2.6rem;
   text-align: center;
 }
-/* line 50, ../sass/imports/modules/_nav-main.scss */
+/* line 51, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-bars,
 .flyout__toggle .fa-times {
   position: absolute;
@@ -988,7 +990,7 @@ object {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 60, ../sass/imports/modules/_nav-main.scss */
+/* line 61, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-bars {
   -webkit-transform: rotateZ(360deg) scale3d(1, 1, 1);
   -moz-transform: rotateZ(360deg) scale3d(1, 1, 1);
@@ -1000,7 +1002,7 @@ object {
   -o-transition: -o-transform 0.3s ease, opacity 0.3s linear;
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
-/* line 66, ../sass/imports/modules/_nav-main.scss */
+/* line 67, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-times {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -1015,7 +1017,7 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
 @media (min-width: 37.5em) {
-  /* line 37, ../sass/imports/modules/_nav-main.scss */
+  /* line 38, ../sass/imports/modules/_nav-main.scss */
   .flyout__toggle {
     display: none;
   }
@@ -1025,13 +1027,13 @@ object {
   display: none;
 }
 
-/* line 79, ../sass/imports/modules/_nav-main.scss */
+/* line 80, ../sass/imports/modules/_nav-main.scss */
 .touch .flyout__toggle:active {
   color: white;
   background: #feaa00;
 }
 
-/* line 87, ../sass/imports/modules/_nav-main.scss */
+/* line 88, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .fa-bars {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -1041,7 +1043,7 @@ object {
   -o-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   transform: rotateZ(0) scale3d(0.5, 0.5, 1);
 }
-/* line 93, ../sass/imports/modules/_nav-main.scss */
+/* line 94, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .flyout__toggle .fa-times {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -1052,25 +1054,25 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 100, ../sass/imports/modules/_nav-main.scss */
+/* line 101, ../sass/imports/modules/_nav-main.scss */
 .mountains {
   float: right;
   max-height:  48px;
   max-height:  4.8rem;
 }
-/* line 105, ../sass/imports/modules/_nav-main.scss */
+/* line 106, ../sass/imports/modules/_nav-main.scss */
 .mountains + .mountains {
   display: none;
 }
 
-/* line 112, ../sass/imports/modules/_nav-main.scss */
+/* line 113, ../sass/imports/modules/_nav-main.scss */
 #ie7 .mountains,
 #ie8 .mountains {
   margin-top:  9px;
   margin-top:  0.9rem;
 }
 
-/* line 119, ../sass/imports/modules/_nav-main.scss */
+/* line 120, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   margin:  48px 0 0;
   margin:  4.8rem 0 0;
@@ -1084,20 +1086,20 @@ object {
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
 }
-/* line 125, ../sass/imports/modules/_nav-main.scss */
+/* line 126, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 130, ../sass/imports/modules/_nav-main.scss */
+/* line 131, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 135, ../sass/imports/modules/_nav-main.scss */
+/* line 136, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 37.5em) {
-  /* line 119, ../sass/imports/modules/_nav-main.scss */
+  /* line 120, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin: 0;
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1114,11 +1116,11 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 @media (min-width: 37.5em) {
-  /* line 147, ../sass/imports/modules/_nav-main.scss */
+  /* line 148, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 153, ../sass/imports/modules/_nav-main.scss */
+  /* line 154, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     margin-left:  -10px;
     margin-left:  -1rem;
@@ -1128,12 +1130,12 @@ object {
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 153, ../sass/imports/modules/_nav-main.scss */
+/* line 154, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
   margin-left:  -10px;
   margin-left:  -1rem;
 }
-/* line 160, ../sass/imports/modules/_nav-main.scss */
+/* line 161, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.55556em;
@@ -1152,7 +1154,7 @@ object {
   text-transform: uppercase;
 }
 @media (min-width: 37.5em) {
-  /* line 160, ../sass/imports/modules/_nav-main.scss */
+  /* line 161, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1176,18 +1178,18 @@ object {
   text-transform: capitalize;
 }
 
-/* line 185, ../sass/imports/modules/_nav-main.scss */
+/* line 186, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 190, ../sass/imports/modules/_nav-main.scss */
+/* line 191, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu a:active {
   background: #feaa00;
 }
 
-/* line 195, ../sass/imports/modules/_nav-main.scss */
+/* line 196, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1196,7 +1198,7 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 
-/* line 200, ../sass/imports/modules/_nav-main.scss */
+/* line 201, ../sass/imports/modules/_nav-main.scss */
 .content {
   position: relative;
   margin-top:  48px;
@@ -1208,7 +1210,7 @@ object {
   transition: transform 0.3s ease;
 }
 @media (min-width: 37.5em) {
-  /* line 200, ../sass/imports/modules/_nav-main.scss */
+  /* line 201, ../sass/imports/modules/_nav-main.scss */
   .content {
     background: transparent;
   }
@@ -1218,12 +1220,12 @@ object {
   background: transparent;
 }
 
-/* line 213, ../sass/imports/modules/_nav-main.scss */
+/* line 214, ../sass/imports/modules/_nav-main.scss */
 .content__inner {
   background: white;
 }
 @media (min-width: 37.5em) {
-  /* line 213, ../sass/imports/modules/_nav-main.scss */
+  /* line 214, ../sass/imports/modules/_nav-main.scss */
   .content__inner {
     padding-top:  24px;
     padding-top:  2.4rem;
@@ -1235,7 +1237,7 @@ object {
   padding-top:  2.4rem;
 }
 
-/* line 223, ../sass/imports/modules/_nav-main.scss */
+/* line 224, ../sass/imports/modules/_nav-main.scss */
 .csstransforms3d .nav-is-shown .content {
   -webkit-transform: translate3d(0, 293px, 0);
   -moz-transform: translate3d(0, 293px, 0);
@@ -1246,7 +1248,7 @@ object {
   margin-top:  4.8rem;
 }
 @media (min-width: 37.5em) {
-  /* line 223, ../sass/imports/modules/_nav-main.scss */
+  /* line 224, ../sass/imports/modules/_nav-main.scss */
   .csstransforms3d .nav-is-shown .content {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1261,13 +1263,13 @@ object {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 234, ../sass/imports/modules/_nav-main.scss */
+/* line 235, ../sass/imports/modules/_nav-main.scss */
 .nav-is-shown .content {
   margin-top:  341px;
   margin-top:  34.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 234, ../sass/imports/modules/_nav-main.scss */
+  /* line 235, ../sass/imports/modules/_nav-main.scss */
   .nav-is-shown .content {
     margin-top:  48px;
     margin-top:  4.8rem;
@@ -2005,7 +2007,7 @@ object {
   content: none;
 }
 
-/* line 17, ../sass/imports/modules/_branding.scss */
+/* line 8, ../sass/imports/modules/_branding.scss */
 .branding {
   letter-spacing: -.2rem;
   text-align: center;
@@ -2017,7 +2019,7 @@ object {
   transition: padding 1s ease-in-out;
 }
 @media (min-width: 37.5em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
+  /* line 8, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
     padding:  192px 0 0;
@@ -2037,14 +2039,14 @@ object {
   border-bottom-width:  1.2rem;
 }
 @media (min-width: 48em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
+  /* line 8, ../sass/imports/modules/_branding.scss */
   .branding {
     padding:  288px 0 0;
     padding:  28.8rem 0 0;
   }
 }
 @media (min-width: 64em) {
-  /* line 17, ../sass/imports/modules/_branding.scss */
+  /* line 8, ../sass/imports/modules/_branding.scss */
   .branding {
     padding:  420px 0 0;
     padding:  42rem 0 0;
@@ -2056,7 +2058,7 @@ object {
   padding:  42rem 0 0;
 }
 
-/* line 54, ../sass/imports/modules/_branding.scss */
+/* line 34, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -2071,7 +2073,16 @@ object {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 64, ../sass/imports/modules/_branding.scss */
+/* line 44, ../sass/imports/modules/_branding.scss */
+.event-name a {
+  border-bottom: 0 none;
+  color: #332e24;
+}
+/* line 49, ../sass/imports/modules/_branding.scss */
+.event-name a:hover {
+  color: #332e24;
+}
+/* line 55, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -2082,7 +2093,7 @@ object {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 34, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -2094,7 +2105,7 @@ object {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 86, ../sass/imports/modules/_branding.scss */
+  /* line 77, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2114,7 +2125,7 @@ object {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 86, ../sass/imports/modules/_branding.scss */
+/* line 77, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -2122,7 +2133,7 @@ object {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 34, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2130,7 +2141,7 @@ object {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 97, ../sass/imports/modules/_branding.scss */
+  /* line 88, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2146,7 +2157,7 @@ object {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 97, ../sass/imports/modules/_branding.scss */
+/* line 88, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -2154,14 +2165,14 @@ object {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 54, ../sass/imports/modules/_branding.scss */
+  /* line 34, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 107, ../sass/imports/modules/_branding.scss */
+  /* line 98, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;

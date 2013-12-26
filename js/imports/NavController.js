@@ -19,7 +19,10 @@ define(function()
 			this.body = document.querySelector("body");
 			this.toggle = document.querySelector(".js-flyout__toggle");
 
-			this.bindEventListeners();
+			if(this.body && this.toggle)
+			{
+				this.bindEventListeners();
+			}
 		},
 
 		bindEventListeners:function()

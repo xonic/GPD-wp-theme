@@ -11,10 +11,9 @@
  * @subpackage GP Dolomiti
  */
 
-get_header(); ?>
+include("header--plain.php"); ?>
 
-		<div id="primary">
-			<div id="content" role="main">
+		<div class="grid">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -22,7 +21,6 @@ get_header(); ?>
 
 				<?php endwhile; // end of the loop. ?>
 
-			</div><!-- #content -->
-		</div><!-- #primary -->
+		</div><!-- .grid -->
 
-<?php get_footer(); ?>
+<?php include("footer--plain.php"); ?>

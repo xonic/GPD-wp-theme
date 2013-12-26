@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the footer.
+ * The template for displaying the plain footer on registration pages.
  *
  * Contains the closing of the id=main div and all content after
  *
@@ -13,26 +13,6 @@
 		
 			<footer class="impressum section--dark">
 				<div class="grid">
-					<section class="newsletter">
-						<div class="container">
-							<h1 class="section__title section__title--emphasized">
-								<? _e("pre__newsletter__title", "gp-dolomiti"); ?>
-							</h1>
-							<h2>
-								<? _e("pre__newsletter__subtitle", "gp-dolomiti"); ?>
-							</h2>
-							<?
-								if(qtrans_getLanguage() == "en") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Subscribe to our newsletter</a>'; }
-
-								if(qtrans_getLanguage() == "fr") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Abonner à la newsletter</a>'; }
-
-								if(qtrans_getLanguage() == "de") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Zum Newsletter anmelden</a>'; }
-
-								if(qtrans_getLanguage() == "it") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Iscriversi alla newsletter</a>'; }
-
-							?>
-						</div>
-					</section>
 
 					<section class="container">
 						<p>&copy; Gran Premio Dolomiti 2014</p>
@@ -112,17 +92,7 @@
 				}
 			}
 		});
-
-		// Load common code that includes config,
-		// then load the app logic for this page.
 		require(['<?php echo get_template_directory_uri(); ?>/js/common.js']);
-		// // Load common code that includes config,
-		// // then load the app logic for this page.
-		// require(['<?php echo get_template_directory_uri(); ?>/js/common.js'], function (common)
-		// {
-		// 	// Load app logic for this page
-		// 	require(['<? echo $jsDir . $currentPage . ".js" ?>']);
-		// });
 	</script>
 	
 

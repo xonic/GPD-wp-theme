@@ -1,14 +1,5 @@
 //  ---------------------------------------------------------------------------
 //
-//  Defines the layout for branding
-//
-//  ---------------------------------------------------------------------------
-
-
-
-
-//  ---------------------------------------------------------------------------
-//
 //  Defines the styling for branding
 //
 //  ---------------------------------------------------------------------------
@@ -37,17 +28,6 @@
 		{
 			@include rem(padding, $doubleSpace * 17.5 0 0);
 		}
-		
-
-		// @include at-breakpoint($giant-width)
-		// {
-		// 	@include rem(padding, $doubleSpace * 21 0 0);
-		// }
-
-		// @include at-breakpoint($monstrous-width)
-		// {
-		// 	@include rem(padding, $doubleSpace * 28 0 0);
-		// }
 	}
 
 	.event-name
@@ -60,6 +40,17 @@
 		background-color:$white;
 		@include transition(background-color 1s ease-in-out);
 		
+		a
+		{
+			border-bottom:0 none;
+			color:$blackSand;
+
+			&:hover
+			{
+				color:$blackSand;
+			}
+		}
+
 		small
 		{
 			color:$blackSand;
