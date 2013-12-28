@@ -1787,9 +1787,10 @@ input[readonly],
 select[readonly],
 textarea[readonly] {
   cursor: default;
+  resize: none;
 }
 
-/* line 118, ../sass/imports/modules/_forms.scss */
+/* line 119, ../sass/imports/modules/_forms.scss */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"][readonly],
@@ -1797,14 +1798,14 @@ input[type="checkbox"][readonly] {
   background-color: transparent;
 }
 
-/* line 125, ../sass/imports/modules/_forms.scss */
+/* line 126, ../sass/imports/modules/_forms.scss */
 input[type="date"],
 input[type="datetime"],
 input[type="datetime-local"] {
   display: -webkit-inline-flex;
 }
 
-/* line 130, ../sass/imports/modules/_forms.scss */
+/* line 131, ../sass/imports/modules/_forms.scss */
 select {
   padding:  3px 4px 4px;
   padding:  0.3rem 0.4rem 0.4rem;
@@ -1812,7 +1813,7 @@ select {
   background-color: white;
 }
 
-/* line 140, ../sass/imports/modules/_forms.scss */
+/* line 141, ../sass/imports/modules/_forms.scss */
 select,
 input[type="file"] {
   height:  36px;
@@ -1823,7 +1824,7 @@ input[type="file"] {
   line-height:  36px;
   line-height:  3.6rem;
 }
-/* line 145, ../sass/imports/modules/_forms.scss */
+/* line 146, ../sass/imports/modules/_forms.scss */
 select:focus,
 input[type="file"]:focus {
   outline: thin dotted #333;
@@ -1831,14 +1832,14 @@ input[type="file"]:focus {
   outline-offset: -2px;
 }
 
-/* line 154, ../sass/imports/modules/_forms.scss */
+/* line 155, ../sass/imports/modules/_forms.scss */
 select[multiple],
 select[size],
 textarea {
   height: auto;
 }
 
-/* line 161, ../sass/imports/modules/_forms.scss */
+/* line 162, ../sass/imports/modules/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   *margin-top: 0;
@@ -1847,7 +1848,7 @@ input[type="checkbox"] {
   /* IE8-9 */
   line-height: normal;
 }
-/* line 166, ../sass/imports/modules/_forms.scss */
+/* line 167, ../sass/imports/modules/_forms.scss */
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
   outline: thin dotted #333;
@@ -1855,19 +1856,19 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-/* line 173, ../sass/imports/modules/_forms.scss */
+/* line 174, ../sass/imports/modules/_forms.scss */
 input[type="radio"] {
   margin-left: 1px;
 }
 
-/* line 181, ../sass/imports/modules/_forms.scss */
+/* line 182, ../sass/imports/modules/_forms.scss */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* line 204, ../sass/imports/modules/_forms.scss */
+/* line 205, ../sass/imports/modules/_forms.scss */
 select,
 textarea,
 [type="text"],
@@ -1906,7 +1907,7 @@ textarea,
   -o-transition: border linear 0.2s 0, box-shadow linear 0.2s 0, margin linear 0.2s 0;
   transition: border linear 0.2s 0, box-shadow linear 0.2s 0, margin linear 0.2s 0;
 }
-/* line 225, ../sass/imports/modules/_forms.scss */
+/* line 226, ../sass/imports/modules/_forms.scss */
 select:hover,
 textarea:hover,
 [type="text"]:hover,
@@ -1929,7 +1930,7 @@ textarea:hover,
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-/* line 233, ../sass/imports/modules/_forms.scss */
+/* line 234, ../sass/imports/modules/_forms.scss */
 select[disabled], select[readonly],
 textarea[disabled],
 textarea[readonly],
@@ -1967,7 +1968,7 @@ textarea[readonly],
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 241, ../sass/imports/modules/_forms.scss */
+/* line 242, ../sass/imports/modules/_forms.scss */
 select[disabled]:hover, select[disabled]:active, select[disabled]:focus, select[readonly]:hover, select[readonly]:active, select[readonly]:focus,
 textarea[disabled]:hover,
 textarea[disabled]:active,
@@ -2064,7 +2065,7 @@ textarea[readonly]:focus,
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 247, ../sass/imports/modules/_forms.scss */
+/* line 248, ../sass/imports/modules/_forms.scss */
 select[readonly],
 textarea[readonly],
 [type="text"][readonly],
@@ -2091,7 +2092,7 @@ textarea[readonly],
   /* IE8-9 */
   color: #4c4535;
 }
-/* line 260, ../sass/imports/modules/_forms.scss */
+/* line 261, ../sass/imports/modules/_forms.scss */
 select[readonly]:hover, select[readonly]:active, select[readonly]:focus,
 textarea[readonly]:hover,
 textarea[readonly]:active,
@@ -2140,7 +2141,7 @@ textarea[readonly]:focus,
 [type="color"][readonly]:focus {
   border: 0 none;
 }
-/* line 268, ../sass/imports/modules/_forms.scss */
+/* line 269, ../sass/imports/modules/_forms.scss */
 select:active, select:focus,
 textarea:active,
 textarea:focus,
@@ -2181,7 +2182,12 @@ textarea:focus,
   ie-dummy: expression(this.hideFocus=true);
 }
 
-/* line 330, ../sass/imports/modules/_forms.scss */
+/* line 281, ../sass/imports/modules/_forms.scss */
+textarea {
+  line-height: 1.2 !important;
+}
+
+/* line 336, ../sass/imports/modules/_forms.scss */
 [placeholder]::-webkit-input-placeholder {
   color: #dbdbdb;
   -webkit-transition: color 0.2s linear;
@@ -2190,17 +2196,17 @@ textarea:focus,
   transition: color 0.2s linear;
 }
 
-/* line 336, ../sass/imports/modules/_forms.scss */
+/* line 342, ../sass/imports/modules/_forms.scss */
 [placeholder]:hover::-webkit-input-placeholder {
   color: #b8b8b8;
 }
 
-/* line 341, ../sass/imports/modules/_forms.scss */
+/* line 347, ../sass/imports/modules/_forms.scss */
 [placeholder]:focus::-webkit-input-placeholder {
   color: #dbdbdb;
 }
 
-/* line 348, ../sass/imports/modules/_forms.scss */
+/* line 354, ../sass/imports/modules/_forms.scss */
 input + span.wpcf7-not-valid-tip,
 textarea + span.wpcf7-not-valid-tip {
   position: static;
@@ -2208,7 +2214,7 @@ textarea + span.wpcf7-not-valid-tip {
   color: #cc4632;
 }
 
-/* line 355, ../sass/imports/modules/_forms.scss */
+/* line 361, ../sass/imports/modules/_forms.scss */
 .form-component + div.wpcf7-response-output {
   position: static;
   margin: 0;
@@ -2216,29 +2222,29 @@ textarea + span.wpcf7-not-valid-tip {
   border: 0 none;
 }
 
-/* line 364, ../sass/imports/modules/_forms.scss */
+/* line 370, ../sass/imports/modules/_forms.scss */
 .form-component + div.wpcf7-mail-sent-ng,
 .form-component + div.wpcf7-validation-errors {
   color: #cc4632;
 }
 
-/* line 374, ../sass/imports/modules/_forms.scss */
+/* line 380, ../sass/imports/modules/_forms.scss */
 .form-component {
   position: relative;
   margin-bottom:  24px;
   margin-bottom:  2.4rem;
 }
-/* line 384, ../sass/imports/modules/_forms.scss */
+/* line 390, ../sass/imports/modules/_forms.scss */
 .form-component.is-required label:after {
   color: #cc4632;
   content: " *";
 }
-/* line 391, ../sass/imports/modules/_forms.scss */
+/* line 397, ../sass/imports/modules/_forms.scss */
 .form-component.is-required .media__img > label:after,
 .form-component.is-required .media__bd > label:after {
   content: none;
 }
-/* line 399, ../sass/imports/modules/_forms.scss */
+/* line 405, ../sass/imports/modules/_forms.scss */
 .form-component [class*="icon-warning-sign"],
 .form-component [class*="icon-ok"] {
   position: absolute;
@@ -2257,15 +2263,15 @@ textarea + span.wpcf7-not-valid-tip {
   -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
-/* line 409, ../sass/imports/modules/_forms.scss */
+/* line 415, ../sass/imports/modules/_forms.scss */
 .form-component [class*="icon-ok"] {
   color: #bfe05a;
 }
-/* line 414, ../sass/imports/modules/_forms.scss */
+/* line 420, ../sass/imports/modules/_forms.scss */
 .form-component [class*="icon-warning-sign"] {
   color: #cc4632;
 }
-/* line 436, ../sass/imports/modules/_forms.scss */
+/* line 442, ../sass/imports/modules/_forms.scss */
 .form-component.is-error textarea,
 .form-component.is-error [type="text"],
 .form-component.is-error [type="password"],
@@ -2288,7 +2294,7 @@ textarea + span.wpcf7-not-valid-tip {
   background: #f2cec9;
   color: #cc4632;
 }
-/* line 445, ../sass/imports/modules/_forms.scss */
+/* line 451, ../sass/imports/modules/_forms.scss */
 .form-component.is-error textarea:hover, .form-component.is-error textarea:focus,
 .form-component.is-error [type="text"]:hover,
 .form-component.is-error [type="text"]:focus,
@@ -2321,7 +2327,7 @@ textarea + span.wpcf7-not-valid-tip {
   border-color: #d76a5a;
   border-top-color: #cc4632;
 }
-/* line 451, ../sass/imports/modules/_forms.scss */
+/* line 457, ../sass/imports/modules/_forms.scss */
 .form-component.is-error textarea:focus,
 .form-component.is-error [type="text"]:focus,
 .form-component.is-error [type="password"]:focus,
@@ -2341,13 +2347,13 @@ textarea + span.wpcf7-not-valid-tip {
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 459, ../sass/imports/modules/_forms.scss */
+/* line 465, ../sass/imports/modules/_forms.scss */
 .form-component.is-error .form-message,
 .form-component.is-error [class*="icon-warning-sign"] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 482, ../sass/imports/modules/_forms.scss */
+/* line 488, ../sass/imports/modules/_forms.scss */
 .form-component.is-ok textarea,
 .form-component.is-ok [type="text"],
 .form-component.is-ok [type="password"],
@@ -2366,23 +2372,23 @@ textarea + span.wpcf7-not-valid-tip {
   padding-right:  30px;
   padding-right:  3rem;
 }
-/* line 489, ../sass/imports/modules/_forms.scss */
+/* line 495, ../sass/imports/modules/_forms.scss */
 .form-component.is-ok .form-message,
 .form-component.is-ok [class*="icon-ok"] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 495, ../sass/imports/modules/_forms.scss */
+/* line 501, ../sass/imports/modules/_forms.scss */
 .form-component:last-child {
   margin-bottom: 0;
 }
 
-/* line 506, ../sass/imports/modules/_forms.scss */
+/* line 512, ../sass/imports/modules/_forms.scss */
 .form-component--group > :last-child {
   margin-bottom: 0;
 }
 
-/* line 512, ../sass/imports/modules/_forms.scss */
+/* line 518, ../sass/imports/modules/_forms.scss */
 .input--inline {
   display: inline-block;
   margin-right:  16px;
@@ -2390,11 +2396,11 @@ textarea + span.wpcf7-not-valid-tip {
   vertical-align: top;
 }
 
-/* line 524, ../sass/imports/modules/_forms.scss */
+/* line 530, ../sass/imports/modules/_forms.scss */
 .input--search {
   position: relative;
 }
-/* line 528, ../sass/imports/modules/_forms.scss */
+/* line 534, ../sass/imports/modules/_forms.scss */
 .input--search .btn, .input--search .btn-group .btn-group__btn, .btn-group .input--search .btn-group__btn, .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .input--search .btn-dropdown__toggle {
   position: absolute;
   top: 0;
@@ -2412,12 +2418,12 @@ textarea + span.wpcf7-not-valid-tip {
   -o-transition: color 0.1s linear, background-color 0.2s linear;
   transition: color 0.1s linear, background-color 0.2s linear;
 }
-/* line 543, ../sass/imports/modules/_forms.scss */
+/* line 549, ../sass/imports/modules/_forms.scss */
 .input--search .btn [class="icon-search"], .input--search .btn-group .btn-group__btn [class="icon-search"], .btn-group .input--search .btn-group__btn [class="icon-search"], .input--search .btn-dropdown .btn-dropdown__toggle [class="icon-search"], .btn-dropdown .input--search .btn-dropdown__toggle [class="icon-search"] {
   font-size:  27px;
   font-size:  2.7rem;
 }
-/* line 550, ../sass/imports/modules/_forms.scss */
+/* line 556, ../sass/imports/modules/_forms.scss */
 .input--search .btn:focus, .input--search .btn-group .btn-group__btn:focus, .btn-group .input--search .btn-group__btn:focus, .input--search .btn-dropdown .btn-dropdown__toggle:focus, .btn-dropdown .input--search .btn-dropdown__toggle:focus,
 .input--search .btn:hover,
 .input--search .btn-group .btn-group__btn:hover,
@@ -2428,24 +2434,24 @@ textarea + span.wpcf7-not-valid-tip {
   color: #0a1d28;
   box-shadow: none;
 }
-/* line 557, ../sass/imports/modules/_forms.scss */
+/* line 563, ../sass/imports/modules/_forms.scss */
 .input--search .btn:active, .input--search .btn-group .btn-group__btn:active, .btn-group .input--search .btn-group__btn:active, .input--search .btn-dropdown .btn-dropdown__toggle:active, .btn-dropdown .input--search .btn-dropdown__toggle:active {
   background-color: #2877a3;
   padding-top:  2px;
   padding-top:  0.2rem;
 }
 
-/* line 566, ../sass/imports/modules/_forms.scss */
+/* line 572, ../sass/imports/modules/_forms.scss */
 .input--with-nested-element input {
   margin-bottom:  6px;
   margin-bottom:  0.6rem;
 }
 
-/* line 572, ../sass/imports/modules/_forms.scss */
+/* line 578, ../sass/imports/modules/_forms.scss */
 .input--with-icon, .input--with-icon--rev {
   position: relative;
 }
-/* line 576, ../sass/imports/modules/_forms.scss */
+/* line 582, ../sass/imports/modules/_forms.scss */
 .input--with-icon [class*="icon-"], .input--with-icon--rev [class*="icon-"] {
   position: absolute;
   left:  12px;
@@ -2455,19 +2461,19 @@ textarea + span.wpcf7-not-valid-tip {
   line-height:  36px;
   line-height:  3.6rem;
 }
-/* line 583, ../sass/imports/modules/_forms.scss */
+/* line 589, ../sass/imports/modules/_forms.scss */
 .input--with-icon input, .input--with-icon--rev input {
   padding-left:  42px;
   padding-left:  4.2rem;
 }
 
-/* line 593, ../sass/imports/modules/_forms.scss */
+/* line 599, ../sass/imports/modules/_forms.scss */
 .input--with-icon--rev [class*="icon-"] {
   left: initial;
   right:  12px;
   right:  1.2rem;
 }
-/* line 599, ../sass/imports/modules/_forms.scss */
+/* line 605, ../sass/imports/modules/_forms.scss */
 .input--with-icon--rev input {
   padding-left:  5px;
   padding-left:  0.5rem;
@@ -2475,13 +2481,13 @@ textarea + span.wpcf7-not-valid-tip {
   padding-right:  4.2rem;
 }
 
-/* line 612, ../sass/imports/modules/_forms.scss */
+/* line 618, ../sass/imports/modules/_forms.scss */
 .checkbox,
 .radio {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
 }
-/* line 617, ../sass/imports/modules/_forms.scss */
+/* line 623, ../sass/imports/modules/_forms.scss */
 .checkbox [type="checkbox"],
 .checkbox [type="radio"],
 .radio [type="checkbox"],
@@ -2489,7 +2495,7 @@ textarea + span.wpcf7-not-valid-tip {
   margin-top:  6px;
   margin-top:  0.6rem;
 }
-/* line 622, ../sass/imports/modules/_forms.scss */
+/* line 628, ../sass/imports/modules/_forms.scss */
 .checkbox label,
 .radio label {
   margin-bottom: 0;
@@ -2498,7 +2504,7 @@ textarea + span.wpcf7-not-valid-tip {
   line-height:  2.4rem;
 }
 
-/* line 632, ../sass/imports/modules/_forms.scss */
+/* line 638, ../sass/imports/modules/_forms.scss */
 .form-message {
   margin: 0;
   padding:  4px 0;
@@ -2517,7 +2523,7 @@ textarea + span.wpcf7-not-valid-tip {
   transition: opacity 0.2s linear;
 }
 
-/* line 649, ../sass/imports/modules/_forms.scss */
+/* line 655, ../sass/imports/modules/_forms.scss */
 form {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
@@ -2727,7 +2733,7 @@ form {
   width:  58rem;
 }
 
-/* line 732, ../sass/imports/modules/_forms.scss */
+/* line 738, ../sass/imports/modules/_forms.scss */
 .touch select,
 .touch textarea,
 .touch [type="text"],
@@ -2750,12 +2756,12 @@ form {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 738, ../sass/imports/modules/_forms.scss */
+/* line 744, ../sass/imports/modules/_forms.scss */
 .touch .input--search .btn, .touch .input--search .btn-group .btn-group__btn, .btn-group .touch .input--search .btn-group__btn, .touch .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .touch .input--search .btn-dropdown__toggle {
   height:  48px;
   height:  4.8rem;
 }
-/* line 747, ../sass/imports/modules/_forms.scss */
+/* line 753, ../sass/imports/modules/_forms.scss */
 .touch .form-component [class*="icon-warning-sign"],
 .touch .form-component [class*="icon-ok"] {
   line-height:  48px;

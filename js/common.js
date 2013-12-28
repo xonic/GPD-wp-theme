@@ -6,7 +6,7 @@
 // }
 
 
-require(["nav", "translator", "modernizr"], function(NavController, Translator)
+require(["nav", "translator", "hotelselection", "modernizr"], function(NavController, Translator, HotelSelection)
 {
 	// Add this event listener to prevent mobile safari 
 	// from disabling the ::active pseudo class
@@ -15,4 +15,5 @@ require(["nav", "translator", "modernizr"], function(NavController, Translator)
 
 	NavController.init();
 	Translator.init();
+	HotelSelection.init();
 });

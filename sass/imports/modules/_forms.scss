@@ -108,6 +108,7 @@
 	textarea[readonly] 
 	{
 		cursor: default;
+		resize:none;
 	}
 	
 	// Explicitly reset the colors here
@@ -274,6 +275,11 @@
 			ie-dummy:expression(this.hideFocus=true);
 		}
 
+	}
+
+	textarea
+	{
+		line-height:1.2!important;
 	}
 
 	// label,

@@ -123,8 +123,49 @@
 	{
 		@include rem(padding, $doubleSpace $doubleSpace 0);
 		background:$white;
-		border:0 solid lighten($olive, 20%);
+		border:0 solid $sandDark;
 		@include rem(border-width, $borderThin);
-		box-shadow:0 2px 3px rgba(0,0,0,.25);
+		// box-shadow:0 2px 3px rgba(0,0,0,.25);
 	}
+
+	// .page form 
+	// {
+	// 	position:relative;
+
+	// 	&:before,
+	// 	&:after,
+	// 	> div
+	// 	{
+	// 		content:" ";
+	// 		position:absolute;
+	// 		top:0;
+	// 		left:0;
+	// 		width:100%;
+	// 		height:100%;
+	// 		background:$white;
+	// 		border:0 solid lighten($olive, 20%);
+	// 		@include rem(border-width, $borderThin);
+	// 		box-shadow:0 2px 3px rgba(0,0,0,.25);
+	// 	}
+
+	// 	&:before
+	// 	{
+	// 		@include transform(translate3d(5px, -4px, 0) rotateZ(-0.3deg));
+	// 		z-index:1;
+	// 	}
+
+	// 	&:after
+	// 	{
+	// 		@include transform(translate3d(-5px, -4px, 0) rotateZ(0.3deg));
+	// 		z-index:2;
+	// 	}
+
+	// 	> div
+	// 	{
+	// 		position:relative;
+	// 		@include rem(padding, $doubleSpace $doubleSpace 0);
+	// 		z-index:3;
+	// 	}
+	// }
+
 
