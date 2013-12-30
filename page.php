@@ -11,6 +11,8 @@
  * @subpackage GP Dolomiti
  */
 
+define('DONOTCACHEPAGE', true);
+
 include("header--plain.php"); ?>
 
 		<div class="grid">

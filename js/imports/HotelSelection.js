@@ -27,6 +27,9 @@ define(["jquery"], function($)
 			this.$hotelGroup = $(".js-hotel-group");
 			this.$hotelDropdowns = $("[class*='js-hotel-platinum-']");
 
+			// Quit if there is no package dropdown
+			if(this.$packageSelect.length === 0) return;
+
 			this.onchange();
 			this.listen();
 		},

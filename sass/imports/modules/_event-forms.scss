@@ -21,7 +21,7 @@
 			@include rem(max-width, 60);
 		}
 
-		.event_questions
+		.form-section
 		{
 			@include rem(margin, 0 0 $doubleSpace * 2);
 			@include rem(padding, 0 0 $doubleSpace * 2);
@@ -126,6 +126,12 @@
 		border:0 solid $sandDark;
 		@include rem(border-width, $borderThin);
 		// box-shadow:0 2px 3px rgba(0,0,0,.25);
+	}
+
+	.media__img--payment
+	{
+		display:block;
+		@include rem(margin-top, 1);
 	}
 
 	// .page form 
